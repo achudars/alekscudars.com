@@ -1,11 +1,9 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var header = require('gulp-header');
 var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
 var autoprefixer = require('gulp-autoprefixer');
-var pkg = require('./package.json');
 var browserSync = require('browser-sync').create();
 
 // Copy third party libraries from /node_modules into /vendor
@@ -89,7 +87,13 @@ gulp.task('js:minify', function() {
 gulp.task('js', gulp.series('js:minify'));
 
 // Default task
-gulp.task('default', gulp.series('css', 'js', 'vendor'));
+gulp.task('default', gulp.series('css', 'js', 'vendor'), function() {
+  return gulp.dest('./dist');
+});
+
+gulp.task('dist', gulp.series('css', 'js', 'vendor'), function() {
+  return gulp.dest('./dist');
+});
 
 // Configure the browserSync task
 gulp.task('browserSync', function() {
