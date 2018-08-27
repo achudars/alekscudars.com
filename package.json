@@ -29,5 +29,10 @@
     "gulp-sass": "4.0.1",
     "gulp-uglify": "3.0.1",
     "popper.js": "^1.14.4"
+  },
+  {
+    "engines": {
+      "yarn": "NO LONGER USED - Please use npm"
+    }
   }
 }
