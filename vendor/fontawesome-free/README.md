@@ -10,12 +10,6 @@
 $ npm i --save @fortawesome/fontawesome-free
 ```
 
-Or
-
-```
-$ yarn add @fortawesome/fontawesome-free
-```
-
 ## What's included?
 
 **This package includes all the same files available through our Free and Pro CDN.**
