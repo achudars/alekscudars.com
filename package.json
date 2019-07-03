@@ -28,8 +28,8 @@
     "gulp-htmlclean": "^2.7.22",
     "gulp-rename": "1.4.0",
     "gulp-sass": "4.0.1",
-    "gulp-uglify": "^3.0.1",
-    "popper.js": "^1.14.4"
+    "gulp-uglify": "^3.0.2",
+    "popper.js": "^1.15.0"
   },
   "engines": {
     "yarn": "NO LONGER USED - Please use npm"
