@@ -22,7 +22,7 @@
     "browser-sync": "^2.26.7",
     "debug": "^3.2.6",
     "gulp": "github:gulpjs/gulp#4.0",
-    "gulp-autoprefixer": "^6.0.0",
+    "gulp-autoprefixer": "^6.1.0",
     "gulp-clean-css": "^3.10.0",
     "gulp-header": "2.0.5",
     "gulp-htmlclean": "^2.7.22",
