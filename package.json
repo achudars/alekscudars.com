@@ -14,7 +14,7 @@
   "license": "MIT",
   "author": "Aleksandrs Cudars",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.10.1",
+    "@fortawesome/fontawesome-free": "^5.10.2",
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1"
   },
@@ -22,7 +22,7 @@
     "browser-sync": "^2.26.7",
     "debug": "^4.1.1",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^6.1.0",
+    "gulp-autoprefixer": "^7.0.0",
     "gulp-clean-css": "^4.2.0",
     "gulp-header": "^2.0.9",
     "gulp-htmlclean": "^2.7.22",
