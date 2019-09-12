@@ -1,5 +1,6 @@
 .bg-primary {
   background-color: $primary !important;
+  background-image: linear-gradient($darkblue, $primary) !important;
 }
 
 .text-primary {

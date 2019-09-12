@@ -155,6 +155,7 @@ section.resume-section .resume-item .resume-date {
 
 .bg-primary {
   background-color: #273746 !important;
+  background-image: linear-gradient(#0F151A, #273746) !important;
 }
 
 .text-primary {
