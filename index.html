@@ -15,11 +15,14 @@
     <!-- Allows a site to control how much information the browser includes with navigations away from a document and should be set by all sites-->
     <meta http-equiv="Referrer-Policy" content="origin-when-cross-origin" />
 
-    <!-- Allows a site to control which features and APIs can be used in the browser -->
-    <meta http-equiv="Feature-Policy" content="vibrate 'none'; usermedia 'none'; sync-xhr 'self' https://alekscudars.com />
+    <!-- Tells the browser whether you want to allow your site to be framed or not. -->
+    <meta http-equiv=" X-Frame-Options " content="SAMEORIGIN " />
 
-    <!-- Tells the browser whether you want to allow your site to be framed or not. By preventing a browser from framing your site you can defend against attacks like clickjacking. Recommended value " X-Frame-Options: SAMEORIGIN ". -->
-    <meta http-equiv="X-Frame-Options " content="SAMEORIGIN " />
+    <!-- Allows a site to control which features and APIs can be used in the browser -->
+    <meta http-equiv="Feature-Policy" content="vibrate 'none'; usermedia 'none'; sync-xhr 'self' 'https://alekscudars.com'" />
+
+    <!-- stops a browser from trying to MIME-sniff the content type and forces it to stick with the declared content-type. -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css " rel="stylesheet " />
