@@ -12,8 +12,11 @@
     <!-- Allow XHRs via https only -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:" />
 
-    <!--  allows a site to control how much information the browser includes with navigations away from a document and should be set by all sites-->
+    <!-- Allows a site to control how much information the browser includes with navigations away from a document and should be set by all sites-->
     <meta http-equiv="Referrer-Policy" content="origin-when-cross-origin" />
+
+    <!-- Tells the browser whether you want to allow your site to be framed or not. By preventing a browser from framing your site you can defend against attacks like clickjacking. Recommended value "X-Frame-Options: SAMEORIGIN". -->
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
