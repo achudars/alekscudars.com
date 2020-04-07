@@ -14,7 +14,7 @@
   "license": "MIT",
   "author": "Aleksandrs Cudars",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.12.1",
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1"
   },
