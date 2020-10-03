@@ -133,6 +133,28 @@ section.resume-section {
   max-width: 75rem;
 }
 
+section.resume-section .resume-item .resume-content .gallery-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+section.resume-section .resume-item .resume-content .gallery-container .gallery-item {
+  display: flex;
+  height: 400px;
+  width: 400px;
+}
+
+section.resume-section .resume-item .resume-content .gallery-container .gallery-item img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+section.resume-section .resume-item .resume-content .gallery-container .gallery-item img:hover {
+  box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
 section.resume-section .resume-item .resume-date {
   min-width: none;
 }
@@ -140,9 +162,6 @@ section.resume-section .resume-item .resume-date {
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
-  }
-  section.resume-section .resume-item .resume-date {
-    min-width: 18rem;
   }
 }
 
