@@ -9,6 +9,9 @@ section.resume-section {
         grid-template-columns: 1fr 1fr;
         .gallery-item {
           display: flex;
+          height: 400px;
+          width: 100%;
+          max-width: 400px;
           img {
             object-fit: cover;
             max-width: 100%;
@@ -45,7 +48,8 @@ section.resume-section {
           grid-template-columns: 1fr 1fr;
           .gallery-item {
             height: 400px;
-            width: 400px;
+            width: 100%;
+            max-width: 400px;
           }
         }
       }
@@ -63,7 +67,8 @@ section.resume-section {
           grid-template-columns: 1fr 1fr;
           .gallery-item {
             height: 400px;
-            width: 400px;
+            width: 100%;
+            max-width: 400px;
           }
         }
       }

@@ -140,6 +140,9 @@ section.resume-section .resume-item .resume-content .gallery-container {
 
 section.resume-section .resume-item .resume-content .gallery-container .gallery-item {
   display: flex;
+  height: 400px;
+  width: 100%;
+  max-width: 400px;
 }
 
 section.resume-section .resume-item .resume-content .gallery-container .gallery-item img {
@@ -172,7 +175,8 @@ section.resume-section .resume-item .resume-date {
   }
   section.resume-section .resume-item .resume-content .gallery-container .gallery-item {
     height: 400px;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
   }
 }
 
@@ -186,7 +190,8 @@ section.resume-section .resume-item .resume-date {
   }
   section.resume-section .resume-item .resume-content .gallery-container .gallery-item {
     height: 400px;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
   }
 }
 
