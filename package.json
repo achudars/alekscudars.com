@@ -1,7 +1,7 @@
 {
   "title": "Aleksandrs Cudars",
   "name": "aleksandrs-cudars",
-  "version": "5.0.1",
+  "version": "6.6.6",
   "description": "Aleksandrs Cudars",
   "keywords": [
     "css",
@@ -27,8 +27,9 @@
     "gulp-header": "^2.0.9",
     "gulp-htmlclean": "^2.7.22",
     "gulp-rename": "2.0.0",
-    "gulp-sass": "^4.1.0",
+    "gulp-sass": "^5.0.0",
     "gulp-uglify": "^3.0.2",
-    "popper.js": "^1.16.1"
+    "popper.js": "^1.16.1",
+    "sass": "^1.35.2"
   }
 }
