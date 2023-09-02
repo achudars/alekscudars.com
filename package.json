@@ -28,13 +28,13 @@
     "node-sass": "^7.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-tsparticles": "^2.5.3",
-    "swiper": "^8.4.4",
-    "tsparticles": "^2.5.3",
-    "typed.js": "^2.0.12"
+    "react-tsparticles": "^2.12.2",
+    "swiper": "^10.2.0",
+    "tsparticles": "^2.12.0",
+    "typed.js": "^2.0.16"
   },
   "devDependencies": {
-    "eslint": "8.24.0",
+    "eslint": "8.48.0",
     "eslint-config-next": "12.3.1"
   }
 }
