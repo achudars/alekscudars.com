@@ -13,23 +13,28 @@
   ],
   "license": "MIT",
   "author": "Aleksandrs Cudars",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "sass": "node-sass --watch public/static/scss/style.scss public/assets/css/style.css --source-map public/static/css/style.css.map",
+    "lint": "next lint"
+  },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.4.2",
-    "bootstrap": "^5.3.1",
-    "jquery": "^3.7.1"
+    "emailjs-com": "^3.2.0",
+    "isotope-layout": "^3.0.6",
+    "next": "12.3.1",
+    "node-sass": "^7.0.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-tsparticles": "^2.5.3",
+    "swiper": "^8.4.4",
+    "tsparticles": "^2.5.3",
+    "typed.js": "^2.0.12"
   },
   "devDependencies": {
-    "browser-sync": "^2.29.3",
-    "debug": "^4.3.4",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^8.0.0",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-header": "^2.0.9",
-    "gulp-htmlclean": "^2.7.22",
-    "gulp-rename": "2.0.0",
-    "gulp-sass": "^5.1.0",
-    "gulp-uglify": "^3.0.2",
-    "popper.js": "^1.16.1",
-    "sass": "1.66.1"
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1"
   }
 }

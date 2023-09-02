@@ -1,0 +1,14 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/api/hello": "pages/api/hello.js",
+  "/blog": "pages/blog.html",
+  "/demo": "pages/demo.html",
+  "/index-glitch": "pages/index-glitch.html",
+  "/index-particles": "pages/index-particles.html",
+  "/index-video": "pages/index-video.html",
+  "/": "pages/index.html",
+  "/single-blog": "pages/single-blog.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
