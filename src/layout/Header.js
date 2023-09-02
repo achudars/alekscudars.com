@@ -13,7 +13,7 @@ const Header = ({ blog }) => {
       <div className="mob-header">
         <div className="d-flex">
           <div className="navbar-brand">
-            <Link href="/">
+            <Link legacyBehavior href="/">
               <a className="logo-text">Aleksandrs Cudars</a>
             </Link>
           </div>
@@ -130,7 +130,7 @@ const MenuWithBlog = () => {
     <Fragment>
       <ul className="nav nav-menu" id="pp-menu">
         <li data-menuanchor="home">
-          <Link href="/#home">
+          <Link legacyBehavior href="/#home">
             <a className="nav-link">
               <i className="ti-home" />
               <span>Home</span>
@@ -138,7 +138,7 @@ const MenuWithBlog = () => {
           </Link>
         </li>
         <li data-menuanchor="about">
-          <Link href="/#about">
+          <Link legacyBehavior href="/#about">
             <a className="nav-link">
               <i className="ti-id-badge" />
               <span>About Me</span>
@@ -146,7 +146,7 @@ const MenuWithBlog = () => {
           </Link>
         </li>
         <li data-menuanchor="services">
-          <Link href="/#services">
+          <Link legacyBehavior href="/#services">
             <a className="nav-link">
               <i className="ti-panel" />
               <span>Services</span>
@@ -154,7 +154,7 @@ const MenuWithBlog = () => {
           </Link>
         </li>
         <li data-menuanchor="work">
-          <Link href="/#work">
+          <Link legacyBehavior href="/#work">
             <a className="nav-link">
               <i className="ti-bookmark-alt" />
               <span>Portfolio</span>
@@ -162,7 +162,7 @@ const MenuWithBlog = () => {
           </Link>
         </li>
         <li data-menuanchor="blog" className="blog active">
-          <Link href="/#blog">
+          <Link legacyBehavior href="/#blog">
             <a className="nav-link">
               <i className="ti-layout-media-overlay-alt-2" />
               <span>Blogs</span>
@@ -170,7 +170,7 @@ const MenuWithBlog = () => {
           </Link>
         </li>
         <li data-menuanchor="contactus">
-          <Link href="/#contactus">
+          <Link legacyBehavior href="/#contactus">
             <a className="nav-link">
               <i className="ti-map-alt" />
               <span>Contact Me</span>

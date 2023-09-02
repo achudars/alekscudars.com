@@ -15,7 +15,7 @@ const Blog = () => {
           <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">
-                <Link href="/single-blog">
+                <Link legacyBehavior href="/single-blog">
                   <a>
                     <img src="static/img/blog-1.jpg" title="" alt="" />
                   </a>
@@ -24,7 +24,7 @@ const Blog = () => {
               <div className="blog-info">
                 <div className="meta">29/FEB/2022 - WEBSITE - 1 COMMENT</div>
                 <h6>
-                  <Link href="/single-blog">
+                  <Link legacyBehavior href="/single-blog">
                     <a>
                       Five Solid Evidences Attending Design Is Good For Your
                       Career Development.
@@ -37,7 +37,7 @@ const Blog = () => {
           <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">
-                <Link href="/single-blog">
+                <Link legacyBehavior href="/single-blog">
                   <a>
                     <img src="static/img/blog-2.jpg" title="" alt="" />
                   </a>
@@ -46,7 +46,7 @@ const Blog = () => {
               <div className="blog-info">
                 <div className="meta">29/FEB/2022 - WEBSITE - 1 COMMENT</div>
                 <h6>
-                  <Link href="/single-blog">
+                  <Link legacyBehavior href="/single-blog">
                     <a>
                       Ten Mind-Blowing Reasons Why Design Is Using This
                       Technique For Exposure.
@@ -59,7 +59,7 @@ const Blog = () => {
           <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">
-                <Link href="/single-blog">
+                <Link legacyBehavior href="/single-blog">
                   <a>
                     <img src="static/img/blog-3.jpg" title="" alt="" />
                   </a>
@@ -68,7 +68,7 @@ const Blog = () => {
               <div className="blog-info">
                 <div className="meta">29/FEB/2022 - WEBSITE - 1 COMMENT</div>
                 <h6>
-                  <Link href="/single-blog">
+                  <Link legacyBehavior href="/single-blog">
                     <a>
                       I Will Tell You The Truth About Design In The Next 60
                       Seconds.
@@ -81,7 +81,7 @@ const Blog = () => {
           <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">
-                <Link href="/single-blog">
+                <Link legacyBehavior href="/single-blog">
                   <a>
                     <img src="static/img/blog-4.jpg" title="" alt="" />
                   </a>
@@ -90,7 +90,7 @@ const Blog = () => {
               <div className="blog-info">
                 <div className="meta">29/FEB/2022 - WEBSITE - 1 COMMENT</div>
                 <h6>
-                  <Link href="/single-blog">
+                  <Link legacyBehavior href="/single-blog">
                     <a>
                       What You Know About Design And What You {`Don't`} Know
                       About Design.
@@ -101,7 +101,7 @@ const Blog = () => {
             </div>
           </div>
           <div className="col-12 read-more-blog text-center">
-            <Link href="/blog">
+            <Link legacyBehavior href="/blog">
               <a className="px-btn px-btn-theme">More Blogs</a>
             </Link>
           </div>
