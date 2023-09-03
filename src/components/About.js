@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const About = () => {
   const renderAboutMe = () => {
     return (
@@ -63,63 +61,75 @@ const About = () => {
           <div className="col-lg-4 m-15px-tb">
             <ul className="education-box">
               <li>
-                <span>2010-2012</span>
-                <h6>Graphic Designer</h6>
-                <p>International Design Institute</p>
-              </li>
-              <li>
-                <span>2010-2012</span>
-                <h6>Web Development</h6>
-                <p>International Design Institute</p>
-              </li>
-              <li>
-                <span>2010-2012</span>
-                <h6>Search Engine Optimization</h6>
-                <p>International Design Institute</p>
+                <span>Oct 2010 - Jul 2015</span>
+                <h6>University of York</h6>
+                <p>Master of Engineering</p>
+                <p>Computer Science with Business Enterprise Systems</p>
               </li>
             </ul>
           </div>
           <div className="col-lg-7 ml-auto m-15px-tb">
             <div className="skills-box">
-              <h3>My skills</h3>
-              <p>
-                {`I'm`} a Freelancer Front-end Developer with over 3 years of
-                experience. I code and create web elements for amazing people
-                around the world. I like work with new people. New people new
-                Experiences.
-              </p>
+              <h3>Skills</h3>
               <div className="skill-lt">
-                <h6>HTML5</h6>
+                <h6>Java</h6>
                 <div className="skill-bar">
-                  <div className="skill-bar-in" style={{ width: "92%" }}>
-                    <span data-toggle="tooltip" title="92%" />
+                  <div className="skill-bar-in" style={{ width: "70%" }}>
+                    <span data-toggle="tooltip" title="70%" />
                   </div>
                 </div>
               </div>
               {/* /skill */}
               <div className="skill-lt">
-                <h6>WordPress</h6>
+                <h6>TypeScript / JavaScript / React</h6>
                 <div className="skill-bar">
-                  <div className="skill-bar-in" style={{ width: "72%" }}>
-                    <span data-toggle="tooltip" title="72%" />
+                  <div className="skill-bar-in" style={{ width: "90%" }}>
+                    <span data-toggle="tooltip" title="90%" />
                   </div>
                 </div>
               </div>
               {/* /skill */}
               <div className="skill-lt">
-                <h6>Magento</h6>
+                <h6>HTML5 &amp; CSS</h6>
                 <div className="skill-bar">
-                  <div className="skill-bar-in" style={{ width: "86%" }}>
-                    <span data-toggle="tooltip" title="86%" />
+                  <div className="skill-bar-in" style={{ width: "80%" }}>
+                    <span data-toggle="tooltip" title="80%" />
                   </div>
                 </div>
               </div>
               {/* /skill */}
               <div className="skill-lt">
-                <h6>UI/UX</h6>
+                <h6>UI / UX / Accessibility</h6>
                 <div className="skill-bar">
-                  <div className="skill-bar-in" style={{ width: "88%" }}>
-                    <span data-toggle="tooltip" title="88%" />
+                  <div className="skill-bar-in" style={{ width: "85%" }}>
+                    <span data-toggle="tooltip" title="85%" />
+                  </div>
+                </div>
+              </div>
+              {/* /skill */}
+              <div className="skill-lt">
+                <h6>Application Security</h6>
+                <div className="skill-bar">
+                  <div className="skill-bar-in" style={{ width: "55%" }}>
+                    <span data-toggle="tooltip" title="55%" />
+                  </div>
+                </div>
+              </div>
+              {/* /skill */}
+              <div className="skill-lt">
+                <h6>AWS</h6>
+                <div className="skill-bar">
+                  <div className="skill-bar-in" style={{ width: "35%" }}>
+                    <span data-toggle="tooltip" title="35%" />
+                  </div>
+                </div>
+              </div>
+              {/* /skill */}
+              <div className="skill-lt">
+                <h6>SQL</h6>
+                <div className="skill-bar">
+                  <div className="skill-bar-in" style={{ width: "42%" }}>
+                    <span data-toggle="tooltip" title="42%" />
                   </div>
                 </div>
               </div>
@@ -142,12 +152,10 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <Image
+                  <img
                     src="/static/img/gs-logo.png"
-                    title=""
-                    alt=""
-                    width={200}
-                    height={150}
+                    title="Goldman Sachs Logo"
+                    alt="Goldman Sachs Logo"
                   />
                 </div>
               </div>
@@ -169,12 +177,10 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <Image
+                  <img
                     src="/static/img/gs-logo.png"
-                    title=""
-                    alt=""
-                    width={200}
-                    height={150}
+                    title="Goldman Sachs Logo"
+                    alt="Goldman Sachs Logo"
                   />
                 </div>
               </div>
@@ -195,12 +201,10 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <Image
+                  <img
                     src="/static/img/gs-logo.png"
-                    title=""
-                    alt=""
-                    width={200}
-                    height={150}
+                    title="Goldman Sachs Logo"
+                    alt="Goldman Sachs Logo"
                   />
                 </div>
               </div>
@@ -222,12 +226,10 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <Image
+                  <img
                     src="/static/img/gs-logo.png"
-                    title=""
-                    alt=""
-                    width={200}
-                    height={150}
+                    title="Goldman Sachs Logo"
+                    alt="Goldman Sachs Logo"
                   />
                 </div>
               </div>
@@ -248,12 +250,10 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <Image
+                  <img
                     src="/static/img/gs-logo.png"
-                    title=""
-                    alt=""
-                    width={200}
-                    height={150}
+                    title="Goldman Sachs Logo"
+                    alt="Goldman Sachs Logo"
                   />
                 </div>
               </div>
@@ -274,12 +274,10 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <Image
+                  <img
                     src="/static/img/arterys-logo.jpg"
-                    title=""
-                    alt=""
-                    width={200}
-                    height={150}
+                    title="Arterys Logo"
+                    alt="Arterys Logo"
                   />
                 </div>
               </div>
@@ -303,12 +301,10 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <Image
+                  <img
                     src="/static/img/amadeus-logo.jpg"
-                    title=""
-                    alt=""
-                    width={200}
-                    height={150}
+                    title="Amadeus Logo"
+                    alt="Amadeus Logo"
                   />
                 </div>
               </div>
@@ -341,7 +337,7 @@ const About = () => {
         <div className="separated" />
         {renderExperience()}
         <div className="separated" />
-        {1 > 2 && renderEducationAndSkills()}
+        {renderEducationAndSkills()}
       </div>
     </section>
   );
