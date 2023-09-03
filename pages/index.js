@@ -22,7 +22,7 @@ const Index = () => {
               <div className="col-lg-6">
                 <div className="type-box">
                   {1 > 2 && (<h6>Hello, I am</h6>)}
-                  <h1 className="font-alt">Aleksandrs Cudars</h1>
+                  <h1 className="font-alt">Aleksandrs Čudars</h1>
                   {1 > 2 && (<p className="lead">
                     I Am Passionate <TypingAnimation />
                   </p>)}

@@ -7,14 +7,15 @@ const Header = ({ blog }) => {
     if (!blog) {
       activeSection();
     }
-  }, []);
+  }, [blog]);
+
   return (
     <Fragment>
       <div className="mob-header">
         <div className="d-flex">
           <div className="navbar-brand">
             <Link legacyBehavior href="/">
-              <a className="logo-text">Aleksandrs Cudars</a>
+              <a className="logo-text">Aleksandrs Čudars</a>
             </Link>
           </div>
           <button
@@ -46,27 +47,27 @@ const Header = ({ blog }) => {
           {blog ? <MenuWithBlog /> : <MenuWithOutBlog />}
         </div>
 
-
-        {1 > 2 && (<>
-        <div className="nav justify-content-center social-icons">
-          <a href="#">
-            <i className="fab fa-facebook-f" />
-          </a>
-          <a href="#">
-            <i className="fab fa-twitter" />
-          </a>
-          <a href="#">
-            <i className="fab fa-instagram" />
-          </a>
-          <a href="#">
-            <i className="fab fa-linkedin-in" />
-          </a>
-          <a href="#">
-            <i className="fab fa-pinterest" />
-          </a>
-        </div>
-
-        </>)}
+        {1 > 2 && (
+          <>
+            <div className="nav justify-content-center social-icons">
+              <a href="#">
+                <i className="fab fa-facebook-f" />
+              </a>
+              <a href="#">
+                <i className="fab fa-twitter" />
+              </a>
+              <a href="#">
+                <i className="fab fa-instagram" />
+              </a>
+              <a href="#">
+                <i className="fab fa-linkedin-in" />
+              </a>
+              <a href="#">
+                <i className="fab fa-pinterest" />
+              </a>
+            </div>
+          </>
+        )}
       </header>
     </Fragment>
   );
@@ -89,32 +90,34 @@ const MenuWithOutBlog = () => {
           <span>About Me</span>
         </a>
       </li>
-       {1 > 2 && (<>
-      <li data-menuanchor="services">
-        <a className="nav-link" href="#services">
-          <i className="ti-panel" />
-          <span>Services</span>
-        </a>
-      </li>
-      <li data-menuanchor="work">
-        <a className="nav-link" href="#work">
-          <i className="ti-bookmark-alt" />
-          <span>Portfolio</span>
-        </a>
-      </li>
-      <li data-menuanchor="blog" className="blog">
-        <a className="nav-link" href="#blog">
-          <i className="ti-layout-media-overlay-alt-2" />
-          <span>Blogs</span>
-        </a>
-      </li>
-      <li data-menuanchor="contactus">
-        <a className="nav-link" href="#contactus">
-          <i className="ti-map-alt" />
-          <span>Contact Me</span>
-        </a>
-      </li>
-      </>)}
+      {1 > 2 && (
+        <>
+          <li data-menuanchor="services">
+            <a className="nav-link" href="#services">
+              <i className="ti-panel" />
+              <span>Services</span>
+            </a>
+          </li>
+          <li data-menuanchor="work">
+            <a className="nav-link" href="#work">
+              <i className="ti-bookmark-alt" />
+              <span>Portfolio</span>
+            </a>
+          </li>
+          <li data-menuanchor="blog" className="blog">
+            <a className="nav-link" href="#blog">
+              <i className="ti-layout-media-overlay-alt-2" />
+              <span>Blogs</span>
+            </a>
+          </li>
+          <li data-menuanchor="contactus">
+            <a className="nav-link" href="#contactus">
+              <i className="ti-map-alt" />
+              <span>Contact Me</span>
+            </a>
+          </li>
+        </>
+      )}
     </ul>
   );
 };
