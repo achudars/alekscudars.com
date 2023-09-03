@@ -56,7 +56,7 @@ const Interests = () => {
             <div className="feature-box-01 media">
               <i className="icon theme-bg icon-map" />
               <div className="feature-content media-body">
-                <h5>Day Tripping / Walking / Hiking</h5>
+                <h5>Hiking / Walking</h5>
                 <p>---</p>
               </div>
             </div>
