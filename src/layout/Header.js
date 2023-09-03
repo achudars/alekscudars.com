@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Fragment, useEffect, useState } from "react";
 import { activeSection } from "../utilits";
+
 const Header = ({ blog }) => {
   const [sideBarToggle, setSideBarToggle] = useState(false);
   useEffect(() => {
@@ -90,14 +91,15 @@ const MenuWithOutBlog = () => {
           <span>About Me</span>
         </a>
       </li>
+      <li data-menuanchor="interests">
+        <a className="nav-link" href="#interests">
+          <i className="ti-panel" />
+          <span>Interests</span>
+        </a>
+      </li>
       {1 > 2 && (
         <>
-          <li data-menuanchor="services">
-            <a className="nav-link" href="#services">
-              <i className="ti-panel" />
-              <span>Services</span>
-            </a>
-          </li>
+          {" "}
           <li data-menuanchor="work">
             <a className="nav-link" href="#work">
               <i className="ti-bookmark-alt" />
@@ -148,11 +150,11 @@ const MenuWithBlog = () => {
             </a>
           </Link>
         </li>
-        <li data-menuanchor="services">
-          <Link legacyBehavior href="/#services">
+        <li data-menuanchor="interests">
+          <Link legacyBehavior href="/#interests">
             <a className="nav-link">
               <i className="ti-panel" />
-              <span>Services</span>
+              <span>Interests</span>
             </a>
           </Link>
         </li>

@@ -1,6 +1,6 @@
 {
-  "..\\src\\components\\Services.js -> ./Testimonials": {
-    "id": "..\\src\\components\\Services.js -> ./Testimonials",
+  "..\\src\\components\\Interests.js -> ./Testimonials": {
+    "id": "..\\src\\components\\Interests.js -> ./Testimonials",
     "files": [
       "static/chunks/src_components_Testimonials_js.js"
     ]
