@@ -42,33 +42,20 @@ const Header = ({ blog }) => {
               <div className="img">
                 <img src="static/img/about-me.jpg" title="" alt="" />
               </div>
-              <h5>Aleks</h5>
+              <h5>🇱🇻 🇬🇧</h5>
             </div>
           </div>
           {blog ? <MenuWithBlog /> : <MenuWithOutBlog />}
         </div>
 
-        {1 > 2 && (
-          <>
-            <div className="nav justify-content-center social-icons">
-              <a href="#">
-                <i className="fab fa-facebook-f" />
-              </a>
-              <a href="#">
-                <i className="fab fa-twitter" />
-              </a>
-              <a href="#">
-                <i className="fab fa-instagram" />
-              </a>
-              <a href="#">
-                <i className="fab fa-linkedin-in" />
-              </a>
-              <a href="#">
-                <i className="fab fa-pinterest" />
-              </a>
-            </div>
-          </>
-        )}
+        <div className="nav justify-content-center social-icons">
+          <a href="https://www.linkedin.com/in/aleksandrs-cudars">
+            <i className="fab fa-linkedin-in" />
+          </a>
+          <a href="https://www.instagram.com/aleks.cudars/">
+            <i className="fab fa-instagram" />
+          </a>
+        </div>
       </header>
     </Fragment>
   );
@@ -84,16 +71,21 @@ const MenuWithOutBlog = () => {
           <span>Home</span>
         </a>
       </li>
-
       <li data-menuanchor="about">
         <a className="nav-link" href="#about">
-          <i className="ti-id-badge" />
-          <span>About Me</span>
+          <i className="ti-user" />
+          <span>About</span>
+        </a>
+      </li>
+      <li data-menuanchor="certifications">
+        <a className="nav-link" href="#certifications">
+          <i className="ti-medall" />
+          <span>Certifications</span>
         </a>
       </li>
       <li data-menuanchor="interests">
         <a className="nav-link" href="#interests">
-          <i className="ti-panel" />
+          <i className="ti-shine" />
           <span>Interests</span>
         </a>
       </li>

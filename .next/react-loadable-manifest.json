@@ -1,10 +1,4 @@
 {
-  "..\\src\\components\\Interests.js -> ./Testimonials": {
-    "id": "..\\src\\components\\Interests.js -> ./Testimonials",
-    "files": [
-      "static/chunks/src_components_Testimonials_js.js"
-    ]
-  },
   "index.js -> ../src/components/Portfolio": {
     "id": "index.js -> ../src/components/Portfolio",
     "files": [

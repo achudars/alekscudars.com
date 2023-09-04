@@ -4,16 +4,13 @@ import { loadFull } from "tsparticles";
 
 const ParticlesBackground = () => {
   const particlesInit = useCallback(async (engine) => {
-    console.log(engine);
     // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
     // starting from v2 you can add only the features you need reducing the bundle size
     await loadFull(engine);
   }, []);
 
-  const particlesLoaded = useCallback(async (container) => {
-    await console.log(container);
-  }, []);
+  const particlesLoaded = useCallback(async (container) => {}, []);
 
   return (
     <Particles
@@ -23,7 +20,7 @@ const ParticlesBackground = () => {
       loaded={particlesLoaded}
       options={{
         fullScreen: {
-          enable: false,
+          enable: true,
         },
         fpsLimit: 1000,
         interactivity: {
@@ -33,18 +30,18 @@ const ParticlesBackground = () => {
               mode: "push",
             },
             onHover: {
-              enable: true,
+              enable: false,
               mode: "repulse",
             },
             resize: true,
           },
           modes: {
             push: {
-              quantity: 4,
+              quantity: 18,
             },
             repulse: {
               distance: 200,
-              duration: 0.4,
+              duration: 0.18,
             },
           },
         },
@@ -56,8 +53,8 @@ const ParticlesBackground = () => {
             color: "#ffffff",
             distance: 150,
             enable: true,
-            opacity: 0.8,
-            width: 0.5,
+            opacity: 0.88,
+            width: 0.18,
           },
           collisions: {
             enable: false,
@@ -69,7 +66,7 @@ const ParticlesBackground = () => {
               default: "bounce",
             },
             random: false,
-            speed: 3,
+            speed: 1,
             straight: false,
           },
           number: {
@@ -86,7 +83,7 @@ const ParticlesBackground = () => {
           //   type: "circle",
           // },
           size: {
-            value: { min: 1, max: 5 },
+            value: { min: 1, max: 3 },
           },
         },
         detectRetina: true,

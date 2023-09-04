@@ -13,38 +13,15 @@ const About = () => {
               magic and software engineering practices to solve complex problems
               in the fintech space.
             </p>
-            {1 > 2 && (
-              <>
-                <div className="row">
-                  <div className="col-auto">
-                    <div className="media align-items-center">
-                      <span className="count">5k</span>
-                      <div className="media-body">
-                        Projects <br />
-                        Completed.
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-auto">
-                    <div className="media align-items-center">
-                      <span className="count">3k</span>
-                      <div className="media-body">
-                        Satisfied <br />
-                        Clients.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="btn-bar">
-                  <a className="px-btn px-btn-theme" href="#">
-                    <span>Contact Me</span>
-                  </a>
-                  <a className="px-btn px-btn-theme" href="#">
-                    <span>Portfolio</span>
-                  </a>
-                </div>
-              </>
-            )}
+
+            <div className="btn-bar">
+              <a
+                className="px-btn px-btn-theme"
+                href="https://www.linkedin.com/in/aleksandrs-cudars"
+              >
+                <span>Find Me on LinkedIn</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -338,6 +315,7 @@ const About = () => {
         {renderExperience()}
         <div className="separated" />
         {renderEducationAndSkills()}
+        <div className="separated" />
       </div>
     </section>
   );

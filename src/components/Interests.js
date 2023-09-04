@@ -1,9 +1,3 @@
-import dynamic from "next/dynamic";
-
-const Testimonials = dynamic(() => import("./Testimonials"), {
-  ssr: false,
-});
-
 const Interests = () => {
   return (
     <section
@@ -65,14 +59,13 @@ const Interests = () => {
             <div className="feature-box-01 media">
               <i className="icon theme-bg icon-focus" />
               <div className="feature-content media-body">
-                <h5>Studying</h5>
+                <h5>Knowledge Acquisition</h5>
                 <p>---</p>
               </div>
             </div>
           </div>
         </div>
         <div className="separated" />
-        {1 > 2 && <Testimonials />}
       </div>
     </section>
   );
