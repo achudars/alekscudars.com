@@ -48,11 +48,11 @@ const Certifications = () => {
                   </div>
                 </div>
                 <div className="btn-bar">
-                  {1 > 2 && (
-                    <a className="px-btn px-btn-theme" href="/certifications">
+                
+                    <a className="px-btn px-btn-theme" href="/certification-details">
                       <span>See Details</span>
                     </a>
-                  )}
+                  
                 </div>
               </div>
             </div>

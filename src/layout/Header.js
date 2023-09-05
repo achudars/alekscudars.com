@@ -40,9 +40,9 @@ const Header = ({ blog }) => {
           <div className="hl-top">
             <div className="hl-logo">
               <div className="img">
-                <img src="static/img/about-me.jpg" title="" alt="" />
+                <img src="static/img/about-me.jpg" title="photo of me" alt="photo of me" />
               </div>
-              <h5>🇱🇻 🇬🇧</h5>
+              <h5>🇱🇻 🥔 🇬🇧</h5>
             </div>
           </div>
           {blog ? <MenuWithBlog /> : <MenuWithOutBlog />}
