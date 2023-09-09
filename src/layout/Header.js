@@ -40,7 +40,11 @@ const Header = ({ blog }) => {
           <div className="hl-top">
             <div className="hl-logo">
               <div className="img">
-                <img src="static/img/about-me.jpg" title="photo of me" alt="photo of me" />
+                <img
+                  src="static/img/about-me.jpg"
+                  title="photo of me"
+                  alt="photo of me"
+                />
               </div>
               <h5>🇱🇻 🥔 🇬🇧</h5>
             </div>
@@ -49,10 +53,18 @@ const Header = ({ blog }) => {
         </div>
 
         <div className="nav justify-content-center social-icons">
-          <a href="https://www.linkedin.com/in/aleksandrs-cudars">
+          <a
+            href="https://www.linkedin.com/in/aleksandrs-cudars"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fab fa-linkedin-in" />
           </a>
-          <a href="https://www.instagram.com/aleks.cudars/">
+          <a
+            href="https://www.instagram.com/aleks.cudars/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fab fa-instagram" />
           </a>
         </div>
