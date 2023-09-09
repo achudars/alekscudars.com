@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Certifications = () => {
   return (
     <section
@@ -48,11 +50,12 @@ const Certifications = () => {
                   </div>
                 </div>
                 <div className="btn-bar">
-                
-                    <a className="px-btn px-btn-theme" href="/certification-details">
-                      <span>See Details</span>
-                    </a>
-                  
+                  <Link
+                    className="px-btn px-btn-theme"
+                    href="/certification-details"
+                  >
+                    <span>See Details</span>
+                  </Link>
                 </div>
               </div>
             </div>

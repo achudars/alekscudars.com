@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Interests = () => {
   return (
     <section
@@ -29,13 +31,15 @@ const Interests = () => {
             </div>
           </div>
           <div className="col-sm-6 m-15px-tb">
-            <div className="feature-box-01 media">
-              <i className="icon theme-bg icon-newspaper" />
-              <div className="feature-content media-body">
-                <h5>Reading</h5>
-                <p>---</p>
+            <Link href="/reading">
+              <div className="feature-box-01 media">
+                <i className="icon theme-bg icon-newspaper" />
+                <div className="feature-content media-body">
+                  <h5>Reading</h5>
+                  <p>What I am currently reading</p>
+                </div>
               </div>
-            </div>
+            </Link>
           </div>
           <div className="col-sm-6 m-15px-tb">
             <div className="feature-box-01 media">
