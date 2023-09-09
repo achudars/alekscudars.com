@@ -16,6 +16,8 @@ const About = () => {
 
             <div className="btn-bar">
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-btn px-btn-theme"
                 href="https://www.linkedin.com/in/aleksandrs-cudars"
               >
