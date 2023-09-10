@@ -343,12 +343,12 @@
     "wishlisted": true
   },
   {
-    "bookTitle": "Remote: Office Not Required",
+    "bookTitle": "Remote - Office Not Required",
     "bookAuthor": "David Heinemeier Hansson",
     "wishlisted": true
   },
   {
-    "bookTitle": "Invisible Women: Exposing Data Bias in a World Designed for Men",
+    "bookTitle": "Invisible Women - Exposing Data Bias in a World Designed for Men",
     "bookAuthor": "Caroline Criado Perez",
     "wishlisted": true
   },
@@ -358,7 +358,7 @@
     "wishlisted": true
   },
   {
-    "bookTitle": "How to Avoid Climate Disaster",
+    "bookTitle": "How to Avoid a Climate Disaster",
     "bookAuthor": "Bill Gates",
     "wishlisted": true
   },
@@ -368,11 +368,6 @@
     "wishlisted": true
   },
   { "bookTitle": "The Body", "bookAuthor": "Bill Bryson", "wishlisted": true },
-  {
-    "bookTitle": "What Should We Be Worried About?",
-    "bookAuthor": "John Brockman",
-    "wishlisted": true
-  },
   { "bookTitle": "Quiet", "bookAuthor": "Susan Cain", "wishlisted": true },
   {
     "bookTitle": "Fragile by Design",
@@ -390,7 +385,6 @@
     "bookAuthor": "Edward Tenner",
     "wishlisted": true
   },
-  { "bookTitle": "Remote", "bookAuthor": "Jason Fried", "wishlisted": true },
   {
     "bookTitle": "What the Dog Saw",
     "bookAuthor": "Malcolm Gladwell",
@@ -453,13 +447,8 @@
     "wishlisted": true
   },
   {
-    "bookTitle": "Out of our Minds",
+    "bookTitle": "Out of Our Minds",
     "bookAuthor": "Ken Robinson",
-    "wishlisted": true
-  },
-  {
-    "bookTitle": "What Color is your Parachute",
-    "bookAuthor": "Richard N. Bolles",
     "wishlisted": true
   },
   {

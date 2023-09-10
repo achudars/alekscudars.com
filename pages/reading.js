@@ -12,13 +12,11 @@ const Reading = () => {
               <div className="row">
                 <div className="col-sm-3 col-md-3 col-xl-2">
                   <div className="rb-left">
-                    {!book.wishlisted && (
-                      <img
-                        src={`/static/img/books/${book.bookTitle}.jpg`}
-                        title={book.title}
-                        alt={book.title}
-                      />
-                    )}
+                    <img
+                      src={`/static/img/books/${book.bookTitle}.jpg`}
+                      title={book.title}
+                      alt={book.title}
+                    />
                   </div>
                 </div>
                 <div className="col-sm-9 col-md-9 col-xl-10">
