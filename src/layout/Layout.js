@@ -4,7 +4,7 @@ import BackBtn from "./BackBtn";
 import DayNightMood from "./DayNightMood";
 import Header from "./Header";
 
-const Layout = ({ children, blog }) => {
+const Layout = ({ children, showBackBtn, blog }) => {
   return (
     <Fragment>
       <ImageView />
@@ -15,7 +15,7 @@ const Layout = ({ children, blog }) => {
       {/* Main Start */}
       <main className="main-left pp-main-section">{children}</main>
       <DayNightMood />
-      {blog && <BackBtn />}
+      {showBackBtn && <BackBtn />}
     </Fragment>
   );
 };

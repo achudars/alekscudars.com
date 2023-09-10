@@ -122,7 +122,7 @@ const Reading = () => {
   };
 
   return (
-    <Layout>
+    <Layout showBackBtn>
       <section
         id="reading"
         data-nav-tooltip="Reading"

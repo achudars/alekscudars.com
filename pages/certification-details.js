@@ -46,7 +46,7 @@ const CertificationDetails = () => {
   };
 
   return (
-    <Layout>
+    <Layout showBackBtn>
       <section
         id="certifications"
         data-nav-tooltip="Certifications"
