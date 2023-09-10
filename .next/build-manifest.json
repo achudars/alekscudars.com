@@ -27,10 +27,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/hiking-and-walking": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/hiking-and-walking.js"
+    ],
     "/online-courses": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/online-courses.js"
+    ],
+    "/podcasts": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/podcasts.js"
     ]
   },
   "ampFirstPages": []

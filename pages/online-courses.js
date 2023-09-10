@@ -30,7 +30,6 @@ const OnlineCourses = () => {
         </div>
         <div className="col-lg-7 ml-auto m-15px-tb">
           <div className="skills-box">
-            <h3>Progress</h3>
             <div className="skill-lt">
               <h6>{progress}</h6>
               <div className="skill-bar">
