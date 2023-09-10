@@ -25,7 +25,6 @@ const Index = () => {
             <div className="row full-screen align-items-center">
               <div className="col-lg-6">
                 <div className="type-box">
-                  {1 > 2 && <h6>Hello, I am</h6>}
                   <h1 className="font-alt">Aleksandrs Čudars</h1>
                   <p className="desc">Every challange is an opportunity</p>
                   {1 > 2 && (

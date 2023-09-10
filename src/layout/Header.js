@@ -54,18 +54,52 @@ const Header = ({ blog }) => {
 
         <div className="nav justify-content-center social-icons">
           <a
+            aria-label="link to linkedin profile"
             href="https://www.linkedin.com/in/aleksandrs-cudars"
+            rel="noreferrer noopener"
             target="_blank"
-            rel="noopener noreferrer"
           >
             <i className="fab fa-linkedin-in" />
           </a>
           <a
-            href="https://www.instagram.com/aleks.cudars/"
+            aria-label="link to github profile"
+            href="https://github.com/achudars"
+            rel="noreferrer noopener"
             target="_blank"
-            rel="noopener noreferrer"
+          >
+            <i className="fab fa-github" />
+          </a>
+          <a
+            aria-label="link to stackoverflow profile"
+            href="https://stackoverflow.com/users/1912213/achudars"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <i className="fab fa-stack-overflow" />
+          </a>
+          <a
+            aria-label="link to instagram profile"
+            href="https://www.instagram.com/aleks.cudars/"
+            rel="noreferrer noopener"
+            target="_blank"
           >
             <i className="fab fa-instagram" />
+          </a>
+          <a
+            aria-label="link to code pen profile"
+            href="https://codepen.io/achudars/"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <i className="fab fa-codepen" />
+          </a>
+          <a
+            aria-label="link to Speaker Deck profile"
+            href="https://speakerdeck.com/achudars"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <i className="fab fa-speaker-deck" />
           </a>
         </div>
       </header>
