@@ -27,10 +27,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/certification-details": [
+    "/reading": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/certification-details.js"
+      "static/chunks/pages/reading.js"
     ]
   },
   "ampFirstPages": []

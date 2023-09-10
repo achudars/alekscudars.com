@@ -3,7 +3,7 @@
     "bookTitle": "Архипелаг ГУЛАГ",
     "bookAuthor": "Александр Исаевич Солженицын",
     "yearWhenLastFinishedReading": "2023",
-    "inProgress" : true
+    "inProgress": true
   },
   {
     "bookTitle": "Rationality",
@@ -101,7 +101,7 @@
     "yearWhenLastFinishedReading": "2023"
   },
   {
-    "bookTitle": "Thinking Fast and Slow",
+    "bookTitle": "Thinking, Fast and Slow",
     "bookAuthor": "Daniel Kahneman",
     "yearWhenLastFinishedReading": "2023"
   },
@@ -122,7 +122,7 @@
   },
   {
     "bookTitle": "Predictably Irrational",
-    "bookAuthor": "Dan Arielyr",
+    "bookAuthor": "Dan Ariely",
     "yearWhenLastFinishedReading": "2022"
   },
   {
@@ -141,7 +141,7 @@
     "yearWhenLastFinishedReading": "2022"
   },
   {
-    "bookTitle": "Grit: The Power of Passion and Perseverance",
+    "bookTitle": "Grit",
     "bookAuthor": "Angela Duckworth",
     "yearWhenLastFinishedReading": "2021",
     "isItWorthReReading": true
@@ -153,7 +153,7 @@
     "isItWorthReReading": true
   },
   {
-    "bookTitle": "Freakonomics: A Rogue Economist Explores the Hidden Side of Everything",
+    "bookTitle": "Freakonomics",
     "bookAuthor": "Steven D Levitt and Stephen J Dubner",
     "yearWhenLastFinishedReading": "2021"
   },
@@ -163,7 +163,7 @@
     "yearWhenLastFinishedReading": "2021"
   },
   {
-    "bookTitle": "Think Like a Freak: Secrets of the Rogue Economist",
+    "bookTitle": "Think Like a Freak",
     "bookAuthor": "Steven D Levitt and Stephen J Dubner",
     "yearWhenLastFinishedReading": "2021"
   },
@@ -173,22 +173,22 @@
     "yearWhenLastFinishedReading": "2021"
   },
   {
-    "bookTitle": "The Logic Of Life: Uncovering the New Economics of Everything",
+    "bookTitle": "The Logic Of Life",
     "bookAuthor": "Tim Harford",
     "yearWhenLastFinishedReading": "2021"
   },
   {
-    "bookTitle": "Messy: How to Be Creative and Resilient in a Tidy-Minded World",
+    "bookTitle": "Messy",
     "bookAuthor": "Tim Harford",
     "yearWhenLastFinishedReading": "2021"
   },
   {
-    "bookTitle": "How to Make the World Add Up: Ten Rules for Thinking Differently About Numbers",
+    "bookTitle": "How to Make the World Add Up",
     "bookAuthor": "Tim Harford",
     "yearWhenLastFinishedReading": "2021"
   },
   {
-    "bookTitle": "You Are Now Less Dumb: How to Conquer Mob Mentality, How to Buy Happiness, and All the Other Ways to Outsmart Yourself",
+    "bookTitle": "You Are Now Less Dumb",
     "bookAuthor": "David McRaney",
     "yearWhenLastFinishedReading": "2021"
   },
@@ -203,37 +203,37 @@
     "yearWhenLastFinishedReading": "2021"
   },
   {
-    "bookTitle": "Guns, Germs, and Steel: The Fates of Human Societies",
+    "bookTitle": "Guns, Germs, and Steel",
     "bookAuthor": "Jared Diamond",
     "yearWhenLastFinishedReading": "2021"
   },
   {
-    "bookTitle": "Emotional Intelligence: Why it Can Matter More Than IQ",
+    "bookTitle": "Emotional Intelligence",
     "bookAuthor": "Daniel Goleman",
     "yearWhenLastFinishedReading": "2021"
   },
   {
-    "bookTitle": "Algorithms to Live By: The Computer Science of Human Decisions",
+    "bookTitle": "Algorithms to Live By",
     "bookAuthor": "Brian Christian and Tom Griffiths",
     "yearWhenLastFinishedReading": "2021"
   },
   {
-    "bookTitle": "Never Eat Alone: And Other Secrets to Success, One Relationship at a Time",
+    "bookTitle": "Never Eat Alone",
     "bookAuthor": "Keith Ferrazzi and Tahl Raz",
     "yearWhenLastFinishedReading": "2021"
   },
   {
-    "bookTitle": "The Ascent of Money: A Financial History of the World",
+    "bookTitle": "The Ascent of Money",
     "bookAuthor": "Niall Ferguson",
     "yearWhenLastFinishedReading": "2021"
   },
   {
-    "bookTitle": "Money: The True Story of a Made-Up Thing",
+    "bookTitle": "Money - The True Story of a Made-Up Thing",
     "bookAuthor": "Jacob Goldstein",
     "yearWhenLastFinishedReading": "2021"
   },
   {
-    "bookTitle": "Phishing for Phools: The Economics of Manipulation and Deception",
+    "bookTitle": "Phishing for Phools",
     "bookAuthor": "George A. Akerlof and Robert J. Shiller",
     "yearWhenLastFinishedReading": "2021"
   },
@@ -248,7 +248,7 @@
     "yearWhenLastFinishedReading": "2021"
   },
   {
-    "bookTitle": "Debt: The First 5.000 Years",
+    "bookTitle": "Debt - The First 5.000 Years",
     "bookAuthor": "David Greber",
     "yearWhenLastFinishedReading": "2021"
   },
@@ -268,12 +268,12 @@
     "yearWhenLastFinishedReading": "2021"
   },
   {
-    "bookTitle": "12 Rules for Life: An Antidote to Chaos",
+    "bookTitle": "12 Rules for Life - An Antidote to Chaos",
     "bookAuthor": "Jordan B. Peterson",
     "yearWhenLastFinishedReading": "2021"
   },
   {
-    "bookTitle": "Beyond Order: 12 More Rules for Life",
+    "bookTitle": "Beyond Order - 12 More Rules for Life",
     "bookAuthor": "Jordan B. Peterson",
     "yearWhenLastFinishedReading": "2021"
   },
@@ -293,7 +293,7 @@
     "yearWhenLastFinishedReading": "2020"
   },
   {
-    "bookTitle": "The Subtle Art of Not Giving a F*ck",
+    "bookTitle": "The Subtle Art of Not Giving a Fck",
     "bookAuthor": "Mark Manson",
     "yearWhenLastFinishedReading": "2020"
   },
@@ -480,7 +480,7 @@
     "dropReason": "(written in a manner too difficult for me to comprehend)"
   },
   {
-    "bookTitle": "Maps of Meaning: The Architecture of Belief",
+    "bookTitle": "Maps of Meaning - The Architecture of Belief",
     "bookAuthor": "Jordan B. Peterson",
     "dropped": true,
     "dropReason": "(written in a manner too difficult for me to comprehend)"
