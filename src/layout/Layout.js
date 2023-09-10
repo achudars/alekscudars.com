@@ -11,7 +11,7 @@ const Layout = ({ children, showBackBtn, blog }) => {
       {/* page loading */}
       {/* End */}
       {/* Header Start */}
-      <Header blog={blog} />
+      <Header blog={blog} isLandingPage={!showBackBtn} />
       {/* Main Start */}
       <main className="main-left pp-main-section">{children}</main>
       <DayNightMood />
