@@ -34,7 +34,7 @@ const About = () => {
     return (
       <>
         <div className="title">
-          <h3>Education &amp; Skills</h3>
+          <h3>Education & Skills</h3>
         </div>
         <div className="row">
           <div className="col-lg-4 m-15px-tb">

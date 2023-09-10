@@ -3,6 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/reading": "pages/reading.js",
-  "/certification-details": "pages/certification-details.js"
+  "/running-and-training": "pages/running-and-training.js",
+  "/online-courses": "pages/online-courses.js"
 }

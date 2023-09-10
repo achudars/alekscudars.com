@@ -1,8 +1,8 @@
 import Layout from "../src/layout/Layout";
 import badges from "./api/certifications.json";
 
-const CertificationDetails = () => {
-  const renderCertifications = () => {
+const Certifications = () => {
+  const renderContainer = () => {
     return (
       <>
         <div className="title">
@@ -41,6 +41,7 @@ const CertificationDetails = () => {
             );
           })}
         </div>
+        <div className="separated" />
       </>
     );
   };
@@ -48,16 +49,15 @@ const CertificationDetails = () => {
   return (
     <Layout showBackBtn>
       <section
-        id="certifications"
+        id="Certifications"
         data-nav-tooltip="Certifications"
         className="pp-section pp-scrollable section counter"
       >
         <div className="container">
-          {renderCertifications()}
-          <div className="separated" />
+          {renderContainer()}
         </div>
       </section>
     </Layout>
   );
 };
-export default CertificationDetails;
+export default Certifications;

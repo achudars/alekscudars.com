@@ -7,7 +7,7 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-self["webpackHotUpdate_N_E"]("pages/certification-details",{
+self["webpackHotUpdate_N_E"]("pages/certifications",{
 
 /***/ "./src/layout/Header.js":
 /*!******************************!*\

@@ -99,7 +99,7 @@ const Reading = () => {
     );
   };
 
-  const renderReading = () => {
+  const renderContainer = () => {
     return (
       <>
         <div className="title">
@@ -130,11 +130,11 @@ const Reading = () => {
   return (
     <Layout showBackBtn>
       <section
-        id="reading"
+        id="Reading"
         data-nav-tooltip="Reading"
         className="pp-section pp-scrollable section counter"
       >
-        <div className="container">{renderReading()}</div>
+        <div className="container">{renderContainer()}</div>
       </section>
     </Layout>
   );

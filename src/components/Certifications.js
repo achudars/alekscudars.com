@@ -52,7 +52,7 @@ const Certifications = () => {
                 <div className="btn-bar">
                   <Link
                     className="px-btn px-btn-theme"
-                    href="/certification-details"
+                    href="/certifications"
                   >
                     <span>See Details</span>
                   </Link>
