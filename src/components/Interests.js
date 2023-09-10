@@ -17,7 +17,6 @@ const Interests = () => {
               <i className="icon theme-bg icon-camera" />
               <div className="feature-content media-body">
                 <h5>Aerial Photography</h5>
-                <p>---</p>
               </div>
             </div>
           </div>
@@ -26,7 +25,6 @@ const Interests = () => {
               <i className="icon theme-bg icon-mic" />
               <div className="feature-content media-body">
                 <h5>Podcasts</h5>
-                <p>---</p>
               </div>
             </div>
           </div>
@@ -36,7 +34,6 @@ const Interests = () => {
                 <i className="icon theme-bg icon-newspaper" />
                 <div className="feature-content media-body">
                   <h5>Reading</h5>
-                  <p>What I am currently reading</p>
                 </div>
               </div>
             </Link>
@@ -46,7 +43,6 @@ const Interests = () => {
               <i className="icon theme-bg icon-target" />
               <div className="feature-content media-body">
                 <h5>Running and Aerobics</h5>
-                <p>---</p>
               </div>
             </div>
           </div>
@@ -55,7 +51,6 @@ const Interests = () => {
               <i className="icon theme-bg icon-map" />
               <div className="feature-content media-body">
                 <h5>Hiking / Walking</h5>
-                <p>---</p>
               </div>
             </div>
           </div>
@@ -64,7 +59,6 @@ const Interests = () => {
               <i className="icon theme-bg icon-focus" />
               <div className="feature-content media-body">
                 <h5>Knowledge Acquisition</h5>
-                <p>---</p>
               </div>
             </div>
           </div>
