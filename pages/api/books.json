@@ -121,6 +121,11 @@
     "yearWhenLastFinishedReading": "2023"
   },
   {
+    "bookTitle": "A Mind for Numbers",
+    "bookAuthor": "Barbara Oakley",
+    "yearWhenLastFinishedReading": "2023"
+  },
+  {
     "bookTitle": "Predictably Irrational",
     "bookAuthor": "Dan Ariely",
     "yearWhenLastFinishedReading": "2022"
@@ -360,11 +365,6 @@
   {
     "bookTitle": "How to Avoid a Climate Disaster",
     "bookAuthor": "Bill Gates",
-    "wishlisted": true
-  },
-  {
-    "bookTitle": "A Mind for Numbers",
-    "bookAuthor": "Barbara Oakley",
     "wishlisted": true
   },
   { "bookTitle": "The Body", "bookAuthor": "Bill Bryson", "wishlisted": true },

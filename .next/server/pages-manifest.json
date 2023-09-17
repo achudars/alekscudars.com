@@ -2,8 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/online-courses": "pages/online-courses.js",
-  "/podcasts": "pages/podcasts.js",
   "/": "pages/index.js",
-  "/hiking-and-walking": "pages/hiking-and-walking.js"
+  "/reading": "pages/reading.js"
 }
