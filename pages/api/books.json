@@ -490,5 +490,11 @@
     "bookAuthor": "Meredith Broussard",
     "dropped": true,
     "dropReason": "(did not capture my attention)"
+  },
+  {
+    "bookTitle": "Drift into Failure",
+    "bookAuthor": "Sidney Dekker",
+    "dropped": true,
+    "dropReason": "(did not capture my attention)"
   }
 ]
