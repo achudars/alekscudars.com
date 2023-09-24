@@ -496,5 +496,11 @@
     "bookAuthor": "Sidney Dekker",
     "dropped": true,
     "dropReason": "(did not capture my attention)"
+  },
+  {
+    "bookTitle": "Fahrenheit 451",
+    "bookAuthor": "Ray Bradbury",
+    "dropped": true,
+    "dropReason": "(did not capture my attention)"
   }
 ]
