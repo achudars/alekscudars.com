@@ -502,5 +502,11 @@
     "bookAuthor": "Ray Bradbury",
     "dropped": true,
     "dropReason": "(did not capture my attention)"
+  },
+  {
+    "bookTitle": "The Alchemist",
+    "bookAuthor": "Paulo Coelho",
+    "dropped": true,
+    "dropReason": "(did not capture my attention)"
   }
 ]
