@@ -24,7 +24,7 @@
   "dependencies": {
     "emailjs-com": "^3.2.0",
     "isotope-layout": "^3.0.6",
-    "next": "13.5.3",
+    "next": "13.5.4",
     "node-sass": "^9.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -34,6 +34,6 @@
   },
   "devDependencies": {
     "eslint": "8.50.0",
-    "eslint-config-next": "13.5.3"
+    "eslint-config-next": "13.5.4"
   }
 }
