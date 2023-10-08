@@ -1,7 +1,7 @@
 [
   {
-    "bookTitle": "Архипелаг ГУЛАГ",
-    "bookAuthor": "Александр Исаевич Солженицын",
+    "bookTitle": "Invisible Women - Exposing Data Bias in a World Designed for Men",
+    "bookAuthor": "Caroline Criado Perez",
     "yearWhenLastFinishedReading": "2023",
     "inProgress": true
   },
@@ -363,11 +363,6 @@
     "wishlisted": true
   },
   {
-    "bookTitle": "Invisible Women - Exposing Data Bias in a World Designed for Men",
-    "bookAuthor": "Caroline Criado Perez",
-    "wishlisted": true
-  },
-  {
     "bookTitle": "The Moment of Lift",
     "bookAuthor": "Melinda Gates",
     "wishlisted": true
@@ -465,6 +460,12 @@
     "bookTitle": "The Enigma of Reason",
     "bookAuthor": "Dan Sperber",
     "wishlisted": true
+  },
+  {
+    "bookTitle": "Архипелаг ГУЛАГ",
+    "bookAuthor": "Александр Исаевич Солженицын",
+    "dropped": true,
+    "dropReason": "(was enough after 50%)"
   },
   {
     "bookTitle": "On the Origin of Species",
