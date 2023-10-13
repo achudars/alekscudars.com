@@ -2,7 +2,7 @@
   {
     "bookTitle": "Invisible Women - Exposing Data Bias in a World Designed for Men",
     "bookAuthor": "Caroline Criado Perez",
-    "yearWhenLastFinishedReading": "2023",
+    "yearWhenLastFinishedReading": "2023"
   },
   {
     "bookTitle": "Good Economics for Hard Times",
@@ -342,11 +342,6 @@
     "yearWhenLastFinishedReading": "2016"
   },
   {
-    "bookTitle": "A Promised Land",
-    "bookAuthor": "Barack Obama",
-    "wishlisted": true
-  },
-  {
     "bookTitle": "Hit Refresh",
     "bookAuthor": "Satya Nadella",
     "wishlisted": true
@@ -511,6 +506,12 @@
   {
     "bookTitle": "The Alchemist",
     "bookAuthor": "Paulo Coelho",
+    "dropped": true,
+    "dropReason": "(did not capture my attention)"
+  },
+  {
+    "bookTitle": "A Promised Land",
+    "bookAuthor": "Barack Obama",
     "dropped": true,
     "dropReason": "(did not capture my attention)"
   }
