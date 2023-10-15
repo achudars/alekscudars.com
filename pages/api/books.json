@@ -1,4 +1,11 @@
 [
+  { "bookTitle": "Range", "bookAuthor": "David Epstein", "inProgress": true },
+  { "bookTitle": "The Body", "bookAuthor": "Bill Bryson", "inProgress": true },
+  {
+    "bookTitle": "Weapons of Math Destruction",
+    "bookAuthor": "Cathy O'Neil",
+    "inProgress": true
+  },
   {
     "bookTitle": "Invisible Women - Exposing Data Bias in a World Designed for Men",
     "bookAuthor": "Caroline Criado Perez",
@@ -357,23 +364,16 @@
     "wishlisted": true
   },
   {
-    "bookTitle": "Weapons of Math Destruction",
-    "bookAuthor": "Cathy O'Neil",
-    "wishlisted": true
-  },
-  {
     "bookTitle": "How to Avoid a Climate Disaster",
     "bookAuthor": "Bill Gates",
     "wishlisted": true
   },
-  { "bookTitle": "The Body", "bookAuthor": "Bill Bryson", "wishlisted": true },
   { "bookTitle": "Quiet", "bookAuthor": "Susan Cain", "wishlisted": true },
   {
     "bookTitle": "Fragile by Design",
     "bookAuthor": "Charles Calomiris, Stephen haber",
     "wishlisted": true
   },
-  { "bookTitle": "Range", "bookAuthor": "David Epstein", "wishlisted": true },
   {
     "bookTitle": "Idiot Brain",
     "bookAuthor": "Dean Burnett",
