@@ -21,9 +21,10 @@ const Reading = () => {
                 </div>
                 <div className="col-sm-9 col-md-9 col-xl-10">
                   <div className="rb-right">
-                    <h6>{book.bookTitle}</h6>
-                    <p>by: {book.bookAuthor}</p>
-                    {book.dropReason && (<p>{book.dropReason}</p>)}
+                    <h4>{book.bookTitle}</h4>
+                    <h5>by: {book.bookAuthor}</h5>
+                    {book.dropReason && (<h6>{book.dropReason}</h6>)}
+                    <p>{book.summary}</p>
                     {!!book.yearWhenLastFinishedReading && (
                       <div className="rb-time">
                         {book.yearWhenLastFinishedReading}
