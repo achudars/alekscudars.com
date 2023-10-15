@@ -9,12 +9,12 @@
   {
     "bookTitle": "Invisible Women - Exposing Data Bias in a World Designed for Men",
     "bookAuthor": "Caroline Criado Perez",
-    "yearWhenLastFinishedReading": "2023"
+    "isItWorthReReading": true
   },
   {
     "bookTitle": "Good Economics for Hard Times",
     "bookAuthor": "Abhijit V. Banerjee, Esther Duflo",
-    "yearWhenLastFinishedReading": "2023"
+    "isItWorthReReading": true
   },
   {
     "bookTitle": "Rationality",
@@ -174,14 +174,12 @@
   {
     "bookTitle": "Grit",
     "bookAuthor": "Angela Duckworth",
-    "yearWhenLastFinishedReading": "2021",
     "isItWorthReReading": true
   },
   {
     "bookTitle": "The Personal MBA",
     "bookAuthor": "Josh Kaufman",
-    "yearWhenLastFinishedReading": "2021",
-    "isItWorthReReading": true
+    "yearWhenLastFinishedReading": "2021"
   },
   {
     "bookTitle": "Freakonomics",

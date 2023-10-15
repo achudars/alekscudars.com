@@ -42,25 +42,11 @@ const Reading = () => {
   const renderBookGroupBasedOnStatus = ({
     title,
     subTitle,
-    inProgress,
-    wishlisted,
-    dropped,
+    filterBy
   }) => {
     const booksFilteredByStatus = books.filter((book) => {
-      if (dropped) {
-        return book.dropped;
-      } else if (wishlisted) {
-        return book.wishlisted;
-      } else if (inProgress) {
-        return book.inProgress;
-      } else {
-        return (
-          book &&
-          !book.dropped &&
-          !book.inProgress &&
-          !book.wishlisted &&
-          book.yearWhenLastFinishedReading
-        );
+      if (filterBy.every(f => book[f])) {
+        return book;
       }
     });
 
@@ -108,20 +94,25 @@ const Reading = () => {
         {renderBookGroupBasedOnStatus({
           title: "In Progress",
           subTitle: "Currently reading",
-          inProgress: true,
+          filterBy: ["inProgress"]
+        })}
+        {renderBookGroupBasedOnStatus({
+          title: "Top 3 Personal Favourites",
+          subTitle: "Timeless books that I recommend to others which are worth reading and re-reading",
+          filterBy: ["isItWorthReReading"],
         })}
         {renderBookGroupBasedOnStatus({
           title: "Finished",
           subTitle: "Grouped by year, with the recent ones at the top",
-          inProgress: false,
+          filterBy: ["yearWhenLastFinishedReading"],
         })}
         {renderBookGroupBasedOnStatus({
           title: "Wishlisted",
-          wishlisted: true,
+          filterBy: ["wishlisted"],
         })}
         {renderBookGroupBasedOnStatus({
           title: "Dropped",
-          dropped: true,
+          filterBy: ["dropped"],
         })}
       </>
     );
