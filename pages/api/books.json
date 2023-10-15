@@ -1,11 +1,5 @@
 [
   {
-    "bookTitle": "The Moment of Lift",
-    "bookAuthor": "Melinda Gates",
-    "yearWhenLastFinishedReading": "2023",
-    "inProgress": true
-  },
-  {
     "bookTitle": "Invisible Women - Exposing Data Bias in a World Designed for Men",
     "bookAuthor": "Caroline Criado Perez",
     "yearWhenLastFinishedReading": "2023"
@@ -73,6 +67,11 @@
   {
     "bookTitle": "Purple Cow",
     "bookAuthor": "Seth Godin",
+    "yearWhenLastFinishedReading": "2023"
+  },
+  {
+    "bookTitle": "The Moment of Lift",
+    "bookAuthor": "Melinda Gates",
     "yearWhenLastFinishedReading": "2023"
   },
   {
