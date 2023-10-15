@@ -22,7 +22,8 @@ const Reading = () => {
                 <div className="col-sm-9 col-md-9 col-xl-10">
                   <div className="rb-right">
                     <h6>{book.bookTitle}</h6>
-                    <label>by: {book.bookAuthor}</label>
+                    <p>by: {book.bookAuthor}</p>
+                    {book.dropReason && (<p>{book.dropReason}</p>)}
                     {!!book.yearWhenLastFinishedReading && (
                       <div className="rb-time">
                         {book.yearWhenLastFinishedReading}
@@ -98,7 +99,7 @@ const Reading = () => {
         })}
         {renderBookGroupBasedOnStatus({
           title: "Top 3 Personal Favourites",
-          subTitle: "Timeless books that I recommend to others which are worth reading and re-reading",
+          subTitle: "Books that I would recommend to others, because of the timeless insight they hold",
           filterBy: ["isItWorthReReading"],
         })}
         {renderBookGroupBasedOnStatus({
