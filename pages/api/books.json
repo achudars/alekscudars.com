@@ -149,7 +149,8 @@
   {
     "bookTitle": "Weapons of Math Destruction",
     "bookAuthor": "Cathy O'Neil",
-    "yearWhenLastFinishedReading": "2023"
+    "yearWhenLastFinishedReading": "2023",
+    "summary": "Algorithms are everywhere, from deciding which videos you might like on the internet to helping banks decide who gets a loan. But here's the catch: not all algorithms are \"good\". Some are like villains in disguise, and Cathy O'Neil calls them \"Weapons of Math Destruction\" or WMDs. Just like how a superhero can accidentally cause chaos, these WMDs can mess up people's lives without anyone realizing it. One WMD example is when algorithms decide who gets a job interview. If these algorithms are not carefully designed, they might end up favoring certain people over others, like only choosing people who live in a certain neighborhood or went to a specific school. That's not fair! Algorithms should be fair and treat everyone equally. But some WMDs don't follow this rule. They can unintentionally create unfair situations, especially for those who are already facing challenges. If algorithms are not accurate, they might label things incorrectly. If the algorithm is biased, it might unfairly reject some people or charge them more money just because of where they live or their background. One important thing to understand is that these WMDs are not evil on purpose. They're like well-meaning robots that sometimes make mistakes. Cathy O'Neil wants people to pay attention and make sure these algorithms are fair and don't unintentionally hurt anyone. By understanding how these algorithms work and demanding fairness, we can make the world a better place."
   },
   {
     "bookTitle": "Predictably Irrational",
