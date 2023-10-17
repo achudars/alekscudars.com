@@ -2,11 +2,6 @@
   { "bookTitle": "Range", "bookAuthor": "David Epstein", "inProgress": true },
   { "bookTitle": "The Body", "bookAuthor": "Bill Bryson", "inProgress": true },
   {
-    "bookTitle": "Weapons of Math Destruction",
-    "bookAuthor": "Cathy O'Neil",
-    "inProgress": true
-  },
-  {
     "bookTitle": "Invisible Women - Exposing Data Bias in a World Designed for Men",
     "bookAuthor": "Caroline Criado Perez",
     "isItWorthReReading": true
@@ -149,6 +144,11 @@
   {
     "bookTitle": "Do Nothing",
     "bookAuthor": "Celeste Headlee",
+    "yearWhenLastFinishedReading": "2023"
+  },
+  {
+    "bookTitle": "Weapons of Math Destruction",
+    "bookAuthor": "Cathy O'Neil",
     "yearWhenLastFinishedReading": "2023"
   },
   {
@@ -517,6 +517,6 @@
     "bookTitle": "A Promised Land",
     "bookAuthor": "Barack Obama",
     "dropped": true,
-    "dropReason": "(due to being too much of a biography)"
+    "dropReason": "(biographies usually do not keep my attention)"
   }
 ]
