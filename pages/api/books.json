@@ -529,7 +529,8 @@
     "bookTitle": "The Alchemist",
     "bookAuthor": "Paulo Coelho",
     "dropped": true,
-    "dropReason": "(lost interest in the story)"
+    "dropReason": "(lost interest in the story)",
+    "summary": "A tale of self-discovery and the pursuit of one's dreams. The story follows Santiago, a young shepherd from Andalusia, Spain, who embarks on a journey to find a hidden treasure in the Egyptian pyramids. Along the way, he encounters a series of characters and experiences that shape his understanding of life's meaning. The central theme revolves around the concept of Personal Legend — the idea that each person has a unique destiny or purpose to fulfill."
   },
   {
     "bookTitle": "A Promised Land",
