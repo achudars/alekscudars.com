@@ -351,7 +351,8 @@
   {
     "bookTitle": "The Psychology of Security",
     "bookAuthor": "Bruce Schneier",
-    "yearWhenLastFinishedReading": "2019"
+    "yearWhenLastFinishedReading": "2019",
+    "summary": "The book explores the intricate relationship between human behaviour and the effectiveness of security measures. Schneier delves into the cognitive aspects that shape our perceptions and decisions in the realm of security. He emphasises that security systems must align with the natural inclinations and limitations of human psychology to be truly effective. The book sheds light on the phenomenon of 'security theatre,' where measures are implemented more for the perception of security than actual protection. Schneier argues that understanding the psychology of both attackers and defenders is crucial in developing robust security strategies. He discusses the concept of 'security mindsets' and how individuals, influenced by biases and heuristics, often make predictable and exploitable security errors. Schneier calls for a holistic approach that considers human factors alongside technological solutions. He advocates for security measures that are intuitive, minimising the likelihood of human error. Through real-world examples and insights, Schneier's work underscores the importance of marrying technical expertise with an appreciation for the intricacies of human behaviour to create security systems that genuinely safeguard against threats."
   },
   {
     "bookTitle": "The Art of Software Testing",
