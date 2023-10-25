@@ -356,7 +356,8 @@
   {
     "bookTitle": "The Art of Software Testing",
     "bookAuthor": "Glenford Myers",
-    "yearWhenLastFinishedReading": "2019"
+    "yearWhenLastFinishedReading": "2019",
+    "summary": "A comprehensive guide that demystifies the intricate world of software testing. Myers elucidates the fundamental concepts of software testing in a lucid manner, making it accessible even to those unfamiliar with the subject. The book serves as a roadmap for both novice and seasoned testers, offering valuable insights into the artistry of ensuring software reliability. Myers covers diverse testing techniques, from the basic to the advanced, outlining strategies for identifying and fixing defects. With a clear emphasis on practical application, he provides real-world examples and case studies, aiding comprehension for readers whose native language may not be English. The author also explores the human elements of testing, acknowledging the critical role of intuition and experience in this dynamic field. Myers' prose is straightforward and devoid of unnecessary jargon, making it an ideal resource for foreign readers seeking to grasp the nuances of software testing in a digestible manner. This book is not just a manual; it's a guide that nurtures a deeper understanding of the craft, fostering a mindset essential for effective software quality assurance. Whether you're an aspiring tester or a developer delving into the realms of testing, Myers' work is a valuable companion, unraveling the artistry inherent in the meticulous process of software testing."
   },
   {
     "bookTitle": "The Pragmatic Programmer",
