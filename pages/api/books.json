@@ -361,7 +361,8 @@
   {
     "bookTitle": "The Pragmatic Programmer",
     "bookAuthor": "Andrew Hunt and David Thomas",
-    "yearWhenLastFinishedReading": "2018"
+    "yearWhenLastFinishedReading": "2018",
+    "summary": "\"The Pragmatic Programmer\" by Andrew Hunt and David Thomas is a foundational guide for software developers, offering timeless principles and practical advice in the ever-evolving world of programming. The authors advocate for a pragmatic approach to coding, emphasizing the importance of thinking critically and continuously learning. They delve into various aspects of software development, covering topics such as code organization, debugging, and testing. The book encourages developers to be efficient problem solvers and to embrace the concept of orthogonality, where each component of a system has a distinct purpose. The authors stress the significance of good communication within a development team, urging programmers to document their code effectively and consider future maintainers. They discuss the DRY (Don't Repeat Yourself) principle, advising against duplication in code to enhance maintainability. The book also explores the idea of programming by coincidence, cautioning against relying on accidental successes. With a focus on craftsmanship, the authors advocate for continuous improvement, suggesting practices such as automation, version control, and regular refactoring. Overall, \"The Pragmatic Programmer\" serves as a practical guide for developers, offering timeless wisdom and actionable tips to navigate the challenges of software development with a pragmatic mindset."
   },
   {
     "bookTitle": "The Undoing Project",
