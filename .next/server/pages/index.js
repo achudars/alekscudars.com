@@ -352,6 +352,17 @@ module.exports = require("stream");
 
 /***/ }),
 
+/***/ "url":
+/*!**********************!*\
+  !*** external "url" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("url");
+
+/***/ }),
+
 /***/ "zlib":
 /*!***********************!*\
   !*** external "zlib" ***!
