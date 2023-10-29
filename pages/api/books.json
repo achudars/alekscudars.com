@@ -45,7 +45,8 @@
   {
     "bookTitle": "Software Architecture Patterns",
     "bookAuthor": "Mark Richards",
-    "yearWhenLastFinishedReading": "2023"
+    "yearWhenLastFinishedReading": "2023",
+    "summary": "\"Software Architecture Patterns\" by Mark Richards provides a comprehensive guide to understanding the fundamental structures and designs that shape software systems. Richards demystifies complex architectural concepts, making them accessible to readers with varying levels of technical expertise. The book covers key patterns such as Layered Architecture, Microservices, Event-Driven Architecture, and Space-Based Architecture, elucidating their roles in building robust and scalable software. With a focus on clarity, Richards explains the pros and cons of each pattern, allowing even those unfamiliar with software development to grasp the essential principles. He emphasises the significance of selecting the right architecture to meet specific project requirements, illustrating how a well-chosen pattern can enhance flexibility, maintainability, and performance. The author's engaging writing style and real-world examples contribute to a practical understanding of software architecture, making it an invaluable resource for anyone navigating the intricate landscape of designing and developing software systems. Whether you're a software developer, architect, or a curious reader seeking insights into the backbone of digital applications, this book serves as a navigational tool through the intricate world of software architecture, shedding light on the patterns that underpin modern software development practices."
   },
   {
     "bookTitle": "Who Moved My Cheese",
