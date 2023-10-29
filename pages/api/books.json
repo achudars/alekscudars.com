@@ -81,7 +81,8 @@
   {
     "bookTitle": "Hackers and Painters",
     "bookAuthor": "Paul Graham",
-    "yearWhenLastFinishedReading": "2023"
+    "yearWhenLastFinishedReading": "2023",
+    "summary": "\"Hackers and Painters\" invites readers to appreciate the artistry in coding, urging them to approach it not merely as a technical task but as a form of self-expression and creativity.The book explores the world of programming and the creative mindset behind it, drawing parallels between programming and traditional arts like painting. Graham argues that hackers, in the positive sense of the word, share a common creative spirit with painters, seeking to express themselves through their work. He delves into the history of hacking, tracing its roots to early computer programming and the ethos of exploring and experimenting with technology. Graham contends that the best software is created by those who view it as an art form, using their creativity and passion to craft elegant solutions. He discusses the importance of programming languages and tools, advocating for languages that empower and inspire developers. The book also touches on entrepreneurship, with Graham sharing insights on starting successful companies and the hacker mentality required for innovation. Throughout, Graham emphasises the value of curiosity, ambition, and a willingness to challenge the status quo in both the world of programming and beyond."
   },
   {
     "bookTitle": "Purple Cow",
