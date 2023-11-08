@@ -16,7 +16,7 @@ const OnlineCourses = () => {
               <span>{title}</span>
               <h6>
                 <a
-                  aria-label="link to instagram profile"
+                  aria-label={`link to ${title} profile`}
                   href={linkToPublicProfile}
                   rel="noreferrer noopener"
                   target="_blank"
