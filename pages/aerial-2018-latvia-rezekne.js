@@ -1,39 +1,39 @@
 import PhotoAndVideoSection from "../src/layout/PhotoAndVideoSection";
 
 const PHOTOS = [
-  "./static/img/2020/scotland-glencoe/47d6ccf8443f4002ec673590a23be727.jpg",
-  "./static/img/2020/scotland-glencoe/2c42f692f99d0ba49514e7187dd2bd87.jpg",
-  "./static/img/2020/scotland-glencoe/f2435e66fccf545aec3a315d8e21183c.jpg",
-  "./static/img/2020/scotland-glencoe/15a2df6da3b53e19f653ce02622c0520.jpg",
-  "./static/img/2020/scotland-glencoe/6c90712fc0352664ef058b6a2c4a5fb6.jpg",
-  "./static/img/2020/scotland-glencoe/c97edb50d5f821570aab68617680aef2.jpg",
-  "./static/img/2020/scotland-glencoe/306f4c4619101712b6f799d3fa263451.jpg",
-  "./static/img/2020/scotland-glencoe/c7ef3855ad77137d2d92ec3ea140d9fc.jpg",
-  "./static/img/2020/scotland-glencoe/593b0cbc847cd907b6b87f3604c48e64.jpg",
-  "./static/img/2020/scotland-glencoe/a09e3e630ae2d88e3731406d18aaf3c9.jpg",
-  "./static/img/2020/scotland-glencoe/a5ac62bf01daa44b29258056bc0d45ee.jpg",
-  "./static/img/2020/scotland-glencoe/6602a1b40443be0c60447108e184ec43.jpg",
-  "./static/img/2020/scotland-glencoe/42a4ce89d99d420910d27d71d50e0b7d.jpg",
+  "static/img/2018/latvia-rezekne/3cb3fa72dd0cd0efef42abf41d958e12.jpg",
+  "static/img/2018/latvia-rezekne/034cea54e52a021d3758fedf3ffb7ed3.jpg",
+  "static/img/2018/latvia-rezekne/50eca2b7a6f702de958d50c13cdf1492.jpg",
+  "static/img/2018/latvia-rezekne/63ca25a1e7b326c1d91f5505a7d248df.jpg",
+  "static/img/2018/latvia-rezekne/80e403b0538372cc10010f913af06b16.jpg",
+  "static/img/2018/latvia-rezekne/81ba9b6a8f214c95c32e392b9ad0866c.jpg",
+  "static/img/2018/latvia-rezekne/325bca27c6f511af2ca4ddc5f13758e2.jpg",
+  "static/img/2018/latvia-rezekne/a9b22ff50498aa1e0bacd46de2f08b07.jpg",
+  "static/img/2018/latvia-rezekne/a8160f0d6cecf47857703d0a730afe14.jpg",
+  "static/img/2018/latvia-rezekne/cd25297810bf3143ae3367f8fef0c7c2.jpg",
+  "static/img/2018/latvia-rezekne/d3ec7097ad61fd72e15802ff5d3ca2c3.jpg",
+  "static/img/2018/latvia-rezekne/f4875203e8c0c05f8b0f4f8039d9a02a.jpg",
 ];
 
 const VIDEOS = [
-  "./static/video/2020/scotland-glencoe/0439eb25d59cfeda0e7d79713f85938e.mp4",
-  "./static/video/2020/scotland-glencoe/873202f4ae984dcf5d9aa21354d20492.mp4",
-  "./static/video/2020/scotland-glencoe/aaeeb070dc09e339e1adc7261aa6977f.mp4",
-  "./static/video/2020/scotland-glencoe/e6b5ad2168017eb86ca55759f7660a1a.mp4",
-  "./static/video/2020/scotland-glencoe/65117cbc0fd9b5331b4df05d5352c727.mp4",
+  "static/video/2018/latvia-rezekne/04cdcf4c36bd66804598cab76ba8275f.mp4",
+  "static/video/2018/latvia-rezekne/8b15985dd9b7af6d3af2d3f510aaddac.mp4",
+  "static/video/2018/latvia-rezekne/12f8d6c83ad7d33c774f7b0a59d036a9.mp4",
+  "static/video/2018/latvia-rezekne/a206d28c27cd51b9138a00d2825422c7.mp4",
+  "static/video/2018/latvia-rezekne/ad376ebfbb75c2b49f63d670a4bd9105.mp4",
+  "static/video/2018/latvia-rezekne/c6b27144f9661db32ba09d96c5d726a6.mp4",
+  "static/video/2018/latvia-rezekne/ec93e602336f65d6e2f0b415fb7f0306.mp4",
 ];
 
 const SpecificItem = () => {
-
   return (
     <PhotoAndVideoSection
-          photos={PHOTOS}
-          videos={VIDEOS}
-          altForPhotos={"aerial photo of scottish landscape"}
-          id={"aerial-2020-scotland-glencoe"}
-          title={"Scotland, Glencoe, 2020"}
-        />
+      photos={PHOTOS}
+      videos={VIDEOS}
+      altForPhotos={"aerial photo of Latvian landscape"}
+      id={"aerial-2018-latvia-rezekne"}
+      title={"Latvia, Rezekne, 2018"}
+    />
   );
 };
 export default SpecificItem;

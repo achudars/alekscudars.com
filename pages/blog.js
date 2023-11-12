@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import Layout from "../src/layout/Layout";
-import { getPagination, pagination } from "../src/utilits";
+import { getPagination, pagination } from "../src/paginationUtils";
+
 const Blog = () => {
   let sort = 4;
   const [active, setActive] = useState(1);

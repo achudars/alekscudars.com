@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Layout from "../src/layout/Layout";
 import podcasts from "./api/podcasts.json";
 import { Fragment } from "react";

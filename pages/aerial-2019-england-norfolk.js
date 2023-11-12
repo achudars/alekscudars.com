@@ -1,67 +1,34 @@
-/* eslint-disable @next/next/no-img-element */
-import Layout from "../src/layout/Layout";
-import PhotoItem from "../src/layout/PhotoItem";
-import VideoItem from "../src/layout/VideoItem";
-import PageTitle from "../src/layout/PageTitle";
+import PhotoAndVideoSection from "../src/layout/PhotoAndVideoSection";
 
 const PHOTOS = [
-  "./static/img/2020/scotland-glencoe/47d6ccf8443f4002ec673590a23be727.jpg",
-  "./static/img/2020/scotland-glencoe/2c42f692f99d0ba49514e7187dd2bd87.jpg",
-  "./static/img/2020/scotland-glencoe/f2435e66fccf545aec3a315d8e21183c.jpg",
-  "./static/img/2020/scotland-glencoe/15a2df6da3b53e19f653ce02622c0520.jpg",
-  "./static/img/2020/scotland-glencoe/6c90712fc0352664ef058b6a2c4a5fb6.jpg",
-  "./static/img/2020/scotland-glencoe/c97edb50d5f821570aab68617680aef2.jpg",
-  "./static/img/2020/scotland-glencoe/306f4c4619101712b6f799d3fa263451.jpg",
-  "./static/img/2020/scotland-glencoe/c7ef3855ad77137d2d92ec3ea140d9fc.jpg",
-  "./static/img/2020/scotland-glencoe/593b0cbc847cd907b6b87f3604c48e64.jpg",
-  "./static/img/2020/scotland-glencoe/a09e3e630ae2d88e3731406d18aaf3c9.jpg",
-  "./static/img/2020/scotland-glencoe/a5ac62bf01daa44b29258056bc0d45ee.jpg",
-  "./static/img/2020/scotland-glencoe/6602a1b40443be0c60447108e184ec43.jpg",
-  "./static/img/2020/scotland-glencoe/42a4ce89d99d420910d27d71d50e0b7d.jpg",
+  "./static/img/2019/england-norfolk/04c8463ffd031c26bcbaed6ac1b59deb.jpg",
+  "./static/img/2019/england-norfolk/4a94ed5be5eccbe85cbcd12d7e5acd1e.jpg",
+  "./static/img/2019/england-norfolk/5aa1477a0b83604a1c2f681388b3286b.jpg",
+  "./static/img/2019/england-norfolk/6df86867048725151fa0e8792f577d05.jpg",
+  "./static/img/2019/england-norfolk/7ad07c9125776fb1a1d10350ce4f4de6.jpg",
+  "./static/img/2019/england-norfolk/b0444879e547540e8e1938c05e68cb7e.jpg",
+  "./static/img/2019/england-norfolk/be710e98d38c98fd8783299fa6888611.jpg",
+  "./static/img/2019/england-norfolk/e6913ef46724952c4fc241a3846c6faf.jpg",
 ];
 
 const VIDEOS = [
-  "./static/video/2020/scotland-glencoe/0439eb25d59cfeda0e7d79713f85938e.mp4",
-  "./static/video/2020/scotland-glencoe/873202f4ae984dcf5d9aa21354d20492.mp4",
-  "./static/video/2020/scotland-glencoe/aaeeb070dc09e339e1adc7261aa6977f.mp4",
-  "./static/video/2020/scotland-glencoe/e6b5ad2168017eb86ca55759f7660a1a.mp4",
-  "./static/video/2020/scotland-glencoe/65117cbc0fd9b5331b4df05d5352c727.mp4",
+  "./static/video/2019/england-norfolk/6c49a16bd5b20f44c098ea0cc327c586.mp4",
+  "./static/video/2019/england-norfolk/35edea82e3a23edb15ba4fe09af8ee77.mp4",
+  "./static/video/2019/england-norfolk/52445270959efd763f6456c3276df628.mp4",
+  "./static/video/2019/england-norfolk/b4b96e30f6317d0fdd6f7e30124ee1e7.mp4",
+  "./static/video/2019/england-norfolk/b7174e5d572133f1b0f25e7535cedab3.mp4",
+  "./static/video/2019/england-norfolk/e8a895304811e64eab847e2b09ad6a5b.mp4",
 ];
 
-const ScotlandGlencoe = () => {
-  const renderAll = () => {
-    return (
-      <div className="row">
-        {PHOTOS.map((g) => {
-          return (
-            <PhotoItem
-              key={g}
-              src={g}
-              alt={"aerial photo of scottish landscape"}
-            />
-          );
-        })}
-        {VIDEOS.map((g) => {
-          return <VideoItem key={g} src={g} />;
-        })}
-      </div>
-    );
-  };
-
+const SpecificItem = () => {
   return (
-    <Layout showBackBtn>
-      <section
-        id="aerial-2020-scotland-glencoe"
-        data-nav-tooltip="aerial-2020-scotland-glencoe"
-        className="pp-section pp-scrollable section counter"
-      >
-        <div className="container">
-          <PageTitle title={"Scotland, Glencoe, 2020"} />
-        </div>
-        <div className="container">{renderAll()}</div>
-        <div className="separated" />
-      </section>
-    </Layout>
+    <PhotoAndVideoSection
+      photos={PHOTOS}
+      videos={VIDEOS}
+      altForPhotos={"aerial photo of english landscape"}
+      id={"aerial-2019-england-norfolk"}
+      title={"England, Norfolk, 2019"}
+    />
   );
 };
-export default ScotlandGlencoe;
+export default SpecificItem;

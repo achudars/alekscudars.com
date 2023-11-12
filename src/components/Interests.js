@@ -17,7 +17,7 @@ const Interests = () => {
               <div className="feature-box-01 media">
                 <i className="icon theme-bg icon-camera" />
                 <div className="feature-content media-body">
-                  <h5>Aerial Photography</h5>
+                  <h5>Aerial Photography & Videography</h5>
                 </div>
               </div>
             </Link>

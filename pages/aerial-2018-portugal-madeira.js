@@ -1,39 +1,46 @@
 import PhotoAndVideoSection from "../src/layout/PhotoAndVideoSection";
 
 const PHOTOS = [
-  "./static/img/2020/scotland-glencoe/47d6ccf8443f4002ec673590a23be727.jpg",
-  "./static/img/2020/scotland-glencoe/2c42f692f99d0ba49514e7187dd2bd87.jpg",
-  "./static/img/2020/scotland-glencoe/f2435e66fccf545aec3a315d8e21183c.jpg",
-  "./static/img/2020/scotland-glencoe/15a2df6da3b53e19f653ce02622c0520.jpg",
-  "./static/img/2020/scotland-glencoe/6c90712fc0352664ef058b6a2c4a5fb6.jpg",
-  "./static/img/2020/scotland-glencoe/c97edb50d5f821570aab68617680aef2.jpg",
-  "./static/img/2020/scotland-glencoe/306f4c4619101712b6f799d3fa263451.jpg",
-  "./static/img/2020/scotland-glencoe/c7ef3855ad77137d2d92ec3ea140d9fc.jpg",
-  "./static/img/2020/scotland-glencoe/593b0cbc847cd907b6b87f3604c48e64.jpg",
-  "./static/img/2020/scotland-glencoe/a09e3e630ae2d88e3731406d18aaf3c9.jpg",
-  "./static/img/2020/scotland-glencoe/a5ac62bf01daa44b29258056bc0d45ee.jpg",
-  "./static/img/2020/scotland-glencoe/6602a1b40443be0c60447108e184ec43.jpg",
-  "./static/img/2020/scotland-glencoe/42a4ce89d99d420910d27d71d50e0b7d.jpg",
+  "./static/img/2018/portugal-madeira/6fd9a38ecc99c45527b7ca53303b8b75.jpg",
+  "./static/img/2018/portugal-madeira/7bff4e60533dbb917fbedf4d1c235444.jpg",
+  "./static/img/2018/portugal-madeira/22f8a480046946b9df058175aa0c464e.jpg",
+  "./static/img/2018/portugal-madeira/97a6a95190e6d044a215cf2608f3ade5.jpg",
+  "./static/img/2018/portugal-madeira/05401f2d8578adf708905db69331b8e8.jpg",
+  "./static/img/2018/portugal-madeira/6539d7559a22d211e4430d816b87a64c.jpg",
+  "./static/img/2018/portugal-madeira/b7ac14363925b3ce09cd62bcdf69720a.jpg",
+  "./static/img/2018/portugal-madeira/bb345982e0a7dfb0a79c90a4f0bf25d2.jpg",
+  "./static/img/2018/portugal-madeira/bf02fac1e91dce1ed075ee43f89bfde5.jpg",
+  "./static/img/2018/portugal-madeira/ca7524637b9266596814949666feba17.jpg",
+  "./static/img/2018/portugal-madeira/ccf4824be86c901724d42ed5d6427b58.jpg",
+  "./static/img/2018/portugal-madeira/cdd0def84578a0d7929648ac5d62b337.jpg",
+  "./static/img/2018/portugal-madeira/d99b42d39e96b77a1fb3338e81084e5a.jpg",
+  "./static/img/2018/portugal-madeira/eb1ed2f59fa6b1acd1fe701ebfc879b8.jpg",
+  "./static/img/2018/portugal-madeira/f87a5a53cd1ebd2425d07d23a775e155.jpg",
 ];
 
 const VIDEOS = [
-  "./static/video/2020/scotland-glencoe/0439eb25d59cfeda0e7d79713f85938e.mp4",
-  "./static/video/2020/scotland-glencoe/873202f4ae984dcf5d9aa21354d20492.mp4",
-  "./static/video/2020/scotland-glencoe/aaeeb070dc09e339e1adc7261aa6977f.mp4",
-  "./static/video/2020/scotland-glencoe/e6b5ad2168017eb86ca55759f7660a1a.mp4",
-  "./static/video/2020/scotland-glencoe/65117cbc0fd9b5331b4df05d5352c727.mp4",
+  "./static/video/2018/portugal-madeira/6da37e53a4c18281bd842fddcd60b13a.mp4",
+  "./static/video/2018/portugal-madeira/6fd8d0dd6a71f8a9dbc7eee392f40c72.mp4",
+  "./static/video/2018/portugal-madeira/8f2bce7af77504a4db899e8f4f978b6f.mp4",
+  "./static/video/2018/portugal-madeira/65ab7f6282268b2c96c180052312b62c.mp4",
+  "./static/video/2018/portugal-madeira/80a23768db8b741dde19a3853e67ff3a.mp4",
+  "./static/video/2018/portugal-madeira/267bb4073ad49698be037e6c4d81e4b0.mp4",
+  "./static/video/2018/portugal-madeira/36338cf858738cb8b3422b57db2176cd.mp4",
+  "./static/video/2018/portugal-madeira/505861cb3813ee71850b13d063de733c.mp4",
+  "./static/video/2018/portugal-madeira/aeb63b61814171f412749cd3e586adda.mp4",
+  "./static/video/2018/portugal-madeira/c1392a0bea7af92bdca233d0c5ef3901.mp4",
+  "./static/video/2018/portugal-madeira/e22fb1dc0425cc74b66a4c5de4ec62e7.mp4",
 ];
 
 const SpecificItem = () => {
-
   return (
     <PhotoAndVideoSection
-          photos={PHOTOS}
-          videos={VIDEOS}
-          altForPhotos={"aerial photo of scottish landscape"}
-          id={"aerial-2020-scotland-glencoe"}
-          title={"Scotland, Glencoe, 2020"}
-        />
+      photos={PHOTOS}
+      videos={VIDEOS}
+      altForPhotos={"aerial photo of Madeira landscape"}
+      id={"aerial-2018-portugal-madeira"}
+      title={"Portugal, Madeira, 2018"}
+    />
   );
 };
 export default SpecificItem;

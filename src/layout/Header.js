@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Fragment, useEffect, useState } from "react";
-import { activeSection } from "../utilits";
+import { activeSection } from "../paginationUtils";
 
 const Header = ({ blog, isLandingPage }) => {
   const [sideBarToggle, setSideBarToggle] = useState(false);

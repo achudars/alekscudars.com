@@ -1,6 +1,6 @@
-import Layout from "../src/layout/Layout";
+import PhotoAndVideoSection from "../src/layout/PhotoAndVideoSection";
 
-const PHOTOS_2020_SCOTLAND_GLENCOE = [
+const PHOTOS = [
   "./static/img/2020/scotland-glencoe/47d6ccf8443f4002ec673590a23be727.jpg",
   "./static/img/2020/scotland-glencoe/2c42f692f99d0ba49514e7187dd2bd87.jpg",
   "./static/img/2020/scotland-glencoe/f2435e66fccf545aec3a315d8e21183c.jpg",
@@ -16,97 +16,24 @@ const PHOTOS_2020_SCOTLAND_GLENCOE = [
   "./static/img/2020/scotland-glencoe/42a4ce89d99d420910d27d71d50e0b7d.jpg",
 ];
 
-const PHOTOS_2020_ENGLAND_NORFOLK = [
-  "./static/img/2019/england-norfolk/4a94ed5be5eccbe85cbcd12d7e5acd1e.jpg",
-  "./static/img/2019/england-norfolk/be710e98d38c98fd8783299fa6888611.jpg",
-  "./static/img/2019/england-norfolk/6df86867048725151fa0e8792f577d05.jpg",
-  "./static/img/2019/england-norfolk/e6913ef46724952c4fc241a3846c6faf.jpg",
-  "./static/img/2019/england-norfolk/5aa1477a0b83604a1c2f681388b3286b.jpg",
-  "./static/img/2019/england-norfolk/7ad07c9125776fb1a1d10350ce4f4de6.jpg",
-  "./static/img/2019/england-norfolk/b0444879e547540e8e1938c05e68cb7e.jpg",
-  "./static/img/2019/england-norfolk/04c8463ffd031c26bcbaed6ac1b59deb.jpg",
+const VIDEOS = [
+  "./static/video/2020/scotland-glencoe/0439eb25d59cfeda0e7d79713f85938e.mp4",
+  "./static/video/2020/scotland-glencoe/873202f4ae984dcf5d9aa21354d20492.mp4",
+  "./static/video/2020/scotland-glencoe/aaeeb070dc09e339e1adc7261aa6977f.mp4",
+  "./static/video/2020/scotland-glencoe/e6b5ad2168017eb86ca55759f7660a1a.mp4",
+  "./static/video/2020/scotland-glencoe/65117cbc0fd9b5331b4df05d5352c727.mp4",
 ];
 
-const ScotlandGlencoe = () => {
-  const renderHeader = () => {
-    return (
-      <>
-        <div className="title">
-          <h3>Aerial Photography & Videography.</h3>
-        </div>
-      </>
-    );
-  };
-
-  const renderItem = ({ src, alt }) => {
-    return (
-      <div className="col-lg-12 ml-auto m-15px-tb">
-        <div className="skills-box">
-          <img alt={alt} src={src} />
-        </div>
-      </div>
-    );
-  };
-
-  const renderPhotography = () => {
-    return (
-      <>
-        <div className="title">
-          <h3>Aerial Photography.</h3>
-        </div>
-        <div className="row">
-          <div className="col-lg-6 m-15px-tb">
-            <ul className="education-box">
-              <li>
-                <span>Scotland, 2020</span>
-                <h5>
-                  <a
-                    aria-label=""
-                    href=""
-                    rel="noreferrer noopener"
-                    target="_blank"
-                  >
-                    {`See all ${PHOTOS_2020_SCOTLAND_GLENCOE.length} photos`}
-                  </a>
-                </h5>
-                <h6>Glencoe</h6>
-                <p>56.672840 -5.132530</p>
-              </li>
-            </ul>
-          </div>
-          <div className="col-lg-6 ml-auto m-15px-tb">
-            <div className="skills-box">
-              <img
-                alt="aerial photo of scottish landscape"
-                src="./static/img/2020/scotland-glencoe/47d6ccf8443f4002ec673590a23be727.jpg"
-              />
-            </div>
-          </div>
-          {
-            PHOTOS_2020_SCOTLAND_GLENCOE.map((g) => {
-              return renderItem({
-                src: g,
-                alt: "aerial photo of scottish landscape",
-              });
-            })}
-        </div>
-      </>
-    );
-  };
+const SpecificItem = () => {
 
   return (
-    <Layout showBackBtn>
-      <section
-        id="AerialPhotography"
-        data-nav-tooltip="AerialPhotography"
-        className="pp-section pp-scrollable section counter"
-      >
-        <div className="container">{renderHeader()}</div>
-        <div className="separated" />
-        <div className="container">{renderPhotography()}</div>
-        <div className="separated" />
-      </section>
-    </Layout>
+    <PhotoAndVideoSection
+          photos={PHOTOS}
+          videos={VIDEOS}
+          altForPhotos={"aerial photo of scottish landscape"}
+          id={"aerial-2020-scotland-glencoe"}
+          title={"Scotland, Glencoe, 2020"}
+        />
   );
 };
-export default ScotlandGlencoe;
+export default SpecificItem;
