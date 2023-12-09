@@ -2,7 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/podcasts": "pages/podcasts.js",
   "/aerial-photography": "pages/aerial-photography.js",
-  "/": "pages/index.js"
+  "/hiking-and-walking": "pages/hiking-and-walking.js",
+  "/aerial-2017-italy-sicily": "pages/aerial-2017-italy-sicily.js",
+  "/aerial-2018-portugal-madeira": "pages/aerial-2018-portugal-madeira.js"
 }

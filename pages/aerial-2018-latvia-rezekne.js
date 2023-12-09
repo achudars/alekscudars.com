@@ -1,28 +1,28 @@
 import PhotoAndVideoSection from "../src/layout/PhotoAndVideoSection";
 
 const PHOTOS = [
-  "static/img/2018/latvia-rezekne/3cb3fa72dd0cd0efef42abf41d958e12.jpg",
-  "static/img/2018/latvia-rezekne/034cea54e52a021d3758fedf3ffb7ed3.jpg",
-  "static/img/2018/latvia-rezekne/50eca2b7a6f702de958d50c13cdf1492.jpg",
-  "static/img/2018/latvia-rezekne/63ca25a1e7b326c1d91f5505a7d248df.jpg",
-  "static/img/2018/latvia-rezekne/80e403b0538372cc10010f913af06b16.jpg",
-  "static/img/2018/latvia-rezekne/81ba9b6a8f214c95c32e392b9ad0866c.jpg",
-  "static/img/2018/latvia-rezekne/325bca27c6f511af2ca4ddc5f13758e2.jpg",
-  "static/img/2018/latvia-rezekne/a9b22ff50498aa1e0bacd46de2f08b07.jpg",
-  "static/img/2018/latvia-rezekne/a8160f0d6cecf47857703d0a730afe14.jpg",
-  "static/img/2018/latvia-rezekne/cd25297810bf3143ae3367f8fef0c7c2.jpg",
-  "static/img/2018/latvia-rezekne/d3ec7097ad61fd72e15802ff5d3ca2c3.jpg",
-  "static/img/2018/latvia-rezekne/f4875203e8c0c05f8b0f4f8039d9a02a.jpg",
+  "static/img/aerial/2018/latvia-rezekne/3cb3fa72dd0cd0efef42abf41d958e12.jpg",
+  "static/img/aerial/2018/latvia-rezekne/034cea54e52a021d3758fedf3ffb7ed3.jpg",
+  "static/img/aerial/2018/latvia-rezekne/50eca2b7a6f702de958d50c13cdf1492.jpg",
+  "static/img/aerial/2018/latvia-rezekne/63ca25a1e7b326c1d91f5505a7d248df.jpg",
+  "static/img/aerial/2018/latvia-rezekne/80e403b0538372cc10010f913af06b16.jpg",
+  "static/img/aerial/2018/latvia-rezekne/81ba9b6a8f214c95c32e392b9ad0866c.jpg",
+  "static/img/aerial/2018/latvia-rezekne/325bca27c6f511af2ca4ddc5f13758e2.jpg",
+  "static/img/aerial/2018/latvia-rezekne/a9b22ff50498aa1e0bacd46de2f08b07.jpg",
+  "static/img/aerial/2018/latvia-rezekne/a8160f0d6cecf47857703d0a730afe14.jpg",
+  "static/img/aerial/2018/latvia-rezekne/cd25297810bf3143ae3367f8fef0c7c2.jpg",
+  "static/img/aerial/2018/latvia-rezekne/d3ec7097ad61fd72e15802ff5d3ca2c3.jpg",
+  "static/img/aerial/2018/latvia-rezekne/f4875203e8c0c05f8b0f4f8039d9a02a.jpg",
 ];
 
 const VIDEOS = [
-  "static/video/2018/latvia-rezekne/04cdcf4c36bd66804598cab76ba8275f.mp4",
-  "static/video/2018/latvia-rezekne/8b15985dd9b7af6d3af2d3f510aaddac.mp4",
-  "static/video/2018/latvia-rezekne/12f8d6c83ad7d33c774f7b0a59d036a9.mp4",
-  "static/video/2018/latvia-rezekne/a206d28c27cd51b9138a00d2825422c7.mp4",
-  "static/video/2018/latvia-rezekne/ad376ebfbb75c2b49f63d670a4bd9105.mp4",
-  "static/video/2018/latvia-rezekne/c6b27144f9661db32ba09d96c5d726a6.mp4",
-  "static/video/2018/latvia-rezekne/ec93e602336f65d6e2f0b415fb7f0306.mp4",
+  "static/video/aerial/2018/latvia-rezekne/04cdcf4c36bd66804598cab76ba8275f.mp4",
+  "static/video/aerial/2018/latvia-rezekne/8b15985dd9b7af6d3af2d3f510aaddac.mp4",
+  "static/video/aerial/2018/latvia-rezekne/12f8d6c83ad7d33c774f7b0a59d036a9.mp4",
+  "static/video/aerial/2018/latvia-rezekne/a206d28c27cd51b9138a00d2825422c7.mp4",
+  "static/video/aerial/2018/latvia-rezekne/ad376ebfbb75c2b49f63d670a4bd9105.mp4",
+  "static/video/aerial/2018/latvia-rezekne/c6b27144f9661db32ba09d96c5d726a6.mp4",
+  "static/video/aerial/2018/latvia-rezekne/ec93e602336f65d6e2f0b415fb7f0306.mp4",
 ];
 
 const SpecificItem = () => {

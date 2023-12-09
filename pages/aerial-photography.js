@@ -1,62 +1,60 @@
 /* eslint-disable @next/next/no-img-element */
-import { useEffect, useState } from "react";
 import Layout from "../src/layout/Layout";
-import { getPagination, pagination } from "../src/paginationUtils";
 
 const CAPTURED = [
   {
     link: "./aerial-2020-scotland-glencoe",
     photo:
-      "./static/img/2020/scotland-glencoe/47d6ccf8443f4002ec673590a23be727.jpg",
+      "./static/img/aerial/2020/scotland-glencoe/47d6ccf8443f4002ec673590a23be727.jpg",
     description: "Scotland, Glencoe",
     date: 2020,
   },
   {
     link: "./aerial-2019-england-norfolk",
     photo:
-      "./static/img/2019/england-norfolk/be710e98d38c98fd8783299fa6888611.jpg",
+      "./static/img/aerial/2019/england-norfolk/be710e98d38c98fd8783299fa6888611.jpg",
     description: "England, Norfolk",
     date: 2019,
   },
   {
     link: "./aerial-2018-england-brighton",
     photo:
-      "./static/img/2018/england-brighton/ee3f9cf3cb87184a9c047ae41abcceb3.jpg",
+      "./static/img/aerial/2018/england-brighton/ee3f9cf3cb87184a9c047ae41abcceb3.jpg",
     description: "England, Brighton",
     date: 2018,
   },
   {
     link: "./aerial-2018-ukraine-odessa",
     photo:
-      "./static/img/2018/ukraine-odessa/4aa1747ac3d510f71ae45bb0f7105b83.jpg",
+      "./static/img/aerial/2018/ukraine-odessa/4aa1747ac3d510f71ae45bb0f7105b83.jpg",
     description: "Ukraine, Odessa",
     date: 2018,
   },
   {
     link: "./aerial-2018-poland-warsaw",
     photo:
-      "./static/img/2018/poland-warsaw/55b7ddff051e4bc57ef3733af305ae96.jpg",
+      "./static/img/aerial/2018/poland-warsaw/55b7ddff051e4bc57ef3733af305ae96.jpg",
     description: "Poland, Warsaw",
     date: 2018,
   },
   {
     link: "./aerial-2018-latvia-rezekne",
     photo:
-      "./static/img/2018/latvia-rezekne/cd25297810bf3143ae3367f8fef0c7c2.jpg",
+      "./static/img/aerial/2018/latvia-rezekne/cd25297810bf3143ae3367f8fef0c7c2.jpg",
     description: "Latvia, Rezekne",
     date: 2018,
   },
   {
     link: "./aerial-2018-portugal-madeira",
     photo:
-      "./static/img/2018/portugal-madeira/bf02fac1e91dce1ed075ee43f89bfde5.jpg",
+      "./static/img/aerial/2018/portugal-madeira/bf02fac1e91dce1ed075ee43f89bfde5.jpg",
     description: "Portugal, Madeira",
     date: 2018,
   },
   {
     link: "./aerial-2017-italy-sicily",
     photo:
-      "./static/img/2017/italy-sicily/6ae48ff1265eb6d219b6368c0e0a833c.jpg",
+      "./static/img/aerial/2017/italy-sicily/6ae48ff1265eb6d219b6368c0e0a833c.jpg",
     description: "Italy, Sicily",
     date: 2017,
   },
@@ -106,8 +104,8 @@ const Aerial = () => {
             <div className="skill-lt">
               <h6>Total Distance: 42,857m</h6>
               <div className="skill-bar">
-                <div className="skill-bar-in" style={{ width: "90%" }}>
-                  <span data-toggle="tooltip" title="90%" />
+                <div className="skill-bar-in" style={{ width: "42%" }}>
+                  <span data-toggle="tooltip" title="42%" />
                 </div>
               </div>
             </div>
@@ -115,8 +113,8 @@ const Aerial = () => {
             <div className="skill-lt">
               <h6>Total Flights: 88</h6>
               <div className="skill-bar">
-                <div className="skill-bar-in" style={{ width: "80%" }}>
-                  <span data-toggle="tooltip" title="80%" />
+                <div className="skill-bar-in" style={{ width: "88%" }}>
+                  <span data-toggle="tooltip" title="88%" />
                 </div>
               </div>
             </div>
@@ -124,8 +122,8 @@ const Aerial = () => {
             <div className="skill-lt">
               <h6>Top Distance: 2,698m</h6>
               <div className="skill-bar">
-                <div className="skill-bar-in" style={{ width: "85%" }}>
-                  <span data-toggle="tooltip" title="85%" />
+                <div className="skill-bar-in" style={{ width: "27%" }}>
+                  <span data-toggle="tooltip" title="27%" />
                 </div>
               </div>
             </div>
@@ -133,8 +131,8 @@ const Aerial = () => {
             <div className="skill-lt">
               <h6>Top Speed: 65.9 km/h</h6>
               <div className="skill-bar">
-                <div className="skill-bar-in" style={{ width: "55%" }}>
-                  <span data-toggle="tooltip" title="55%" />
+                <div className="skill-bar-in" style={{ width: "65%" }}>
+                  <span data-toggle="tooltip" title="65%" />
                 </div>
               </div>
             </div>
@@ -142,8 +140,8 @@ const Aerial = () => {
             <div className="skill-lt">
               <h6>Max Takeoff Altitude: 1864,4m</h6>
               <div className="skill-bar">
-                <div className="skill-bar-in" style={{ width: "35%" }}>
-                  <span data-toggle="tooltip" title="35%" />
+                <div className="skill-bar-in" style={{ width: "64%" }}>
+                  <span data-toggle="tooltip" title="64%" />
                 </div>
               </div>
             </div>
@@ -190,4 +188,5 @@ const Aerial = () => {
     </Layout>
   );
 };
+
 export default Aerial;
