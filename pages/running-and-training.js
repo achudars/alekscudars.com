@@ -4,8 +4,8 @@ import Layout from "../src/layout/Layout";
 const RunningAndTraining = () => {
   const renderOverviewStats = () => {
     return (
-      <div className="col-sm-6 col-md-6 col-xl-12">
-        <div className="rb-left">
+      <div className="col-sm-12 col-md-12 col-xl-12">
+        <div>
           <img
             src={`/static/img/running/nike-overview.png`}
             title={"overview by Nike"}
@@ -18,8 +18,8 @@ const RunningAndTraining = () => {
 
   const renderAllTimeStats = () => {
     return (
-      <div className="col-sm-6 col-md-6 col-xl-12">
-        <div className="rb-right">
+      <div className="col-sm-12 col-md-12 col-xl-12">
+        <div>
           <img
             src={`/static/img/running/nike-all-time-stats.png`}
             title={"all-time stats by Nike"}
