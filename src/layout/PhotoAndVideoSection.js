@@ -1,9 +1,18 @@
+/* eslint-disable @next/next/no-img-element */
 import Layout from "./Layout";
 import PhotoItem from "./PhotoItem";
 import VideoItem from "./VideoItem";
 import PageTitle from "./PageTitle";
+import { Fragment } from "react";
 
-const PhotoAndVideoSection = ({ photos, videos, altForPhotos, id, title }) => {
+const PhotoAndVideoSection = ({
+  photos,
+  videos,
+  altForPhotos,
+  id,
+  title,
+  extraDetails,
+}) => {
   const renderAll = () => {
     return (
       <div className="row">
@@ -17,6 +26,27 @@ const PhotoAndVideoSection = ({ photos, videos, altForPhotos, id, title }) => {
     );
   };
 
+  const renderExtraDetailSection = () => {
+    return (
+      <div className="resume-box">
+        <div className="resume-row">
+          <div className="row">
+            <div className="col-sm-12 col-md-12 col-xl-12">
+              <div className="rb-right">
+                <h6>Details</h6>
+                {extraDetails.map((ed) => (
+                  <Fragment key={ed.label}>
+                    <p>{ed.label}</p>
+                  </Fragment>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
   return (
     <Layout showBackBtn>
       <section
@@ -26,6 +56,7 @@ const PhotoAndVideoSection = ({ photos, videos, altForPhotos, id, title }) => {
       >
         <div className="container">
           <PageTitle title={title} />
+          {extraDetails && renderExtraDetailSection()}
         </div>
         <div className="container">{renderAll()}</div>
         <div className="separated" />

@@ -1,14 +1,11 @@
 import PhotoAndVideoSection from "../src/layout/PhotoAndVideoSection";
 
 const PHOTOS = [
-"./static/img/hiking/2022/margate-ramsgate/img.png",
-"./static/img/hiking/2022/margate-ramsgate/LDQ4LCJ.webp",
-"./static/img/hiking/2022/margate-ramsgate/MDQ4LCJ.webp",
-"./static/img/hiking/2022/margate-ramsgate/NDQ4LCJ.webp",
-"./static/img/hiking/2022/margate-ramsgate/ODQ4LCJ.webp",
-"./static/img/hiking/2022/margate-ramsgate/PDQ4LCJ.webp",
-"./static/img/hiking/2022/margate-ramsgate/QDQ4LCJ.webp",
-
+"./static/img/hiking/2023/lea-valley/img.png",
+"./static/img/hiking/2023/lea-valley/LVQ7LCJ.webp",
+"./static/img/hiking/2023/lea-valley/LVQ4LCJ.webp",
+"./static/img/hiking/2023/lea-valley/LVQ5LCJ.webp",
+"./static/img/hiking/2023/lea-valley/LVQ6LCJ.webp",
 ];
 
 const VIDEOS = [];
@@ -19,15 +16,15 @@ const SpecificItem = () => {
       photos={PHOTOS}
       videos={VIDEOS}
       altForPhotos={"photo of nature"}
-      id={"hiking-2022-margate-ramsgate"}
-      title={"Margate to Ramsgate, 2022"}
+      id={"hiking-2023-lea-valley"}
+      title={"Lea Valley Walk (Waltham Cross - Proplar), 2023"}
       extraDetails={[
-        { label: "Length: 15.28km" },
-        { label: "Elev. gain: 391m" },
-        { label: "Moving time: 10:08" },
-        { label: "Avg pace: 2:34:41" },
-        { label: "Calories: 1,342" },
-        { label: "Total time: 2:36:09" },
+        { label: "Length: 23.25km" },
+        { label: "Elev. gain: 256m" },
+        { label: "Moving time: 3:50:32" },
+        { label: "Avg pace: 9:55" },
+        { label: "Calories: 1,271" },
+        { label: "Total time: 3:51:16" },
       ]}
     />
   );

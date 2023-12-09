@@ -4,10 +4,69 @@ import Layout from "../src/layout/Layout";
 const CAPTURED = [
   {
     link: "./hiking-2022-margate-ramsgate",
-    photo:
-      "./static/img/2020/scotland-glencoe/47d6ccf8443f4002ec673590a23be727.jpg",
+    photo: "./static/img/hiking/2022/margate-ramsgate/MDQ4LCJ.webp",
     description: "Margate to Ramsgate",
     date: 2022,
+  },
+  {
+    link: "./hiking-2022-rye-hastings",
+    photo: "./static/img/hiking/2022/rye-hastings/RHQ4LCJ.webp",
+    description: "Rye to Hastings",
+    date: 2022,
+  },
+  {
+    link: "./hiking-2023-worthing-brighton",
+    photo: "./static/img/hiking/2023/worthing-brighton/WBQ4LCJ.webp",
+    description: "Worthing to Brighton",
+    date: 2023,
+  },
+  {
+    link: "./hiking-2023-seaford-brighton",
+    photo: "./static/img/hiking/2023/seaford-brighton/SBQ4LCJ.webp",
+    description: "Seaford to Brighton",
+    date: 2023,
+  },
+  {
+    link: "./hiking-2023-tring-watford",
+    photo: "./static/img/hiking/2023/tring-watford/TWQ2LCJ.webp",
+    description: "Tring to Watford",
+    date: 2023,
+  },
+  {
+    link: "./hiking-2023-eastbourne-seaford",
+    photo: "./static/img/hiking/2023/eastbourne-seaford/ESQ4LCJ.webp",
+    description: "Eastbourne to Seaford",
+    date: 2023,
+  },
+  {
+    link: "./hiking-2023-lea-valley",
+    photo: "./static/img/hiking/2023/lea-valley/LVQ7LCJ.webp",
+    description: "Lea Valley",
+    date: 2023,
+  },
+  {
+    link: "./hiking-2023-didcot-appleford-culham-abingdon-oxford",
+    photo: "./static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ4LCJ.webp",
+    description: "Didcot - Appleford - Culham - Abingdon - Oxford",
+    date: 2023,
+  },
+  {
+    link: "./hiking-2023-ben-nevis-ascent",
+    photo: "./static/img/hiking/2023/ben-nevis-ascent/BAQ1LCJ.webp",
+    description: "Ben Nevis (ascent)",
+    date: 2023,
+  },
+  {
+    link: "./hiking-2023-ben-nevis-descent",
+    photo: "./static/img/hiking/2023/ben-nevis-descent/BDQ3LCJ.webp",
+    description: "Ben Nevis (descent)",
+    date: 2023,
+  },
+  {
+    link: "./hiking-2023-dun-deardail",
+    photo: "./static/img/hiking/2023/dun-deardail/DDQ4LCJ.webp",
+    description: "Dun Deardail",
+    date: 2023,
   },
 ];
 
@@ -89,7 +148,7 @@ const HikingAndWalking = () => {
       <div className="blog-listing" id="blog">
         <div className="container">
           <div className="title text-center">
-            <h3>Hiking & Walking</h3>
+            <h3>Hiking & Walking.</h3>
           </div>
           {renderFlightStatistics()}
           <div className="separated" />

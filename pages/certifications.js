@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Layout from "../src/layout/Layout";
 import badges from "./api/certifications.json";
 
@@ -53,9 +54,7 @@ const Certifications = () => {
         data-nav-tooltip="Certifications"
         className="pp-section pp-scrollable section counter"
       >
-        <div className="container">
-          {renderContainer()}
-        </div>
+        <div className="container">{renderContainer()}</div>
       </section>
     </Layout>
   );

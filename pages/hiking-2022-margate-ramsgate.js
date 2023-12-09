@@ -8,7 +8,6 @@ const PHOTOS = [
 "./static/img/hiking/2022/margate-ramsgate/ODQ4LCJ.webp",
 "./static/img/hiking/2022/margate-ramsgate/PDQ4LCJ.webp",
 "./static/img/hiking/2022/margate-ramsgate/QDQ4LCJ.webp",
-
 ];
 
 const VIDEOS = [];
@@ -24,8 +23,8 @@ const SpecificItem = () => {
       extraDetails={[
         { label: "Length: 15.28km" },
         { label: "Elev. gain: 391m" },
-        { label: "Moving time: 10:08" },
-        { label: "Avg pace: 2:34:41" },
+        { label: "Moving time: 2:34:41" },
+        { label: "Avg pace: 10:08" },
         { label: "Calories: 1,342" },
         { label: "Total time: 2:36:09" },
       ]}

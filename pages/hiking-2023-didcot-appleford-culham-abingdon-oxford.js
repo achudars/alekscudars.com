@@ -1,14 +1,15 @@
 import PhotoAndVideoSection from "../src/layout/PhotoAndVideoSection";
 
 const PHOTOS = [
-"./static/img/hiking/2022/margate-ramsgate/img.png",
-"./static/img/hiking/2022/margate-ramsgate/LDQ4LCJ.webp",
-"./static/img/hiking/2022/margate-ramsgate/MDQ4LCJ.webp",
-"./static/img/hiking/2022/margate-ramsgate/NDQ4LCJ.webp",
-"./static/img/hiking/2022/margate-ramsgate/ODQ4LCJ.webp",
-"./static/img/hiking/2022/margate-ramsgate/PDQ4LCJ.webp",
-"./static/img/hiking/2022/margate-ramsgate/QDQ4LCJ.webp",
-
+"./static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/img.png",
+"./static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ2LCJ.webp",
+"./static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ4LCJ.webp",
+"./static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ6LCJ.webp",
+"./static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ1LCJ.webp",
+"./static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ7LCJ.webp",
+"./static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ8LCJ.webp",
+"./static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ5LCJ.webp",
+"./static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ3LCJ.webp",
 ];
 
 const VIDEOS = [];
@@ -19,15 +20,15 @@ const SpecificItem = () => {
       photos={PHOTOS}
       videos={VIDEOS}
       altForPhotos={"photo of nature"}
-      id={"hiking-2022-margate-ramsgate"}
-      title={"Margate to Ramsgate, 2022"}
+      id={"hiking-2023-didcot-appleford-culham-abingdon-oxford"}
+      title={"Didcot - Appleford - Culham - Abingdon - Oxford, 2023"}
       extraDetails={[
-        { label: "Length: 15.28km" },
-        { label: "Elev. gain: 391m" },
-        { label: "Moving time: 10:08" },
-        { label: "Avg pace: 2:34:41" },
-        { label: "Calories: 1,342" },
-        { label: "Total time: 2:36:09" },
+        { label: "Length: 25.69km" },
+        { label: "Elev. gain: 588m" },
+        { label: "Moving time: 4:18:20" },
+        { label: "Avg pace: 10:03" },
+        { label: "Calories: 1,424" },
+        { label: "Total time: 4:41:30" },
       ]}
     />
   );

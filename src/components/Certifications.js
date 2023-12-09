@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 
 const Certifications = () => {
@@ -50,10 +51,7 @@ const Certifications = () => {
                   </div>
                 </div>
                 <div className="btn-bar">
-                  <Link
-                    className="px-btn px-btn-theme"
-                    href="/certifications"
-                  >
+                  <Link className="px-btn px-btn-theme" href="/certifications">
                     <span>See Details</span>
                   </Link>
                 </div>

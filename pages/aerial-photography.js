@@ -165,7 +165,7 @@ const Aerial = () => {
       <div className="blog-listing" id="blog">
         <div className="container">
           <div className="title text-center">
-            <h3>Aerial Photography & Videography</h3>
+            <h3>Aerial Photography & Videography.</h3>
           </div>
           {renderFlightStatistics()}
           <div className="separated" />
