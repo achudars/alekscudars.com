@@ -2,12 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/hiking-and-walking": "pages/hiking-and-walking.js",
-  "/": "pages/index.js",
-  "/reading": "pages/reading.js",
-  "/hiking-2023-dun-deardail": "pages/hiking-2023-dun-deardail.js",
-  "/aerial-photography": "pages/aerial-photography.js",
-  "/online-courses": "pages/online-courses.js",
-  "/podcasts": "pages/podcasts.js",
   "/running-and-training": "pages/running-and-training.js"
 }
