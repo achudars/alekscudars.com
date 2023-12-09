@@ -3,6 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/podcasts": "pages/podcasts.js",
-  "/online-courses": "pages/online-courses.js"
+  "/aerial-photography": "pages/aerial-photography.js"
 }

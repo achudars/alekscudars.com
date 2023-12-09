@@ -27,10 +27,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/podcasts": [
+    "/aerial-photography": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/podcasts.js"
+      "static/chunks/pages/aerial-photography.js"
     ]
   },
   "ampFirstPages": []

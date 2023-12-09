@@ -14,13 +14,13 @@ const MyApp = ({ Component, pageProps }) => {
   return (
     <Fragment>
       <Head>
-        <title>A.Č.</title>
+        <title>Aleks Čudars</title>
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
       </Head>
       {load && <PreLoader />}
       <Component {...pageProps} />
     </Fragment>
   );
-}
+};
 
 export default MyApp;

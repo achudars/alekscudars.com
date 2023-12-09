@@ -7,11 +7,11 @@ const PhotoAndVideoSection = ({ photos, videos, altForPhotos, id, title }) => {
   const renderAll = () => {
     return (
       <div className="row">
-        {photos.map((g) => {
-          return <PhotoItem key={g} src={g} alt={altForPhotos} />;
+        {photos.map((photo) => {
+          return <PhotoItem key={photo} src={photo} alt={altForPhotos} />;
         })}
-        {videos.map((g) => {
-          return <VideoItem key={g} src={g} />;
+        {videos.map((video) => {
+          return <VideoItem key={video} src={video} />;
         })}
       </div>
     );
