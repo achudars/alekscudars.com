@@ -14,7 +14,7 @@ const MyApp = ({ Component, pageProps }) => {
   return (
     <Fragment>
       <Head>
-        <title>Aleks Čudars</title>
+        <title>🇱🇻 Aleks Čudars 🇱🇻</title>
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
       </Head>
       {load && <PreLoader />}
