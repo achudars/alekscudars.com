@@ -1,5 +1,10 @@
 [
-  { "bookTitle": "Range", "bookAuthor": "David Epstein", "inProgress": true },
+  {
+    "bookTitle": "Antifragile",
+    "bookAuthor": "Nassim Nicholas Taleb",
+    "inProgress": true
+  },
+  { "bookTitle": "Range", "bookAuthor": "David Epstein", "dropped": true },
   {
     "bookTitle": "Invisible Women - Exposing Data Bias in a World Designed for Men",
     "bookAuthor": "Caroline Criado Perez",

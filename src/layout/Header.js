@@ -78,14 +78,6 @@ const Header = ({ blog, isLandingPage }) => {
             <i className="fab fa-stack-overflow" />
           </a>
           <a
-            aria-label="link to instagram profile"
-            href="https://www.instagram.com/aleks.cudars/"
-            rel="noreferrer noopener"
-            target="_blank"
-          >
-            <i className="fab fa-instagram" />
-          </a>
-          <a
             aria-label="link to code pen profile"
             href="https://codepen.io/achudars/"
             rel="noreferrer noopener"
