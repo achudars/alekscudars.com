@@ -1,10 +1,20 @@
 [
   {
+    "bookTitle": "Blink",
+    "bookAuthor": "Malcolm Gladwell",
+    "inProgress": true,
+    "yearWhenLastFinishedReading": "2024"
+  },
+  {
     "bookTitle": "Antifragile",
     "bookAuthor": "Nassim Nicholas Taleb",
-    "inProgress": true
+    "dropped": true
   },
-  { "bookTitle": "Range", "bookAuthor": "David Epstein", "dropped": true },
+  {
+    "bookTitle": "Range",
+    "bookAuthor": "David Epstein",
+    "dropped": true
+  },
   {
     "bookTitle": "Invisible Women - Exposing Data Bias in a World Designed for Men",
     "bookAuthor": "Caroline Criado Perez",
@@ -470,11 +480,6 @@
   },
   {
     "bookTitle": "The Tipping Point",
-    "bookAuthor": "Malcolm Gladwell",
-    "wishlisted": true
-  },
-  {
-    "bookTitle": "Blink",
     "bookAuthor": "Malcolm Gladwell",
     "wishlisted": true
   },
