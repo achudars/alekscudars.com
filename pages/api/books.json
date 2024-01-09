@@ -1,8 +1,12 @@
 [
   {
+    "bookTitle": "What the Dog Saw",
+    "bookAuthor": "Malcolm Gladwell",
+    "inProgress": true
+  },
+  {
     "bookTitle": "Blink",
     "bookAuthor": "Malcolm Gladwell",
-    "inProgress": true,
     "yearWhenLastFinishedReading": "2024"
   },
   {
@@ -471,11 +475,6 @@
   {
     "bookTitle": "The Efficiency Paradox",
     "bookAuthor": "Edward Tenner",
-    "wishlisted": true
-  },
-  {
-    "bookTitle": "What the Dog Saw",
-    "bookAuthor": "Malcolm Gladwell",
     "wishlisted": true
   },
   {
