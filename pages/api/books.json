@@ -1,8 +1,13 @@
 [
   {
+    "bookTitle": "Boomerang",
+    "bookAuthor": "Michael Lewis",
+    "inProgress": true
+  },
+  {
     "bookTitle": "What the Dog Saw",
     "bookAuthor": "Malcolm Gladwell",
-    "inProgress": true
+    "yearWhenLastFinishedReading": "2024"
   },
   {
     "bookTitle": "Blink",
@@ -503,11 +508,7 @@
     "bookAuthor": "Michael Lewis",
     "wishlisted": true
   },
-  {
-    "bookTitle": "Boomerang",
-    "bookAuthor": "Michael Lewis",
-    "wishlisted": true
-  },
+
   {
     "bookTitle": "Flash Boys",
     "bookAuthor": "Michael Lewis",
