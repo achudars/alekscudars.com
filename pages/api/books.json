@@ -1,8 +1,13 @@
 [
   {
-    "bookTitle": "Boomerang",
+    "bookTitle": "The Big Short",
     "bookAuthor": "Michael Lewis",
     "inProgress": true
+  },
+  {
+    "bookTitle": "Boomerang",
+    "bookAuthor": "Michael Lewis",
+    "yearWhenLastFinishedReading": "2024"
   },
   {
     "bookTitle": "What the Dog Saw",
@@ -503,12 +508,6 @@
     "bookAuthor": "Ken Robinson",
     "wishlisted": true
   },
-  {
-    "bookTitle": "The Big Short",
-    "bookAuthor": "Michael Lewis",
-    "wishlisted": true
-  },
-
   {
     "bookTitle": "Flash Boys",
     "bookAuthor": "Michael Lewis",
