@@ -1,8 +1,39 @@
 [
+  { "bookTitle": "Quiet", "bookAuthor": "Susan Cain", "inProgress": true },
+  {
+    "bookTitle": "Talking to Strangers",
+    "bookAuthor": "Malcolm Gladwell",
+    "inProgress": true
+  },
+  {
+    "bookTitle": "The Element",
+    "bookAuthor": "Ken Robinson",
+    "inProgress": true
+  },
+  {
+    "bookTitle": "Hit Refresh",
+    "bookAuthor": "Satya Nadella",
+    "inProgress": true
+  },
+  {
+    "bookTitle": "How to Avoid a Climate Disaster",
+    "bookAuthor": "Bill Gates",
+    "inProgress": true
+  },
+  {
+    "bookTitle": "Outliers",
+    "bookAuthor": "Malcolm Gladwell",
+    "yearWhenLastFinishedReading": "2024"
+  },
+  {
+    "bookTitle": "Originals",
+    "bookAuthor": "Adam Grant",
+    "yearWhenLastFinishedReading": "2024"
+  },
   {
     "bookTitle": "The Big Short",
     "bookAuthor": "Michael Lewis",
-    "inProgress": true
+    "yearWhenLastFinishedReading": "2024"
   },
   {
     "bookTitle": "Boomerang",
@@ -462,17 +493,6 @@
     "summary": "A profound exploration of human resilience and the quest for purpose in the face of extreme suffering. The book, drawing from the author's experiences as a Holocaust survivor, is divided into two parts. In the first part, Frankl recounts his harrowing experiences in Nazi concentration camps, offering a poignant insight into the brutality and dehumanization of the Holocaust. Amidst unimaginable suffering, he observes that those who maintained a sense of meaning and purpose were more likely to endure the hardships. The second part introduces Frankl's therapeutic approach, Logotherapy, which centres around the belief that life is meaningful, even in its most challenging moments, and individuals can find purpose by identifying a greater meaning beyond themselves. Frankl argues that our ability to choose our attitude towards unavoidable suffering gives us a degree of freedom and responsibility. In essence, he suggests that finding meaning in life, no matter the circumstances, is crucial for psychological well-being. \"Man's Search for Meaning\" is a timeless exploration of the human spirit, offering profound insights into the importance of finding purpose in life to navigate through adversity and discover a deeper sense of fulfilment."
   },
   {
-    "bookTitle": "Hit Refresh",
-    "bookAuthor": "Satya Nadella",
-    "wishlisted": true
-  },
-  {
-    "bookTitle": "How to Avoid a Climate Disaster",
-    "bookAuthor": "Bill Gates",
-    "wishlisted": true
-  },
-  { "bookTitle": "Quiet", "bookAuthor": "Susan Cain", "wishlisted": true },
-  {
     "bookTitle": "Fragile by Design",
     "bookAuthor": "Charles Calomiris, Stephen haber",
     "wishlisted": true
@@ -493,22 +513,6 @@
     "wishlisted": true
   },
   {
-    "bookTitle": "Talking to Strangers",
-    "bookAuthor": "Malcolm Gladwell",
-    "wishlisted": true
-  },
-  {
-    "bookTitle": "Outliers",
-    "bookAuthor": "Malcolm Gladwell",
-    "wishlisted": true
-  },
-  { "bookTitle": "Originals", "bookAuthor": "Adam Grant", "wishlisted": true },
-  {
-    "bookTitle": "The Element",
-    "bookAuthor": "Ken Robinson",
-    "wishlisted": true
-  },
-  {
     "bookTitle": "Flash Boys",
     "bookAuthor": "Michael Lewis",
     "wishlisted": true
@@ -520,11 +524,6 @@
   },
   {
     "bookTitle": "The New New Thing",
-    "bookAuthor": "Michael Lewis",
-    "wishlisted": true
-  },
-  {
-    "bookTitle": "The Fifth Risk",
     "bookAuthor": "Michael Lewis",
     "wishlisted": true
   },
