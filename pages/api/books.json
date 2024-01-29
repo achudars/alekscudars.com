@@ -1,5 +1,4 @@
 [
-  { "bookTitle": "Quiet", "bookAuthor": "Susan Cain", "inProgress": true },
   {
     "bookTitle": "Talking to Strangers",
     "bookAuthor": "Malcolm Gladwell",
@@ -48,6 +47,11 @@
   {
     "bookTitle": "Blink",
     "bookAuthor": "Malcolm Gladwell",
+    "yearWhenLastFinishedReading": "2024"
+  },
+  {
+    "bookTitle": "Quiet",
+    "bookAuthor": "Susan Cain",
     "yearWhenLastFinishedReading": "2024"
   },
   {
