@@ -1,10 +1,5 @@
 [
   {
-    "bookTitle": "Talking to Strangers",
-    "bookAuthor": "Malcolm Gladwell",
-    "inProgress": true
-  },
-  {
     "bookTitle": "The Element",
     "bookAuthor": "Ken Robinson",
     "inProgress": true
@@ -52,6 +47,11 @@
   {
     "bookTitle": "Quiet",
     "bookAuthor": "Susan Cain",
+    "yearWhenLastFinishedReading": "2024"
+  },
+  {
+    "bookTitle": "Talking to Strangers",
+    "bookAuthor": "Malcolm Gladwell",
     "yearWhenLastFinishedReading": "2024"
   },
   {
