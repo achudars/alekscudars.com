@@ -297,6 +297,17 @@ module.exports = require("react/jsx-dev-runtime");
 
 /***/ }),
 
+/***/ "react/jsx-runtime":
+/*!************************************!*\
+  !*** external "react/jsx-runtime" ***!
+  \************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react/jsx-runtime");
+
+/***/ }),
+
 /***/ "@tsparticles/react":
 /*!*************************************!*\
   !*** external "@tsparticles/react" ***!
