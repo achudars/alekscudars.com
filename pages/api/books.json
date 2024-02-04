@@ -2,72 +2,86 @@
   {
     "bookTitle": "The Tipping Point",
     "bookAuthor": "Malcolm Gladwell",
-    "inProgress": true
+    "inProgress": true,
+    "summary": ""
   },
   {
     "bookTitle": "Out of Our Minds",
     "bookAuthor": "Ken Robinson",
-    "inProgress": true
+    "inProgress": true,
+    "summary": ""
   },
   {
     "bookTitle": "The New New Thing",
     "bookAuthor": "Michael Lewis",
-    "inProgress": true
+    "inProgress": true,
+    "summary": ""
   },
   {
     "bookTitle": "Flash Boys",
     "bookAuthor": "Michael Lewis",
-    "inProgress": true
+    "inProgress": true,
+    "summary": ""
   },
   {
     "bookTitle": "Outliers",
     "bookAuthor": "Malcolm Gladwell",
-    "yearWhenLastFinishedReading": "2024"
+    "yearWhenLastFinishedReading": "2024",
+    "summary": "\"Outliers\" by Malcolm Gladwell delves into the factors that contribute to individual success, challenging the notion that personal achievement is solely based on talent and hard work. Gladwell introduces the concept of outliers, individuals who stand out from the norm due to extraordinary accomplishments. He explores the role of cultural background, upbringing, and societal influences in shaping success. Gladwell argues that cultural legacies, such as the rice farming traditions in Asia, can influence work ethic and determination. The book also highlights the \"10,000-hour rule,\" suggesting that it takes approximately 10,000 hours of practice to achieve mastery in a particular field. Gladwell examines the influence of birth dates on success, emphasizing the advantages of being older in a school year. He explores the impact of opportunities, such as the chance to attend a prestigious school or gain early exposure to a particular skill. Through real-world examples, Gladwell challenges the traditional narrative of success, encouraging readers to consider the broader context and external factors that contribute to individual achievements. The book encourages a nuanced understanding of success, urging us to look beyond individual effort and recognise the significance of external influences in the pursuit of excellence. Overall, \"Outliers\" prompts readers to reconsider the factors that shape success, offering a thought-provoking exploration of the complex interplay between personal effort and external circumstances."
   },
   {
     "bookTitle": "Originals",
     "bookAuthor": "Adam Grant",
-    "yearWhenLastFinishedReading": "2024"
+    "yearWhenLastFinishedReading": "2024",
+    "summary": ""
   },
   {
     "bookTitle": "The Big Short",
     "bookAuthor": "Michael Lewis",
-    "yearWhenLastFinishedReading": "2024"
+    "yearWhenLastFinishedReading": "2024",
+    "summary": ""
   },
   {
     "bookTitle": "Boomerang",
     "bookAuthor": "Michael Lewis",
-    "yearWhenLastFinishedReading": "2024"
+    "yearWhenLastFinishedReading": "2024",
+    "summary": ""
   },
   {
     "bookTitle": "What the Dog Saw",
     "bookAuthor": "Malcolm Gladwell",
-    "yearWhenLastFinishedReading": "2024"
+    "yearWhenLastFinishedReading": "2024",
+    "summary": ""
   },
   {
     "bookTitle": "Blink",
     "bookAuthor": "Malcolm Gladwell",
-    "yearWhenLastFinishedReading": "2024"
+    "yearWhenLastFinishedReading": "2024",
+    "summary": ""
   },
   {
     "bookTitle": "Quiet",
     "bookAuthor": "Susan Cain",
-    "yearWhenLastFinishedReading": "2024"
+    "yearWhenLastFinishedReading": "2024",
+    "summary": ""
   },
   {
     "bookTitle": "Talking to Strangers",
     "bookAuthor": "Malcolm Gladwell",
-    "yearWhenLastFinishedReading": "2024"
+    "yearWhenLastFinishedReading": "2024",
+    "summary": ""
   },
   {
     "bookTitle": "Antifragile",
     "bookAuthor": "Nassim Nicholas Taleb",
-    "dropped": true
+    "dropped": true,
+    "summary": ""
   },
   {
     "bookTitle": "Range",
     "bookAuthor": "David Epstein",
-    "dropped": true
+    "dropped": true,
+    "summary": ""
   },
   {
     "bookTitle": "Invisible Women - Exposing Data Bias in a World Designed for Men",
