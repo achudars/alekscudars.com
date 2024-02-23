@@ -6,12 +6,6 @@
     "summary": ""
   },
   {
-    "bookTitle": "Out of Our Minds",
-    "bookAuthor": "Ken Robinson",
-    "inProgress": true,
-    "summary": ""
-  },
-  {
     "bookTitle": "The New New Thing",
     "bookAuthor": "Michael Lewis",
     "inProgress": true,
@@ -74,6 +68,18 @@
   {
     "bookTitle": "Being Mortal",
     "bookAuthor": "Atul Gawande",
+    "yearWhenLastFinishedReading": "2024",
+    "summary": ""
+  },
+  {
+    "bookTitle": "The Element",
+    "bookAuthor": "Ken Robinson",
+    "yearWhenLastFinishedReading": "2024",
+    "summary": "\"The Element\" by Sir Ken Robinson explores the concept of finding one's true passion and potential in life. In this enlightening book, Robinson argues that each individual has a unique \"element,\" a place where natural aptitude and personal passion intersect, leading to a fulfilling and successful life. He emphasises the importance of education in nurturing these innate talents and encourages readers to discover their passion by understanding what truly engages and excites them. Robinson supports his arguments with compelling anecdotes and examples, such as the story of Paul McCartney discovering his musical talent at an early age and the tale of Matt Groening, the creator of \"The Simpsons,\" who found his element in storytelling and cartooning. Additionally, he shares the experiences of Gillian Lynne, a renowned choreographer, who thrived in her element of dance despite struggling in traditional academic settings. Throughout the book, Robinson challenges conventional views on education and career choices, advocating for a more personalised and holistic approach that recognises and nurtures individual talents. \"The Element\" serves as an inspiring guide for individuals seeking to uncover their passions and lead a more fulfilling life by aligning their natural abilities with their personal interests."
+  },
+  {
+    "bookTitle": "Out of Our Minds",
+    "bookAuthor": "Ken Robinson",
     "yearWhenLastFinishedReading": "2024",
     "summary": ""
   },
@@ -588,13 +594,6 @@
     "dropped": true,
     "dropReason": "(biographies usually do not keep my attention)",
     "summary": "A memoir by Barack Obama, the 44th President of the United States. The book takes readers on a compelling journey through Obama's early political career, his historic 2008 presidential campaign, and the initial years of his presidency. Obama reflects on the challenges and triumphs he faced as the first African-American president, offering a candid account of the complexities of leadership and the political landscape. The memoir delves into policy decisions, such as healthcare reform, providing insights into the decision-making process at the highest level of government. Throughout the narrative, Obama shares personal anecdotes, highlighting the toll of public service on his family and the weight of expectations placed on a leader."
-  },
-  {
-    "bookTitle": "The Element",
-    "bookAuthor": "Ken Robinson",
-    "dropped": true,
-    "dropReason": "(was enough after 30%)",
-    "summary": "\"The Element\" by Sir Ken Robinson explores the concept of finding one's true passion and potential in life. In this enlightening book, Robinson argues that each individual has a unique \"element,\" a place where natural aptitude and personal passion intersect, leading to a fulfilling and successful life. He emphasises the importance of education in nurturing these innate talents and encourages readers to discover their passion by understanding what truly engages and excites them. Robinson supports his arguments with compelling anecdotes and examples, such as the story of Paul McCartney discovering his musical talent at an early age and the tale of Matt Groening, the creator of \"The Simpsons,\" who found his element in storytelling and cartooning. Additionally, he shares the experiences of Gillian Lynne, a renowned choreographer, who thrived in her element of dance despite struggling in traditional academic settings. Throughout the book, Robinson challenges conventional views on education and career choices, advocating for a more personalised and holistic approach that recognises and nurtures individual talents. \"The Element\" serves as an inspiring guide for individuals seeking to uncover their passions and lead a more fulfilling life by aligning their natural abilities with their personal interests."
   },
   {
     "bookTitle": "Hit Refresh",

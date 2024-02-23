@@ -161,16 +161,34 @@
       "static/chunks/node_modules_tsparticles_interaction-particles-links_browser_CircleWarp_js.js"
     ]
   },
+  "..\\node_modules\\@tsparticles\\interaction-particles-links\\browser\\LinksPlugin.js -> ./LinkInstance.js": {
+    "id": "..\\node_modules\\@tsparticles\\interaction-particles-links\\browser\\LinksPlugin.js -> ./LinkInstance.js",
+    "files": [
+      "static/chunks/node_modules_tsparticles_interaction-particles-links_browser_LinkInstance_js.js"
+    ]
+  },
+  "..\\node_modules\\@tsparticles\\interaction-particles-links\\browser\\index.js -> ./interaction.js": {
+    "id": "..\\node_modules\\@tsparticles\\interaction-particles-links\\browser\\index.js -> ./interaction.js",
+    "files": [
+      "static/chunks/node_modules_tsparticles_interaction-particles-links_browser_interaction_js.js"
+    ]
+  },
+  "..\\node_modules\\@tsparticles\\interaction-particles-links\\browser\\index.js -> ./plugin.js": {
+    "id": "..\\node_modules\\@tsparticles\\interaction-particles-links\\browser\\index.js -> ./plugin.js",
+    "files": [
+      "static/chunks/node_modules_tsparticles_interaction-particles-links_browser_plugin_js.js"
+    ]
+  },
   "..\\node_modules\\@tsparticles\\interaction-particles-links\\browser\\interaction.js -> ./Linker.js": {
     "id": "..\\node_modules\\@tsparticles\\interaction-particles-links\\browser\\interaction.js -> ./Linker.js",
     "files": [
       "static/chunks/node_modules_tsparticles_interaction-particles-links_browser_Linker_js.js"
     ]
   },
-  "..\\node_modules\\@tsparticles\\interaction-particles-links\\browser\\plugin.js -> ./LinkInstance.js": {
-    "id": "..\\node_modules\\@tsparticles\\interaction-particles-links\\browser\\plugin.js -> ./LinkInstance.js",
+  "..\\node_modules\\@tsparticles\\interaction-particles-links\\browser\\plugin.js -> ./LinksPlugin.js": {
+    "id": "..\\node_modules\\@tsparticles\\interaction-particles-links\\browser\\plugin.js -> ./LinksPlugin.js",
     "files": [
-      "static/chunks/node_modules_tsparticles_interaction-particles-links_browser_LinkInstance_js.js"
+      "static/chunks/node_modules_tsparticles_interaction-particles-links_browser_LinksPlugin_js.js"
     ]
   },
   "..\\node_modules\\@tsparticles\\move-base\\browser\\BaseMover.js -> ./Utils.js": {
