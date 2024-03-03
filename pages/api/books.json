@@ -1,11 +1,5 @@
 [
   {
-    "bookTitle": "The Tipping Point",
-    "bookAuthor": "Malcolm Gladwell",
-    "inProgress": true,
-    "summary": ""
-  },
-  {
     "bookTitle": "The New New Thing",
     "bookAuthor": "Michael Lewis",
     "inProgress": true,
@@ -80,6 +74,12 @@
   {
     "bookTitle": "Out of Our Minds",
     "bookAuthor": "Ken Robinson",
+    "yearWhenLastFinishedReading": "2024",
+    "summary": ""
+  },
+  {
+    "bookTitle": "The Tipping Point",
+    "bookAuthor": "Malcolm Gladwell",
     "yearWhenLastFinishedReading": "2024",
     "summary": ""
   },
