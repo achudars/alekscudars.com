@@ -1,13 +1,7 @@
 [
   {
-    "bookTitle": "The New New Thing",
-    "bookAuthor": "Michael Lewis",
-    "inProgress": true,
-    "summary": ""
-  },
-  {
-    "bookTitle": "Flash Boys",
-    "bookAuthor": "Michael Lewis",
+    "bookTitle": "The Organized Mind",
+    "bookAuthor": "Danile J Levitin",
     "inProgress": true,
     "summary": ""
   },
@@ -81,6 +75,18 @@
     "bookTitle": "The Tipping Point",
     "bookAuthor": "Malcolm Gladwell",
     "yearWhenLastFinishedReading": "2024",
+    "summary": ""
+  },
+  {
+    "bookTitle": "The New New Thing",
+    "bookAuthor": "Michael Lewis",
+    "dropped": true,
+    "summary": ""
+  },
+  {
+    "bookTitle": "Flash Boys",
+    "bookAuthor": "Michael Lewis",
+    "dropped": true,
     "summary": ""
   },
   {
