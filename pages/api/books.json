@@ -1,5 +1,40 @@
 [
   {
+    "bookTitle": "The Call of Cthulhu",
+    "bookAuthor": "H.P. Lovecraft",
+    "inProgress": true
+  },
+  {
+    "bookTitle": "The Art of War",
+    "bookAuthor": "Sun Tzu",
+    "inProgress": true
+  },
+  {
+    "bookTitle": "Dr. Jekyll and Mr. Hyde",
+    "bookAuthor": "Robert Louis Stevenson",
+    "inProgress": true
+  },
+  {
+    "bookTitle": "Alice in Wonderland",
+    "bookAuthor": "Lewis Carroll",
+    "inProgress": true
+  },
+  {
+    "bookTitle": "Botchan",
+    "bookAuthor": "Natsume Sōseki",
+    "inProgress": true
+  },
+  {
+    "bookTitle": "Frankenstein",
+    "bookAuthor": "Mary Shelley",
+    "inProgress": true
+  },
+  {
+    "bookTitle": "Animal Farm",
+    "bookAuthor": "George Orwell",
+    "inProgress": true
+  },
+  {
     "bookTitle": "The Organized Mind",
     "bookAuthor": "Daniel J Levitin",
     "yearWhenLastFinishedReading": "2024",
