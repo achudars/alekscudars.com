@@ -7,7 +7,7 @@ const RunningAndTraining = () => {
       <div className="col-sm-12 col-md-12 col-xl-12">
         <div>
           <img
-            src={`/static/img/running/nike-overview.png`}
+            src={`/static/img/running/nike-overview.jpeg`}
             title={"overview by Nike"}
             alt={"overview by Nike"}
           />
@@ -21,7 +21,7 @@ const RunningAndTraining = () => {
       <div className="col-sm-12 col-md-12 col-xl-12">
         <div>
           <img
-            src={`/static/img/running/nike-all-time-stats.png`}
+            src={`/static/img/running/nike-all-time-stats.jpeg`}
             title={"all-time stats by Nike"}
             alt={"all-time stats by Nike"}
           />
