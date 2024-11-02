@@ -47,7 +47,7 @@ const RunningAndTraining = () => {
     return (
       <>
         <div className="title">
-          <h3>Running and Training.</h3>
+          <h3>Running.</h3>
         </div>
         {renderExtraDetailSection()}
       </>

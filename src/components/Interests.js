@@ -23,16 +23,6 @@ const Interests = () => {
             </Link>
           </div>
           <div className="col-sm-6 m-15px-tb">
-            <Link href="/podcasts">
-              <div className="feature-box-01 media">
-                <i className="icon theme-bg icon-mic" />
-                <div className="feature-content media-body">
-                  <h5>Podcasts</h5>
-                </div>
-              </div>
-            </Link>
-          </div>
-          <div className="col-sm-6 m-15px-tb">
             <Link href="/reading">
               <div className="feature-box-01 media">
                 <i className="icon theme-bg icon-newspaper" />
@@ -47,7 +37,7 @@ const Interests = () => {
               <div className="feature-box-01 media">
                 <i className="icon theme-bg icon-target" />
                 <div className="feature-content media-body">
-                  <h5>Running and Training</h5>
+                  <h5>Running</h5>
                 </div>
               </div>
             </Link>
@@ -68,6 +58,16 @@ const Interests = () => {
                 <i className="icon theme-bg icon-focus" />
                 <div className="feature-content media-body">
                   <h5>Online Courses</h5>
+                </div>
+              </div>
+            </Link>
+          </div>
+          <div className="col-sm-6 m-15px-tb">
+            <Link href="/podcasts">
+              <div className="feature-box-01 media">
+                <i className="icon theme-bg icon-mic" />
+                <div className="feature-content media-body">
+                  <h5>Podcasts</h5>
                 </div>
               </div>
             </Link>
