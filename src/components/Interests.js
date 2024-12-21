@@ -63,11 +63,11 @@ const Interests = () => {
             </Link>
           </div>
           <div className="col-sm-6 m-15px-tb">
-            <Link href="/podcasts">
+            <Link href="/drawing">
               <div className="feature-box-01 media">
-                <i className="icon theme-bg icon-mic" />
+                <i className="icon theme-bg icon-pencil" />
                 <div className="feature-content media-body">
-                  <h5>Podcasts</h5>
+                  <h5>Drawing</h5>
                 </div>
               </div>
             </Link>
