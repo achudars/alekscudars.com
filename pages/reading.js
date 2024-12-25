@@ -3,6 +3,55 @@ import books from "./api/books.json";
 import { Fragment } from "react";
 
 const Reading = () => {
+  const renderReadingStats = () => {
+    const booksGroupedByYear = Object.groupBy(
+      books,
+      ({ yearWhenLastFinishedReading }) => yearWhenLastFinishedReading
+    );
+
+    const maxBooksReadInAYear = Math.max(
+      ...Object.values(booksGroupedByYear).map((b) => Math.max(b.length))
+    );
+
+    const renderRelativeProgressByYear = ({ year, numberOfBooks }) => {
+      const percentage = `${Math.round(
+        (numberOfBooks / maxBooksReadInAYear) * 100
+      )}%`;
+
+      return (
+        <div className="skill-lt">
+          <h6>{year}</h6>
+          <div className="skill-bar">
+            <div className="skill-bar-in" style={{ width: percentage }}>
+              <span data-toggle="tooltip" title={percentage} />
+            </div>
+          </div>
+        </div>
+      );
+    };
+
+    return (
+      <div className="row">
+        <div className="col-lg-12 ml-auto m-15px-tb">
+          <div className="skills-box">
+            {Object.entries(booksGroupedByYear)
+              .filter(([year]) => year !== "undefined")
+              .reverse()
+              .map(([year, books]) => (
+                <Fragment key={year}>
+                  {renderRelativeProgressByYear({
+                    year,
+                    numberOfBooks: books.length,
+                  })}
+                </Fragment>
+              ))}
+          </div>
+          <div className="separated" />
+        </div>
+      </div>
+    );
+  };
+
   const renderBookDetails = ({ filteredBooks }) => {
     return (
       <div className="resume-box">
@@ -23,7 +72,7 @@ const Reading = () => {
                   <div className="rb-right">
                     <h4>{book.bookTitle}</h4>
                     <h5>by: {book.bookAuthor}</h5>
-                    {book.dropReason && (<h6>{book.dropReason}</h6>)}
+                    {book.dropReason && <h6>{book.dropReason}</h6>}
                     <p>{book.summary}</p>
                     {!!book.yearWhenLastFinishedReading && (
                       <div className="rb-time">
@@ -41,13 +90,9 @@ const Reading = () => {
     );
   };
 
-  const renderBookGroupBasedOnStatus = ({
-    title,
-    subTitle,
-    filterBy
-  }) => {
+  const renderBookGroupBasedOnStatus = ({ title, subTitle, filterBy }) => {
     const booksFilteredByStatus = books.filter((book) => {
-      if (filterBy.every(f => book[f])) {
+      if (filterBy.every((f) => book[f])) {
         return book;
       }
     });
@@ -93,14 +138,16 @@ const Reading = () => {
         <div className="title">
           <h3>Reading.</h3>
         </div>
+        {renderReadingStats()}
         {renderBookGroupBasedOnStatus({
           title: "In Progress",
           subTitle: "Currently reading",
-          filterBy: ["inProgress"]
+          filterBy: ["inProgress"],
         })}
         {renderBookGroupBasedOnStatus({
           title: "Top 3 Personal Favourites",
-          subTitle: "Books that I would recommend to others, because of the timeless insight they hold",
+          subTitle:
+            "Books that I would recommend to others, because of the timeless insight they hold",
           filterBy: ["isItWorthReReading"],
         })}
         {renderBookGroupBasedOnStatus({
