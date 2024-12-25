@@ -25,16 +25,6 @@ self.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/drawing": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/drawing.js"
-    ],
-    "/online-courses": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/online-courses.js"
-    ],
     "/reading": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

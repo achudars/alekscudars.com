@@ -1,38 +1,70 @@
 [
   {
+    "bookTitle": "Botchan",
+    "bookAuthor": "Natsume Sōseki",
+    "inProgress": true,
+    "summary": ""
+  },
+  {
+    "bookTitle": "1984",
+    "bookAuthor": "George Orwell",
+    "inProgress": true,
+    "summary": ""
+  },
+  {
+    "bookTitle": "Candide",
+    "bookAuthor": "Voltaire",
+    "inProgress": true,
+    "summary": ""
+  },
+  {
+    "bookTitle": "Metamorphosis",
+    "bookAuthor": "Franz Kafka",
+    "inProgress": false,
+    "yearWhenLastFinishedReading": "2025",
+    "summary": ""
+  },
+  {
     "bookTitle": "The Call of Cthulhu",
     "bookAuthor": "H.P. Lovecraft",
-    "inProgress": true
+    "inProgress": false,
+    "yearWhenLastFinishedReading": "2025",
+    "summary": ""
   },
   {
     "bookTitle": "The Art of War",
     "bookAuthor": "Sun Tzu",
-    "inProgress": true
+    "inProgress": false,
+    "yearWhenLastFinishedReading": "2025",
+    "summary": ""
   },
   {
     "bookTitle": "Dr. Jekyll and Mr. Hyde",
     "bookAuthor": "Robert Louis Stevenson",
-    "inProgress": true
+    "inProgress": false,
+    "yearWhenLastFinishedReading": "2025",
+    "summary": ""
   },
   {
     "bookTitle": "Alice in Wonderland",
     "bookAuthor": "Lewis Carroll",
-    "inProgress": true
-  },
-  {
-    "bookTitle": "Botchan",
-    "bookAuthor": "Natsume Sōseki",
-    "inProgress": true
+    "inProgress": false,
+    "yearWhenLastFinishedReading": "2025",
+    "summary": ""
   },
   {
     "bookTitle": "Frankenstein",
     "bookAuthor": "Mary Shelley",
-    "inProgress": true
+    "inProgress": false,
+    "yearWhenLastFinishedReading": "2025",
+    "summary": ""
   },
   {
     "bookTitle": "Animal Farm",
     "bookAuthor": "George Orwell",
-    "inProgress": true
+    "inProgress": false,
+    "yearWhenLastFinishedReading": "2025",
+    "summary": ""
   },
   {
     "bookTitle": "The Organized Mind",
