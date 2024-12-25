@@ -3,5 +3,10 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
+  "/aerial-photography": "pages/aerial-photography.js",
+  "/hiking-and-walking": "pages/hiking-and-walking.js",
+  "/running-and-training": "pages/running-and-training.js",
+  "/online-courses": "pages/online-courses.js",
+  "/drawing": "pages/drawing.js",
   "/reading": "pages/reading.js"
 }

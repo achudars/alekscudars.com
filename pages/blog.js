@@ -17,7 +17,7 @@ const Blog = () => {
     <Layout blog>
       <div className="blog-listing" id="blog">
         <div className="container">
-          <div className="title text-center">
+          <div className="title">
             <h3>Our Blogs</h3>
           </div>
           <div className="row">

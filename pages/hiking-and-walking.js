@@ -46,7 +46,8 @@ const CAPTURED = [
   },
   {
     link: "./hiking-2023-didcot-appleford-culham-abingdon-oxford",
-    photo: "./static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ4LCJ.webp",
+    photo:
+      "./static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ4LCJ.webp",
     description: "Didcot - Appleford - Culham - Abingdon - Oxford",
     date: 2023,
   },
@@ -147,7 +148,7 @@ const HikingAndWalking = () => {
     <Layout blog>
       <div className="blog-listing" id="blog">
         <div className="container">
-          <div className="title text-center">
+          <div className="title">
             <h3>Hiking & Walking.</h3>
           </div>
           {renderFlightStatistics()}

@@ -25,10 +25,35 @@ self.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/aerial-photography": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/aerial-photography.js"
+    ],
+    "/drawing": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/drawing.js"
+    ],
+    "/hiking-and-walking": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/hiking-and-walking.js"
+    ],
+    "/online-courses": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/online-courses.js"
+    ],
     "/reading": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/reading.js"
+    ],
+    "/running-and-training": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/running-and-training.js"
     ]
   },
   "ampFirstPages": []

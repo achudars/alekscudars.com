@@ -20,7 +20,9 @@ const Reading = () => {
 
       return (
         <div className="skill-lt">
-          <h6>{year}</h6>
+          <h6>
+            {year}: {numberOfBooks} {numberOfBooks === 1 ? "book" : "books"}
+          </h6>
           <div className="skill-bar">
             <div className="skill-bar-in" style={{ width: percentage }}>
               <span data-toggle="tooltip" title={percentage} />
@@ -32,7 +34,15 @@ const Reading = () => {
 
     return (
       <div className="row">
-        <div className="col-lg-12 ml-auto m-15px-tb">
+        <div className="col-lg-4 m-15px-tb">
+          <ul className="education-box">
+            <li>
+              <span>2016 - now</span>
+              <h6>Relative % of Books Read Per Year</h6>
+            </li>
+          </ul>
+        </div>
+        <div className="col-lg-7 ml-auto m-15px-tb">
           <div className="skills-box">
             {Object.entries(booksGroupedByYear)
               .filter(([year]) => year !== "undefined")
