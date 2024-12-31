@@ -14,7 +14,8 @@
   {
     "bookTitle": "Candide",
     "bookAuthor": "Voltaire",
-    "inProgress": true,
+    "inProgress": false,
+    "yearWhenLastFinishedReading": "2025",
     "summary": ""
   },
   {
