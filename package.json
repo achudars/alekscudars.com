@@ -18,7 +18,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "sass": "node-sass --watch public/static/scss/style.scss public/assets/css/style.css --source-map public/static/css/style.css.map",
+    "sass": "sass --watch public/static/scss/style.scss:public/assets/css/style.css",
     "lint": "next lint"
   },
   "dependencies": {
@@ -26,9 +26,9 @@
     "emailjs-com": "^3.2.0",
     "isotope-layout": "^3.0.6",
     "next": "15.1.6",
-    "node-sass": "^9.0.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
+    "sass": "^1.83.4",
     "swiper": "^11.2.1",
     "tsparticles": "^3.8.0"
   },
