@@ -218,7 +218,7 @@ const About = () => {
                   <label>Goldman Sachs | Jul 2015 - Dec 2017</label>
                   <div className="rb-time">Full Time</div>
                   <p>
-                    Full stack developer in Swap Derivative Reporting and
+                    Full-Stack Developer in Swap Derivative Reporting and
                     Regulatory Trade Reporting.
                   </p>
                 </div>
@@ -242,7 +242,7 @@ const About = () => {
                   <label>Goldman Sachs | Jun 2014 - Aug 2014</label>
                   <div className="rb-time">Full Time</div>
                   <p>
-                    Software developer in the Sales Services Technology
+                    Software Developer in the Sales Services Technology
                     department concentrating on search.
                   </p>
                 </div>
@@ -268,10 +268,7 @@ const About = () => {
                     2013 - Jul 2014
                   </label>
                   <div className="rb-time">Part Time</div>
-                  <p>
-                    Software Engineer in Securities Division, Trade Reporting.
-                    Regulatory Engineering Technology.
-                  </p>
+                  <p>Front-End Developer of the cardio medical imaging app</p>
                 </div>
               </div>
             </div>
@@ -293,7 +290,7 @@ const About = () => {
                   <label>Amadeus Services Ltd. | Jul 2012 - Aug 2013</label>
                   <div className="rb-time">Full Time</div>
                   <p>
-                    Front end developer of the standalone Offline Loadsheet
+                    Front-End Developer of the standalone Offline Loadsheet
                     Tool.
                   </p>
                 </div>
