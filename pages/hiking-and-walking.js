@@ -3,15 +3,15 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
-    link: "./hiking-2023-ben-nevis-descent",
-    photo: "./static/img/hiking/2023/ben-nevis-descent/BDQ3LCJ.webp",
-    description: "Ben Nevis (descent)",
-    date: 2023,
-  },
-  {
     link: "./hiking-2023-ben-nevis-ascent",
     photo: "./static/img/hiking/2023/ben-nevis-ascent/BAQ1LCJ.webp",
     description: "Ben Nevis (ascent)",
+    date: 2023,
+  },
+  {
+    link: "./hiking-2023-ben-nevis-descent",
+    photo: "./static/img/hiking/2023/ben-nevis-descent/BDQ3LCJ.webp",
+    description: "Ben Nevis (descent)",
     date: 2023,
   },
   {
