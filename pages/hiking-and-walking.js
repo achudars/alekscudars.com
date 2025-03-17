@@ -3,21 +3,32 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
+    link: "./hiking-2025-pr-tf-8-afur-taganana-afur",
+    photo:
+      "./static/img/hiking/2025/01-pr-tf-8-afur-taganana-afur/2025_02_21_13_32_IMG_9306.JPG",
+    description: "PR-TF 8 Afur - Taganana - Afur",
+    location: "Santa Cruz de Tenerife, Spain",
+    date: 2025,
+  },
+  {
     link: "./hiking-2023-ben-nevis-ascent",
     photo: "./static/img/hiking/2023/ben-nevis-ascent/BAQ1LCJ.webp",
     description: "Ben Nevis (ascent)",
+    location: "UK",
     date: 2023,
   },
   {
     link: "./hiking-2023-ben-nevis-descent",
     photo: "./static/img/hiking/2023/ben-nevis-descent/BDQ3LCJ.webp",
     description: "Ben Nevis (descent)",
+    location: "UK",
     date: 2023,
   },
   {
     link: "./hiking-2023-dun-deardail",
     photo: "./static/img/hiking/2023/dun-deardail/DDQ4LCJ.webp",
     description: "Dun Deardail",
+    location: "UK",
     date: 2023,
   },
   {
@@ -25,54 +36,62 @@ const CAPTURED = [
     photo:
       "./static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ4LCJ.webp",
     description: "Didcot - Appleford - Culham - Abingdon - Oxford",
+    location: "UK",
     date: 2023,
   },
   {
     link: "./hiking-2023-lea-valley",
     photo: "./static/img/hiking/2023/lea-valley/LVQ7LCJ.webp",
     description: "Lea Valley",
+    location: "UK",
     date: 2023,
   },
   {
     link: "./hiking-2023-eastbourne-seaford",
     photo: "./static/img/hiking/2023/eastbourne-seaford/ESQ4LCJ.webp",
     description: "Eastbourne to Seaford",
+    location: "UK",
     date: 2023,
   },
   {
     link: "./hiking-2023-tring-watford",
     photo: "./static/img/hiking/2023/tring-watford/TWQ2LCJ.webp",
     description: "Tring to Watford",
+    location: "UK",
     date: 2023,
   },
   {
     link: "./hiking-2023-seaford-brighton",
     photo: "./static/img/hiking/2023/seaford-brighton/SBQ4LCJ.webp",
     description: "Seaford to Brighton",
+    location: "UK",
     date: 2023,
   },
   {
     link: "./hiking-2023-worthing-brighton",
     photo: "./static/img/hiking/2023/worthing-brighton/WBQ4LCJ.webp",
     description: "Worthing to Brighton",
+    location: "UK",
     date: 2023,
   },
   {
     link: "./hiking-2022-rye-hastings",
     photo: "./static/img/hiking/2022/rye-hastings/RHQ4LCJ.webp",
     description: "Rye to Hastings",
+    location: "UK",
     date: 2022,
   },
   {
     link: "./hiking-2022-margate-ramsgate",
     photo: "./static/img/hiking/2022/margate-ramsgate/MDQ4LCJ.webp",
     description: "Margate to Ramsgate",
+    location: "UK",
     date: 2022,
   },
 ];
 
 const HikingAndWalking = () => {
-  const renderItem = ({ link, photo, description, date }) => {
+  const renderItem = ({ link, photo, description, date, location }) => {
     return (
       <div className="blog-grid">
         <div className="blog-img">
@@ -85,6 +104,7 @@ const HikingAndWalking = () => {
           <h6>
             <a href={link}>{description}</a>
           </h6>
+          <h6>{location}</h6>
         </div>
       </div>
     );
@@ -162,6 +182,7 @@ const HikingAndWalking = () => {
                     link: c.link,
                     photo: c.photo,
                     description: c.description,
+                    location: c.location,
                     date: c.date,
                   })}
                 </div>

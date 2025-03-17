@@ -160,6 +160,12 @@
       "namedRegex": "^/hiking\\-2023\\-worthing\\-brighton(?:/)?$"
     },
     {
+      "page": "/hiking-2025-pr-tf-8-afur-taganana-afur",
+      "regex": "^/hiking\\-2025\\-pr\\-tf\\-8\\-afur\\-taganana\\-afur(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/hiking\\-2025\\-pr\\-tf\\-8\\-afur\\-taganana\\-afur(?:/)?$"
+    },
+    {
       "page": "/hiking-and-walking",
       "regex": "^/hiking\\-and\\-walking(?:/)?$",
       "routeKeys": {},

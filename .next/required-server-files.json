@@ -98,6 +98,7 @@
     },
     "outputFileTracingRoot": "C:\\Users\\aleks\\github\\javascript\\alekscudars.com",
     "experimental": {
+      "allowedDevOrigins": [],
       "nodeMiddleware": false,
       "cacheLife": {
         "default": {
