@@ -104,7 +104,7 @@ const HikingAndWalking = () => {
         <div className="col-lg-7 ml-auto m-15px-tb">
           <div className="skills-box">
             <div className="skill-lt">
-              <h6>Distance: 200.9km</h6>
+              <h6>Distance: 277.5km</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "29%" }}>
                   <span data-toggle="tooltip" title="29%" />
@@ -113,7 +113,7 @@ const HikingAndWalking = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Elevation Gain: 5,273m</h6>
+              <h6>Elevation Gain: 10,582m</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "52%" }}>
                   <span data-toggle="tooltip" title="52%" />
@@ -122,7 +122,7 @@ const HikingAndWalking = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Completed: 11</h6>
+              <h6>Completed: 18</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "11%" }}>
                   <span data-toggle="tooltip" title="11%" />
@@ -131,7 +131,7 @@ const HikingAndWalking = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Moving Time: 36h 59m</h6>
+              <h6>Moving Time: 55h 06m</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "36%" }}>
                   <span data-toggle="tooltip" title="36%" />
