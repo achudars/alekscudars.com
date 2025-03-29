@@ -3,6 +3,13 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
+    link: "./aerial-2022-england-seaford",
+    photo:
+      "./static/img/aerial/2022/england-seaford/2022_07_09_09_27_DJI_0189 - square.JPG",
+    description: "England, Seaford",
+    date: 2022,
+  },
+  {
     link: "./aerial-2020-scotland-glencoe",
     photo:
       "./static/img/aerial/2020/scotland-glencoe/47d6ccf8443f4002ec673590a23be727.jpg",
@@ -93,7 +100,7 @@ const Aerial = () => {
         <div className="col-lg-7 ml-auto m-15px-tb">
           <div className="skills-box">
             <div className="skill-lt">
-              <h6>Total Flight Time: 7Hr 35Min</h6>
+              <h6>Total Flight Time: 9Hr 37Min</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "70%" }}>
                   <span data-toggle="tooltip" title="70%" />
@@ -102,16 +109,16 @@ const Aerial = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Total Distance: 42,857m</h6>
+              <h6>Total Distance: 55,550m</h6>
               <div className="skill-bar">
-                <div className="skill-bar-in" style={{ width: "42%" }}>
-                  <span data-toggle="tooltip" title="42%" />
+                <div className="skill-bar-in" style={{ width: "55%" }}>
+                  <span data-toggle="tooltip" title="55%" />
                 </div>
               </div>
             </div>
 
             <div className="skill-lt">
-              <h6>Total Flights: 88</h6>
+              <h6>Total Flights: 101</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "88%" }}>
                   <span data-toggle="tooltip" title="88%" />
@@ -120,10 +127,10 @@ const Aerial = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Top Distance: 2,698m</h6>
+              <h6>Top Distance: 2,804m</h6>
               <div className="skill-bar">
-                <div className="skill-bar-in" style={{ width: "27%" }}>
-                  <span data-toggle="tooltip" title="27%" />
+                <div className="skill-bar-in" style={{ width: "82%" }}>
+                  <span data-toggle="tooltip" title="82%" />
                 </div>
               </div>
             </div>
@@ -131,8 +138,8 @@ const Aerial = () => {
             <div className="skill-lt">
               <h6>Top Speed: 65.9 km/h</h6>
               <div className="skill-bar">
-                <div className="skill-bar-in" style={{ width: "65%" }}>
-                  <span data-toggle="tooltip" title="65%" />
+                <div className="skill-bar-in" style={{ width: "66%" }}>
+                  <span data-toggle="tooltip" title="66%" />
                 </div>
               </div>
             </div>
@@ -147,7 +154,7 @@ const Aerial = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Footprints: 🇺🇦 🇬🇧 🇵🇹 🇱🇻 🇵🇱</h6>
+              <h6>Footprints: 🇨🇾 🇪🇸 🇺🇦 🇬🇧 🇵🇹 🇱🇻 🇵🇱</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "42%" }}>
                   <span data-toggle="tooltip" title="42%" />
