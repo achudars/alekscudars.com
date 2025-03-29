@@ -3,6 +3,14 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
+    link: "./hiking-2025-pr-tf-6-chamorga-roque-bermejo-el-draguillo",
+    photo:
+      "./static/img/hiking/2025/02-pr-tf-6-chamorga-roque-bermejo-el-draguillo/2025_02_22_10_12_IMG_9363.JPG",
+    description: "PR-TF 6 Chamorga - Roque - Bermejo - El Draguillo",
+    location: "Santa Cruz de Tenerife, Spain",
+    date: 2025,
+  },
+  {
     link: "./hiking-2025-pr-tf-8-afur-taganana-afur",
     photo:
       "./static/img/hiking/2025/01-pr-tf-8-afur-taganana-afur/2025_02_21_13_32_IMG_9306.JPG",

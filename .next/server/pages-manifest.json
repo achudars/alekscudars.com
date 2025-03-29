@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/aerial-2025-spain-tenerife": "pages/aerial-2025-spain-tenerife.js",
-  "/aerial-photography": "pages/aerial-photography.js",
-  "/aerial-2025-cyprus": "pages/aerial-2025-cyprus.js"
+  "/hiking-2025-pr-tf-6-chamorga-roque-bermejo-el-draguillo": "pages/hiking-2025-pr-tf-6-chamorga-roque-bermejo-el-draguillo.js",
+  "/hiking-and-walking": "pages/hiking-and-walking.js",
+  "/hiking-2025-pr-tf-8-afur-taganana-afur": "pages/hiking-2025-pr-tf-8-afur-taganana-afur.js"
 }
