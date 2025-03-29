@@ -22,7 +22,7 @@ const SpecificItem = () => {
       photos={PHOTOS}
       videos={VIDEOS}
       altForPhotos={"aerial photo of Portugal, Madeira"}
-      id={"aerial-2022-england-seaford"}
+      id={"aerial-2025-portugal-madeira"}
       title={"Portugal, Madeira, 2025"}
     />
   );

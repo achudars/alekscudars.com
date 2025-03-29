@@ -9,6 +9,13 @@ const CAPTURED = [
     description: "Portugal, Madeira",
     date: 2025,
   },
+    {
+      link: "./aerial-2025-spain-tenerife",
+      photo:
+        "./static/img/aerial/2025/spain-tenerife/2025_02_22_10_39_DJI_0419 - square.JPG",
+      description: "Spain, Tenerife",
+      date: 2025,
+    },
   {
     link: "./aerial-2022-england-seaford",
     photo:

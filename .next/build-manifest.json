@@ -23,15 +23,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/aerial-2025-portugal-madeira": [
+    "/aerial-2025-spain-tenerife": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/aerial-2025-portugal-madeira.js"
-    ],
-    "/aerial-photography": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/aerial-photography.js"
+      "static/chunks/pages/aerial-2025-spain-tenerife.js"
     ]
   },
   "ampFirstPages": []
