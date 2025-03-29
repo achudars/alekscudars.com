@@ -26,8 +26,8 @@
     "emailjs-com": "^3.2.0",
     "isotope-layout": "^3.0.6",
     "next": "15.2.4",
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
     "sass": "^1.86.0",
     "swiper": "^11.2.6",
     "tsparticles": "^3.8.1"
