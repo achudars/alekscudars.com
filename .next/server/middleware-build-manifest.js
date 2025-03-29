@@ -20,6 +20,11 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/hiking-2025-pr-6-6-1-levada-das-25-fontes-rabacal-levada-of-risco": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/hiking-2025-pr-6-6-1-levada-das-25-fontes-rabacal-levada-of-risco.js"
+    ],
     "/hiking-2025-pr-tf-6-chamorga-roque-bermejo-el-draguillo": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -29,6 +34,11 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/hiking-2025-pr-tf-8-afur-taganana-afur.js"
+    ],
+    "/hiking-and-walking": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/hiking-and-walking.js"
     ]
   },
   "ampFirstPages": []

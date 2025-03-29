@@ -3,6 +3,14 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
+    link: "./hiking-2025-pr-6-6-1-levada-das-25-fontes-rabacal-levada-of-risco",
+    photo:
+      "./static/img/hiking/2025/03-pr-6-6-1-levada-das-25-fontes-rabacal-levada-of-risco/levada_02.jpg",
+    description: "PR-TF 6/6.1 Levada das 25 Fontes - Rabacal - Levada of Risco",
+    location: "Santa Cruz de Tenerife, Spain",
+    date: 2025,
+  },
+  {
     link: "./hiking-2025-pr-tf-6-chamorga-roque-bermejo-el-draguillo",
     photo:
       "./static/img/hiking/2025/02-pr-tf-6-chamorga-roque-bermejo-el-draguillo/2025_02_22_10_12_IMG_9363.JPG",
