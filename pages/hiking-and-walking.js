@@ -3,6 +3,14 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
+    link: "./hiking-2025-vereda-do-larano-machico-boca-do-risco",
+    photo:
+      "./static/img/hiking/2025/04-vereda-do-larano-machico-boca-do-risco/boca_do_risco_01.jpg",
+    description: "Vereda do Larano (Machico) - Boca do Risco",
+    location: "Madeira, Portugal",
+    date: 2025,
+  },
+  {
     link: "./hiking-2025-pr-6-6-1-levada-das-25-fontes-rabacal-levada-of-risco",
     photo:
       "./static/img/hiking/2025/03-pr-6-6-1-levada-das-25-fontes-rabacal-levada-of-risco/levada_02.jpg",
