@@ -3,6 +3,13 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
+    link: "./aerial-2025-portugal-madeira",
+    photo:
+      "./static/img/aerial/2025/portugal-madeira/2025_03_08_10_11_DJI_0547 - square.JPG",
+    description: "Portugal, Madeira",
+    date: 2025,
+  },
+  {
     link: "./aerial-2022-england-seaford",
     photo:
       "./static/img/aerial/2022/england-seaford/2022_07_09_09_27_DJI_0189 - square.JPG",

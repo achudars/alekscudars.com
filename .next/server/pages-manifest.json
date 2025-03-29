@@ -2,8 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/aerial-2018-ukraine-odessa": "pages/aerial-2018-ukraine-odessa.js",
-  "/aerial-photography": "pages/aerial-photography.js",
-  "/aerial-2022-england-seaford": "pages/aerial-2022-england-seaford.js",
-  "/aerial-2019-england-norfolk": "pages/aerial-2019-england-norfolk.js"
+  "/aerial-2025-portugal-madeira": "pages/aerial-2025-portugal-madeira.js",
+  "/aerial-photography": "pages/aerial-photography.js"
 }

@@ -20,20 +20,10 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/aerial-2018-ukraine-odessa": [
+    "/aerial-2025-portugal-madeira": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/aerial-2018-ukraine-odessa.js"
-    ],
-    "/aerial-2019-england-norfolk": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/aerial-2019-england-norfolk.js"
-    ],
-    "/aerial-2022-england-seaford": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/aerial-2022-england-seaford.js"
+      "static/chunks/pages/aerial-2025-portugal-madeira.js"
     ],
     "/aerial-photography": [
       "static/chunks/webpack.js",

@@ -35,7 +35,7 @@ const SpecificItem = () => {
       videos={VIDEOS}
       altForPhotos={"aerial photo of english landscape near Seaford"}
       id={"aerial-2022-england-seaford"}
-      title={"England, Seaford, 20222"}
+      title={"England, Seaford, 2022"}
     />
   );
 };
