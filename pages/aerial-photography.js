@@ -3,19 +3,26 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
+    link: "./aerial-2025-cyprus",
+    photo:
+      "./static/img/aerial/2025/cyprus/2025_03_23_07_30_IMG_9995 - square.JPG",
+    description: "Cyprus",
+    date: 2025,
+  },
+  {
     link: "./aerial-2025-portugal-madeira",
     photo:
       "./static/img/aerial/2025/portugal-madeira/2025_03_08_10_11_DJI_0547 - square.JPG",
     description: "Portugal, Madeira",
     date: 2025,
   },
-    {
-      link: "./aerial-2025-spain-tenerife",
-      photo:
-        "./static/img/aerial/2025/spain-tenerife/2025_02_22_10_39_DJI_0419 - square.JPG",
-      description: "Spain, Tenerife",
-      date: 2025,
-    },
+  {
+    link: "./aerial-2025-spain-tenerife",
+    photo:
+      "./static/img/aerial/2025/spain-tenerife/2025_02_22_10_39_DJI_0419 - square.JPG",
+    description: "Spain, Tenerife",
+    date: 2025,
+  },
   {
     link: "./aerial-2022-england-seaford",
     photo:

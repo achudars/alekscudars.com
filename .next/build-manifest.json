@@ -23,10 +23,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/aerial-2025-spain-tenerife": [
+    "/aerial-2025-cyprus": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/aerial-2025-spain-tenerife.js"
+      "static/chunks/pages/aerial-2025-cyprus.js"
+    ],
+    "/aerial-photography": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/aerial-photography.js"
     ]
   },
   "ampFirstPages": []
