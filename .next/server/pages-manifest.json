@@ -1,7 +1,6 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/hiking-and-walking": "pages/hiking-and-walking.js",
-  "/hiking-2025-kalidonia": "pages/hiking-2025-kalidonia.js"
+  "/_error": "pages/_error.js",
+  "/hiking-and-walking": "pages/hiking-and-walking.js"
 }

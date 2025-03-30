@@ -198,18 +198,16 @@ const Aerial = () => {
           {renderFlightStatistics()}
           <div className="separated" />
           <div className="row">
-            {CAPTURED.slice()
-              .sort((a, b) => a > b)
-              .map((c) => (
-                <div key={c.link} className="col-md-6 m-15px-tb blog-list-item">
-                  {renderItem({
-                    link: c.link,
-                    photo: c.photo,
-                    description: c.description,
-                    date: c.date,
-                  })}
-                </div>
-              ))}
+            {CAPTURED.map((c) => (
+              <div key={c.link} className="col-md-6 m-15px-tb blog-list-item">
+                {renderItem({
+                  link: c.link,
+                  photo: c.photo,
+                  description: c.description,
+                  date: c.date,
+                })}
+              </div>
+            ))}
           </div>
         </div>
       </div>

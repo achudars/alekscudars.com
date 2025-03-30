@@ -15,7 +15,7 @@
   "author": "Aleksandrs Cudars",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "sass": "sass --watch public/static/scss/style.scss:public/assets/css/style.css",
