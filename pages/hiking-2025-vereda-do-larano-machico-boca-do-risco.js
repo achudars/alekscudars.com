@@ -1,13 +1,13 @@
 import PhotoAndVideoSection from "../src/layout/PhotoAndVideoSection";
 
 const PHOTOS = [
-  "./static/img/hiking/2025/04-vereda-do-larano-machico-boca-do-risco/boca_do_risco_00.jpg",
-  "./static/img/hiking/2025/04-vereda-do-larano-machico-boca-do-risco/boca_do_risco_01.jpg",
-  "./static/img/hiking/2025/04-vereda-do-larano-machico-boca-do-risco/boca_do_risco_03.jpg",
-  "./static/img/hiking/2025/04-vereda-do-larano-machico-boca-do-risco/boca_do_risco_06.jpg",
-  "./static/img/hiking/2025/04-vereda-do-larano-machico-boca-do-risco/boca_do_risco_05.jpg",
-  "./static/img/hiking/2025/04-vereda-do-larano-machico-boca-do-risco/boca_do_risco_04.jpg",
-  "./static/img/hiking/2025/04-vereda-do-larano-machico-boca-do-risco/boca_do_risco_02.jpg",
+  "./static/img/hiking/2025/vereda-do-larano-machico-boca-do-risco/boca_do_risco_00.jpg",
+  "./static/img/hiking/2025/vereda-do-larano-machico-boca-do-risco/boca_do_risco_01.jpg",
+  "./static/img/hiking/2025/vereda-do-larano-machico-boca-do-risco/boca_do_risco_03.jpg",
+  "./static/img/hiking/2025/vereda-do-larano-machico-boca-do-risco/boca_do_risco_06.jpg",
+  "./static/img/hiking/2025/vereda-do-larano-machico-boca-do-risco/boca_do_risco_05.jpg",
+  "./static/img/hiking/2025/vereda-do-larano-machico-boca-do-risco/boca_do_risco_04.jpg",
+  "./static/img/hiking/2025/vereda-do-larano-machico-boca-do-risco/boca_do_risco_02.jpg",
 ];
 
 const VIDEOS = [];

@@ -3,9 +3,17 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
+    link: "./hiking-2025-camacha-via-levada-da-serra-do-faial",
+    photo:
+      "./static/img/hiking/2025/camacha-via-levada-da-serra-do-faial/camacha_02.jpg",
+    description: "Camacha via Levada da Serra do Faial",
+    location: "Madeira, Portugal",
+    date: 2025,
+  },
+  {
     link: "./hiking-2025-vereda-do-larano-machico-boca-do-risco",
     photo:
-      "./static/img/hiking/2025/04-vereda-do-larano-machico-boca-do-risco/boca_do_risco_01.jpg",
+      "./static/img/hiking/2025/vereda-do-larano-machico-boca-do-risco/boca_do_risco_01.jpg",
     description: "Vereda do Larano (Machico) - Boca do Risco",
     location: "Madeira, Portugal",
     date: 2025,
@@ -13,7 +21,7 @@ const CAPTURED = [
   {
     link: "./hiking-2025-pr-6-6-1-levada-das-25-fontes-rabacal-levada-of-risco",
     photo:
-      "./static/img/hiking/2025/03-pr-6-6-1-levada-das-25-fontes-rabacal-levada-of-risco/levada_02.jpg",
+      "./static/img/hiking/2025/pr-6-6-1-levada-das-25-fontes-rabacal-levada-of-risco/levada_02.jpg",
     description: "PR-TF 6/6.1 Levada das 25 Fontes - Rabacal - Levada of Risco",
     location: "Santa Cruz de Tenerife, Spain",
     date: 2025,
@@ -21,7 +29,7 @@ const CAPTURED = [
   {
     link: "./hiking-2025-pr-tf-6-chamorga-roque-bermejo-el-draguillo",
     photo:
-      "./static/img/hiking/2025/02-pr-tf-6-chamorga-roque-bermejo-el-draguillo/2025_02_22_10_12_IMG_9363.JPG",
+      "./static/img/hiking/2025/pr-tf-6-chamorga-roque-bermejo-el-draguillo/2025_02_22_10_12_IMG_9363.JPG",
     description: "PR-TF 6 Chamorga - Roque - Bermejo - El Draguillo",
     location: "Santa Cruz de Tenerife, Spain",
     date: 2025,
@@ -29,7 +37,7 @@ const CAPTURED = [
   {
     link: "./hiking-2025-pr-tf-8-afur-taganana-afur",
     photo:
-      "./static/img/hiking/2025/01-pr-tf-8-afur-taganana-afur/2025_02_21_13_32_IMG_9306.JPG",
+      "./static/img/hiking/2025/pr-tf-8-afur-taganana-afur/2025_02_21_13_32_IMG_9306.JPG",
     description: "PR-TF 8 Afur - Taganana - Afur",
     location: "Santa Cruz de Tenerife, Spain",
     date: 2025,
@@ -199,7 +207,7 @@ const HikingAndWalking = () => {
           <div className="separated" />
           <div className="row">
             {CAPTURED.slice()
-              .sort((a, b) => a < b)
+              .sort((a, b) => a > b)
               .map((c) => (
                 <div key={c.link} className="col-md-6 m-15px-tb blog-list-item">
                   {renderItem({

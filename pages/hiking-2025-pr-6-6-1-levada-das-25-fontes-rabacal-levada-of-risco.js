@@ -1,11 +1,11 @@
 import PhotoAndVideoSection from "../src/layout/PhotoAndVideoSection";
 
 const PHOTOS = [
-  "./static/img/hiking/2025/03-pr-6-6-1-levada-das-25-fontes-rabacal-levada-of-risco/levada_das_25_fontes.jpg",
-  "./static/img/hiking/2025/03-pr-6-6-1-levada-das-25-fontes-rabacal-levada-of-risco/levada_01.jpg",
-  "./static/img/hiking/2025/03-pr-6-6-1-levada-das-25-fontes-rabacal-levada-of-risco/levada_02.jpg",
-  "./static/img/hiking/2025/03-pr-6-6-1-levada-das-25-fontes-rabacal-levada-of-risco/levada_03.jpg",
-  "./static/img/hiking/2025/03-pr-6-6-1-levada-das-25-fontes-rabacal-levada-of-risco/levada_04.jpg",
+  "./static/img/hiking/2025/pr-6-6-1-levada-das-25-fontes-rabacal-levada-of-risco/levada_das_25_fontes.jpg",
+  "./static/img/hiking/2025/pr-6-6-1-levada-das-25-fontes-rabacal-levada-of-risco/levada_01.jpg",
+  "./static/img/hiking/2025/pr-6-6-1-levada-das-25-fontes-rabacal-levada-of-risco/levada_02.jpg",
+  "./static/img/hiking/2025/pr-6-6-1-levada-das-25-fontes-rabacal-levada-of-risco/levada_03.jpg",
+  "./static/img/hiking/2025/pr-6-6-1-levada-das-25-fontes-rabacal-levada-of-risco/levada_04.jpg",
 ];
 
 const VIDEOS = [];
