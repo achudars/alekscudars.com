@@ -3,10 +3,20 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
-    link: "./hiking-2025-camacha-via-levada-da-serra-do-faial",
+    link: "./hiking-2025-afternoon-camacha-via-levada-da-serra-do-faial",
     photo:
-      "./static/img/hiking/2025/camacha-via-levada-da-serra-do-faial/camacha_02.jpg",
-    description: "Camacha via Levada da Serra do Faial",
+      "./static/img/hiking/2025/afternoon-camacha-via-levada-da-serra-do-faial/faial_02.jpg",
+    description:
+      "Afternoon hike at Funchal - Camacha via Levada da Serra do Faial",
+    location: "Madeira, Portugal",
+    date: 2025,
+  },
+  {
+    link: "./hiking-2025-morning-camacha-via-levada-da-serra-do-faial",
+    photo:
+      "./static/img/hiking/2025/morning-camacha-via-levada-da-serra-do-faial/camacha_02.jpg",
+    description:
+      "Morning hike at Funchal - Camacha via Levada da Serra do Faial",
     location: "Madeira, Portugal",
     date: 2025,
   },
