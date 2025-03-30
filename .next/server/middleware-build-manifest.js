@@ -20,15 +20,10 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/hiking-2025-continued-afternoon-camacha-via-levada-da-serra-do-faial": [
+    "/hiking-2025-atalante": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/hiking-2025-continued-afternoon-camacha-via-levada-da-serra-do-faial.js"
-    ],
-    "/hiking-2025-pr-tf-8-afur-taganana-afur": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/hiking-2025-pr-tf-8-afur-taganana-afur.js"
+      "static/chunks/pages/hiking-2025-atalante.js"
     ],
     "/hiking-and-walking": [
       "static/chunks/webpack.js",

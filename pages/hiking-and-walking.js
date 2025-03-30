@@ -3,6 +3,13 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
+    link: "./hiking-2025-atalante",
+    photo: "./static/img/hiking/2025/atalante/atalante_05.jpg",
+    description: "Atalante Trail",
+    location: "Cyprus",
+    date: 2025,
+  },
+  {
     link: "./hiking-2025-continued-afternoon-camacha-via-levada-da-serra-do-faial",
     photo:
       "./static/img/hiking/2025/continued-afternoon-camacha-via-levada-da-serra-do-faial/faial_02.jpg",
