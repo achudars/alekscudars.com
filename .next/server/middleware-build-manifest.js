@@ -20,10 +20,10 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/hiking-2025-atalante": [
+    "/hiking-2025-kalidonia": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/hiking-2025-atalante.js"
+      "static/chunks/pages/hiking-2025-kalidonia.js"
     ],
     "/hiking-and-walking": [
       "static/chunks/webpack.js",
