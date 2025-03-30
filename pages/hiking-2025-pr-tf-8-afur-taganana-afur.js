@@ -25,7 +25,9 @@ const PHOTOS = [
 ];
 
 const VIDEOS = [
+  "./static/img/hiking/2025/pr-tf-8-afur-taganana-afur/2025_02_21_11_36_IMG_9452.MOV",
   "./static/img/hiking/2025/pr-tf-8-afur-taganana-afur/2025_02_21_12_23_IMG_9283.MOV",
+  "./static/img/hiking/2025/pr-tf-8-afur-taganana-afur/2025_02_21_13_22_IMG_9303.MOV",
   "./static/img/hiking/2025/pr-tf-8-afur-taganana-afur/2025_02_21_13_46_IMG_9310.MOV",
 ];
 

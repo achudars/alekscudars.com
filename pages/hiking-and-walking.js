@@ -3,9 +3,18 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
+    link: "./hiking-2025-continued-afternoon-camacha-via-levada-da-serra-do-faial",
+    photo:
+      "./static/img/hiking/2025/continued-afternoon-camacha-via-levada-da-serra-do-faial/faial_02.jpg",
+    description:
+      "Continued afternoon hike at Funchal - Camacha via Levada da Serra do Faial",
+    location: "Madeira, Portugal",
+    date: 2025,
+  },
+  {
     link: "./hiking-2025-afternoon-camacha-via-levada-da-serra-do-faial",
     photo:
-      "./static/img/hiking/2025/afternoon-camacha-via-levada-da-serra-do-faial/faial_02.jpg",
+      "./static/img/hiking/2025/afternoon-camacha-via-levada-da-serra-do-faial/continued_03.jpg",
     description:
       "Afternoon hike at Funchal - Camacha via Levada da Serra do Faial",
     location: "Madeira, Portugal",
