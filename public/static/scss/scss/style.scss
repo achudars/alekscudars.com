@@ -153,10 +153,16 @@
 	right: 0;
 	bottom: 0;
 	opacity: 0.1;
+
 	.theme-light & {
 		background: $px-dark;
 	}
+
 }
+
+#particles-box canvas {
+    border: 5px solid lime;
+    }
 
 /* glitch
 -----------------------------------*/

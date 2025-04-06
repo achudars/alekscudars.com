@@ -19,9 +19,9 @@ const ParticlesBackground = () => {
   const options = useMemo(
     () => ({
       fullScreen: {
-        enable: true,
+        enable: false,
       },
-      fpsLimit: 1000,
+      fpsLimit: 120,
       interactivity: {
         events: {
           onClick: {
@@ -78,9 +78,6 @@ const ParticlesBackground = () => {
         opacity: {
           value: 0.5,
         },
-        // shape: {
-        //   type: "circle",
-        // },
         size: {
           value: { min: 1, max: 8 },
         },
