@@ -33,7 +33,7 @@
     "tsparticles": "^3.8.1"
   },
   "devDependencies": {
-    "eslint": "^9.25.1",
+    "eslint": "^9.26.0",
     "eslint-config-next": "15.3.1"
   }
 }
