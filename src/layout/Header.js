@@ -41,7 +41,7 @@ const Header = ({ blog, isLandingPage }) => {
             <div className="hl-logo">
               <div className="img">
                 <img
-                  src="static/img/about-me.jpg"
+                  src="static/img/me in Corfu.JPG"
                   title="photo of Aleks"
                   alt="photo of Aleks"
                 />

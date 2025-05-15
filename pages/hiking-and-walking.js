@@ -3,6 +3,38 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
+    link: "./hiking-2025-corfu-greece-erimitis",
+    photo:
+      "./static/img/hiking/2025/corfu-greece-erimitis/2025_05_11_09_27_IMG_0515.JPG",
+    description: "Erimitis Beaches",
+    location: "Corfu, Greece",
+    date: 2025,
+  },
+  {
+    link: "./hiking-2025-corfu-greece-drastis",
+    photo:
+      "./static/img/hiking/2025/corfu-greece-drastis/2025_05_11_05_07_IMG_0464.JPG",
+    description: "Cape Drastis",
+    location: "Corfu, Greece",
+    date: 2025,
+  },
+  {
+    link: "./hiking-2025-corfu-greece-lakones-krini-angelokastro",
+    photo:
+      "./static/img/hiking/2025/corfu-greece-lakones-krini-angelokastro/2025_05_10_09_04_IMG_0406.jpg",
+    description: "Lakones - Krini - Angelokastro Castle",
+    location: "Corfu, Greece",
+    date: 2025,
+  },
+  {
+    link: "./hiking-2025-corfu-greece-afionas-porto-timoni",
+    photo:
+      "./static/img/hiking/2025/corfu-greece-afionas-porto-timoni/2025_05_10_04_50_IMG_0355.jpg",
+    description: "Afionas - Porto Timoni Twin Beaches",
+    location: "Corfu, Greece",
+    date: 2025,
+  },
+  {
     link: "./hiking-2025-kalidonia",
     photo: "./static/img/hiking/2025/kalidonia/kalidonia_03.jpg",
     description: "Kalidonia Trail",
@@ -189,7 +221,7 @@ const HikingAndWalking = () => {
         <div className="col-lg-7 ml-auto m-15px-tb">
           <div className="skills-box">
             <div className="skill-lt">
-              <h6>Distance: 301.0km</h6>
+              <h6>Distance: 343.9km</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "29%" }}>
                   <span data-toggle="tooltip" title="29%" />
@@ -198,7 +230,7 @@ const HikingAndWalking = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Elevation Gain: 11,479m</h6>
+              <h6>Elevation Gain: 12,863m</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "52%" }}>
                   <span data-toggle="tooltip" title="52%" />
@@ -207,7 +239,7 @@ const HikingAndWalking = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Completed: 20</h6>
+              <h6>Completed: 24</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "11%" }}>
                   <span data-toggle="tooltip" title="11%" />
@@ -216,7 +248,7 @@ const HikingAndWalking = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Moving Time: 61h 18m</h6>
+              <h6>Moving Time: 70h 10m</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "36%" }}>
                   <span data-toggle="tooltip" title="36%" />

@@ -3,7 +3,11 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/aerial-2025-cyprus": "pages/aerial-2025-cyprus.js",
-  "/aerial-2025-greece-corfu": "pages/aerial-2025-greece-corfu.js",
-  "/aerial-photography": "pages/aerial-photography.js"
+  "/aerial-photography": "pages/aerial-photography.js",
+  "/hiking-2025-corfu-greece-afionas-porto-timoni": "pages/hiking-2025-corfu-greece-afionas-porto-timoni.js",
+  "/hiking-2025-corfu-greece-drastis": "pages/hiking-2025-corfu-greece-drastis.js",
+  "/hiking-2025-corfu-greece-erimitis": "pages/hiking-2025-corfu-greece-erimitis.js",
+  "/hiking-2025-corfu-greece-lakones-krini-angelokastro": "pages/hiking-2025-corfu-greece-lakones-krini-angelokastro.js",
+  "/hiking-and-walking": "pages/hiking-and-walking.js",
+  "/running-and-training": "pages/running-and-training.js"
 }

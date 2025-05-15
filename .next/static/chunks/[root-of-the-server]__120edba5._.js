@@ -907,7 +907,7 @@ const Header = ({ blog, isLandingPage })=>{
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "img",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                src: "static/img/about-me.jpg",
+                                                src: "static/img/me in Corfu.JPG",
                                                 title: "photo of Aleks",
                                                 alt: "photo of Aleks"
                                             }, void 0, false, {
@@ -1827,7 +1827,7 @@ const Aerial = ()=>{
                                 className: "skill-lt",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
-                                        children: "Footprints: 🇬🇷 🇨🇾 🇪🇸 🇺🇦 🇬🇧 🇵🇹 🇱🇻 🇵🇱"
+                                        children: "Footprints: 🇨🇾 🇪🇸 🇬🇧 🇬🇷 🇮🇹 🇱🇻 🇵🇱 🇵🇹 🇺🇦"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/aerial-photography.js",
                                         lineNumber: 185,
@@ -1961,7 +1961,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
 {
-const PAGE_PATH = "/aerial-2025-spain-tenerife";
+const PAGE_PATH = "/aerial-photography";
 (window.__NEXT_P = window.__NEXT_P || []).push([
     PAGE_PATH,
     ()=>{

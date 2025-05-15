@@ -182,7 +182,7 @@ const Aerial = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Footprints: 🇬🇷 🇨🇾 🇪🇸 🇺🇦 🇬🇧 🇵🇹 🇱🇻 🇵🇱</h6>
+              <h6>Footprints: 🇨🇾 🇪🇸 🇬🇧 🇬🇷 🇮🇹 🇱🇻 🇵🇱 🇵🇹 🇺🇦</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "42%" }}>
                   <span data-toggle="tooltip" title="42%" />

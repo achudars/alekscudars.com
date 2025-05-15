@@ -3138,7 +3138,7 @@ const Header = ({ blog, isLandingPage })=>{
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                             className: "img",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
-                                                src: "static/img/about-me.jpg",
+                                                src: "static/img/me in Corfu.JPG",
                                                 title: "photo of Aleks",
                                                 alt: "photo of Aleks"
                                             }, void 0, false, {
