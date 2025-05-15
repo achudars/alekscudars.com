@@ -3,6 +3,13 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
+    link: "./aerial-2025-greece-corfu",
+    photo:
+      "./static/img/aerial/2025/greece-corfu/2025_05_10_05_47_DJI_0865.JPG",
+    description: "Greece, Corfu",
+    date: 2025,
+  },
+  {
     link: "./aerial-2025-cyprus",
     photo:
       "./static/img/aerial/2025/cyprus/2025_03_23_07_30_IMG_9995 - square.JPG",
@@ -121,7 +128,7 @@ const Aerial = () => {
         <div className="col-lg-7 ml-auto m-15px-tb">
           <div className="skills-box">
             <div className="skill-lt">
-              <h6>Total Flight Time: 9Hr 37Min</h6>
+              <h6>Total Flight Time: 10Hr 19Min</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "70%" }}>
                   <span data-toggle="tooltip" title="70%" />
@@ -130,7 +137,7 @@ const Aerial = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Total Distance: 55,550m</h6>
+              <h6>Total Distance: 62,598m</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "55%" }}>
                   <span data-toggle="tooltip" title="55%" />
@@ -139,7 +146,7 @@ const Aerial = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Total Flights: 101</h6>
+              <h6>Total Flights: 108</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "88%" }}>
                   <span data-toggle="tooltip" title="88%" />
@@ -148,7 +155,7 @@ const Aerial = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Top Distance: 2,804m</h6>
+              <h6>Top Distance: 2,913m</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "82%" }}>
                   <span data-toggle="tooltip" title="82%" />
@@ -175,7 +182,7 @@ const Aerial = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Footprints: 🇨🇾 🇪🇸 🇺🇦 🇬🇧 🇵🇹 🇱🇻 🇵🇱</h6>
+              <h6>Footprints: 🇬🇷 🇨🇾 🇪🇸 🇺🇦 🇬🇧 🇵🇹 🇱🇻 🇵🇱</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "42%" }}>
                   <span data-toggle="tooltip" title="42%" />

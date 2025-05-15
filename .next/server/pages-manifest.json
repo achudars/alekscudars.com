@@ -2,6 +2,8 @@
   "/": "pages/index.js",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/aerial-photography": "pages/aerial-photography.js",
-  "/hiking-and-walking": "pages/hiking-and-walking.js"
+  "/_error": "pages/_error.js",
+  "/aerial-2025-cyprus": "pages/aerial-2025-cyprus.js",
+  "/aerial-2025-greece-corfu": "pages/aerial-2025-greece-corfu.js",
+  "/aerial-photography": "pages/aerial-photography.js"
 }
