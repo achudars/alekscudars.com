@@ -875,6 +875,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$Layout$2e$j
 ;
 const CAPTURED = [
     {
+        link: "./aerial-2025-switzerland",
+        photo: "./static/img/aerial/2025/switzerland/2025_05_10_05_47_DJI_0865.JPG",
+        description: "Switzerland",
+        date: 2025
+    },
+    {
         link: "./aerial-2025-greece-corfu",
         photo: "./static/img/aerial/2025/greece-corfu/2025_05_10_05_47_DJI_0865.JPG",
         description: "Greece, Corfu",
@@ -968,17 +974,17 @@ const Aerial = ()=>{
                             alt: description
                         }, void 0, false, {
                             fileName: "[project]/pages/aerial-photography.js",
-                            lineNumber: 104,
+                            lineNumber: 110,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/aerial-photography.js",
-                        lineNumber: 103,
+                        lineNumber: 109,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/pages/aerial-photography.js",
-                    lineNumber: 102,
+                    lineNumber: 108,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -989,7 +995,7 @@ const Aerial = ()=>{
                             children: date
                         }, void 0, false, {
                             fileName: "[project]/pages/aerial-photography.js",
-                            lineNumber: 108,
+                            lineNumber: 114,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
@@ -998,24 +1004,24 @@ const Aerial = ()=>{
                                 children: description
                             }, void 0, false, {
                                 fileName: "[project]/pages/aerial-photography.js",
-                                lineNumber: 110,
+                                lineNumber: 116,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/pages/aerial-photography.js",
-                            lineNumber: 109,
+                            lineNumber: 115,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/pages/aerial-photography.js",
-                    lineNumber: 107,
+                    lineNumber: 113,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/aerial-photography.js",
-            lineNumber: 101,
+            lineNumber: 107,
             columnNumber: 7
         }, this);
     };
@@ -1033,30 +1039,30 @@ const Aerial = ()=>{
                                     children: "2017 - now"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/aerial-photography.js",
-                                    lineNumber: 123,
+                                    lineNumber: 129,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
                                     children: "Flight Statistics"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/aerial-photography.js",
-                                    lineNumber: 124,
+                                    lineNumber: 130,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/aerial-photography.js",
-                            lineNumber: 122,
+                            lineNumber: 128,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/aerial-photography.js",
-                        lineNumber: 121,
+                        lineNumber: 127,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/pages/aerial-photography.js",
-                    lineNumber: 120,
+                    lineNumber: 126,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1068,10 +1074,10 @@ const Aerial = ()=>{
                                 className: "skill-lt",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
-                                        children: "Total Flight Time: 10Hr 19Min"
+                                        children: "Total Flight Time: 10Hr 57Min"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 131,
+                                        lineNumber: 137,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1086,33 +1092,33 @@ const Aerial = ()=>{
                                                 title: "70%"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/aerial-photography.js",
-                                                lineNumber: 134,
+                                                lineNumber: 140,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/aerial-photography.js",
-                                            lineNumber: 133,
+                                            lineNumber: 139,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 132,
+                                        lineNumber: 138,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/aerial-photography.js",
-                                lineNumber: 130,
+                                lineNumber: 136,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                 className: "skill-lt",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
-                                        children: "Total Distance: 62,598m"
+                                        children: "Total Distance: 66,103m"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 140,
+                                        lineNumber: 146,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1127,33 +1133,33 @@ const Aerial = ()=>{
                                                 title: "55%"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/aerial-photography.js",
-                                                lineNumber: 143,
+                                                lineNumber: 149,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/aerial-photography.js",
-                                            lineNumber: 142,
+                                            lineNumber: 148,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 141,
+                                        lineNumber: 147,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/aerial-photography.js",
-                                lineNumber: 139,
+                                lineNumber: 145,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                 className: "skill-lt",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
-                                        children: "Total Flights: 108"
+                                        children: "Total Flights: 114"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 149,
+                                        lineNumber: 155,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1168,23 +1174,23 @@ const Aerial = ()=>{
                                                 title: "88%"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/aerial-photography.js",
-                                                lineNumber: 152,
+                                                lineNumber: 158,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/aerial-photography.js",
-                                            lineNumber: 151,
+                                            lineNumber: 157,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 150,
+                                        lineNumber: 156,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/aerial-photography.js",
-                                lineNumber: 148,
+                                lineNumber: 154,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1194,7 +1200,7 @@ const Aerial = ()=>{
                                         children: "Top Distance: 2,913m"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 158,
+                                        lineNumber: 164,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1209,23 +1215,23 @@ const Aerial = ()=>{
                                                 title: "82%"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/aerial-photography.js",
-                                                lineNumber: 161,
+                                                lineNumber: 167,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/aerial-photography.js",
-                                            lineNumber: 160,
+                                            lineNumber: 166,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 159,
+                                        lineNumber: 165,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/aerial-photography.js",
-                                lineNumber: 157,
+                                lineNumber: 163,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1235,7 +1241,7 @@ const Aerial = ()=>{
                                         children: "Top Speed: 65.9 km/h"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 167,
+                                        lineNumber: 173,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1250,23 +1256,23 @@ const Aerial = ()=>{
                                                 title: "66%"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/aerial-photography.js",
-                                                lineNumber: 170,
+                                                lineNumber: 176,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/aerial-photography.js",
-                                            lineNumber: 169,
+                                            lineNumber: 175,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 168,
+                                        lineNumber: 174,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/aerial-photography.js",
-                                lineNumber: 166,
+                                lineNumber: 172,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1276,7 +1282,7 @@ const Aerial = ()=>{
                                         children: "Max Takeoff Altitude: 1864,4m"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 176,
+                                        lineNumber: 182,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1291,33 +1297,33 @@ const Aerial = ()=>{
                                                 title: "64%"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/aerial-photography.js",
-                                                lineNumber: 179,
+                                                lineNumber: 185,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/aerial-photography.js",
-                                            lineNumber: 178,
+                                            lineNumber: 184,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 177,
+                                        lineNumber: 183,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/aerial-photography.js",
-                                lineNumber: 175,
+                                lineNumber: 181,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                 className: "skill-lt",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h6", {
-                                        children: "Footprints: 🇨🇾 🇪🇸 🇬🇧 🇬🇷 🇮🇹 🇱🇻 🇵🇱 🇵🇹 🇺🇦"
+                                        children: "Footprints: 🇦🇱 🇨🇭 🇨🇾 🇪🇸 🇬🇧 🇬🇷 🇮🇹 🇱🇻 🇵🇱 🇵🇹 🇺🇦"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 185,
+                                        lineNumber: 191,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1332,40 +1338,40 @@ const Aerial = ()=>{
                                                 title: "42%"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/aerial-photography.js",
-                                                lineNumber: 188,
+                                                lineNumber: 194,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/aerial-photography.js",
-                                            lineNumber: 187,
+                                            lineNumber: 193,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 186,
+                                        lineNumber: 192,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/aerial-photography.js",
-                                lineNumber: 184,
+                                lineNumber: 190,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/aerial-photography.js",
-                        lineNumber: 129,
+                        lineNumber: 135,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/pages/aerial-photography.js",
-                    lineNumber: 128,
+                    lineNumber: 134,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/aerial-photography.js",
-            lineNumber: 119,
+            lineNumber: 125,
             columnNumber: 7
         }, this);
     };
@@ -1383,12 +1389,12 @@ const Aerial = ()=>{
                             children: "Aerial Photography & Videography."
                         }, void 0, false, {
                             fileName: "[project]/pages/aerial-photography.js",
-                            lineNumber: 203,
+                            lineNumber: 209,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/aerial-photography.js",
-                        lineNumber: 202,
+                        lineNumber: 208,
                         columnNumber: 11
                     }, this),
                     renderFlightStatistics(),
@@ -1396,7 +1402,7 @@ const Aerial = ()=>{
                         className: "separated"
                     }, void 0, false, {
                         fileName: "[project]/pages/aerial-photography.js",
-                        lineNumber: 206,
+                        lineNumber: 212,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1411,28 +1417,28 @@ const Aerial = ()=>{
                                 })
                             }, c.link, false, {
                                 fileName: "[project]/pages/aerial-photography.js",
-                                lineNumber: 209,
+                                lineNumber: 215,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/pages/aerial-photography.js",
-                        lineNumber: 207,
+                        lineNumber: 213,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/aerial-photography.js",
-                lineNumber: 201,
+                lineNumber: 207,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/pages/aerial-photography.js",
-            lineNumber: 200,
+            lineNumber: 206,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/pages/aerial-photography.js",
-        lineNumber: 199,
+        lineNumber: 205,
         columnNumber: 5
     }, this);
 };

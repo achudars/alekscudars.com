@@ -3,6 +3,12 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
+    link: "./aerial-2025-switzerland",
+    photo:
+      "./static/img/aerial/2025/switzerland/2025_05_10_05_47_DJI_0865.JPG",
+    description: "Switzerland",
+    date: 2025,
+  }, {
     link: "./aerial-2025-greece-corfu",
     photo:
       "./static/img/aerial/2025/greece-corfu/2025_05_10_05_47_DJI_0865.JPG",
@@ -128,7 +134,7 @@ const Aerial = () => {
         <div className="col-lg-7 ml-auto m-15px-tb">
           <div className="skills-box">
             <div className="skill-lt">
-              <h6>Total Flight Time: 10Hr 19Min</h6>
+              <h6>Total Flight Time: 10Hr 57Min</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "70%" }}>
                   <span data-toggle="tooltip" title="70%" />
@@ -137,7 +143,7 @@ const Aerial = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Total Distance: 62,598m</h6>
+              <h6>Total Distance: 66,103m</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "55%" }}>
                   <span data-toggle="tooltip" title="55%" />
@@ -146,7 +152,7 @@ const Aerial = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Total Flights: 108</h6>
+              <h6>Total Flights: 114</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "88%" }}>
                   <span data-toggle="tooltip" title="88%" />
@@ -182,7 +188,7 @@ const Aerial = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Footprints: 🇨🇾 🇪🇸 🇬🇧 🇬🇷 🇮🇹 🇱🇻 🇵🇱 🇵🇹 🇺🇦</h6>
+              <h6>Footprints: 🇦🇱 🇨🇭 🇨🇾 🇪🇸 🇬🇧 🇬🇷 🇮🇹 🇱🇻 🇵🇱 🇵🇹 🇺🇦</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "42%" }}>
                   <span data-toggle="tooltip" title="42%" />

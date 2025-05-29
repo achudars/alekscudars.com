@@ -3,6 +3,41 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
+    link: "./hiking-2025-switzerland-mount-rigi-descent",
+    photo: "./static/img/hiking/2025/switzerland-mount-rigi-descent/<TBA>.JPG",
+    description: "Mount Rigi Descent",
+    location: "Switzerland",
+    date: 2025,
+  },
+  {
+    link: "./hiking-2025-switzerland-mount-rigi-ascent",
+    photo: "./static/img/hiking/2025/switzerland-mount-rigi-ascent/<TBA>.JPG",
+    description: "Mount Rigi Ascent",
+    location: "Switzerland",
+    date: 2025,
+  },
+  {
+    link: "./hiking-2025-switzerland-engelberg-trubsee",
+    photo: "./static/img/hiking/2025/switzerland-engelberg-trubsee/<TBA>.JPG",
+    description: "Engelberg Trubsee",
+    location: "Switzerland",
+    date: 2025,
+  },
+  {
+    link: "./hiking-2025-switzerland-grindelwald",
+    photo: "./static/img/hiking/2025/switzerland-grindelwald/<TBA>.JPG",
+    description: "Grindelwald",
+    location: "Switzerland",
+    date: 2025,
+  },
+  {
+    link: "./hiking-2025-switzerland-harder-kulm",
+    photo: "./static/img/hiking/2025/switzerland-harder-kulm/<TBA>.JPG",
+    description: "Harder Kulm",
+    location: "Switzerland",
+    date: 2025,
+  },
+  {
     link: "./hiking-2025-corfu-greece-erimitis",
     photo:
       "./static/img/hiking/2025/corfu-greece-erimitis/2025_05_11_09_27_IMG_0515.JPG",
