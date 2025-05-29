@@ -3,12 +3,27 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
-    link: "./aerial-2025-switzerland",
+    link: "./aerial-2025-switzerland-trubsee",
     photo:
-      "./static/img/aerial/2025/switzerland/2025_05_10_05_47_DJI_0865.JPG",
-    description: "Switzerland",
+      "./static/img/aerial/2025/switzerland-trubsee/2025_05_25_07_49_DJI_0166 - square.JPG",
+    description: "Switzerland, Trubsee",
     date: 2025,
-  }, {
+  },
+  {
+    link: "./aerial-2025-switzerland-grindelwald",
+    photo:
+      "./static/img/aerial/2025/switzerland-grindelwald/2025_05_24_14_35_IMG_0854 - square.JPG",
+    description: "Switzerland, Grindelwald",
+    date: 2025,
+  },
+  {
+    link: "./aerial-2025-switzerland-harder-klum",
+    photo:
+      "./static/img/aerial/2025/switzerland-harder-klum/2025_05_24_07_02_DJI_0945 - square.JPG",
+    description: "Switzerland, Harder Klum",
+    date: 2025,
+  },
+  {
     link: "./aerial-2025-greece-corfu",
     photo:
       "./static/img/aerial/2025/greece-corfu/2025_05_10_05_47_DJI_0865.JPG",

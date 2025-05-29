@@ -31,9 +31,9 @@ const CAPTURED = [
     date: 2025,
   },
   {
-    link: "./hiking-2025-switzerland-harder-kulm",
-    photo: "./static/img/hiking/2025/switzerland-harder-kulm/<TBA>.JPG",
-    description: "Harder Kulm",
+    link: "./hiking-2025-switzerland-harder-klum",
+    photo: "./static/img/hiking/2025/switzerland-harder-klum/<TBA>.JPG",
+    description: "Harder Klum",
     location: "Switzerland",
     date: 2025,
   },

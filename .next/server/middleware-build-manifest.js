@@ -27,6 +27,30 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/pages__error_5771e187._.js",
       "static/chunks/pages__error_ec6747c0._.js"
     ],
+    "/aerial-2025-switzerland-grindelwald": [
+      "static/chunks/node_modules_next_f7974fe8._.js",
+      "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_2a5cf4bb._.js",
+      "static/chunks/[root-of-the-server]__0376d2a9._.js",
+      "static/chunks/pages_aerial-2025-switzerland-grindelwald_5771e187._.js",
+      "static/chunks/pages_aerial-2025-switzerland-grindelwald_ad232a63._.js"
+    ],
+    "/aerial-2025-switzerland-harder-klum": [
+      "static/chunks/node_modules_next_f7974fe8._.js",
+      "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_2a5cf4bb._.js",
+      "static/chunks/[root-of-the-server]__d8e09d66._.js",
+      "static/chunks/pages_aerial-2025-switzerland-harder-klum_5771e187._.js",
+      "static/chunks/pages_aerial-2025-switzerland-harder-klum_3eacbb98._.js"
+    ],
+    "/aerial-2025-switzerland-trubsee": [
+      "static/chunks/node_modules_next_f7974fe8._.js",
+      "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_2a5cf4bb._.js",
+      "static/chunks/[root-of-the-server]__67599226._.js",
+      "static/chunks/pages_aerial-2025-switzerland-trubsee_5771e187._.js",
+      "static/chunks/pages_aerial-2025-switzerland-trubsee_497a8f67._.js"
+    ],
     "/aerial-photography": [
       "static/chunks/node_modules_next_f7974fe8._.js",
       "static/chunks/node_modules_react-dom_82bb97c6._.js",
@@ -34,6 +58,14 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/[root-of-the-server]__120edba5._.js",
       "static/chunks/pages_aerial-photography_5771e187._.js",
       "static/chunks/pages_aerial-photography_8bda7a34._.js"
+    ],
+    "/hiking-and-walking": [
+      "static/chunks/node_modules_next_f7974fe8._.js",
+      "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_2a5cf4bb._.js",
+      "static/chunks/[root-of-the-server]__ff89f9c8._.js",
+      "static/chunks/pages_hiking-and-walking_5771e187._.js",
+      "static/chunks/pages_hiking-and-walking_af20c49f._.js"
     ]
   },
   "devFiles": [],

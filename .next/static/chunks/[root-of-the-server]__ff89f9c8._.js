@@ -1388,6 +1388,41 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$Layout$2e$j
 ;
 const CAPTURED = [
     {
+        link: "./hiking-2025-switzerland-mount-rigi-descent",
+        photo: "./static/img/hiking/2025/switzerland-mount-rigi-descent/<TBA>.JPG",
+        description: "Mount Rigi Descent",
+        location: "Switzerland",
+        date: 2025
+    },
+    {
+        link: "./hiking-2025-switzerland-mount-rigi-ascent",
+        photo: "./static/img/hiking/2025/switzerland-mount-rigi-ascent/<TBA>.JPG",
+        description: "Mount Rigi Ascent",
+        location: "Switzerland",
+        date: 2025
+    },
+    {
+        link: "./hiking-2025-switzerland-engelberg-trubsee",
+        photo: "./static/img/hiking/2025/switzerland-engelberg-trubsee/<TBA>.JPG",
+        description: "Engelberg Trubsee",
+        location: "Switzerland",
+        date: 2025
+    },
+    {
+        link: "./hiking-2025-switzerland-grindelwald",
+        photo: "./static/img/hiking/2025/switzerland-grindelwald/<TBA>.JPG",
+        description: "Grindelwald",
+        location: "Switzerland",
+        date: 2025
+    },
+    {
+        link: "./hiking-2025-switzerland-harder-klum",
+        photo: "./static/img/hiking/2025/switzerland-harder-klum/<TBA>.JPG",
+        description: "Harder Klum",
+        location: "Switzerland",
+        date: 2025
+    },
+    {
         link: "./hiking-2025-corfu-greece-erimitis",
         photo: "./static/img/hiking/2025/corfu-greece-erimitis/2025_05_11_09_27_IMG_0515.JPG",
         description: "Erimitis Beaches",
@@ -1571,17 +1606,17 @@ const HikingAndWalking = ()=>{
                             alt: description
                         }, void 0, false, {
                             fileName: "[project]/pages/hiking-and-walking.js",
-                            lineNumber: 196,
+                            lineNumber: 231,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/hiking-and-walking.js",
-                        lineNumber: 195,
+                        lineNumber: 230,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/pages/hiking-and-walking.js",
-                    lineNumber: 194,
+                    lineNumber: 229,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1592,7 +1627,7 @@ const HikingAndWalking = ()=>{
                             children: date
                         }, void 0, false, {
                             fileName: "[project]/pages/hiking-and-walking.js",
-                            lineNumber: 200,
+                            lineNumber: 235,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
@@ -1601,31 +1636,31 @@ const HikingAndWalking = ()=>{
                                 children: description
                             }, void 0, false, {
                                 fileName: "[project]/pages/hiking-and-walking.js",
-                                lineNumber: 202,
+                                lineNumber: 237,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/pages/hiking-and-walking.js",
-                            lineNumber: 201,
+                            lineNumber: 236,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
                             children: location
                         }, void 0, false, {
                             fileName: "[project]/pages/hiking-and-walking.js",
-                            lineNumber: 204,
+                            lineNumber: 239,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/pages/hiking-and-walking.js",
-                    lineNumber: 199,
+                    lineNumber: 234,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/hiking-and-walking.js",
-            lineNumber: 193,
+            lineNumber: 228,
             columnNumber: 7
         }, this);
     };
@@ -1643,30 +1678,30 @@ const HikingAndWalking = ()=>{
                                     children: "2022 - now"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/hiking-and-walking.js",
-                                    lineNumber: 216,
+                                    lineNumber: 251,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
                                     children: "Activity Statistics"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/hiking-and-walking.js",
-                                    lineNumber: 217,
+                                    lineNumber: 252,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/hiking-and-walking.js",
-                            lineNumber: 215,
+                            lineNumber: 250,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/hiking-and-walking.js",
-                        lineNumber: 214,
+                        lineNumber: 249,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/pages/hiking-and-walking.js",
-                    lineNumber: 213,
+                    lineNumber: 248,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1681,7 +1716,7 @@ const HikingAndWalking = ()=>{
                                         children: "Distance: 343.9km"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/hiking-and-walking.js",
-                                        lineNumber: 224,
+                                        lineNumber: 259,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1696,23 +1731,23 @@ const HikingAndWalking = ()=>{
                                                 title: "29%"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/hiking-and-walking.js",
-                                                lineNumber: 227,
+                                                lineNumber: 262,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/hiking-and-walking.js",
-                                            lineNumber: 226,
+                                            lineNumber: 261,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/hiking-and-walking.js",
-                                        lineNumber: 225,
+                                        lineNumber: 260,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/hiking-and-walking.js",
-                                lineNumber: 223,
+                                lineNumber: 258,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1722,7 +1757,7 @@ const HikingAndWalking = ()=>{
                                         children: "Elevation Gain: 12,863m"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/hiking-and-walking.js",
-                                        lineNumber: 233,
+                                        lineNumber: 268,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1737,23 +1772,23 @@ const HikingAndWalking = ()=>{
                                                 title: "52%"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/hiking-and-walking.js",
-                                                lineNumber: 236,
+                                                lineNumber: 271,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/hiking-and-walking.js",
-                                            lineNumber: 235,
+                                            lineNumber: 270,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/hiking-and-walking.js",
-                                        lineNumber: 234,
+                                        lineNumber: 269,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/hiking-and-walking.js",
-                                lineNumber: 232,
+                                lineNumber: 267,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1763,7 +1798,7 @@ const HikingAndWalking = ()=>{
                                         children: "Completed: 24"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/hiking-and-walking.js",
-                                        lineNumber: 242,
+                                        lineNumber: 277,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1778,23 +1813,23 @@ const HikingAndWalking = ()=>{
                                                 title: "11%"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/hiking-and-walking.js",
-                                                lineNumber: 245,
+                                                lineNumber: 280,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/hiking-and-walking.js",
-                                            lineNumber: 244,
+                                            lineNumber: 279,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/hiking-and-walking.js",
-                                        lineNumber: 243,
+                                        lineNumber: 278,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/hiking-and-walking.js",
-                                lineNumber: 241,
+                                lineNumber: 276,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1804,7 +1839,7 @@ const HikingAndWalking = ()=>{
                                         children: "Moving Time: 70h 10m"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/hiking-and-walking.js",
-                                        lineNumber: 251,
+                                        lineNumber: 286,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1819,40 +1854,40 @@ const HikingAndWalking = ()=>{
                                                 title: "36%"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/hiking-and-walking.js",
-                                                lineNumber: 254,
+                                                lineNumber: 289,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/pages/hiking-and-walking.js",
-                                            lineNumber: 253,
+                                            lineNumber: 288,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/pages/hiking-and-walking.js",
-                                        lineNumber: 252,
+                                        lineNumber: 287,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/hiking-and-walking.js",
-                                lineNumber: 250,
+                                lineNumber: 285,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/hiking-and-walking.js",
-                        lineNumber: 222,
+                        lineNumber: 257,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/pages/hiking-and-walking.js",
-                    lineNumber: 221,
+                    lineNumber: 256,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/hiking-and-walking.js",
-            lineNumber: 212,
+            lineNumber: 247,
             columnNumber: 7
         }, this);
     };
@@ -1870,12 +1905,12 @@ const HikingAndWalking = ()=>{
                             children: "Hiking & Walking."
                         }, void 0, false, {
                             fileName: "[project]/pages/hiking-and-walking.js",
-                            lineNumber: 269,
+                            lineNumber: 304,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/hiking-and-walking.js",
-                        lineNumber: 268,
+                        lineNumber: 303,
                         columnNumber: 11
                     }, this),
                     renderFlightStatistics(),
@@ -1883,7 +1918,7 @@ const HikingAndWalking = ()=>{
                         className: "separated"
                     }, void 0, false, {
                         fileName: "[project]/pages/hiking-and-walking.js",
-                        lineNumber: 272,
+                        lineNumber: 307,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1899,28 +1934,28 @@ const HikingAndWalking = ()=>{
                                 })
                             }, c.link, false, {
                                 fileName: "[project]/pages/hiking-and-walking.js",
-                                lineNumber: 275,
+                                lineNumber: 310,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/pages/hiking-and-walking.js",
-                        lineNumber: 273,
+                        lineNumber: 308,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/hiking-and-walking.js",
-                lineNumber: 267,
+                lineNumber: 302,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/pages/hiking-and-walking.js",
-            lineNumber: 266,
+            lineNumber: 301,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/pages/hiking-and-walking.js",
-        lineNumber: 265,
+        lineNumber: 300,
         columnNumber: 5
     }, this);
 };
@@ -1936,7 +1971,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
 {
-const PAGE_PATH = "/hiking-2025-pr-6-6-1-levada-das-25-fontes-rabacal-levada-of-risco";
+const PAGE_PATH = "/hiking-and-walking";
 (window.__NEXT_P = window.__NEXT_P || []).push([
     PAGE_PATH,
     ()=>{

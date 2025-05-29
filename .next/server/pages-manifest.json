@@ -3,5 +3,9 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/aerial-photography": "pages/aerial-photography.js"
+  "/aerial-2025-switzerland-grindelwald": "pages/aerial-2025-switzerland-grindelwald.js",
+  "/aerial-2025-switzerland-harder-klum": "pages/aerial-2025-switzerland-harder-klum.js",
+  "/aerial-2025-switzerland-trubsee": "pages/aerial-2025-switzerland-trubsee.js",
+  "/aerial-photography": "pages/aerial-photography.js",
+  "/hiking-and-walking": "pages/hiking-and-walking.js"
 }
