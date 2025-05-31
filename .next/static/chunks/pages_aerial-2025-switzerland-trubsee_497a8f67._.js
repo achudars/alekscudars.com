@@ -1,7 +1,7 @@
 (globalThis.TURBOPACK = globalThis.TURBOPACK || []).push([
     typeof document === "object" ? document.currentScript : undefined,
     {},
-    {"otherChunks":["static/chunks/node_modules_next_f7974fe8._.js","static/chunks/node_modules_react-dom_82bb97c6._.js","static/chunks/node_modules_2a5cf4bb._.js","static/chunks/[root-of-the-server]__67599226._.js"],"runtimeModuleIds":["[project]/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/runtime.js [client] (ecmascript)","[project]/node_modules/next/dist/client/next-dev-turbopack.js [client] (ecmascript)","[project]/pages/aerial-2025-switzerland-trubsee (hmr-entry)"]}
+    {"otherChunks":["static/chunks/node_modules_next_f7974fe8._.js","static/chunks/node_modules_react-dom_82bb97c6._.js","static/chunks/node_modules_2a5cf4bb._.js","static/chunks/[root-of-the-server]__67599226._.js"],"runtimeModuleIds":["[project]/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/runtime.js [client] (ecmascript)","[project]/node_modules/next/dist/client/next-dev-turbopack.js [client] (ecmascript)","[project]/pages/aerial-2025-switzerland-truebsee (hmr-entry)"]}
 ]);
 (() => {
 if (!Array.isArray(globalThis.TURBOPACK)) {
@@ -1681,4 +1681,4 @@ globalThis.TURBOPACK_CHUNK_LISTS = { push: registerChunkList };
 })();
 
 
-//# sourceMappingURL=pages_aerial-2025-switzerland-trubsee_497a8f67._.js.map
+//# sourceMappingURL=pages_aerial-2025-switzerland-truebsee_497a8f67._.js.map

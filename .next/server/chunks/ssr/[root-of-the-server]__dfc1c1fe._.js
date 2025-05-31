@@ -343,20 +343,22 @@ const Header = ({ blog, isLandingPage })=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
                             className: `toggler-menu ${sideBarToggle ? "open" : ""}`,
                             onClick: ()=>setSideBarToggle(!sideBarToggle),
+                            "aria-expanded": sideBarToggle,
+                            "aria-label": "Toggle navigation menu",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {}, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 24,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {}, void 0, false, {
-                                    fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 25,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {}, void 0, false, {
-                                    fileName: "[project]/src/layout/Header.js",
                                     lineNumber: 26,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {}, void 0, false, {
+                                    fileName: "[project]/src/layout/Header.js",
+                                    lineNumber: 27,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {}, void 0, false, {
+                                    fileName: "[project]/src/layout/Header.js",
+                                    lineNumber: 28,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -395,43 +397,43 @@ const Header = ({ blog, isLandingPage })=>{
                                                 alt: "photo of Aleks"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/layout/Header.js",
-                                                lineNumber: 41,
+                                                lineNumber: 43,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/layout/Header.js",
-                                            lineNumber: 40,
+                                            lineNumber: 42,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h5", {
                                             children: "🇱🇻 🥔 🇬🇧"
                                         }, void 0, false, {
                                             fileName: "[project]/src/layout/Header.js",
-                                            lineNumber: 47,
+                                            lineNumber: 49,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 39,
+                                    lineNumber: 41,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/layout/Header.js",
-                                lineNumber: 38,
+                                lineNumber: 40,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(MenuForLandingPage, {
                                 isChild: !isLandingPage
                             }, void 0, false, {
                                 fileName: "[project]/src/layout/Header.js",
-                                lineNumber: 50,
+                                lineNumber: 52,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/layout/Header.js",
-                        lineNumber: 37,
+                        lineNumber: 39,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -446,12 +448,12 @@ const Header = ({ blog, isLandingPage })=>{
                                     className: "fab fa-linkedin-in"
                                 }, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 60,
+                                    lineNumber: 62,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/layout/Header.js",
-                                lineNumber: 54,
+                                lineNumber: 56,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -463,12 +465,12 @@ const Header = ({ blog, isLandingPage })=>{
                                     className: "fab fa-github"
                                 }, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 68,
+                                    lineNumber: 70,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/layout/Header.js",
-                                lineNumber: 62,
+                                lineNumber: 64,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -480,12 +482,12 @@ const Header = ({ blog, isLandingPage })=>{
                                     className: "fab fa-stack-overflow"
                                 }, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 76,
+                                    lineNumber: 78,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/layout/Header.js",
-                                lineNumber: 70,
+                                lineNumber: 72,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -497,12 +499,12 @@ const Header = ({ blog, isLandingPage })=>{
                                     className: "fab fa-codepen"
                                 }, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 84,
+                                    lineNumber: 86,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/layout/Header.js",
-                                lineNumber: 78,
+                                lineNumber: 80,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -514,24 +516,24 @@ const Header = ({ blog, isLandingPage })=>{
                                     className: "fab fa-speaker-deck"
                                 }, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 92,
+                                    lineNumber: 94,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/layout/Header.js",
-                                lineNumber: 86,
+                                lineNumber: 88,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/layout/Header.js",
-                        lineNumber: 53,
+                        lineNumber: 55,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/layout/Header.js",
-                lineNumber: 32,
+                lineNumber: 34,
                 columnNumber: 7
             }, this)
         ]
@@ -558,25 +560,25 @@ const MenuForLandingPage = (isChild)=>{
                             className: "ti-home"
                         }, void 0, false, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 106,
+                            lineNumber: 108,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                             children: "Home"
                         }, void 0, false, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 107,
+                            lineNumber: 109,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/layout/Header.js",
-                    lineNumber: 105,
+                    lineNumber: 107,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/layout/Header.js",
-                lineNumber: 104,
+                lineNumber: 106,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -589,25 +591,25 @@ const MenuForLandingPage = (isChild)=>{
                             className: "ti-user"
                         }, void 0, false, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 112,
+                            lineNumber: 114,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                             children: "About"
                         }, void 0, false, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 113,
+                            lineNumber: 115,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/layout/Header.js",
-                    lineNumber: 111,
+                    lineNumber: 113,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/layout/Header.js",
-                lineNumber: 110,
+                lineNumber: 112,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -620,25 +622,25 @@ const MenuForLandingPage = (isChild)=>{
                             className: "ti-medall"
                         }, void 0, false, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 121,
+                            lineNumber: 123,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                             children: "Certifications"
                         }, void 0, false, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 122,
+                            lineNumber: 124,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/layout/Header.js",
-                    lineNumber: 117,
+                    lineNumber: 119,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/layout/Header.js",
-                lineNumber: 116,
+                lineNumber: 118,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -651,25 +653,25 @@ const MenuForLandingPage = (isChild)=>{
                             className: "ti-shine"
                         }, void 0, false, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 127,
+                            lineNumber: 129,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                             children: "Interests"
                         }, void 0, false, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 128,
+                            lineNumber: 130,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/layout/Header.js",
-                    lineNumber: 126,
+                    lineNumber: 128,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/layout/Header.js",
-                lineNumber: 125,
+                lineNumber: 127,
                 columnNumber: 7
             }, this),
             1 > 2 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["Fragment"], {
@@ -685,25 +687,25 @@ const MenuForLandingPage = (isChild)=>{
                                     className: "ti-bookmark-alt"
                                 }, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 136,
+                                    lineNumber: 138,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                     children: "Portfolio"
                                 }, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 137,
+                                    lineNumber: 139,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 135,
+                            lineNumber: 137,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/layout/Header.js",
-                        lineNumber: 134,
+                        lineNumber: 136,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -717,25 +719,25 @@ const MenuForLandingPage = (isChild)=>{
                                     className: "ti-layout-media-overlay-alt-2"
                                 }, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 142,
+                                    lineNumber: 144,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                     children: "Blogs"
                                 }, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 143,
+                                    lineNumber: 145,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 141,
+                            lineNumber: 143,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/layout/Header.js",
-                        lineNumber: 140,
+                        lineNumber: 142,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
@@ -748,25 +750,25 @@ const MenuForLandingPage = (isChild)=>{
                                     className: "ti-map-alt"
                                 }, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 151,
+                                    lineNumber: 153,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                     children: "Contact Me"
                                 }, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 152,
+                                    lineNumber: 154,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 147,
+                            lineNumber: 149,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/layout/Header.js",
-                        lineNumber: 146,
+                        lineNumber: 148,
                         columnNumber: 11
                     }, this)
                 ]
@@ -774,7 +776,7 @@ const MenuForLandingPage = (isChild)=>{
         ]
     }, void 0, true, {
         fileName: "[project]/src/layout/Header.js",
-        lineNumber: 103,
+        lineNumber: 105,
         columnNumber: 5
     }, this);
 };
@@ -852,9 +854,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$Layout$2e$j
 ;
 const CAPTURED = [
     {
-        link: "./aerial-2025-switzerland-trubsee",
-        photo: "./static/img/aerial/2025/switzerland-trubsee/2025_05_25_07_49_DJI_0166 - square.JPG",
-        description: "Switzerland, Trubsee",
+        link: "./aerial-2025-switzerland-truebsee",
+        photo: "./static/img/aerial/2025/switzerland-truebsee/2025_05_25_07_49_DJI_0166 - square.JPG",
+        description: "Switzerland, Truebsee",
         date: 2025
     },
     {

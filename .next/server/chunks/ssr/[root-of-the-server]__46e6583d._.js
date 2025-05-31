@@ -3,8 +3,6 @@ module.exports = {
 "[project]/src/useClickOutside.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -26,12 +24,10 @@ let useClickOutside = (handler)=>{
     return domNode;
 };
 const __TURBOPACK__default__export__ = useClickOutside;
-}}),
+}),
 "[project]/src/components/ImageView.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -148,10 +144,10 @@ const ImageView = ()=>{
     }, this);
 };
 const __TURBOPACK__default__export__ = ImageView;
-}}),
+}),
 "[externals]/fs [external] (fs, cjs)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 const mod = __turbopack_context__.x("fs", () => require("fs"));
 
@@ -159,7 +155,7 @@ module.exports = mod;
 }}),
 "[externals]/stream [external] (stream, cjs)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 const mod = __turbopack_context__.x("stream", () => require("stream"));
 
@@ -167,7 +163,7 @@ module.exports = mod;
 }}),
 "[externals]/zlib [external] (zlib, cjs)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 const mod = __turbopack_context__.x("zlib", () => require("zlib"));
 
@@ -175,7 +171,7 @@ module.exports = mod;
 }}),
 "[externals]/react-dom [external] (react-dom, cjs)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 const mod = __turbopack_context__.x("react-dom", () => require("react-dom"));
 
@@ -184,8 +180,6 @@ module.exports = mod;
 "[project]/src/layout/BackBtn.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -213,12 +207,10 @@ const BackBtn = ()=>{
     }, this);
 };
 const __TURBOPACK__default__export__ = BackBtn;
-}}),
+}),
 "[project]/src/layout/DayNightMood.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -248,12 +240,10 @@ const DayNightMood = ()=>{
     }, this);
 };
 const __TURBOPACK__default__export__ = DayNightMood;
-}}),
+}),
 "[project]/src/paginationUtils.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "activeSection": (()=>activeSection),
     "getPagination": (()=>getPagination),
@@ -303,12 +293,10 @@ const pagination = (listClass, sort, active)=>{
         }
     }
 };
-}}),
+}),
 "[project]/src/layout/Header.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -339,16 +327,9 @@ const Header = ({ blog, isLandingPage })=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                             className: "navbar-brand",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                legacyBehavior: true,
                                 href: "/",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                                    className: "logo-text",
-                                    children: "Aleksandrs Čudars"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 19,
-                                    columnNumber: 15
-                                }, this)
+                                className: "logo-text",
+                                children: "Aleksandrs Čudars"
                             }, void 0, false, {
                                 fileName: "[project]/src/layout/Header.js",
                                 lineNumber: 18,
@@ -362,6 +343,8 @@ const Header = ({ blog, isLandingPage })=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
                             className: `toggler-menu ${sideBarToggle ? "open" : ""}`,
                             onClick: ()=>setSideBarToggle(!sideBarToggle),
+                            "aria-expanded": sideBarToggle,
+                            "aria-label": "Toggle navigation menu",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {}, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
@@ -381,7 +364,7 @@ const Header = ({ blog, isLandingPage })=>{
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 22,
+                            lineNumber: 20,
                             columnNumber: 11
                         }, this)
                     ]
@@ -797,12 +780,10 @@ const MenuForLandingPage = (isChild)=>{
         columnNumber: 5
     }, this);
 };
-}}),
+}),
 "[project]/src/layout/Layout.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -860,12 +841,10 @@ const Layout = ({ children, showBackBtn, blog })=>{
     }, this);
 };
 const __TURBOPACK__default__export__ = Layout;
-}}),
+}),
 "[project]/pages/hiking-and-walking.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 /* eslint-disable @next/next/no-img-element */ __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -876,35 +855,35 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$Layout$2e$j
 const CAPTURED = [
     {
         link: "./hiking-2025-switzerland-mount-rigi-descent",
-        photo: "./static/img/hiking/2025/switzerland-mount-rigi-descent/<TBA>.JPG",
+        photo: "./static/img/hiking/2025/switzerland-mount-rigi-descent/2025_05_26_10_10_IMG_1033 - Copy.JPG",
         description: "Mount Rigi Descent",
         location: "Switzerland",
         date: 2025
     },
     {
         link: "./hiking-2025-switzerland-mount-rigi-ascent",
-        photo: "./static/img/hiking/2025/switzerland-mount-rigi-ascent/<TBA>.JPG",
+        photo: "./static/img/hiking/2025/switzerland-mount-rigi-ascent/2025_05_26_08_42_IMG_1012 - Copy.JPG",
         description: "Mount Rigi Ascent",
         location: "Switzerland",
         date: 2025
     },
     {
-        link: "./hiking-2025-switzerland-engelberg-trubsee",
-        photo: "./static/img/hiking/2025/switzerland-engelberg-trubsee/<TBA>.JPG",
-        description: "Engelberg Trubsee",
+        link: "./hiking-2025-switzerland-engelberg-truebsee",
+        photo: "./static/img/hiking/2025/switzerland-engelberg-truebsee/2025_05_25_08_22_IMG_0914 - Copy.JPG",
+        description: "Engelberg, Truebsee",
         location: "Switzerland",
         date: 2025
     },
     {
         link: "./hiking-2025-switzerland-grindelwald",
-        photo: "./static/img/hiking/2025/switzerland-grindelwald/<TBA>.JPG",
+        photo: "./static/img/hiking/2025/switzerland-grindelwald/2025_05_24_11_38_IMG_0778 - Copy.JPG",
         description: "Grindelwald",
         location: "Switzerland",
         date: 2025
     },
     {
         link: "./hiking-2025-switzerland-harder-klum",
-        photo: "./static/img/hiking/2025/switzerland-harder-klum/<TBA>.JPG",
+        photo: "./static/img/hiking/2025/switzerland-harder-klum/2025_05_24_07_36_IMG_0704 - Copy.JPG",
         description: "Harder Klum",
         location: "Switzerland",
         date: 2025
@@ -1447,7 +1426,7 @@ const HikingAndWalking = ()=>{
     }, this);
 };
 const __TURBOPACK__default__export__ = HikingAndWalking;
-}}),
+}),
 
 };
 

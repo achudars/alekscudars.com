@@ -1137,7 +1137,7 @@ const PhotoAndVideoSection = ({ photos, videos, altForPhotos, id, title, extraDe
 };
 const __TURBOPACK__default__export__ = PhotoAndVideoSection;
 }}),
-"[project]/pages/aerial-2025-switzerland-trubsee.js [ssr] (ecmascript)": ((__turbopack_context__) => {
+"[project]/pages/aerial-2025-switzerland-truebsee.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
 var { g: global, __dirname } = __turbopack_context__;
@@ -1150,29 +1150,29 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$PhotoAndVid
 ;
 ;
 const PHOTOS = [
-    "./static/img/aerial/2025/switzerland-trubsee/2025_05_25_07_36_IMG_0897.JPG",
-    "./static/img/aerial/2025/switzerland-trubsee/2025_05_25_07_43_DJI_0126.JPG",
-    "./static/img/aerial/2025/switzerland-trubsee/2025_05_25_07_46_DJI_0150.JPG",
-    "./static/img/aerial/2025/switzerland-trubsee/2025_05_25_07_49_DJI_0166.JPG",
-    "./static/img/aerial/2025/switzerland-trubsee/2025_05_25_07_51_IMG_0899.JPG",
-    "./static/img/aerial/2025/switzerland-trubsee/2025_05_25_07_53_DJI_0188.JPG",
-    "./static/img/aerial/2025/switzerland-trubsee/2025_05_25_07_53_IMG_0904.JPG",
-    "./static/img/aerial/2025/switzerland-trubsee/2025_05_25_09_49_IMG_0935.JPG",
-    "./static/img/aerial/2025/switzerland-trubsee/2025_05_25_09_55_IMG_0946.JPG"
+    "./static/img/aerial/2025/switzerland-truebsee/2025_05_25_07_36_IMG_0897.JPG",
+    "./static/img/aerial/2025/switzerland-truebsee/2025_05_25_07_43_DJI_0126.JPG",
+    "./static/img/aerial/2025/switzerland-truebsee/2025_05_25_07_46_DJI_0150.JPG",
+    "./static/img/aerial/2025/switzerland-truebsee/2025_05_25_07_49_DJI_0166.JPG",
+    "./static/img/aerial/2025/switzerland-truebsee/2025_05_25_07_51_IMG_0899.JPG",
+    "./static/img/aerial/2025/switzerland-truebsee/2025_05_25_07_53_DJI_0188.JPG",
+    "./static/img/aerial/2025/switzerland-truebsee/2025_05_25_07_53_IMG_0904.JPG",
+    "./static/img/aerial/2025/switzerland-truebsee/2025_05_25_09_49_IMG_0935.JPG",
+    "./static/img/aerial/2025/switzerland-truebsee/2025_05_25_09_55_IMG_0946.JPG"
 ];
 const VIDEOS = [
-    "./static/img/aerial/2025/switzerland-trubsee/2025_05_25_09_47_DJI_0156.MOV",
-    "./static/img/aerial/2025/switzerland-trubsee/2025_05_25_09_48_DJI_0164.MOV"
+    "./static/img/aerial/2025/switzerland-truebsee/2025_05_25_09_47_DJI_0156.MOV",
+    "./static/img/aerial/2025/switzerland-truebsee/2025_05_25_09_48_DJI_0164.MOV"
 ];
 const SpecificItem = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$PhotoAndVideoSection$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
         photos: PHOTOS,
         videos: VIDEOS,
-        altForPhotos: "aerial photo of Trubsee, Switzerland",
-        id: "aerial-2025-switzerland-trubsee",
-        title: "Switzerland, Trubsee, 2025"
+        altForPhotos: "aerial photo of truebsee, Switzerland",
+        id: "aerial-2025-switzerland-truebsee",
+        title: "Switzerland, truebsee, 2025"
     }, void 0, false, {
-        fileName: "[project]/pages/aerial-2025-switzerland-trubsee.js",
+        fileName: "[project]/pages/aerial-2025-switzerland-truebsee.js",
         lineNumber: 22,
         columnNumber: 5
     }, this);

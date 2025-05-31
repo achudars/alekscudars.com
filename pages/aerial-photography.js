@@ -3,10 +3,10 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
-    link: "./aerial-2025-switzerland-trubsee",
+    link: "./aerial-2025-switzerland-truebsee",
     photo:
-      "./static/img/aerial/2025/switzerland-trubsee/2025_05_25_07_49_DJI_0166 - square.JPG",
-    description: "Switzerland, Trubsee",
+      "./static/img/aerial/2025/switzerland-truebsee/2025_05_25_07_49_DJI_0166 - square.JPG",
+    description: "Switzerland, Truebsee",
     date: 2025,
   },
   {

@@ -3,8 +3,6 @@ module.exports = {
 "[project]/src/useClickOutside.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -26,12 +24,10 @@ let useClickOutside = (handler)=>{
     return domNode;
 };
 const __TURBOPACK__default__export__ = useClickOutside;
-}}),
+}),
 "[project]/src/components/ImageView.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -148,10 +144,10 @@ const ImageView = ()=>{
     }, this);
 };
 const __TURBOPACK__default__export__ = ImageView;
-}}),
+}),
 "[externals]/fs [external] (fs, cjs)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 const mod = __turbopack_context__.x("fs", () => require("fs"));
 
@@ -159,7 +155,7 @@ module.exports = mod;
 }}),
 "[externals]/stream [external] (stream, cjs)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 const mod = __turbopack_context__.x("stream", () => require("stream"));
 
@@ -167,7 +163,7 @@ module.exports = mod;
 }}),
 "[externals]/zlib [external] (zlib, cjs)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 const mod = __turbopack_context__.x("zlib", () => require("zlib"));
 
@@ -175,7 +171,7 @@ module.exports = mod;
 }}),
 "[externals]/react-dom [external] (react-dom, cjs)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 const mod = __turbopack_context__.x("react-dom", () => require("react-dom"));
 
@@ -184,8 +180,6 @@ module.exports = mod;
 "[project]/src/layout/BackBtn.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -213,12 +207,10 @@ const BackBtn = ()=>{
     }, this);
 };
 const __TURBOPACK__default__export__ = BackBtn;
-}}),
+}),
 "[project]/src/layout/DayNightMood.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -248,12 +240,10 @@ const DayNightMood = ()=>{
     }, this);
 };
 const __TURBOPACK__default__export__ = DayNightMood;
-}}),
+}),
 "[project]/src/paginationUtils.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "activeSection": (()=>activeSection),
     "getPagination": (()=>getPagination),
@@ -303,12 +293,10 @@ const pagination = (listClass, sort, active)=>{
         }
     }
 };
-}}),
+}),
 "[project]/src/layout/Header.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -339,16 +327,9 @@ const Header = ({ blog, isLandingPage })=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                             className: "navbar-brand",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                legacyBehavior: true,
                                 href: "/",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                                    className: "logo-text",
-                                    children: "Aleksandrs Čudars"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 19,
-                                    columnNumber: 15
-                                }, this)
+                                className: "logo-text",
+                                children: "Aleksandrs Čudars"
                             }, void 0, false, {
                                 fileName: "[project]/src/layout/Header.js",
                                 lineNumber: 18,
@@ -362,6 +343,8 @@ const Header = ({ blog, isLandingPage })=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
                             className: `toggler-menu ${sideBarToggle ? "open" : ""}`,
                             onClick: ()=>setSideBarToggle(!sideBarToggle),
+                            "aria-expanded": sideBarToggle,
+                            "aria-label": "Toggle navigation menu",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {}, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
@@ -381,7 +364,7 @@ const Header = ({ blog, isLandingPage })=>{
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 22,
+                            lineNumber: 20,
                             columnNumber: 11
                         }, this)
                     ]
@@ -797,12 +780,10 @@ const MenuForLandingPage = (isChild)=>{
         columnNumber: 5
     }, this);
 };
-}}),
+}),
 "[project]/src/layout/Layout.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -860,12 +841,10 @@ const Layout = ({ children, showBackBtn, blog })=>{
     }, this);
 };
 const __TURBOPACK__default__export__ = Layout;
-}}),
+}),
 "[project]/src/layout/PhotoItem.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -896,12 +875,10 @@ const PhotoItem = ({ src, alt })=>{
     }, this);
 };
 const __TURBOPACK__default__export__ = PhotoItem;
-}}),
+}),
 "[project]/src/layout/VideoItem.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "VideoItem": (()=>VideoItem),
     "default": (()=>__TURBOPACK__default__export__)
@@ -945,12 +922,10 @@ const VideoItem = ({ src })=>{
     }, this);
 };
 const __TURBOPACK__default__export__ = VideoItem;
-}}),
+}),
 "[project]/src/layout/PageTitle.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -973,12 +948,10 @@ const PageTitle = ({ title })=>{
     }, this);
 };
 const __TURBOPACK__default__export__ = PageTitle;
-}}),
+}),
 "[project]/src/layout/PhotoAndVideoSection.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 /* eslint-disable @next/next/no-img-element */ __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -1136,12 +1109,10 @@ const PhotoAndVideoSection = ({ photos, videos, altForPhotos, id, title, extraDe
     }, this);
 };
 const __TURBOPACK__default__export__ = PhotoAndVideoSection;
-}}),
+}),
 "[project]/pages/aerial-2025-switzerland-harder-klum.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -1188,7 +1159,7 @@ const SpecificItem = ()=>{
     }, this);
 };
 const __TURBOPACK__default__export__ = SpecificItem;
-}}),
+}),
 
 };
 
