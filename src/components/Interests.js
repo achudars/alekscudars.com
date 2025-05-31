@@ -13,7 +13,7 @@ const Interests = () => {
         </div>
         <div className="row">
           <div className="col-sm-6 m-15px-tb">
-            <div className="feature-box-01 media">
+            <div className="feature-box-01 media d-flex align-items-center">
               <i className="icon theme-bg icon-camera" aria-hidden="true" />
               <div className="feature-content media-body">
                 <Link href="/aerial-photography">
@@ -23,7 +23,7 @@ const Interests = () => {
             </div>
           </div>
           <div className="col-sm-6 m-15px-tb">
-            <div className="feature-box-01 media">
+            <div className="feature-box-01 media d-flex align-items-center">
               <i className="icon theme-bg icon-newspaper" aria-hidden="true" />
               <div className="feature-content media-body">
                 <Link href="/reading">
@@ -33,7 +33,7 @@ const Interests = () => {
             </div>
           </div>
           <div className="col-sm-6 m-15px-tb">
-            <div className="feature-box-01 media">
+            <div className="feature-box-01 media d-flex align-items-center">
               <i className="icon theme-bg icon-target" aria-hidden="true" />
               <div className="feature-content media-body">
                 <Link href="/running-and-training">
@@ -43,7 +43,7 @@ const Interests = () => {
             </div>
           </div>
           <div className="col-sm-6 m-15px-tb">
-            <div className="feature-box-01 media">
+            <div className="feature-box-01 media d-flex align-items-center">
               <i className="icon theme-bg icon-map" aria-hidden="true" />
               <div className="feature-content media-body">
                 <Link href="/hiking-and-walking">
@@ -53,7 +53,7 @@ const Interests = () => {
             </div>
           </div>
           <div className="col-sm-6 m-15px-tb">
-            <div className="feature-box-01 media">
+            <div className="feature-box-01 media d-flex align-items-center">
               <i className="icon theme-bg icon-focus" aria-hidden="true" />
               <div className="feature-content media-body">
                 <Link href="/online-courses">
@@ -63,7 +63,7 @@ const Interests = () => {
             </div>
           </div>
           <div className="col-sm-6 m-15px-tb">
-            <div className="feature-box-01 media">
+            <div className="feature-box-01 media d-flex align-items-center">
               <i className="icon theme-bg icon-pencil" aria-hidden="true" />
               <div className="feature-content media-body">
                 <Link href="/drawing">
