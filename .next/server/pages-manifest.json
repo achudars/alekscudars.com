@@ -1,6 +1,8 @@
 {
+  "/": "pages/index.js",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/_error": "pages/_error.js",
-  "/hiking-and-walking": "pages/hiking-and-walking.js"
+  "/aerial-photography": "pages/aerial-photography.js",
+  "/drawing": "pages/drawing.js",
+  "/online-courses": "pages/online-courses.js"
 }

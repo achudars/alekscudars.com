@@ -3,8 +3,6 @@
 "[turbopack]/browser/dev/hmr-client/hmr-client.ts [client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 /// <reference path="../../../shared/runtime-types.d.ts" />
 /// <reference path="../../runtime/base/dev-globals.d.ts" />
 /// <reference path="../../runtime/base/dev-protocol.d.ts" />
@@ -17,7 +15,7 @@ __turbopack_context__.s({
 function connect({ addMessageListener, sendMessage, onUpdateError = console.error }) {
     addMessageListener((msg)=>{
         switch(msg.type){
-            case "turbopack-connected":
+            case 'turbopack-connected':
                 handleSocketConnected(sendMessage);
                 break;
             default:
@@ -31,7 +29,7 @@ function connect({ addMessageListener, sendMessage, onUpdateError = console.erro
                     }
                     applyAggregatedUpdates();
                 } catch (e) {
-                    console.warn("[Fast Refresh] performing full reload\n\n" + "Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.\n" + "You might have a file which exports a React component but also exports a value that is imported by a non-React component file.\n" + "Consider migrating the non-React component export to a separate file and importing it into both files.\n\n" + "It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.\n" + "Fast Refresh requires at least one parent function component in your React tree.");
+                    console.warn('[Fast Refresh] performing full reload\n\n' + "Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.\n" + 'You might have a file which exports a React component but also exports a value that is imported by a non-React component file.\n' + 'Consider migrating the non-React component export to a separate file and importing it into both files.\n\n' + 'It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.\n' + 'Fast Refresh requires at least one parent function component in your React tree.');
                     onUpdateError(e);
                     location.reload();
                 }
@@ -40,7 +38,7 @@ function connect({ addMessageListener, sendMessage, onUpdateError = console.erro
     });
     const queued = globalThis.TURBOPACK_CHUNK_UPDATE_LISTENERS;
     if (queued != null && !Array.isArray(queued)) {
-        throw new Error("A separate HMR handler was already registered");
+        throw new Error('A separate HMR handler was already registered');
     }
     globalThis.TURBOPACK_CHUNK_UPDATE_LISTENERS = {
         push: ([chunkPath, callback])=>{
@@ -65,12 +63,12 @@ function resourceKey(resource) {
 }
 function subscribeToUpdates(sendMessage, resource) {
     sendJSON(sendMessage, {
-        type: "turbopack-subscribe",
+        type: 'turbopack-subscribe',
         ...resource
     });
     return ()=>{
         sendJSON(sendMessage, {
-            type: "turbopack-unsubscribe",
+            type: 'turbopack-unsubscribe',
             ...resource
         });
     };
@@ -135,7 +133,7 @@ function mergeChunkListUpdates(updateA, updateB) {
         merged = updateB.merged;
     }
     return {
-        type: "ChunkListUpdate",
+        type: 'ChunkListUpdate',
         chunks,
         merged
     };
@@ -161,14 +159,14 @@ function mergeChunkListChunks(chunksA, chunksB) {
     return chunks;
 }
 function mergeChunkUpdates(updateA, updateB) {
-    if (updateA.type === "added" && updateB.type === "deleted" || updateA.type === "deleted" && updateB.type === "added") {
+    if (updateA.type === 'added' && updateB.type === 'deleted' || updateA.type === 'deleted' && updateB.type === 'added') {
         return undefined;
     }
-    if (updateA.type === "partial") {
-        invariant(updateA.instruction, "Partial updates are unsupported");
+    if (updateA.type === 'partial') {
+        invariant(updateA.instruction, 'Partial updates are unsupported');
     }
-    if (updateB.type === "partial") {
-        invariant(updateB.instruction, "Partial updates are unsupported");
+    if (updateB.type === 'partial') {
+        invariant(updateB.instruction, 'Partial updates are unsupported');
     }
     return undefined;
 }
@@ -176,7 +174,7 @@ function mergeChunkListEcmascriptMergedUpdates(mergedA, mergedB) {
     const entries = mergeEcmascriptChunkEntries(mergedA.entries, mergedB.entries);
     const chunks = mergeEcmascriptChunksUpdates(mergedA.chunks, mergedB.chunks);
     return {
-        type: "EcmascriptMergedUpdate",
+        type: 'EcmascriptMergedUpdate',
         entries,
         chunks
     };
@@ -217,11 +215,11 @@ function mergeEcmascriptChunksUpdates(chunksA, chunksB) {
     return chunks;
 }
 function mergeEcmascriptChunkUpdates(updateA, updateB) {
-    if (updateA.type === "added" && updateB.type === "deleted") {
+    if (updateA.type === 'added' && updateB.type === 'deleted') {
         // These two completely cancel each other out.
         return undefined;
     }
-    if (updateA.type === "deleted" && updateB.type === "added") {
+    if (updateA.type === 'deleted' && updateB.type === 'added') {
         const added = [];
         const deleted = [];
         const deletedModules = new Set(updateA.modules ?? []);
@@ -240,12 +238,12 @@ function mergeEcmascriptChunkUpdates(updateA, updateB) {
             return undefined;
         }
         return {
-            type: "partial",
+            type: 'partial',
             added,
             deleted
         };
     }
-    if (updateA.type === "partial" && updateB.type === "partial") {
+    if (updateA.type === 'partial' && updateB.type === 'partial') {
         const added = new Set([
             ...updateA.added ?? [],
             ...updateB.added ?? []
@@ -265,7 +263,7 @@ function mergeEcmascriptChunkUpdates(updateA, updateB) {
             }
         }
         return {
-            type: "partial",
+            type: 'partial',
             added: [
                 ...added
             ],
@@ -274,7 +272,7 @@ function mergeEcmascriptChunkUpdates(updateA, updateB) {
             ]
         };
     }
-    if (updateA.type === "added" && updateB.type === "partial") {
+    if (updateA.type === 'added' && updateB.type === 'partial') {
         const modules = new Set([
             ...updateA.modules ?? [],
             ...updateB.added ?? []
@@ -283,13 +281,13 @@ function mergeEcmascriptChunkUpdates(updateA, updateB) {
             modules.delete(moduleId);
         }
         return {
-            type: "added",
+            type: 'added',
             modules: [
                 ...modules
             ]
         };
     }
-    if (updateA.type === "partial" && updateB.type === "deleted") {
+    if (updateA.type === 'partial' && updateB.type === 'deleted') {
         // We could eagerly return `updateB` here, but this would potentially be
         // incorrect if `updateA` has added modules.
         const modules = new Set(updateB.modules ?? []);
@@ -299,7 +297,7 @@ function mergeEcmascriptChunkUpdates(updateA, updateB) {
             }
         }
         return {
-            type: "deleted",
+            type: 'deleted',
             modules: [
                 ...modules
             ]
@@ -312,9 +310,9 @@ function invariant(_, message) {
     throw new Error(`Invariant: ${message}`);
 }
 const CRITICAL = [
-    "bug",
-    "error",
-    "fatal"
+    'bug',
+    'error',
+    'fatal'
 ];
 function compareByList(list, a, b) {
     const aI = list.indexOf(a) + 1 || list.length;
@@ -352,20 +350,20 @@ function handleIssues(msg) {
     return hasCriticalIssues;
 }
 const SEVERITY_ORDER = [
-    "bug",
-    "fatal",
-    "error",
-    "warning",
-    "info",
-    "log"
+    'bug',
+    'fatal',
+    'error',
+    'warning',
+    'info',
+    'log'
 ];
 const CATEGORY_ORDER = [
-    "parse",
-    "resolve",
-    "code generation",
-    "rendering",
-    "typescript",
-    "other"
+    'parse',
+    'resolve',
+    'code generation',
+    'rendering',
+    'typescript',
+    'other'
 ];
 function sortIssues(issues) {
     issues.sort((a, b)=>{
@@ -387,9 +385,9 @@ function handleSocketMessage(msg) {
     sortIssues(msg.issues);
     handleIssues(msg);
     switch(msg.type){
-        case "issues":
+        case 'issues':
             break;
-        case "partial":
+        case 'partial':
             // aggregate updates
             aggregateUpdates(msg);
             break;
@@ -451,7 +449,7 @@ function triggerUpdate(msg) {
     for (const callback of callbackSet.callbacks){
         callback(msg);
     }
-    if (msg.type === "notFound") {
+    if (msg.type === 'notFound') {
         // This indicates that the resource which we subscribed to either does not exist or
         // has been deleted. In either case, we should clear all update callbacks, so if a
         // new subscription is created for the same resource, it will send a new "subscribe"
@@ -461,11 +459,11 @@ function triggerUpdate(msg) {
         updateCallbackSets.delete(key);
     }
 }
-}}),
+}),
 "[project]/src/useClickOutside.js [client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
@@ -504,7 +502,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/src/components/ImageView.js [client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
@@ -653,7 +651,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/src/layout/BackBtn.js [client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
@@ -699,7 +697,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/src/layout/DayNightMood.js [client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
@@ -743,7 +741,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/src/paginationUtils.js [client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
     "activeSection": (()=>activeSection),
@@ -801,7 +799,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/src/layout/Header.js [client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
@@ -837,16 +835,9 @@ const Header = ({ blog, isLandingPage })=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "navbar-brand",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                legacyBehavior: true,
                                 href: "/",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                    className: "logo-text",
-                                    children: "Aleksandrs Čudars"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 19,
-                                    columnNumber: 15
-                                }, this)
+                                className: "logo-text",
+                                children: "Aleksandrs Čudars"
                             }, void 0, false, {
                                 fileName: "[project]/src/layout/Header.js",
                                 lineNumber: 18,
@@ -863,23 +854,23 @@ const Header = ({ blog, isLandingPage })=>{
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {}, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
+                                    lineNumber: 24,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {}, void 0, false, {
+                                    fileName: "[project]/src/layout/Header.js",
+                                    lineNumber: 25,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {}, void 0, false, {
+                                    fileName: "[project]/src/layout/Header.js",
                                     lineNumber: 26,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {}, void 0, false, {
-                                    fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 27,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {}, void 0, false, {
-                                    fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 28,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 22,
+                            lineNumber: 20,
                             columnNumber: 11
                         }, this)
                     ]
@@ -912,43 +903,43 @@ const Header = ({ blog, isLandingPage })=>{
                                                 alt: "photo of Aleks"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/layout/Header.js",
-                                                lineNumber: 43,
+                                                lineNumber: 41,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/layout/Header.js",
-                                            lineNumber: 42,
+                                            lineNumber: 40,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
                                             children: "🇱🇻 🥔 🇬🇧"
                                         }, void 0, false, {
                                             fileName: "[project]/src/layout/Header.js",
-                                            lineNumber: 49,
+                                            lineNumber: 47,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 41,
+                                    lineNumber: 39,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/layout/Header.js",
-                                lineNumber: 40,
+                                lineNumber: 38,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(MenuForLandingPage, {
                                 isChild: !isLandingPage
                             }, void 0, false, {
                                 fileName: "[project]/src/layout/Header.js",
-                                lineNumber: 52,
+                                lineNumber: 50,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/layout/Header.js",
-                        lineNumber: 39,
+                        lineNumber: 37,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -963,12 +954,12 @@ const Header = ({ blog, isLandingPage })=>{
                                     className: "fab fa-linkedin-in"
                                 }, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 62,
+                                    lineNumber: 60,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/layout/Header.js",
-                                lineNumber: 56,
+                                lineNumber: 54,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -980,12 +971,12 @@ const Header = ({ blog, isLandingPage })=>{
                                     className: "fab fa-github"
                                 }, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 70,
+                                    lineNumber: 68,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/layout/Header.js",
-                                lineNumber: 64,
+                                lineNumber: 62,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -997,12 +988,12 @@ const Header = ({ blog, isLandingPage })=>{
                                     className: "fab fa-stack-overflow"
                                 }, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 78,
+                                    lineNumber: 76,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/layout/Header.js",
-                                lineNumber: 72,
+                                lineNumber: 70,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1014,12 +1005,12 @@ const Header = ({ blog, isLandingPage })=>{
                                     className: "fab fa-codepen"
                                 }, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 86,
+                                    lineNumber: 84,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/layout/Header.js",
-                                lineNumber: 80,
+                                lineNumber: 78,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1031,24 +1022,24 @@ const Header = ({ blog, isLandingPage })=>{
                                     className: "fab fa-speaker-deck"
                                 }, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 94,
+                                    lineNumber: 92,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/layout/Header.js",
-                                lineNumber: 88,
+                                lineNumber: 86,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/layout/Header.js",
-                        lineNumber: 55,
+                        lineNumber: 53,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/layout/Header.js",
-                lineNumber: 34,
+                lineNumber: 32,
                 columnNumber: 7
             }, this)
         ]
@@ -1077,25 +1068,25 @@ const MenuForLandingPage = (isChild)=>{
                             className: "ti-home"
                         }, void 0, false, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 108,
+                            lineNumber: 106,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             children: "Home"
                         }, void 0, false, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 109,
+                            lineNumber: 107,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/layout/Header.js",
-                    lineNumber: 107,
+                    lineNumber: 105,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/layout/Header.js",
-                lineNumber: 106,
+                lineNumber: 104,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1108,25 +1099,25 @@ const MenuForLandingPage = (isChild)=>{
                             className: "ti-user"
                         }, void 0, false, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 114,
+                            lineNumber: 112,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             children: "About"
                         }, void 0, false, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 115,
+                            lineNumber: 113,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/layout/Header.js",
-                    lineNumber: 113,
+                    lineNumber: 111,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/layout/Header.js",
-                lineNumber: 112,
+                lineNumber: 110,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1139,25 +1130,25 @@ const MenuForLandingPage = (isChild)=>{
                             className: "ti-medall"
                         }, void 0, false, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 123,
+                            lineNumber: 121,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             children: "Certifications"
                         }, void 0, false, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 124,
+                            lineNumber: 122,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/layout/Header.js",
-                    lineNumber: 119,
+                    lineNumber: 117,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/layout/Header.js",
-                lineNumber: 118,
+                lineNumber: 116,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1170,25 +1161,25 @@ const MenuForLandingPage = (isChild)=>{
                             className: "ti-shine"
                         }, void 0, false, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 129,
+                            lineNumber: 127,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             children: "Interests"
                         }, void 0, false, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 130,
+                            lineNumber: 128,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/layout/Header.js",
-                    lineNumber: 128,
+                    lineNumber: 126,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/layout/Header.js",
-                lineNumber: 127,
+                lineNumber: 125,
                 columnNumber: 7
             }, this),
             1 > 2 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -1204,25 +1195,25 @@ const MenuForLandingPage = (isChild)=>{
                                     className: "ti-bookmark-alt"
                                 }, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 138,
+                                    lineNumber: 136,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     children: "Portfolio"
                                 }, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 139,
+                                    lineNumber: 137,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 137,
+                            lineNumber: 135,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/layout/Header.js",
-                        lineNumber: 136,
+                        lineNumber: 134,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1236,25 +1227,25 @@ const MenuForLandingPage = (isChild)=>{
                                     className: "ti-layout-media-overlay-alt-2"
                                 }, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 144,
+                                    lineNumber: 142,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     children: "Blogs"
                                 }, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 145,
+                                    lineNumber: 143,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 143,
+                            lineNumber: 141,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/layout/Header.js",
-                        lineNumber: 142,
+                        lineNumber: 140,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1267,25 +1258,25 @@ const MenuForLandingPage = (isChild)=>{
                                     className: "ti-map-alt"
                                 }, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 153,
+                                    lineNumber: 151,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     children: "Contact Me"
                                 }, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 154,
+                                    lineNumber: 152,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 149,
+                            lineNumber: 147,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/layout/Header.js",
-                        lineNumber: 148,
+                        lineNumber: 146,
                         columnNumber: 11
                     }, this)
                 ]
@@ -1293,7 +1284,7 @@ const MenuForLandingPage = (isChild)=>{
         ]
     }, void 0, true, {
         fileName: "[project]/src/layout/Header.js",
-        lineNumber: 105,
+        lineNumber: 103,
         columnNumber: 5
     }, this);
 };
@@ -1308,7 +1299,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/src/layout/Layout.js [client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
@@ -1377,7 +1368,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/pages/aerial-photography.js [client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 /* eslint-disable @next/next/no-img-element */ __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
@@ -1977,9 +1968,9 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }}),
 "[next]/entry/page-loader.ts { PAGE => \"[project]/pages/aerial-photography.js [client] (ecmascript)\" } [client] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
-const PAGE_PATH = "/aerial-2025-switzerland-grindelwald";
+const PAGE_PATH = "/aerial-photography";
 (window.__NEXT_P = window.__NEXT_P || []).push([
     PAGE_PATH,
     ()=>{
@@ -1999,7 +1990,7 @@ if (module.hot) {
 "[project]/pages/aerial-photography (hmr-entry)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname, m: module } = __turbopack_context__;
+var { m: module } = __turbopack_context__;
 {
 __turbopack_context__.r("[next]/entry/page-loader.ts { PAGE => \"[project]/pages/aerial-photography.js [client] (ecmascript)\" } [client] (ecmascript)");
 }}),

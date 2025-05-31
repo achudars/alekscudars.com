@@ -3,7 +3,7 @@
 "[project]/src/components/Portfolio.js [client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
@@ -906,13 +906,11 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }}),
 "[project]/src/components/Portfolio.js [client] (ecmascript, next/dynamic entry)": ((__turbopack_context__) => {
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.n(__turbopack_context__.i("[project]/src/components/Portfolio.js [client] (ecmascript)"));
-}}),
+}),
 "[project]/node_modules/ev-emitter/ev-emitter.js [client] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 /**
  * EvEmitter v1.1.0
@@ -1008,7 +1006,7 @@ var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
 }}),
 "[project]/node_modules/get-size/get-size.js [client] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 /*!
  * getSize v2.0.3
@@ -1169,7 +1167,7 @@ var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
 }}),
 "[project]/node_modules/desandro-matches-selector/matches-selector.js [client] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 /**
  * matchesSelector v2.0.2
@@ -1222,7 +1220,7 @@ var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
 }}),
 "[project]/node_modules/fizzy-ui-utils/utils.js [client] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 /**
  * Fizzy UI utils v2.0.7
@@ -1414,7 +1412,7 @@ var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
 }}),
 "[project]/node_modules/outlayer/item.js [client] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 /**
  * Outlayer Item
@@ -1881,7 +1879,7 @@ var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
 }}),
 "[project]/node_modules/outlayer/outlayer.js [client] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 /*!
  * Outlayer v2.1.1
@@ -2631,7 +2629,7 @@ var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
 }}),
 "[project]/node_modules/isotope-layout/js/item.js [client] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 /**
  * Isotope Item
@@ -2694,7 +2692,7 @@ var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
 }}),
 "[project]/node_modules/isotope-layout/js/layout-mode.js [client] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 /**
  * Isotope LayoutMode
@@ -2814,7 +2812,7 @@ var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
 }}),
 "[project]/node_modules/masonry-layout/masonry.js [client] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 /*!
  * Masonry v4.2.2
@@ -3011,7 +3009,7 @@ var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
 }}),
 "[project]/node_modules/isotope-layout/js/layout-modes/masonry.js [client] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 /*!
  * Masonry layout mode
@@ -3066,7 +3064,7 @@ var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
 }}),
 "[project]/node_modules/isotope-layout/js/layout-modes/fit-rows.js [client] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 /**
  * fitRows layout mode
@@ -3078,9 +3076,8 @@ var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
     } else if ("TURBOPACK compile-time truthy", 1) {
         // CommonJS
         module.exports = factory(__turbopack_context__.r("[project]/node_modules/isotope-layout/js/layout-mode.js [client] (ecmascript)"));
-    } else {
-        "TURBOPACK unreachable";
-    }
+    } else //TURBOPACK unreachable
+    ;
 })(window, function factory(LayoutMode) {
     'use strict';
     var FitRows = LayoutMode.create('fitRows');
@@ -3118,7 +3115,7 @@ var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
 }}),
 "[project]/node_modules/isotope-layout/js/layout-modes/vertical.js [client] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 /**
  * vertical layout mode
@@ -3163,7 +3160,7 @@ var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
 }}),
 "[project]/node_modules/isotope-layout/js/isotope.js [client] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 /*!
  * Isotope v3.0.6

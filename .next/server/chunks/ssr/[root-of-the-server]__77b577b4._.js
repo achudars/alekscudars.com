@@ -2,7 +2,7 @@ module.exports = {
 
 "[externals]/react/jsx-dev-runtime [external] (react/jsx-dev-runtime, cjs)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 const mod = __turbopack_context__.x("react/jsx-dev-runtime", () => require("react/jsx-dev-runtime"));
 
@@ -10,7 +10,7 @@ module.exports = mod;
 }}),
 "[externals]/react/jsx-runtime [external] (react/jsx-runtime, cjs)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 const mod = __turbopack_context__.x("react/jsx-runtime", () => require("react/jsx-runtime"));
 
@@ -18,7 +18,7 @@ module.exports = mod;
 }}),
 "[externals]/react [external] (react, cjs)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 const mod = __turbopack_context__.x("react", () => require("react"));
 
@@ -26,7 +26,7 @@ module.exports = mod;
 }}),
 "[externals]/next/dist/compiled/next-server/pages-turbo.runtime.dev.js [external] (next/dist/compiled/next-server/pages-turbo.runtime.dev.js, cjs)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 const mod = __turbopack_context__.x("next/dist/compiled/next-server/pages-turbo.runtime.dev.js", () => require("next/dist/compiled/next-server/pages-turbo.runtime.dev.js"));
 
@@ -35,8 +35,6 @@ module.exports = mod;
 "[project]/src/layout/PreLoader.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -66,12 +64,10 @@ const PreLoader = ()=>{
     }, this);
 };
 const __TURBOPACK__default__export__ = PreLoader;
-}}),
+}),
 "[project]/pages/_app.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -137,10 +133,10 @@ const MyApp = ({ Component, pageProps })=>{
     }, this);
 };
 const __TURBOPACK__default__export__ = MyApp;
-}}),
+}),
 "[project]/node_modules/@swc/helpers/cjs/_interop_require_default.cjs [ssr] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 "use strict";
 function _interop_require_default(obj) {
@@ -152,7 +148,7 @@ exports._ = _interop_require_default;
 }}),
 "[project]/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs [ssr] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 "use strict";
 function _getRequireWildcardCache(nodeInterop) {
@@ -189,7 +185,7 @@ exports._ = _interop_require_wildcard;
 }}),
 "[project]/node_modules/next/dist/shared/lib/side-effect.js [ssr] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
@@ -258,40 +254,38 @@ function SideEffect(props) {
 }}),
 "[project]/node_modules/next/dist/server/route-modules/pages/module.compiled.js [ssr] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 "use strict";
-if ("TURBOPACK compile-time falsy", 0) {
-    "TURBOPACK unreachable";
-} else {
+if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
+;
+else {
     if ("TURBOPACK compile-time truthy", 1) {
         if ("TURBOPACK compile-time truthy", 1) {
             module.exports = __turbopack_context__.r("[externals]/next/dist/compiled/next-server/pages-turbo.runtime.dev.js [external] (next/dist/compiled/next-server/pages-turbo.runtime.dev.js, cjs)");
-        } else {
-            "TURBOPACK unreachable";
-        }
-    } else {
-        "TURBOPACK unreachable";
-    }
+        } else //TURBOPACK unreachable
+        ;
+    } else //TURBOPACK unreachable
+    ;
 } //# sourceMappingURL=module.compiled.js.map
 }}),
 "[project]/node_modules/next/dist/server/route-modules/pages/vendored/contexts/amp-context.js [ssr] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 "use strict";
 module.exports = __turbopack_context__.r("[project]/node_modules/next/dist/server/route-modules/pages/module.compiled.js [ssr] (ecmascript)").vendored['contexts'].AmpContext; //# sourceMappingURL=amp-context.js.map
 }}),
 "[project]/node_modules/next/dist/server/route-modules/pages/vendored/contexts/head-manager-context.js [ssr] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 "use strict";
 module.exports = __turbopack_context__.r("[project]/node_modules/next/dist/server/route-modules/pages/module.compiled.js [ssr] (ecmascript)").vendored['contexts'].HeadManagerContext; //# sourceMappingURL=head-manager-context.js.map
 }}),
 "[project]/node_modules/next/dist/shared/lib/amp-mode.js [ssr] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
@@ -310,7 +304,7 @@ function isInAmpMode(param) {
 }}),
 "[project]/node_modules/next/dist/shared/lib/utils/warn-once.js [ssr] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
@@ -335,7 +329,7 @@ if ("TURBOPACK compile-time truthy", 1) {
 }}),
 "[project]/node_modules/next/dist/shared/lib/head.js [ssr] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 'use client';
 "use strict";
@@ -470,9 +464,8 @@ const METATYPES = [
     const { inAmpMode } = props;
     return headChildrenElements.reduce(onlyReactElement, []).reverse().concat(defaultHead(inAmpMode).reverse()).filter(unique()).reverse().map((c, i)=>{
         const key = c.key || i;
-        if ("TURBOPACK compile-time falsy", 0) {
-            "TURBOPACK unreachable";
-        }
+        if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
+        ;
         if ("TURBOPACK compile-time truthy", 1) {
             // omit JSON-LD structured data snippets from the warning
             if (c.type === 'script' && c.props['type'] !== 'application/ld+json') {
@@ -512,7 +505,7 @@ if ((typeof exports.default === 'function' || typeof exports.default === 'object
 }}),
 "[project]/node_modules/next/head.js [ssr] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 module.exports = __turbopack_context__.r("[project]/node_modules/next/dist/shared/lib/head.js [ssr] (ecmascript)");
 }}),

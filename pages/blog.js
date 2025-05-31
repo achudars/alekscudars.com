@@ -25,19 +25,19 @@ const Blog = () => {
               <div className="blog-grid">
                 <div className="blog-img">
                   <Link href="/single-blog">
-                    <a>
-                      <img src="static/img/blog-1.jpg" title="" alt="" />
-                    </a>
+
+                    <img src="static/img/blog-1.jpg" title="" alt="" />
+
                   </Link>
                 </div>
                 <div className="blog-info">
                   <div className="meta">29/FEB/2022 - WEBSITE - 1 COMMENT</div>
                   <h6>
                     <Link href="/single-blog">
-                      <a>
+                      
                         I Will Tell You The Truth About Design In The Next 60
                         Seconds.
-                      </a>
+                      
                     </Link>
                   </h6>
                 </div>
@@ -47,19 +47,19 @@ const Blog = () => {
               <div className="blog-grid">
                 <div className="blog-img">
                   <Link href="/single-blog">
-                    <a>
-                      <img src="static/img/blog-2.jpg" title="" alt="" />
-                    </a>
+
+                    <img src="static/img/blog-2.jpg" title="" alt="" />
+
                   </Link>
                 </div>
                 <div className="blog-info">
                   <div className="meta">29/FEB/2022 - WEBSITE - 1 COMMENT</div>
                   <h6>
                     <Link href="/single-blog">
-                      <a>
+                      
                         Ten Mind-Blowing Reasons Why Design Is Using This
                         Technique For Exposure.
-                      </a>
+                      
                     </Link>
                   </h6>
                 </div>
@@ -69,19 +69,19 @@ const Blog = () => {
               <div className="blog-grid">
                 <div className="blog-img">
                   <Link href="/single-blog">
-                    <a>
-                      <img src="static/img/blog-3.jpg" title="" alt="" />
-                    </a>
+
+                    <img src="static/img/blog-3.jpg" title="" alt="" />
+
                   </Link>
                 </div>
                 <div className="blog-info">
                   <div className="meta">29/FEB/2022 - WEBSITE - 1 COMMENT</div>
                   <h6>
                     <Link href="/single-blog">
-                      <a>
+                      
                         Five Solid Evidences Attending Design Is Good For Your
                         Career Development.
-                      </a>
+                      
                     </Link>
                   </h6>
                 </div>
@@ -91,18 +91,17 @@ const Blog = () => {
               <div className="blog-grid">
                 <div className="blog-img">
                   <Link href="/single-blog">
-                    <a>
-                      <img src="static/img/blog-6.jpg" title="" alt="" />
-                    </a>
+
+                    <img src="static/img/blog-6.jpg" title="" alt="" />
+
                   </Link>
                 </div>
                 <div className="blog-info">
                   <div className="meta">29/FEB/2022 - WEBSITE - 1 COMMENT</div>
                   <h6>
                     <Link href="/single-blog">
-                      <a>
-                        10 Things You Most Likely {`Didn't`} Know About Design.
-                      </a>
+                      10 Things You Most Likely {`Didn't`}Know About Design.
+                                            
                     </Link>
                   </h6>
                 </div>
@@ -112,18 +111,18 @@ const Blog = () => {
               <div className="blog-grid">
                 <div className="blog-img">
                   <Link href="/single-blog">
-                    <a>
-                      <img src="static/img/blog-5.jpg" title="" alt="" />
-                    </a>
+
+                    <img src="static/img/blog-5.jpg" title="" alt="" />
+
                   </Link>
                 </div>
                 <div className="blog-info">
                   <div className="meta">29/FEB/2022 - WEBSITE - 1 COMMENT</div>
                   <h6>
                     <Link href="/single-blog">
-                      <a>
+                      
                         Why swiming is also another important thing for man.
-                      </a>
+                      
                     </Link>
                   </h6>
                 </div>
@@ -133,19 +132,18 @@ const Blog = () => {
               <div className="blog-grid">
                 <div className="blog-img">
                   <Link href="/single-blog">
-                    <a>
-                      <img src="static/img/blog-4.jpg" title="" alt="" />
-                    </a>
+
+                    <img src="static/img/blog-4.jpg" title="" alt="" />
+
                   </Link>
                 </div>
                 <div className="blog-info">
                   <div className="meta">29/FEB/2022 - WEBSITE - 1 COMMENT</div>
                   <h6>
                     <Link href="/single-blog">
-                      <a>
-                        What You Know About Design And What You {`Don't`} Know
-                        About Design.
-                      </a>
+                      What You Know About Design And What You {`Don't`}Know
+                                              About Design.
+                                            
                     </Link>
                   </h6>
                 </div>

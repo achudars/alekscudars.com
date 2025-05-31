@@ -15,9 +15,7 @@ const Header = ({ blog, isLandingPage }) => {
       <div className="mob-header">
         <div className="d-flex">
           <div className="navbar-brand">
-            <Link legacyBehavior href="/">
-              <a className="logo-text">Aleksandrs Čudars</a>
-            </Link>
+            <Link href="/" className="logo-text">Aleksandrs Čudars</Link>
           </div>
           <button
             className={`toggler-menu ${sideBarToggle ? "open" : ""}`}

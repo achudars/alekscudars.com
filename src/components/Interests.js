@@ -13,64 +13,64 @@ const Interests = () => {
         </div>
         <div className="row">
           <div className="col-sm-6 m-15px-tb">
-            <Link href="/aerial-photography">
-              <div className="feature-box-01 media">
-                <i className="icon theme-bg icon-camera" />
-                <div className="feature-content media-body">
+            <div className="feature-box-01 media">
+              <i className="icon theme-bg icon-camera" />
+              <div className="feature-content media-body">
+                <Link href="/aerial-photography">
                   <h5>Aerial Photography & Videography</h5>
-                </div>
+                </Link>
               </div>
-            </Link>
+            </div>
           </div>
           <div className="col-sm-6 m-15px-tb">
-            <Link href="/reading">
-              <div className="feature-box-01 media">
-                <i className="icon theme-bg icon-newspaper" />
-                <div className="feature-content media-body">
+            <div className="feature-box-01 media">
+              <i className="icon theme-bg icon-newspaper" />
+              <div className="feature-content media-body">
+                <Link href="/reading">
                   <h5>Reading</h5>
-                </div>
+                </Link>
               </div>
-            </Link>
+            </div>
           </div>
           <div className="col-sm-6 m-15px-tb">
-            <Link href="/running-and-training">
-              <div className="feature-box-01 media">
-                <i className="icon theme-bg icon-target" />
-                <div className="feature-content media-body">
+            <div className="feature-box-01 media">
+              <i className="icon theme-bg icon-target" />
+              <div className="feature-content media-body">
+                <Link href="/running-and-training">
                   <h5>Running</h5>
-                </div>
+                </Link>
               </div>
-            </Link>
+            </div>
           </div>
           <div className="col-sm-6 m-15px-tb">
-            <Link href="/hiking-and-walking">
-              <div className="feature-box-01 media">
-                <i className="icon theme-bg icon-map" />
-                <div className="feature-content media-body">
+            <div className="feature-box-01 media">
+              <i className="icon theme-bg icon-map" />
+              <div className="feature-content media-body">
+                <Link href="/hiking-and-walking">
                   <h5>Hiking and Walking</h5>
-                </div>
+                </Link>
               </div>
-            </Link>
+            </div>
           </div>
           <div className="col-sm-6 m-15px-tb">
-            <Link href="/online-courses">
-              <div className="feature-box-01 media">
-                <i className="icon theme-bg icon-focus" />
-                <div className="feature-content media-body">
+            <div className="feature-box-01 media">
+              <i className="icon theme-bg icon-focus" />
+              <div className="feature-content media-body">
+                <Link href="/online-courses">
                   <h5>Online Courses</h5>
-                </div>
+                </Link>
               </div>
-            </Link>
+            </div>
           </div>
           <div className="col-sm-6 m-15px-tb">
-            <Link href="/drawing">
-              <div className="feature-box-01 media">
-                <i className="icon theme-bg icon-pencil" />
-                <div className="feature-content media-body">
+            <div className="feature-box-01 media">
+              <i className="icon theme-bg icon-pencil" />
+              <div className="feature-content media-body">
+                <Link href="/drawing">
                   <h5>Drawing</h5>
-                </div>
+                </Link>
               </div>
-            </Link>
+            </div>
           </div>
         </div>
         <div className="separated" />
