@@ -14,7 +14,7 @@ const Interests = () => {
         <div className="row">
           <div className="col-sm-6 m-15px-tb">
             <div className="feature-box-01 media">
-              <i className="icon theme-bg icon-camera" />
+              <i className="icon theme-bg icon-camera" aria-hidden="true" />
               <div className="feature-content media-body">
                 <Link href="/aerial-photography">
                   <h5>Aerial Photography & Videography</h5>
@@ -24,7 +24,7 @@ const Interests = () => {
           </div>
           <div className="col-sm-6 m-15px-tb">
             <div className="feature-box-01 media">
-              <i className="icon theme-bg icon-newspaper" />
+              <i className="icon theme-bg icon-newspaper" aria-hidden="true" />
               <div className="feature-content media-body">
                 <Link href="/reading">
                   <h5>Reading</h5>
@@ -34,7 +34,7 @@ const Interests = () => {
           </div>
           <div className="col-sm-6 m-15px-tb">
             <div className="feature-box-01 media">
-              <i className="icon theme-bg icon-target" />
+              <i className="icon theme-bg icon-target" aria-hidden="true" />
               <div className="feature-content media-body">
                 <Link href="/running-and-training">
                   <h5>Running</h5>
@@ -44,7 +44,7 @@ const Interests = () => {
           </div>
           <div className="col-sm-6 m-15px-tb">
             <div className="feature-box-01 media">
-              <i className="icon theme-bg icon-map" />
+              <i className="icon theme-bg icon-map" aria-hidden="true" />
               <div className="feature-content media-body">
                 <Link href="/hiking-and-walking">
                   <h5>Hiking and Walking</h5>
@@ -54,7 +54,7 @@ const Interests = () => {
           </div>
           <div className="col-sm-6 m-15px-tb">
             <div className="feature-box-01 media">
-              <i className="icon theme-bg icon-focus" />
+              <i className="icon theme-bg icon-focus" aria-hidden="true" />
               <div className="feature-content media-body">
                 <Link href="/online-courses">
                   <h5>Online Courses</h5>
@@ -64,7 +64,7 @@ const Interests = () => {
           </div>
           <div className="col-sm-6 m-15px-tb">
             <div className="feature-box-01 media">
-              <i className="icon theme-bg icon-pencil" />
+              <i className="icon theme-bg icon-pencil" aria-hidden="true" />
               <div className="feature-content media-body">
                 <Link href="/drawing">
                   <h5>Drawing</h5>

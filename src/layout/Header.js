@@ -20,6 +20,8 @@ const Header = ({ blog, isLandingPage }) => {
           <button
             className={`toggler-menu ${sideBarToggle ? "open" : ""}`}
             onClick={() => setSideBarToggle(!sideBarToggle)}
+            aria-expanded={sideBarToggle}
+            aria-label="Toggle navigation menu"
           >
             <span />
             <span />

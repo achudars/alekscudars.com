@@ -16,7 +16,11 @@ const Blog = () => {
             <div className="blog-grid">
               <div className="blog-img">
                 <Link href="/single-blog">
-                  <img src="static/img/blog-1.jpg" title="" alt="" />
+                  <img
+                    src="static/img/blog-1.jpg"
+                    alt="Design career development illustration"
+                    title="Five Solid Evidences Attending Design Is Good For Your Career Development"
+                  />
                 </Link>
               </div>
               <div className="blog-info">
@@ -34,7 +38,11 @@ const Blog = () => {
             <div className="blog-grid">
               <div className="blog-img">
                 <Link href="/single-blog">
-                  <img src="static/img/blog-2.jpg" title="" alt="" />
+                  <img
+                    src="static/img/blog-2.jpg"
+                    alt="Design technique exposure illustration"
+                    title="Ten Mind-Blowing Reasons Why Design Is Using This Technique For Exposure"
+                  />
                 </Link>
               </div>
               <div className="blog-info">
@@ -52,7 +60,11 @@ const Blog = () => {
             <div className="blog-grid">
               <div className="blog-img">
                 <Link href="/single-blog">
-                  <img src="static/img/blog-3.jpg" title="" alt="" />
+                  <img
+                    src="static/img/blog-3.jpg"
+                    alt="Design truth illustration"
+                    title="I Will Tell You The Truth About Design In The Next 60 Seconds"
+                  />
                 </Link>
               </div>
               <div className="blog-info">
@@ -70,7 +82,11 @@ const Blog = () => {
             <div className="blog-grid">
               <div className="blog-img">
                 <Link href="/single-blog">
-                  <img src="static/img/blog-4.jpg" title="" alt="" />
+                  <img
+                    src="static/img/blog-4.jpg"
+                    alt="Design knowledge illustration"
+                    title="What You Know About Design And What You Don't Know About Design"
+                  />
                 </Link>
               </div>
               <div className="blog-info">
