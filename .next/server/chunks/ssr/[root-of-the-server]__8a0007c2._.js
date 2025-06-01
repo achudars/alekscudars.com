@@ -897,7 +897,8 @@ var __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$
 ;
 ;
 /**
- * LastUpdated - A reusable component that shows when a file was last updated in Git
+ * LastUpdated - A reusable component that shows when a file was last updated
+ * Uses pre-generated timestamps created during build time
  *
  * @param {Object} props - Component properties
  * @param {string} props.filePath - Path to the file relative to project root (e.g., 'pages/running-and-training.js')
@@ -906,22 +907,54 @@ var __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$
  */ const LastUpdated = ({ filePath, className = "" })=>{
     const [lastUpdated, setLastUpdated] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])("Loading...");
     (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useEffect"])(()=>{
-        // Fetch last commit date for this file
-        fetch(`/api/last-commit?file=${filePath}`).then((response)=>response.json()).then((data)=>{
-            if (data.date) {
-                const date = new Date(data.date);
-                setLastUpdated(date.toLocaleDateString('en-US', {
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric'
-                }));
-            } else {
+        async function fetchLastUpdated() {
+            try {
+                // Extract just the filename from the path
+                const fileName = filePath.split('/').pop();
+                // Fetch the pre-generated JSON file with all last updated dates
+                const response = await fetch('/last-updated-dates.json');
+                // Check if response is ok before parsing JSON
+                if (!response.ok) {
+                    throw new Error(`Failed to fetch: ${response.status} ${response.statusText}`);
+                }
+                const text = await response.text();
+                // Check if response is empty or not valid JSON
+                if (!text || text.trim() === '') {
+                    throw new Error('Empty response received');
+                }
+                // Parse JSON with additional error handling
+                let data;
+                try {
+                    data = JSON.parse(text);
+                } catch (parseError) {
+                    console.error('JSON parse error:', parseError);
+                    console.error('Response content:', text.substring(0, 100) + '...');
+                    throw new Error('Invalid JSON response');
+                }
+                // Verify data is an object
+                if (!data || typeof data !== 'object') {
+                    throw new Error('Invalid data format');
+                }
+                if (data[fileName]) {
+                    const date = new Date(data[fileName]);
+                    // Validate date is valid
+                    if (isNaN(date.getTime())) {
+                        throw new Error('Invalid date value');
+                    }
+                    setLastUpdated(date.toLocaleDateString('en-US', {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric'
+                    }));
+                } else {
+                    setLastUpdated("Unknown");
+                }
+            } catch (error) {
+                console.error(`Failed to fetch last updated date for ${filePath}:`, error);
                 setLastUpdated("Unknown");
             }
-        }).catch((error)=>{
-            console.error(`Failed to fetch last commit date for ${filePath}:`, error);
-            setLastUpdated("Unknown");
-        });
+        }
+        fetchLastUpdated();
     }, [
         filePath
     ]);
@@ -934,7 +967,7 @@ var __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/LastUpdated.js",
-        lineNumber: 37,
+        lineNumber: 77,
         columnNumber: 5
     }, this);
 };
