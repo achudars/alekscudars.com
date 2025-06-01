@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import Layout from "../src/layout/Layout";
-import LastUpdated from "../src/components/LastUpdated";
 
 const RunningAndTraining = () => {
   const renderOverviewStats = () => {
