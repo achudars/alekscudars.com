@@ -3,6 +3,7 @@
   "name": "aleksandrs-cudars",
   "version": "6.6.6",
   "description": "Aleksandrs Cudars",
+  "type": "module",
   "keywords": [
     "css",
     "sass",
