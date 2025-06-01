@@ -1,15 +1,15 @@
 import PhotoAndVideoSection from "../src/layout/PhotoAndVideoSection";
 
 const PHOTOS = [
-"/static/img/hiking/2023/ben-nevis-descent/img.png",
-"/static/img/hiking/2023/ben-nevis-descent/BDQ4LCJ.webp",
-"/static/img/hiking/2023/ben-nevis-descent/BDQ1LCJ.webp",
-"/static/img/hiking/2023/ben-nevis-descent/BDQ2LCJ.webp",
-"/static/img/hiking/2023/ben-nevis-descent/BDQ3LCJ.webp",
-"/static/img/hiking/2023/ben-nevis-descent/BDQ5LCJ.webp",
-"/static/img/hiking/2023/ben-nevis-descent/BDQ6LCJ.webp",
-"/static/img/hiking/2023/ben-nevis-descent/BDQ7LCJ.webp",
-"/static/img/hiking/2023/ben-nevis-descent/BDQ8LCJ.webp",
+"./static/img/hiking/2023/ben-nevis-descent/img.png",
+"./static/img/hiking/2023/ben-nevis-descent/BDQ4LCJ.webp",
+"./static/img/hiking/2023/ben-nevis-descent/BDQ1LCJ.webp",
+"./static/img/hiking/2023/ben-nevis-descent/BDQ2LCJ.webp",
+"./static/img/hiking/2023/ben-nevis-descent/BDQ3LCJ.webp",
+"./static/img/hiking/2023/ben-nevis-descent/BDQ5LCJ.webp",
+"./static/img/hiking/2023/ben-nevis-descent/BDQ6LCJ.webp",
+"./static/img/hiking/2023/ben-nevis-descent/BDQ7LCJ.webp",
+"./static/img/hiking/2023/ben-nevis-descent/BDQ8LCJ.webp",
 ];
 
 const VIDEOS = [];

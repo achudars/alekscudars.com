@@ -150,10 +150,10 @@ const Reading = () => {
       <>
         <div className="title">
           <h3>Reading.</h3>
-          <!--<LastUpdated
+          <LastUpdated
             filePath="pages/reading.js"
             className="m-15px-tb"
-          />-->
+          />
         </div>
         {renderReadingStats()}
         {renderBookGroupBasedOnStatus({

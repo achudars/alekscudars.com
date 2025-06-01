@@ -1,11 +1,11 @@
 import PhotoAndVideoSection from "../src/layout/PhotoAndVideoSection";
 
 const PHOTOS = [
-"/static/img/hiking/2023/lea-valley/img.png",
-"/static/img/hiking/2023/lea-valley/LVQ7LCJ.webp",
-"/static/img/hiking/2023/lea-valley/LVQ4LCJ.webp",
-"/static/img/hiking/2023/lea-valley/LVQ5LCJ.webp",
-"/static/img/hiking/2023/lea-valley/LVQ6LCJ.webp",
+"./static/img/hiking/2023/lea-valley/img.png",
+"./static/img/hiking/2023/lea-valley/LVQ7LCJ.webp",
+"./static/img/hiking/2023/lea-valley/LVQ4LCJ.webp",
+"./static/img/hiking/2023/lea-valley/LVQ5LCJ.webp",
+"./static/img/hiking/2023/lea-valley/LVQ6LCJ.webp",
 ];
 
 const VIDEOS = [];

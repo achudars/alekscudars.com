@@ -1,11 +1,11 @@
 import PhotoAndVideoSection from "../src/layout/PhotoAndVideoSection";
 
 const PHOTOS = [
-"/static/img/hiking/2023/dun-deardail/img.png",
-"/static/img/hiking/2023/dun-deardail/DDQ4LCJ.webp",
-"/static/img/hiking/2023/dun-deardail/DDQ5LCJ.webp",
-"/static/img/hiking/2023/dun-deardail/DDQ6LCJ.webp",
-"/static/img/hiking/2023/dun-deardail/DDQ7LCJ.webp",
+"./static/img/hiking/2023/dun-deardail/img.png",
+"./static/img/hiking/2023/dun-deardail/DDQ4LCJ.webp",
+"./static/img/hiking/2023/dun-deardail/DDQ5LCJ.webp",
+"./static/img/hiking/2023/dun-deardail/DDQ6LCJ.webp",
+"./static/img/hiking/2023/dun-deardail/DDQ7LCJ.webp",
 ];
 
 const VIDEOS = [];

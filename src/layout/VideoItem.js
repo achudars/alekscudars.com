@@ -1,4 +1,4 @@
-const VideoItem = ({ src }) => {
+export const VideoItem = ({ src }) => {
   return (
     <div className="col-lg-6 ml-auto m-15px-tb">
       <div className="skills-box">

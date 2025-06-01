@@ -1,11 +1,11 @@
 import PhotoAndVideoSection from "../src/layout/PhotoAndVideoSection";
 
 const PHOTOS = [
-"/static/img/hiking/2023/seaford-brighton/img.png",
-"/static/img/hiking/2023/seaford-brighton/SBQ6LCJ.webp",
-"/static/img/hiking/2023/seaford-brighton/SBQ5LCJ.webp",
-"/static/img/hiking/2023/seaford-brighton/SBQ4LCJ.webp",
-"/static/img/hiking/2023/seaford-brighton/SBQ7LCJ.webp"
+"./static/img/hiking/2023/seaford-brighton/img.png",
+"./static/img/hiking/2023/seaford-brighton/SBQ6LCJ.webp",
+"./static/img/hiking/2023/seaford-brighton/SBQ5LCJ.webp",
+"./static/img/hiking/2023/seaford-brighton/SBQ4LCJ.webp",
+"./static/img/hiking/2023/seaford-brighton/SBQ7LCJ.webp"
 ];
 
 const VIDEOS = [];

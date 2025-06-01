@@ -1,9 +1,9 @@
 import PhotoAndVideoSection from "../src/layout/PhotoAndVideoSection";
 
 const PHOTOS = [
-  "/static/img/hiking/2025/morning-camacha-via-levada-da-serra-do-faial/camacha_01.jpg",
-  "/static/img/hiking/2025/morning-camacha-via-levada-da-serra-do-faial/camacha_02.jpg",
-  "/static/img/hiking/2025/morning-camacha-via-levada-da-serra-do-faial/camacha_03.jpg",
+  "./static/img/hiking/2025/morning-camacha-via-levada-da-serra-do-faial/camacha_01.jpg",
+  "./static/img/hiking/2025/morning-camacha-via-levada-da-serra-do-faial/camacha_02.jpg",
+  "./static/img/hiking/2025/morning-camacha-via-levada-da-serra-do-faial/camacha_03.jpg",
 ];
 
 const VIDEOS = [];

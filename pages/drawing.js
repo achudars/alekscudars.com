@@ -43,10 +43,10 @@ const Drawing = () => {
       <>
         <div className="title">
           <h3>Drawing.</h3>
-          <!--<LastUpdated
+          <LastUpdated
             filePath="pages/drawing.js"
             className="m-15px-tb"
-          />-->
+          />
         </div>
         {renderDrawing()}
       </>

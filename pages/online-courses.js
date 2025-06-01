@@ -50,10 +50,10 @@ const OnlineCourses = () => {
       <>
         <div className="title">
           <h3>Online Courses.</h3>
-          <!--<LastUpdated
+          <LastUpdated
             filePath="pages/online-courses.js"
             className="m-15px-tb"
-          />-->
+          />
         </div>
         {renderRow({
           title: "Pluralsight",

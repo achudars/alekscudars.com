@@ -1,11 +1,11 @@
 import PhotoAndVideoSection from "../src/layout/PhotoAndVideoSection";
 
 const PHOTOS = [
-"/static/img/hiking/2022/rye-hastings/img.png",
-"/static/img/hiking/2022/rye-hastings/RHQ4LCJ.webp",
-"/static/img/hiking/2022/rye-hastings/RHQ5LCJ.webp",
-"/static/img/hiking/2022/rye-hastings/RHQ6LCJ.webp",
-"/static/img/hiking/2022/rye-hastings/RHQ7LCJ.webp",
+"./static/img/hiking/2022/rye-hastings/img.png",
+"./static/img/hiking/2022/rye-hastings/RHQ4LCJ.webp",
+"./static/img/hiking/2022/rye-hastings/RHQ5LCJ.webp",
+"./static/img/hiking/2022/rye-hastings/RHQ6LCJ.webp",
+"./static/img/hiking/2022/rye-hastings/RHQ7LCJ.webp",
 ];
 
 const VIDEOS = [];
