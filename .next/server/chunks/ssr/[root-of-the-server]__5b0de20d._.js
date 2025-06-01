@@ -3,8 +3,6 @@ module.exports = {
 "[project]/src/useClickOutside.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -26,12 +24,10 @@ let useClickOutside = (handler)=>{
     return domNode;
 };
 const __TURBOPACK__default__export__ = useClickOutside;
-}}),
+}),
 "[project]/src/components/ImageView.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -148,10 +144,10 @@ const ImageView = ()=>{
     }, this);
 };
 const __TURBOPACK__default__export__ = ImageView;
-}}),
+}),
 "[externals]/fs [external] (fs, cjs)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 const mod = __turbopack_context__.x("fs", () => require("fs"));
 
@@ -159,7 +155,7 @@ module.exports = mod;
 }}),
 "[externals]/stream [external] (stream, cjs)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 const mod = __turbopack_context__.x("stream", () => require("stream"));
 
@@ -167,7 +163,7 @@ module.exports = mod;
 }}),
 "[externals]/zlib [external] (zlib, cjs)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 const mod = __turbopack_context__.x("zlib", () => require("zlib"));
 
@@ -175,7 +171,7 @@ module.exports = mod;
 }}),
 "[externals]/react-dom [external] (react-dom, cjs)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
 const mod = __turbopack_context__.x("react-dom", () => require("react-dom"));
 
@@ -184,8 +180,6 @@ module.exports = mod;
 "[project]/src/layout/BackBtn.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -213,12 +207,10 @@ const BackBtn = ()=>{
     }, this);
 };
 const __TURBOPACK__default__export__ = BackBtn;
-}}),
+}),
 "[project]/src/layout/DayNightMood.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -248,12 +240,10 @@ const DayNightMood = ()=>{
     }, this);
 };
 const __TURBOPACK__default__export__ = DayNightMood;
-}}),
+}),
 "[project]/src/paginationUtils.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "activeSection": (()=>activeSection),
     "getPagination": (()=>getPagination),
@@ -303,12 +293,10 @@ const pagination = (listClass, sort, active)=>{
         }
     }
 };
-}}),
+}),
 "[project]/src/layout/Header.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -339,16 +327,9 @@ const Header = ({ blog, isLandingPage })=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                             className: "navbar-brand",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                legacyBehavior: true,
                                 href: "/",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                                    className: "logo-text",
-                                    children: "Aleksandrs Čudars"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 19,
-                                    columnNumber: 15
-                                }, this)
+                                className: "logo-text",
+                                children: "Aleksandrs Čudars"
                             }, void 0, false, {
                                 fileName: "[project]/src/layout/Header.js",
                                 lineNumber: 18,
@@ -362,6 +343,8 @@ const Header = ({ blog, isLandingPage })=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
                             className: `toggler-menu ${sideBarToggle ? "open" : ""}`,
                             onClick: ()=>setSideBarToggle(!sideBarToggle),
+                            "aria-expanded": sideBarToggle,
+                            "aria-label": "Toggle navigation menu",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {}, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
@@ -381,7 +364,7 @@ const Header = ({ blog, isLandingPage })=>{
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 22,
+                            lineNumber: 20,
                             columnNumber: 11
                         }, this)
                     ]
@@ -797,12 +780,10 @@ const MenuForLandingPage = (isChild)=>{
         columnNumber: 5
     }, this);
 };
-}}),
+}),
 "[project]/src/layout/Layout.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -860,41 +841,60 @@ const Layout = ({ children, showBackBtn, blog })=>{
     }, this);
 };
 const __TURBOPACK__default__export__ = Layout;
-}}),
+}),
 "[project]/pages/running-and-training.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 /* eslint-disable @next/next/no-img-element */ __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react/jsx-dev-runtime [external] (react/jsx-dev-runtime, cjs)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$Layout$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/layout/Layout.js [ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react [external] (react, cjs)");
+;
 ;
 ;
 const RunningAndTraining = ()=>{
+    const [lastUpdated, setLastUpdated] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])("Loading...");
+    (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useEffect"])(()=>{
+        // Fetch last commit date for this file
+        fetch('/api/last-commit?file=pages/running-and-training.js').then((response)=>response.json()).then((data)=>{
+            if (data.date) {
+                const date = new Date(data.date);
+                setLastUpdated(date.toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                }));
+            } else {
+                setLastUpdated("Unknown");
+            }
+        }).catch((error)=>{
+            console.error("Failed to fetch last commit date:", error);
+            setLastUpdated("Unknown");
+        });
+    }, []);
     const renderOverviewStats = ()=>{
         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
             className: "col-sm-12 col-md-12 col-xl-12",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
-                    src: `/static/img/running/nike-overview.png`,
+                    src: `/static/img/running/nike-overview.jpg`,
                     title: "overview by Nike",
                     alt: "overview by Nike"
                 }, void 0, false, {
                     fileName: "[project]/pages/running-and-training.js",
-                    lineNumber: 9,
+                    lineNumber: 34,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/running-and-training.js",
-                lineNumber: 8,
+                lineNumber: 33,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/pages/running-and-training.js",
-            lineNumber: 7,
+            lineNumber: 32,
             columnNumber: 7
         }, this);
     };
@@ -903,22 +903,22 @@ const RunningAndTraining = ()=>{
             className: "col-sm-12 col-md-12 col-xl-12",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
-                    src: `/static/img/running/nike-all-time-stats.png`,
+                    src: `/static/img/running/nike-all-time-stats.jpg`,
                     title: "all-time stats by Nike",
                     alt: "all-time stats by Nike"
                 }, void 0, false, {
                     fileName: "[project]/pages/running-and-training.js",
-                    lineNumber: 23,
+                    lineNumber: 48,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/running-and-training.js",
-                lineNumber: 22,
+                lineNumber: 47,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/pages/running-and-training.js",
-            lineNumber: 21,
+            lineNumber: 46,
             columnNumber: 7
         }, this);
     };
@@ -935,17 +935,17 @@ const RunningAndTraining = ()=>{
                     ]
                 }, void 0, true, {
                     fileName: "[project]/pages/running-and-training.js",
-                    lineNumber: 37,
+                    lineNumber: 62,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/running-and-training.js",
-                lineNumber: 36,
+                lineNumber: 61,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/pages/running-and-training.js",
-            lineNumber: 35,
+            lineNumber: 60,
             columnNumber: 7
         }, this);
     };
@@ -954,16 +954,29 @@ const RunningAndTraining = ()=>{
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                     className: "title",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                        children: "Running."
-                    }, void 0, false, {
-                        fileName: "[project]/pages/running-and-training.js",
-                        lineNumber: 50,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
+                            children: "Running."
+                        }, void 0, false, {
+                            fileName: "[project]/pages/running-and-training.js",
+                            lineNumber: 75,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                            className: "subtitle m-15px-tb",
+                            children: [
+                                "Last updated: ",
+                                lastUpdated
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/pages/running-and-training.js",
+                            lineNumber: 76,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
                     fileName: "[project]/pages/running-and-training.js",
-                    lineNumber: 49,
+                    lineNumber: 74,
                     columnNumber: 9
                 }, this),
                 renderExtraDetailSection()
@@ -981,22 +994,22 @@ const RunningAndTraining = ()=>{
                 children: renderContainer()
             }, void 0, false, {
                 fileName: "[project]/pages/running-and-training.js",
-                lineNumber: 64,
+                lineNumber: 90,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/pages/running-and-training.js",
-            lineNumber: 59,
+            lineNumber: 85,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/pages/running-and-training.js",
-        lineNumber: 58,
+        lineNumber: 84,
         columnNumber: 5
     }, this);
 };
 const __TURBOPACK__default__export__ = RunningAndTraining;
-}}),
+}),
 
 };
 

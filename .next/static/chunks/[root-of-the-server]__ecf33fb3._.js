@@ -3,8 +3,6 @@
 "[turbopack]/browser/dev/hmr-client/hmr-client.ts [client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
-{
 /// <reference path="../../../shared/runtime-types.d.ts" />
 /// <reference path="../../runtime/base/dev-globals.d.ts" />
 /// <reference path="../../runtime/base/dev-protocol.d.ts" />
@@ -17,7 +15,7 @@ __turbopack_context__.s({
 function connect({ addMessageListener, sendMessage, onUpdateError = console.error }) {
     addMessageListener((msg)=>{
         switch(msg.type){
-            case "turbopack-connected":
+            case 'turbopack-connected':
                 handleSocketConnected(sendMessage);
                 break;
             default:
@@ -31,7 +29,7 @@ function connect({ addMessageListener, sendMessage, onUpdateError = console.erro
                     }
                     applyAggregatedUpdates();
                 } catch (e) {
-                    console.warn("[Fast Refresh] performing full reload\n\n" + "Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.\n" + "You might have a file which exports a React component but also exports a value that is imported by a non-React component file.\n" + "Consider migrating the non-React component export to a separate file and importing it into both files.\n\n" + "It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.\n" + "Fast Refresh requires at least one parent function component in your React tree.");
+                    console.warn('[Fast Refresh] performing full reload\n\n' + "Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.\n" + 'You might have a file which exports a React component but also exports a value that is imported by a non-React component file.\n' + 'Consider migrating the non-React component export to a separate file and importing it into both files.\n\n' + 'It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.\n' + 'Fast Refresh requires at least one parent function component in your React tree.');
                     onUpdateError(e);
                     location.reload();
                 }
@@ -40,7 +38,7 @@ function connect({ addMessageListener, sendMessage, onUpdateError = console.erro
     });
     const queued = globalThis.TURBOPACK_CHUNK_UPDATE_LISTENERS;
     if (queued != null && !Array.isArray(queued)) {
-        throw new Error("A separate HMR handler was already registered");
+        throw new Error('A separate HMR handler was already registered');
     }
     globalThis.TURBOPACK_CHUNK_UPDATE_LISTENERS = {
         push: ([chunkPath, callback])=>{
@@ -65,12 +63,12 @@ function resourceKey(resource) {
 }
 function subscribeToUpdates(sendMessage, resource) {
     sendJSON(sendMessage, {
-        type: "turbopack-subscribe",
+        type: 'turbopack-subscribe',
         ...resource
     });
     return ()=>{
         sendJSON(sendMessage, {
-            type: "turbopack-unsubscribe",
+            type: 'turbopack-unsubscribe',
             ...resource
         });
     };
@@ -135,7 +133,7 @@ function mergeChunkListUpdates(updateA, updateB) {
         merged = updateB.merged;
     }
     return {
-        type: "ChunkListUpdate",
+        type: 'ChunkListUpdate',
         chunks,
         merged
     };
@@ -161,14 +159,14 @@ function mergeChunkListChunks(chunksA, chunksB) {
     return chunks;
 }
 function mergeChunkUpdates(updateA, updateB) {
-    if (updateA.type === "added" && updateB.type === "deleted" || updateA.type === "deleted" && updateB.type === "added") {
+    if (updateA.type === 'added' && updateB.type === 'deleted' || updateA.type === 'deleted' && updateB.type === 'added') {
         return undefined;
     }
-    if (updateA.type === "partial") {
-        invariant(updateA.instruction, "Partial updates are unsupported");
+    if (updateA.type === 'partial') {
+        invariant(updateA.instruction, 'Partial updates are unsupported');
     }
-    if (updateB.type === "partial") {
-        invariant(updateB.instruction, "Partial updates are unsupported");
+    if (updateB.type === 'partial') {
+        invariant(updateB.instruction, 'Partial updates are unsupported');
     }
     return undefined;
 }
@@ -176,7 +174,7 @@ function mergeChunkListEcmascriptMergedUpdates(mergedA, mergedB) {
     const entries = mergeEcmascriptChunkEntries(mergedA.entries, mergedB.entries);
     const chunks = mergeEcmascriptChunksUpdates(mergedA.chunks, mergedB.chunks);
     return {
-        type: "EcmascriptMergedUpdate",
+        type: 'EcmascriptMergedUpdate',
         entries,
         chunks
     };
@@ -217,11 +215,11 @@ function mergeEcmascriptChunksUpdates(chunksA, chunksB) {
     return chunks;
 }
 function mergeEcmascriptChunkUpdates(updateA, updateB) {
-    if (updateA.type === "added" && updateB.type === "deleted") {
+    if (updateA.type === 'added' && updateB.type === 'deleted') {
         // These two completely cancel each other out.
         return undefined;
     }
-    if (updateA.type === "deleted" && updateB.type === "added") {
+    if (updateA.type === 'deleted' && updateB.type === 'added') {
         const added = [];
         const deleted = [];
         const deletedModules = new Set(updateA.modules ?? []);
@@ -240,12 +238,12 @@ function mergeEcmascriptChunkUpdates(updateA, updateB) {
             return undefined;
         }
         return {
-            type: "partial",
+            type: 'partial',
             added,
             deleted
         };
     }
-    if (updateA.type === "partial" && updateB.type === "partial") {
+    if (updateA.type === 'partial' && updateB.type === 'partial') {
         const added = new Set([
             ...updateA.added ?? [],
             ...updateB.added ?? []
@@ -265,7 +263,7 @@ function mergeEcmascriptChunkUpdates(updateA, updateB) {
             }
         }
         return {
-            type: "partial",
+            type: 'partial',
             added: [
                 ...added
             ],
@@ -274,7 +272,7 @@ function mergeEcmascriptChunkUpdates(updateA, updateB) {
             ]
         };
     }
-    if (updateA.type === "added" && updateB.type === "partial") {
+    if (updateA.type === 'added' && updateB.type === 'partial') {
         const modules = new Set([
             ...updateA.modules ?? [],
             ...updateB.added ?? []
@@ -283,13 +281,13 @@ function mergeEcmascriptChunkUpdates(updateA, updateB) {
             modules.delete(moduleId);
         }
         return {
-            type: "added",
+            type: 'added',
             modules: [
                 ...modules
             ]
         };
     }
-    if (updateA.type === "partial" && updateB.type === "deleted") {
+    if (updateA.type === 'partial' && updateB.type === 'deleted') {
         // We could eagerly return `updateB` here, but this would potentially be
         // incorrect if `updateA` has added modules.
         const modules = new Set(updateB.modules ?? []);
@@ -299,7 +297,7 @@ function mergeEcmascriptChunkUpdates(updateA, updateB) {
             }
         }
         return {
-            type: "deleted",
+            type: 'deleted',
             modules: [
                 ...modules
             ]
@@ -312,9 +310,9 @@ function invariant(_, message) {
     throw new Error(`Invariant: ${message}`);
 }
 const CRITICAL = [
-    "bug",
-    "error",
-    "fatal"
+    'bug',
+    'error',
+    'fatal'
 ];
 function compareByList(list, a, b) {
     const aI = list.indexOf(a) + 1 || list.length;
@@ -352,20 +350,20 @@ function handleIssues(msg) {
     return hasCriticalIssues;
 }
 const SEVERITY_ORDER = [
-    "bug",
-    "fatal",
-    "error",
-    "warning",
-    "info",
-    "log"
+    'bug',
+    'fatal',
+    'error',
+    'warning',
+    'info',
+    'log'
 ];
 const CATEGORY_ORDER = [
-    "parse",
-    "resolve",
-    "code generation",
-    "rendering",
-    "typescript",
-    "other"
+    'parse',
+    'resolve',
+    'code generation',
+    'rendering',
+    'typescript',
+    'other'
 ];
 function sortIssues(issues) {
     issues.sort((a, b)=>{
@@ -387,9 +385,9 @@ function handleSocketMessage(msg) {
     sortIssues(msg.issues);
     handleIssues(msg);
     switch(msg.type){
-        case "issues":
+        case 'issues':
             break;
-        case "partial":
+        case 'partial':
             // aggregate updates
             aggregateUpdates(msg);
             break;
@@ -451,7 +449,7 @@ function triggerUpdate(msg) {
     for (const callback of callbackSet.callbacks){
         callback(msg);
     }
-    if (msg.type === "notFound") {
+    if (msg.type === 'notFound') {
         // This indicates that the resource which we subscribed to either does not exist or
         // has been deleted. In either case, we should clear all update callbacks, so if a
         // new subscription is created for the same resource, it will send a new "subscribe"
@@ -461,11 +459,11 @@ function triggerUpdate(msg) {
         updateCallbackSets.delete(key);
     }
 }
-}}),
+}),
 "[project]/src/useClickOutside.js [client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
@@ -504,7 +502,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/src/components/ImageView.js [client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
@@ -653,7 +651,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/src/layout/BackBtn.js [client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
@@ -699,7 +697,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/src/layout/DayNightMood.js [client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
@@ -743,7 +741,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/src/paginationUtils.js [client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
     "activeSection": (()=>activeSection),
@@ -801,7 +799,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/src/layout/Header.js [client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
@@ -837,16 +835,9 @@ const Header = ({ blog, isLandingPage })=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "navbar-brand",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                legacyBehavior: true,
                                 href: "/",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                    className: "logo-text",
-                                    children: "Aleksandrs Čudars"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/layout/Header.js",
-                                    lineNumber: 19,
-                                    columnNumber: 15
-                                }, this)
+                                className: "logo-text",
+                                children: "Aleksandrs Čudars"
                             }, void 0, false, {
                                 fileName: "[project]/src/layout/Header.js",
                                 lineNumber: 18,
@@ -860,6 +851,8 @@ const Header = ({ blog, isLandingPage })=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             className: `toggler-menu ${sideBarToggle ? "open" : ""}`,
                             onClick: ()=>setSideBarToggle(!sideBarToggle),
+                            "aria-expanded": sideBarToggle,
+                            "aria-label": "Toggle navigation menu",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {}, void 0, false, {
                                     fileName: "[project]/src/layout/Header.js",
@@ -879,7 +872,7 @@ const Header = ({ blog, isLandingPage })=>{
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/layout/Header.js",
-                            lineNumber: 22,
+                            lineNumber: 20,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1308,7 +1301,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/src/layout/Layout.js [client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
@@ -1377,37 +1370,68 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/pages/running-and-training.js [client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 /* eslint-disable @next/next/no-img-element */ __turbopack_context__.s({
     "default": (()=>__TURBOPACK__default__export__)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$Layout$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/layout/Layout.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/index.js [client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
 ;
 ;
 const RunningAndTraining = ()=>{
+    _s();
+    const [lastUpdated, setLastUpdated] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("Loading...");
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "RunningAndTraining.useEffect": ()=>{
+            // Fetch last commit date for this file
+            fetch('/api/last-commit?file=pages/running-and-training.js').then({
+                "RunningAndTraining.useEffect": (response)=>response.json()
+            }["RunningAndTraining.useEffect"]).then({
+                "RunningAndTraining.useEffect": (data)=>{
+                    if (data.date) {
+                        const date = new Date(data.date);
+                        setLastUpdated(date.toLocaleDateString('en-US', {
+                            year: 'numeric',
+                            month: 'long',
+                            day: 'numeric'
+                        }));
+                    } else {
+                        setLastUpdated("Unknown");
+                    }
+                }
+            }["RunningAndTraining.useEffect"]).catch({
+                "RunningAndTraining.useEffect": (error)=>{
+                    console.error("Failed to fetch last commit date:", error);
+                    setLastUpdated("Unknown");
+                }
+            }["RunningAndTraining.useEffect"]);
+        }
+    }["RunningAndTraining.useEffect"], []);
     const renderOverviewStats = ()=>{
         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "col-sm-12 col-md-12 col-xl-12",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                    src: `/static/img/running/nike-overview.png`,
+                    src: `/static/img/running/nike-overview.jpg`,
                     title: "overview by Nike",
                     alt: "overview by Nike"
                 }, void 0, false, {
                     fileName: "[project]/pages/running-and-training.js",
-                    lineNumber: 9,
+                    lineNumber: 34,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/running-and-training.js",
-                lineNumber: 8,
+                lineNumber: 33,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/pages/running-and-training.js",
-            lineNumber: 7,
+            lineNumber: 32,
             columnNumber: 7
         }, this);
     };
@@ -1416,22 +1440,22 @@ const RunningAndTraining = ()=>{
             className: "col-sm-12 col-md-12 col-xl-12",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                    src: `/static/img/running/nike-all-time-stats.png`,
+                    src: `/static/img/running/nike-all-time-stats.jpg`,
                     title: "all-time stats by Nike",
                     alt: "all-time stats by Nike"
                 }, void 0, false, {
                     fileName: "[project]/pages/running-and-training.js",
-                    lineNumber: 23,
+                    lineNumber: 48,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/running-and-training.js",
-                lineNumber: 22,
+                lineNumber: 47,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/pages/running-and-training.js",
-            lineNumber: 21,
+            lineNumber: 46,
             columnNumber: 7
         }, this);
     };
@@ -1448,17 +1472,17 @@ const RunningAndTraining = ()=>{
                     ]
                 }, void 0, true, {
                     fileName: "[project]/pages/running-and-training.js",
-                    lineNumber: 37,
+                    lineNumber: 62,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/running-and-training.js",
-                lineNumber: 36,
+                lineNumber: 61,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/pages/running-and-training.js",
-            lineNumber: 35,
+            lineNumber: 60,
             columnNumber: 7
         }, this);
     };
@@ -1467,16 +1491,29 @@ const RunningAndTraining = ()=>{
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "title",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                        children: "Running."
-                    }, void 0, false, {
-                        fileName: "[project]/pages/running-and-training.js",
-                        lineNumber: 50,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                            children: "Running."
+                        }, void 0, false, {
+                            fileName: "[project]/pages/running-and-training.js",
+                            lineNumber: 75,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "subtitle m-15px-tb",
+                            children: [
+                                "Last updated: ",
+                                lastUpdated
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/pages/running-and-training.js",
+                            lineNumber: 76,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
                     fileName: "[project]/pages/running-and-training.js",
-                    lineNumber: 49,
+                    lineNumber: 74,
                     columnNumber: 9
                 }, this),
                 renderExtraDetailSection()
@@ -1494,20 +1531,21 @@ const RunningAndTraining = ()=>{
                 children: renderContainer()
             }, void 0, false, {
                 fileName: "[project]/pages/running-and-training.js",
-                lineNumber: 64,
+                lineNumber: 90,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/pages/running-and-training.js",
-            lineNumber: 59,
+            lineNumber: 85,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/pages/running-and-training.js",
-        lineNumber: 58,
+        lineNumber: 84,
         columnNumber: 5
     }, this);
 };
+_s(RunningAndTraining, "etOnGELr/9nAyxBPHFsw+MTcn04=");
 _c = RunningAndTraining;
 const __TURBOPACK__default__export__ = RunningAndTraining;
 var _c;
@@ -1518,9 +1556,9 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }}),
 "[next]/entry/page-loader.ts { PAGE => \"[project]/pages/running-and-training.js [client] (ecmascript)\" } [client] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+var { m: module, e: exports } = __turbopack_context__;
 {
-const PAGE_PATH = "/reading";
+const PAGE_PATH = "/running-and-training";
 (window.__NEXT_P = window.__NEXT_P || []).push([
     PAGE_PATH,
     ()=>{
@@ -1540,7 +1578,7 @@ if (module.hot) {
 "[project]/pages/running-and-training (hmr-entry)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname, m: module } = __turbopack_context__;
+var { m: module } = __turbopack_context__;
 {
 __turbopack_context__.r("[next]/entry/page-loader.ts { PAGE => \"[project]/pages/running-and-training.js [client] (ecmascript)\" } [client] (ecmascript)");
 }}),
