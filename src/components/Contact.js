@@ -75,7 +75,7 @@ const Contact = () => {
         <div className="row">
           <div className="col-lg-5 col-xl-4 m-15px-tb">
             <div className="contact-info">
-              <h4>What's your story? Get in touch</h4>
+              <h4>{`What's your story? Get in touch`}</h4>
               <p>
                 Always available for freelancing if the right project comes
                 along, Feel free to contact me.

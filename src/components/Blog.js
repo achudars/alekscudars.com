@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Blog = () => {
   return (
@@ -17,10 +18,12 @@ const Blog = () => {
             <article className="blog-grid">
               <div className="blog-img">
                 <Link href="/single-blog" aria-label="Read article: Five Solid Evidences Attending Design Is Good For Your Career Development">
-                  <img
+                  <Image
                     src="static/img/blog-1.jpg"
                     alt="Design career development illustration"
                     title="Five Solid Evidences Attending Design Is Good For Your Career Development"
+                    width={500}
+                    height={300}
                   />
                 </Link>
               </div>
@@ -39,10 +42,12 @@ const Blog = () => {
             <article className="blog-grid">
               <div className="blog-img">
                 <Link href="/single-blog" aria-label="Read article: Ten Mind-Blowing Reasons Why Design Is Using This Technique For Exposure">
-                  <img
-                    src="static/img/blog-2.jpg"
+                  <Image
+                    src="/static/img/blog-2.jpg"
                     alt="Design technique exposure illustration"
                     title="Ten Mind-Blowing Reasons Why Design Is Using This Technique For Exposure"
+                    width={500}
+                    height={300}
                   />
                 </Link>
               </div>
@@ -61,10 +66,12 @@ const Blog = () => {
             <article className="blog-grid">
               <div className="blog-img">
                 <Link href="/single-blog" aria-label="Read article: I Will Tell You The Truth About Design In The Next 60 Seconds">
-                  <img
-                    src="static/img/blog-3.jpg"
+                  <Image
+                    src="/static/img/blog-3.jpg"
                     alt="Design truth illustration"
                     title="I Will Tell You The Truth About Design In The Next 60 Seconds"
+                    width={500}
+                    height={300}
                   />
                 </Link>
               </div>
@@ -83,10 +90,12 @@ const Blog = () => {
             <article className="blog-grid">
               <div className="blog-img">
                 <Link href="/single-blog" aria-label="Read article: What You Know About Design And What You Don't Know About Design">
-                  <img
-                    src="static/img/blog-4.jpg"
+                  <Image
+                    src="/static/img/blog-4.jpg"
                     alt="Design knowledge illustration"
                     title="What You Know About Design And What You Don't Know About Design"
+                    width={500}
+                    height={300}
                   />
                 </Link>
               </div>

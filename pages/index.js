@@ -1,4 +1,5 @@
 import dynamic from "next/dynamic";
+import Image from "next/image";
 import About from "../src/components/About";
 import Certifications from "../src/components/Certifications";
 import Blog from "../src/components/Blog";
@@ -38,7 +39,12 @@ const Index = () => {
               </div>
               <div className="col-lg-6">
                 <div className="hb-img">
-                  <img src="static/img/home-banner.png" title="" alt="" />
+                  <Image
+                    src="/static/img/home-banner.png"
+                    width={500}
+                    height={500}
+                    alt="Aleksandrs Čudars"
+                  />
                 </div>
               </div>
             </div>

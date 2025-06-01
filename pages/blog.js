@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import Layout from "../src/layout/Layout";
 import { getPagination, pagination } from "../src/paginationUtils";
@@ -11,7 +12,7 @@ const Blog = () => {
     pagination(".blog-list-item", sort, active);
     let list = document.querySelectorAll(".blog-list-item");
     setState(getPagination(list.length, sort));
-  }, [active]);
+  }, [active, sort]);
 
   return (
     <Layout blog>
@@ -25,9 +26,12 @@ const Blog = () => {
               <div className="blog-grid">
                 <div className="blog-img">
                   <Link href="/single-blog">
-
-                    <img src="static/img/blog-1.jpg" title="" alt="" />
-
+                    <Image
+                      src="/static/img/blog-1.jpg"
+                      width={800}
+                      height={500}
+                      alt="Blog post image about design truth"
+                    />
                   </Link>
                 </div>
                 <div className="blog-info">
@@ -47,9 +51,12 @@ const Blog = () => {
               <div className="blog-grid">
                 <div className="blog-img">
                   <Link href="/single-blog">
-
-                    <img src="static/img/blog-2.jpg" title="" alt="" />
-
+                    <Image
+                      src="/static/img/blog-2.jpg"
+                      width={800}
+                      height={500}
+                      alt="Blog post image"
+                    />
                   </Link>
                 </div>
                 <div className="blog-info">
@@ -69,9 +76,12 @@ const Blog = () => {
               <div className="blog-grid">
                 <div className="blog-img">
                   <Link href="/single-blog">
-
-                    <img src="static/img/blog-3.jpg" title="" alt="" />
-
+                    <Image
+                      src="/static/img/blog-3.jpg"
+                      width={800}
+                      height={500}
+                      alt="Blog post image"
+                    />
                   </Link>
                 </div>
                 <div className="blog-info">
@@ -91,9 +101,12 @@ const Blog = () => {
               <div className="blog-grid">
                 <div className="blog-img">
                   <Link href="/single-blog">
-
-                    <img src="static/img/blog-6.jpg" title="" alt="" />
-
+                    <Image
+                      src="/static/img/blog-6.jpg"
+                      width={800}
+                      height={500}
+                      alt="Blog post image"
+                    />
                   </Link>
                 </div>
                 <div className="blog-info">
@@ -111,9 +124,12 @@ const Blog = () => {
               <div className="blog-grid">
                 <div className="blog-img">
                   <Link href="/single-blog">
-
-                    <img src="static/img/blog-5.jpg" title="" alt="" />
-
+                    <Image
+                      src="/static/img/blog-5.jpg"
+                      width={800}
+                      height={500}
+                      alt="Blog post image"
+                    />
                   </Link>
                 </div>
                 <div className="blog-info">
@@ -132,9 +148,12 @@ const Blog = () => {
               <div className="blog-grid">
                 <div className="blog-img">
                   <Link href="/single-blog">
-
-                    <img src="static/img/blog-4.jpg" title="" alt="" />
-
+                    <Image
+                      src="/static/img/blog-4.jpg"
+                      width={800}
+                      height={500}
+                      alt="Blog post image"
+                    />
                   </Link>
                 </div>
                 <div className="blog-info">

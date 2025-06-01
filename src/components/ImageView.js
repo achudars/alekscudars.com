@@ -1,4 +1,5 @@
 import { Fragment, useEffect, useState } from "react";
+import Image from "next/image";
 import useClickOutside from "../useClickOutside";
 
 const ImgViews = ({ close, src, alt = "Enlarged image" }) => {
@@ -48,7 +49,16 @@ const ImgViews = ({ close, src, alt = "Enlarged image" }) => {
         >
           <div className="mfp-content" ref={domNode}>
             <div className="mfp-iframe-scaler">
-              <img className="mfp-img" src={src} alt={alt} />
+              <Image
+                className="mfp-img"
+                src={src}
+                alt={alt}
+                width={1200}
+                height={800}
+                style={{ width: '100%', height: 'auto', maxWidth: '100%' }}
+                sizes="100vw"
+                priority
+              />
               <button
                 className="mfp-close"
                 type="button"
