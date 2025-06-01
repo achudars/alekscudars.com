@@ -1,5 +1,4 @@
 import Layout from "../src/layout/Layout";
-import Image from "next/image";
 import books from "./api/books.json";
 import { Fragment } from "react";
 import LastUpdated from "../src/components/LastUpdated";
@@ -73,11 +72,10 @@ const Reading = () => {
               <div className="row">
                 <div className="col-sm-3 col-md-3 col-xl-2">
                   <div className="rb-left">
-                    <Image
+                    <img
                       src={`/static/img/books/${book.bookTitle}.jpg`}
-                      width={150}
-                      height={225}
-                      alt={book.title || book.bookTitle}
+                      title={book.title}
+                      alt={book.title}
                     />
                   </div>
                 </div>
