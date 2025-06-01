@@ -86,6 +86,7 @@
       "keepAlive": true
     },
     "logging": {},
+    "compiler": {},
     "expireTime": 31536000,
     "staticPageGenerationTimeout": 60,
     "modularizeImports": {
@@ -98,6 +99,7 @@
     },
     "outputFileTracingRoot": "C:\\Users\\aleks\\github\\javascript\\alekscudars.com",
     "experimental": {
+      "useSkewCookie": false,
       "nodeMiddleware": false,
       "cacheLife": {
         "default": {
@@ -142,6 +144,7 @@
       "appNavFailHandling": false,
       "prerenderEarlyExit": true,
       "serverMinification": true,
+      "enablePrerenderSourceMaps": false,
       "serverSourceMaps": false,
       "linkNoTouchStart": false,
       "caseSensitiveRoutes": false,
@@ -185,6 +188,7 @@
       "useEarlyImport": false,
       "viewTransition": false,
       "routerBFCache": false,
+      "removeUncaughtErrorAndRejectionListeners": false,
       "staleTimes": {
         "dynamic": 0,
         "static": 300
@@ -195,6 +199,8 @@
       "dynamicIO": false,
       "inlineCss": false,
       "useCache": false,
+      "globalNotFound": false,
+      "devtoolSegmentExplorer": false,
       "optimizePackageImports": [
         "lucide-react",
         "date-fns",
@@ -277,10 +283,10 @@
     },
     "htmlLimitedBots": "Mediapartners-Google|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview|Yeti",
     "bundlePagesRouterDependencies": false,
+    "configFileName": "next.config.js",
     "turbopack": {
       "root": "C:\\Users\\aleks\\github\\javascript\\alekscudars.com"
-    },
-    "configFileName": "next.config.js"
+    }
   },
   "appDir": "C:\\Users\\aleks\\github\\javascript\\alekscudars.com",
   "relativeAppDir": "",
@@ -298,7 +304,8 @@
     ".next\\server\\dynamic-css-manifest.js",
     ".next\\BUILD_ID",
     ".next\\server\\next-font-manifest.js",
-    ".next\\server\\next-font-manifest.json"
+    ".next\\server\\next-font-manifest.json",
+    ".next\\required-server-files.json"
   ],
   "ignore": [
     "node_modules\\next\\dist\\compiled\\@ampproject\\toolbox-optimizer\\**\\*"

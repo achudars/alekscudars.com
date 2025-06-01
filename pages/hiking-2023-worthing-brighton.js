@@ -1,12 +1,12 @@
 import PhotoAndVideoSection from "../src/layout/PhotoAndVideoSection";
 
 const PHOTOS = [
-"./static/img/hiking/2023/worthing-brighton/img.png",
-"./static/img/hiking/2023/worthing-brighton/WBQ7LCJ.webp",
-"./static/img/hiking/2023/worthing-brighton/WBQ8LCJ.webp",
-"./static/img/hiking/2023/worthing-brighton/WBQ4LCJ.webp",
-"./static/img/hiking/2023/worthing-brighton/WBQ5LCJ.webp",
-"./static/img/hiking/2023/worthing-brighton/WBQ6LCJ.webp",
+  "/static/img/hiking/2023/worthing-brighton/img.png",
+  "/static/img/hiking/2023/worthing-brighton/WBQ7LCJ.webp",
+  "/static/img/hiking/2023/worthing-brighton/WBQ8LCJ.webp",
+  "/static/img/hiking/2023/worthing-brighton/WBQ4LCJ.webp",
+  "/static/img/hiking/2023/worthing-brighton/WBQ5LCJ.webp",
+  "/static/img/hiking/2023/worthing-brighton/WBQ6LCJ.webp",
 ];
 
 const VIDEOS = [];

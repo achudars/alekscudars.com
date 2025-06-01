@@ -1,7 +1,7 @@
 import Layout from "../src/layout/Layout";
+import Image from "next/image";
 import books from "./api/books.json";
 import { Fragment } from "react";
-import LastUpdated from "../src/components/LastUpdated";
 
 const Reading = () => {
   const renderReadingStats = () => {
@@ -72,10 +72,11 @@ const Reading = () => {
               <div className="row">
                 <div className="col-sm-3 col-md-3 col-xl-2">
                   <div className="rb-left">
-                    <img
+                    <Image
                       src={`/static/img/books/${book.bookTitle}.jpg`}
-                      title={book.title}
-                      alt={book.title}
+                      width={150}
+                      height={225}
+                      alt={book.title || book.bookTitle}
                     />
                   </div>
                 </div>
@@ -148,10 +149,6 @@ const Reading = () => {
       <>
         <div className="title">
           <h3>Reading.</h3>
-          <LastUpdated
-            filePath="pages/reading.js"
-            className="m-15px-tb"
-          />
         </div>
         {renderReadingStats()}
         {renderBookGroupBasedOnStatus({

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Fragment, useEffect, useState } from "react";
 import { activeSection } from "../paginationUtils";
 
@@ -40,10 +41,13 @@ const Header = ({ blog, isLandingPage }) => {
           <div className="hl-top">
             <div className="hl-logo">
               <div className="img">
-                <img
-                  src="static/img/me in Corfu.JPG"
+                <Image
+                  src="/static/img/me in Corfu.JPG"
+                  width={120}
+                  height={120}
                   title="photo of Aleks"
                   alt="photo of Aleks"
+                  priority
                 />
               </div>
               <h5>🇱🇻 🥔 🇬🇧</h5>

@@ -1,13 +1,13 @@
 import PhotoAndVideoSection from "../src/layout/PhotoAndVideoSection";
 
 const PHOTOS = [
-"./static/img/hiking/2022/margate-ramsgate/img.png",
-"./static/img/hiking/2022/margate-ramsgate/LDQ4LCJ.webp",
-"./static/img/hiking/2022/margate-ramsgate/MDQ4LCJ.webp",
-"./static/img/hiking/2022/margate-ramsgate/NDQ4LCJ.webp",
-"./static/img/hiking/2022/margate-ramsgate/ODQ4LCJ.webp",
-"./static/img/hiking/2022/margate-ramsgate/PDQ4LCJ.webp",
-"./static/img/hiking/2022/margate-ramsgate/QDQ4LCJ.webp",
+"/static/img/hiking/2022/margate-ramsgate/img.png",
+"/static/img/hiking/2022/margate-ramsgate/LDQ4LCJ.webp",
+"/static/img/hiking/2022/margate-ramsgate/MDQ4LCJ.webp",
+"/static/img/hiking/2022/margate-ramsgate/NDQ4LCJ.webp",
+"/static/img/hiking/2022/margate-ramsgate/ODQ4LCJ.webp",
+"/static/img/hiking/2022/margate-ramsgate/PDQ4LCJ.webp",
+"/static/img/hiking/2022/margate-ramsgate/QDQ4LCJ.webp",
 ];
 
 const VIDEOS = [];
