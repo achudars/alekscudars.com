@@ -17,7 +17,6 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "prebuild": "node scripts/generate-last-modified-dates.js",
     "build": "next build",
     "start": "next start",
     "sass": "sass --watch public/static/scss/style.scss:public/assets/css/style.css",
