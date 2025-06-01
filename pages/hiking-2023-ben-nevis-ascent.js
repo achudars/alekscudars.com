@@ -1,13 +1,13 @@
 import PhotoAndVideoSection from "../src/layout/PhotoAndVideoSection";
 
 const PHOTOS = [
-"./static/img/hiking/2023/ben-nevis-ascent/img.png",
-"./static/img/hiking/2023/ben-nevis-ascent/BAQ1LCJ.webp",
-"./static/img/hiking/2023/ben-nevis-ascent/BAQ5LCJ.webp",
-"./static/img/hiking/2023/ben-nevis-ascent/BAQ4LCJ.webp",
-"./static/img/hiking/2023/ben-nevis-ascent/BAQ6LCJ.webp",
-"./static/img/hiking/2023/ben-nevis-ascent/BAQ2LCJ.webp",
-"./static/img/hiking/2023/ben-nevis-ascent/BAQ3LCJ.webp",
+"/static/img/hiking/2023/ben-nevis-ascent/img.png",
+"/static/img/hiking/2023/ben-nevis-ascent/BAQ1LCJ.webp",
+"/static/img/hiking/2023/ben-nevis-ascent/BAQ5LCJ.webp",
+"/static/img/hiking/2023/ben-nevis-ascent/BAQ4LCJ.webp",
+"/static/img/hiking/2023/ben-nevis-ascent/BAQ6LCJ.webp",
+"/static/img/hiking/2023/ben-nevis-ascent/BAQ2LCJ.webp",
+"/static/img/hiking/2023/ben-nevis-ascent/BAQ3LCJ.webp",
 ];
 
 const VIDEOS = [];

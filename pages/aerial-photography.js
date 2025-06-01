@@ -4,114 +4,114 @@ import LastUpdated from "../src/components/LastUpdated";
 
 const CAPTURED = [
   {
-    link: "./aerial-2025-switzerland-truebsee",
+    link: "/aerial-2025-switzerland-truebsee",
     photo:
-      "./static/img/aerial/2025/switzerland-truebsee/2025_05_25_07_49_DJI_0166 - square.JPG",
+      "/static/img/aerial/2025/switzerland-truebsee/2025_05_25_07_49_DJI_0166 - square.JPG",
     description: "Switzerland, Truebsee",
     date: 2025,
   },
   {
-    link: "./aerial-2025-switzerland-grindelwald",
+    link: "/aerial-2025-switzerland-grindelwald",
     photo:
-      "./static/img/aerial/2025/switzerland-grindelwald/2025_05_24_14_35_IMG_0854 - square.JPG",
+      "/static/img/aerial/2025/switzerland-grindelwald/2025_05_24_14_35_IMG_0854 - square.JPG",
     description: "Switzerland, Grindelwald",
     date: 2025,
   },
   {
-    link: "./aerial-2025-switzerland-harder-klum",
+    link: "/aerial-2025-switzerland-harder-klum",
     photo:
-      "./static/img/aerial/2025/switzerland-harder-klum/2025_05_24_07_02_DJI_0945 - square.JPG",
+      "/static/img/aerial/2025/switzerland-harder-klum/2025_05_24_07_02_DJI_0945 - square.JPG",
     description: "Switzerland, Harder Klum",
     date: 2025,
   },
   {
-    link: "./aerial-2025-greece-corfu",
+    link: "/aerial-2025-greece-corfu",
     photo:
-      "./static/img/aerial/2025/greece-corfu/2025_05_10_05_47_DJI_0865.JPG",
+      "/static/img/aerial/2025/greece-corfu/2025_05_10_05_47_DJI_0865.JPG",
     description: "Greece, Corfu",
     date: 2025,
   },
   {
-    link: "./aerial-2025-cyprus",
+    link: "/aerial-2025-cyprus",
     photo:
-      "./static/img/aerial/2025/cyprus/2025_03_23_07_30_IMG_9995 - square.JPG",
+      "/static/img/aerial/2025/cyprus/2025_03_23_07_30_IMG_9995 - square.JPG",
     description: "Cyprus",
     date: 2025,
   },
   {
-    link: "./aerial-2025-portugal-madeira",
+    link: "/aerial-2025-portugal-madeira",
     photo:
-      "./static/img/aerial/2025/portugal-madeira/2025_03_08_10_11_DJI_0547 - square.JPG",
+      "/static/img/aerial/2025/portugal-madeira/2025_03_08_10_11_DJI_0547 - square.JPG",
     description: "Portugal, Madeira",
     date: 2025,
   },
   {
-    link: "./aerial-2025-spain-tenerife",
+    link: "/aerial-2025-spain-tenerife",
     photo:
-      "./static/img/aerial/2025/spain-tenerife/2025_02_22_10_39_DJI_0419 - square.JPG",
+      "/static/img/aerial/2025/spain-tenerife/2025_02_22_10_39_DJI_0419 - square.JPG",
     description: "Spain, Tenerife",
     date: 2025,
   },
   {
-    link: "./aerial-2022-england-seaford",
+    link: "/aerial-2022-england-seaford",
     photo:
-      "./static/img/aerial/2022/england-seaford/2022_07_09_09_27_DJI_0189 - square.JPG",
+      "/static/img/aerial/2022/england-seaford/2022_07_09_09_27_DJI_0189 - square.JPG",
     description: "England, Seaford",
     date: 2022,
   },
   {
-    link: "./aerial-2020-scotland-glencoe",
+    link: "/aerial-2020-scotland-glencoe",
     photo:
-      "./static/img/aerial/2020/scotland-glencoe/47d6ccf8443f4002ec673590a23be727.jpg",
+      "/static/img/aerial/2020/scotland-glencoe/47d6ccf8443f4002ec673590a23be727.jpg",
     description: "Scotland, Glencoe",
     date: 2020,
   },
   {
-    link: "./aerial-2019-england-norfolk",
+    link: "/aerial-2019-england-norfolk",
     photo:
-      "./static/img/aerial/2019/england-norfolk/be710e98d38c98fd8783299fa6888611.jpg",
+      "/static/img/aerial/2019/england-norfolk/be710e98d38c98fd8783299fa6888611.jpg",
     description: "England, Norfolk",
     date: 2019,
   },
   {
-    link: "./aerial-2018-england-brighton",
+    link: "/aerial-2018-england-brighton",
     photo:
-      "./static/img/aerial/2018/england-brighton/ee3f9cf3cb87184a9c047ae41abcceb3.jpg",
+      "/static/img/aerial/2018/england-brighton/ee3f9cf3cb87184a9c047ae41abcceb3.jpg",
     description: "England, Brighton",
     date: 2018,
   },
   {
-    link: "./aerial-2018-ukraine-odessa",
+    link: "/aerial-2018-ukraine-odessa",
     photo:
-      "./static/img/aerial/2018/ukraine-odessa/4aa1747ac3d510f71ae45bb0f7105b83.jpg",
+      "/static/img/aerial/2018/ukraine-odessa/4aa1747ac3d510f71ae45bb0f7105b83.jpg",
     description: "Ukraine, Odessa",
     date: 2018,
   },
   {
-    link: "./aerial-2018-poland-warsaw",
+    link: "/aerial-2018-poland-warsaw",
     photo:
-      "./static/img/aerial/2018/poland-warsaw/55b7ddff051e4bc57ef3733af305ae96.jpg",
+      "/static/img/aerial/2018/poland-warsaw/55b7ddff051e4bc57ef3733af305ae96.jpg",
     description: "Poland, Warsaw",
     date: 2018,
   },
   {
-    link: "./aerial-2018-latvia-rezekne",
+    link: "/aerial-2018-latvia-rezekne",
     photo:
-      "./static/img/aerial/2018/latvia-rezekne/cd25297810bf3143ae3367f8fef0c7c2.jpg",
+      "/static/img/aerial/2018/latvia-rezekne/cd25297810bf3143ae3367f8fef0c7c2.jpg",
     description: "Latvia, Rezekne",
     date: 2018,
   },
   {
-    link: "./aerial-2018-portugal-madeira",
+    link: "/aerial-2018-portugal-madeira",
     photo:
-      "./static/img/aerial/2018/portugal-madeira/bf02fac1e91dce1ed075ee43f89bfde5.jpg",
+      "/static/img/aerial/2018/portugal-madeira/bf02fac1e91dce1ed075ee43f89bfde5.jpg",
     description: "Portugal, Madeira",
     date: 2018,
   },
   {
-    link: "./aerial-2017-italy-sicily",
+    link: "/aerial-2017-italy-sicily",
     photo:
-      "./static/img/aerial/2017/italy-sicily/6ae48ff1265eb6d219b6368c0e0a833c.jpg",
+      "/static/img/aerial/2017/italy-sicily/6ae48ff1265eb6d219b6368c0e0a833c.jpg",
     description: "Italy, Sicily",
     date: 2017,
   },
@@ -223,10 +223,10 @@ const Aerial = () => {
         <div className="container">
           <div className="title">
             <h3>Aerial Photography & Videography.</h3>
-            <LastUpdated
+            <!--<LastUpdated
               filePath="pages/aerial-photography.js"
               className="m-15px-tb"
-            />
+            />-->
           </div>
           {renderFlightStatistics()}
           <div className="separated" />

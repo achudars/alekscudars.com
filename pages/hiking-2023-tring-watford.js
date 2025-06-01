@@ -1,14 +1,14 @@
 import PhotoAndVideoSection from "../src/layout/PhotoAndVideoSection";
 
 const PHOTOS = [
-"./static/img/hiking/2023/tring-watford/img.png",
-"./static/img/hiking/2023/tring-watford/TWQ3LCJ.webp",
-"./static/img/hiking/2023/tring-watford/TWQ2LCJ.webp",
-"./static/img/hiking/2023/tring-watford/TWQ4LCJ.webp",
-"./static/img/hiking/2023/tring-watford/TWQ5LCJ.webp",
-"./static/img/hiking/2023/tring-watford/TWQ6LCJ.webp",
-"./static/img/hiking/2023/tring-watford/TWQ8LCJ.webp",
-"./static/img/hiking/2023/tring-watford/TWQ47LCJ.webp",
+"/static/img/hiking/2023/tring-watford/img.png",
+"/static/img/hiking/2023/tring-watford/TWQ3LCJ.webp",
+"/static/img/hiking/2023/tring-watford/TWQ2LCJ.webp",
+"/static/img/hiking/2023/tring-watford/TWQ4LCJ.webp",
+"/static/img/hiking/2023/tring-watford/TWQ5LCJ.webp",
+"/static/img/hiking/2023/tring-watford/TWQ6LCJ.webp",
+"/static/img/hiking/2023/tring-watford/TWQ8LCJ.webp",
+"/static/img/hiking/2023/tring-watford/TWQ47LCJ.webp",
 
 ];
 

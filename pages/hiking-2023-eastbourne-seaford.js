@@ -1,15 +1,15 @@
 import PhotoAndVideoSection from "../src/layout/PhotoAndVideoSection";
 
 const PHOTOS = [
-"./static/img/hiking/2023/eastbourne-seaford/img.png",
-"./static/img/hiking/2023/eastbourne-seaford/ESQ7LCJ.webp",
-"./static/img/hiking/2023/eastbourne-seaford/ESQ3LCJ.webp",
-"./static/img/hiking/2023/eastbourne-seaford/ESQ2LCJ.webp",
-"./static/img/hiking/2023/eastbourne-seaford/ESQ4LCJ.webp",
-"./static/img/hiking/2023/eastbourne-seaford/ESQ6LCJ.webp",
-"./static/img/hiking/2023/eastbourne-seaford/ESQ8LCJ.webp",
-"./static/img/hiking/2023/eastbourne-seaford/ESQ5LCJ.webp",
-"./static/img/hiking/2023/eastbourne-seaford/ESQ9LCJ.webp",
+"/static/img/hiking/2023/eastbourne-seaford/img.png",
+"/static/img/hiking/2023/eastbourne-seaford/ESQ7LCJ.webp",
+"/static/img/hiking/2023/eastbourne-seaford/ESQ3LCJ.webp",
+"/static/img/hiking/2023/eastbourne-seaford/ESQ2LCJ.webp",
+"/static/img/hiking/2023/eastbourne-seaford/ESQ4LCJ.webp",
+"/static/img/hiking/2023/eastbourne-seaford/ESQ6LCJ.webp",
+"/static/img/hiking/2023/eastbourne-seaford/ESQ8LCJ.webp",
+"/static/img/hiking/2023/eastbourne-seaford/ESQ5LCJ.webp",
+"/static/img/hiking/2023/eastbourne-seaford/ESQ9LCJ.webp",
 ];
 
 const VIDEOS = [];

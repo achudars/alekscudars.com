@@ -9,10 +9,10 @@ const Certifications = () => {
       <>
         <div className="title">
           <h3>Certifications.</h3>
-          <LastUpdated
+          <!--<LastUpdated
             filePath="pages/certifications.js"
             className="m-15px-tb"
-          />
+          />-->
         </div>
         <div className="resume-box">
           {badges.map((badge) => {

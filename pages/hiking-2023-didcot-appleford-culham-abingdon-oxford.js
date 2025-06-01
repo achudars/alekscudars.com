@@ -1,15 +1,15 @@
 import PhotoAndVideoSection from "../src/layout/PhotoAndVideoSection";
 
 const PHOTOS = [
-"./static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/img.png",
-"./static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ2LCJ.webp",
-"./static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ4LCJ.webp",
-"./static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ6LCJ.webp",
-"./static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ1LCJ.webp",
-"./static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ7LCJ.webp",
-"./static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ8LCJ.webp",
-"./static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ5LCJ.webp",
-"./static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ3LCJ.webp",
+"/static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/img.png",
+"/static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ2LCJ.webp",
+"/static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ4LCJ.webp",
+"/static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ6LCJ.webp",
+"/static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ1LCJ.webp",
+"/static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ7LCJ.webp",
+"/static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ8LCJ.webp",
+"/static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ5LCJ.webp",
+"/static/img/hiking/2023/didcot-appleford-culham-abingdon-oxford/AOQ3LCJ.webp",
 ];
 
 const VIDEOS = [];
