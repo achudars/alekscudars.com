@@ -48,10 +48,6 @@ const RunningAndTraining = () => {
       <>
         <div className="title">
           <h3>Running.</h3>
-          <!-- <LastUpdated
-            filePath="pages/running-and-training.js"
-            className="m-15px-tb"
-          />-->
         </div>
         {renderExtraDetailSection()}
       </>

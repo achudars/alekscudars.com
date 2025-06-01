@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const About = () => {
   const renderAboutMe = () => {
     return (
@@ -134,12 +132,10 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <Image
+                  <img
                     src="/static/img/gs-logo.png"
                     title="Goldman Sachs Logo"
                     alt="Goldman Sachs Logo"
-                    width={50}
-                    height={50}
                   />
                 </div>
               </div>
@@ -161,12 +157,10 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <Image
+                  <img
                     src="/static/img/gs-logo.png"
                     title="Goldman Sachs Logo"
                     alt="Goldman Sachs Logo"
-                    width={50}
-                    height={50}
                   />
                 </div>
               </div>
@@ -187,12 +181,10 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <Image
+                  <img
                     src="/static/img/gs-logo.png"
                     title="Goldman Sachs Logo"
                     alt="Goldman Sachs Logo"
-                    width={50}
-                    height={50}
                   />
                 </div>
               </div>
@@ -214,12 +206,10 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <Image
+                  <img
                     src="/static/img/gs-logo.png"
                     title="Goldman Sachs Logo"
                     alt="Goldman Sachs Logo"
-                    width={50}
-                    height={50}
                   />
                 </div>
               </div>
@@ -240,16 +230,96 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <Image
+                  <img
                     src="/static/img/gs-logo.png"
                     title="Goldman Sachs Logo"
                     alt="Goldman Sachs Logo"
-                    width={50}
-                    height={50}
                   />
                 </div>
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
                   <h6>Software Engineer / Summer Intern</h6>
-                  <label>Goldman Sachs | Jun
+                  <label>Goldman Sachs | Jun 2014 - Aug 2014</label>
+                  <div className="rb-time">Full Time</div>
+                  <p>
+                    Software Developer in the Sales Services Technology
+                    department concentrating on search.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="resume-row">
+            <div className="row">
+              <div className="col-sm-3 col-md-3 col-xl-2">
+                <div className="rb-left">
+                  <img
+                    src="/static/img/arterys-logo.jpg"
+                    title="Arterys Logo"
+                    alt="Arterys Logo"
+                  />
+                </div>
+              </div>
+              <div className="col-sm-9 col-md-9 col-xl-10">
+                <div className="rb-right">
+                  <h6>Front End Developer</h6>
+                  <label>
+                    Arterys (formerly: Morpheus Medical, Inc.) | Remote | Aug
+                    2013 - Jul 2014
+                  </label>
+                  <div className="rb-time">Part Time</div>
+                  <p>Front-End Developer of the cardio medical imaging app</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="resume-row">
+            <div className="row">
+              <div className="col-sm-3 col-md-3 col-xl-2">
+                <div className="rb-left">
+                  <img
+                    src="/static/img/amadeus-logo.jpg"
+                    title="Amadeus Logo"
+                    alt="Amadeus Logo"
+                  />
+                </div>
+              </div>
+              <div className="col-sm-9 col-md-9 col-xl-10">
+                <div className="rb-right">
+                  <h6>Software Development Engineer</h6>
+                  <label>Amadeus Services Ltd. | Jul 2012 - Aug 2013</label>
+                  <div className="rb-time">Full Time</div>
+                  <p>
+                    Front-End Developer of the standalone Offline Loadsheet
+                    Tool.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </>
+    );
+  };
+
+  return (
+    <section
+      id="about"
+      data-nav-tooltip="About"
+      className="pp-section pp-scrollable section counter"
+    >
+      <div className="container">
+        {renderAboutMe()}
+        <div className="separated" />
+        {renderExperience()}
+        <div className="separated" />
+        {renderEducationAndSkills()}
+        <div className="separated" />
+      </div>
+    </section>
+  );
+};
+
+export default About;
+
