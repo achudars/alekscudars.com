@@ -4,10 +4,7 @@
   "/_document": "pages/_document.js",
   "/aerial-photography": "pages/aerial-photography.js",
   "/api/last-commit": "pages/api/last-commit.js",
-  "/certifications": "pages/certifications.js",
-  "/drawing": "pages/drawing.js",
   "/hiking-and-walking": "pages/hiking-and-walking.js",
   "/online-courses": "pages/online-courses.js",
-  "/reading": "pages/reading.js",
-  "/running-and-training": "pages/running-and-training.js"
+  "/reading": "pages/reading.js"
 }
