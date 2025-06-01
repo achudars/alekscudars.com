@@ -217,7 +217,7 @@ const Aerial = () => {
   };
 
   return (
-    <Layout blog>
+    <Layout blog showBackBtn>
       <div className="blog-listing" id="blog">
         <div className="container">
           <div className="title">
