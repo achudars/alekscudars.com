@@ -1417,6 +1417,9 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
 }
 }}),
+"[project]/pages/api/certifications.json (json)": ((__turbopack_context__) => {
+
+__turbopack_context__.v(JSON.parse("[{\"badgeId\":\"148debcf-a348-4ea8-9d19-68fedf32181b\",\"badgePublicUrl\":\"https://www.credly.com/badges/148debcf-a348-4ea8-9d19-68fedf32181b/public_url\",\"badgeImageUrl\":\"/static/img/badges/Linux_Foundation_OS_Best_Practices.png\",\"title\":\"LFD121: Developing Secure Software\",\"details\":\"Earners of the LFD121: Developing Secure Software badge know the practical steps that must be taken to counter most kinds of attacks. Using these steps, they create and maintain systems that are much harder to successfully attack, reduce the damage when attacks are successful, and speed up the response so that any latent vulnerabilities can be rapidly repaired.\",\"issuedBy\":\"The Linux Foundation\",\"issuedOn\":\"August 18, 2023\"},{\"badgeId\":\"34b157e3-dee4-4558-9ce6-b79a7a7ede5d\",\"badgePublicUrl\":\"https://www.credly.com/badges/34b157e3-dee4-4558-9ce6-b79a7a7ede5d/public_url\",\"badgeImageUrl\":\"/static/img/badges/Linux_Foundation_OS_Best_Practices.png\",\"title\":\"LFC110: Fundamentals of Professional Open Source Management\",\"details\":\"Earners of the LFC110: Fundamentals of Professional Open Source Management badge understand the key phases of developing a Professional Open Source Management program, including open source management strategy, open source management policy development, and open source management process development.\",\"issuedBy\":\"The Linux Foundation\",\"issuedOn\":\"August 16, 2023\"},{\"badgeId\":\"62b002b2-b149-4203-9558-3e267ed0b5f4\",\"badgePublicUrl\":\"https://www.credly.com/badges/62b002b2-b149-4203-9558-3e267ed0b5f4/public_url\",\"badgeImageUrl\":\"/static/img/badges/Linux_Foundation_OS_Best_Practices.png\",\"title\":\"LFC191: Open Source Licensing Basics for Software Developers\",\"details\":\"Earners of the LFC191: Open Source Licensing Basics for Software Developers badge possess a good working knowledge of open source licensing and compliance. They can distinguish the different types of licenses and permissions, and are able to create file notices with copyrights and licenses.\",\"issuedBy\":\"The Linux Foundation\",\"issuedOn\":\"August 16, 2023\"},{\"badgeId\":\"343849b6-4fd5-4e44-88d9-335ed78070db\",\"badgePublicUrl\":\"https://www.credly.com/badges/343849b6-4fd5-4e44-88d9-335ed78070db/public_url\",\"badgeImageUrl\":\"/static/img/badges/Linux_Foundation_OS_Best_Practices.png\",\"title\":\"LFC193: Introduction to Open Source Licensing Compliance Management\",\"details\":\"Earners of the Introduction to Open Source License Compliance Management (LFC193) badge have the necessary skills to start building an effective open source license compliance program. They understand the fundamentals of intellectual property, open source licensing and the basic processes used to manage these matters. They can understand how licensing aligns with existing company practices and where the company may need to invest resources into refining processes, policy or training.\",\"issuedBy\":\"The Linux Foundation\",\"issuedOn\":\"August 16, 2023\"},{\"badgeId\":\"9002a39c-8d46-4d26-830f-67dc0a1833ea\",\"badgePublicUrl\":\"https://www.credly.com/badges/9002a39c-8d46-4d26-830f-67dc0a1833ea/public_url\",\"badgeImageUrl\":\"/static/img/badges/Linux_Foundation_OS_Best_Practices.png\",\"title\":\"LFC194: Implementing Open Source License Compliance Management\",\"details\":\"Earners of the Implementing Open Source License Compliance Management (LFC194) badge understand what license compliance management is, why it is important to conduct an open source review and who is involved in this process and why. They can also follow the steps necessary to achieve end-to-end compliance and are familiar with developer guidelines that are recommended to be followed when using open source code and contributing to open source projects and communities.\",\"issuedBy\":\"The Linux Foundation\",\"issuedOn\":\"August 16, 2023\"},{\"badgeId\":\"814f3fe1-2112-4191-b94d-9fb7e9eecbe1\",\"badgePublicUrl\":\"https://www.credly.com/badges/814f3fe1-2112-4191-b94d-9fb7e9eecbe1/public_url\",\"badgeImageUrl\":\"/static/img/badges/Linux_Foundation_OS_Best_Practices.png\",\"title\":\"LFC192: Generating a Software Bill of Materials\",\"details\":\"Earners of LFC192: Generating a Software Bill of Materials badge can identify the minimum data elements for a SBOM and understand the reasoning behind why those elements are included in an SBOM. They have foundational knowledge about the options and the tools available for generating SBOMs. By knowing how to generate an SBOM, they are better equipped to help with efficient analysis for security, licensing, and other use cases.\",\"issuedBy\":\"The Linux Foundation\",\"issuedOn\":\"August 16, 2023\"},{\"badgeId\":\"6d07bfda-39c0-474e-ad18-b0a2d9e86fac\",\"badgePublicUrl\":\"https://www.credly.com/badges/6d07bfda-39c0-474e-ad18-b0a2d9e86fac/public_url\",\"badgeImageUrl\":\"/static/img/badges/Linux_Foundation_OS_Best_Practices.png\",\"title\":\"LFC108: Cybersecurity Fundamentals\",\"details\":\"Earners of the LFC108: Cybersecurity Essentials badge can apply security practices and precautions during online activities to minimize risks and securely protect personal and professional information from exposure and compromise. They can also identify what to do if a data breach occurs.\",\"issuedBy\":\"The Linux Foundation\",\"issuedOn\":\"August 16, 2023\"},{\"badgeId\":\"d2fac373-024a-4300-8c1a-2dee7b0a8dbe\",\"badgePublicUrl\":\"https://www.credly.com/badges/d2fac373-024a-4300-8c1a-2dee7b0a8dbe/public_url\",\"badgeImageUrl\":\"/static/img/badges/Linux_Foundation_OS_Best_Practices.png\",\"title\":\"LFC104: Ethics for Open Source Development\",\"details\":\"Earners of the LFC104: Ethics for Open Source Development badge can work comfortably and productively on ethically sensitive open source technology. They have a good understanding of the ethics journey cycle and can practically utilize the methodology in any open source use case. They can operationalize ethics as a decision-making tool, work collaboratively with open source communities to develop ethically sound technology, and lead a team through the ethics journey cycle.\",\"issuedBy\":\"The Linux Foundation\",\"issuedOn\":\"August 16, 2023\"},{\"badgeId\":\"210cfe9b-1ca8-47c6-8347-37f658781caa\",\"badgePublicUrl\":\"https://www.credly.com/badges/210cfe9b-1ca8-47c6-8347-37f658781caa/public_url\",\"badgeImageUrl\":\"/static/img/badges/Linux_Foundation_OS_Best_Practices.png\",\"title\":\"LFC103: Inclusive Strategies for Open Source\",\"details\":\"Earners of the LFC103: Inclusive Strategies for Open Source course can identify and execute specific strategies to improve diversity in their open source communities. They understand the impact of inclusive language in creating welcoming community spaces.\",\"issuedBy\":\"The Linux Foundation\",\"issuedOn\":\"August 15, 2023\"},{\"badgeId\":\"ee4e716c-ee8d-4d02-9ce1-3efbb5a84ed6\",\"badgePublicUrl\":\"https://www.credly.com/badges/ee4e716c-ee8d-4d02-9ce1-3efbb5a84ed6/public_url\",\"badgeImageUrl\":\"/static/img/badges/Linux_Foundation_OS_Best_Practices.png\",\"title\":\"LFC131: Green Software for Practitioners\",\"details\":\"Earners of the LFC131: Green Software for Practitioners badge understand the principles of green software and know how to apply green software principles to the design and development of their software applications. They have a good understanding of the shared language and standardized terms related to green software. They acknowledge the importance of measurement and are aware of the different climate commitments which constitute the mechanism of carbon reduction.\",\"issuedBy\":\"The Linux Foundation\",\"issuedOn\":\"August 15, 2023\"},{\"badgeId\":\"83a42ab9-f3d2-473d-998a-a5c6cc06213c\",\"badgePublicUrl\":\"https://www.credly.com/badges/83a42ab9-f3d2-473d-998a-a5c6cc06213c/public_url\",\"badgeImageUrl\":\"/static/img/badges/Linux_Foundation_OS_Best_Practices.png\",\"title\":\"LFC101: Inclusive Speaker Orientation\",\"details\":\"Earners of the LFC101: Inclusive Speaker Orientation badge possess knowledge and practical skills to promote inclusivity in presentations, messaging and other communications. They understand the importance of diversity in technology and its role in encouraging innovation. These candidates are able to recognize the different ways unconscious and societal biases present themselves in technical environments.\",\"issuedBy\":\"The Linux Foundation\",\"issuedOn\":\"August 15, 2023\"},{\"badgeId\":\"f14e1558-2430-4835-b32a-ec8c3e754ca3\",\"badgePublicUrl\":\"https://www.credly.com/badges/f14e1558-2430-4835-b32a-ec8c3e754ca3/public_url\",\"badgeImageUrl\":\"/static/img/badges/Linux_Foundation_OS_Best_Practices.png\",\"title\":\"LFC102: Inclusive Open Source Community Orientation\",\"details\":\"Earners of the LFC102: Inclusive Open Source Community Orientation understand the importance of diversity for innovation, the basics of unconscious and societal bias, and how to recognize the different ways unconscious bias presents itself in technical environments.\",\"issuedBy\":\"The Linux Foundation\",\"issuedOn\":\"August 15, 2023\"},{\"badgeId\":\"c2f8a0ba-ea8e-4380-a3f4-938cc652c5c3\",\"badgePublicUrl\":\"https://www.credly.com/badges/c2f8a0ba-ea8e-4380-a3f4-938cc652c5c3/public_url\",\"badgeImageUrl\":\"/static/img/badges/AWS-Security-Specialty-2020.png\",\"title\":\"AWS Certified Security - Specialty\",\"details\":\"Earners of this certification have an in-depth understanding of AWS security services and the shared responsibility model (between AWS and the customer). They demonstrated the ability to design, implement, and troubleshoot various security models in the AWS Cloud.\",\"issuedBy\":\"Amazon Web Services Training and Certification\",\"issuedOn\":\"September 23, 2021\"},{\"badgeId\":\"c0bd08c8-3d58-4039-802d-87651ff8f925\",\"badgePublicUrl\":\"https://www.credly.com/badges/c0bd08c8-3d58-4039-802d-87651ff8f925/public_url\",\"badgeImageUrl\":\"/static/img/badges/AWS-Developer-Associate-2020.png\",\"title\":\"AWS Certified Developer - Associate\",\"details\":\"Earners of this certification have a comprehensive understanding of application life-cycle management. They demonstrated proficiency in writing applications with AWS service APIs, AWS CLI, and SDKs; using containers; and deploying with a CI/CD pipeline.\",\"issuedBy\":\"Amazon Web Services Training and Certification\",\"issuedOn\":\"September 18, 2021\"},{\"badgeId\":\"7bc0b126-74ee-4a7a-a616-17eaf18f0cf8\",\"badgePublicUrl\":\"https://www.credly.com/badges/7bc0b126-74ee-4a7a-a616-17eaf18f0cf8/public_url\",\"badgeImageUrl\":\"/static/img/badges/AWS-SolArchitect-Associate-2020.png\",\"title\":\"AWS Certified Solutions Architect - Associate\",\"details\":\"AWS Certified Solutions Architect - Associate showcases knowledge and skills in AWS technology, across a wide range of AWS services. The focus of this certification is on the design of cost and performance optimized solutions, demonstrating a strong understanding of the AWS Well-Architected Framework. This certification can enhance the career profile and earnings of certified individuals and increase your credibility and confidence in stakeholder and customer interactions.\",\"issuedBy\":\"Amazon Web Services Training and Certification\",\"issuedOn\":\"September 18, 2021\"},{\"badgeId\":\"21656fbc-71f3-4c99-ac9a-251c76d11820\",\"badgePublicUrl\":\"https://www.credly.com/badges/21656fbc-71f3-4c99-ac9a-251c76d11820/public_url\",\"badgeImageUrl\":\"/static/img/badges/AWS_Certified_Cloud_Practitioner_Badge.png\",\"title\":\"AWS Certified Cloud Practitioner\",\"details\":\"Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge. Badge owners are able to identify essential AWS services necessary to set up AWS-focused projects.\",\"issuedBy\":\"Amazon Web Services Training and Certification\",\"issuedOn\":\"July 10, 2021\"},{\"badgeId\":\"a18ffdd5-d2d0-4b23-b040-732598711b1a\",\"badgePublicUrl\":\"https://www.credly.com/badges/a18ffdd5-d2d0-4b23-b040-732598711b1a/public_url\",\"badgeImageUrl\":\"/static/img/badges/Programming_in_HTML5_with_JavaScript_and_Css3-01_Badge.png\",\"title\":\"Exam 480: Programming in HTML5 with JavaScript and CSS3\",\"details\":\"Candidates for this exam are developers with at least one year of experience developing with HTML in an object-based, event-driven programming model, and programming essential business logic for a variety of application types, hardware, and software platforms using JavaScript.\",\"issuedBy\":\"Microsoft\",\"issuedOn\":\"March 03, 2013\"}]"));}),
 "[project]/src/components/LastUpdated.js [client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
@@ -1490,7 +1493,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
 }
 }}),
-"[project]/pages/aerial-photography.js [client] (ecmascript)": ((__turbopack_context__) => {
+"[project]/pages/certifications.js [client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
 var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
@@ -1500,619 +1503,197 @@ var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$Layout$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/layout/Layout.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$pages$2f$api$2f$certifications$2e$json__$28$json$29$__ = __turbopack_context__.i("[project]/pages/api/certifications.json (json)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$LastUpdated$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/LastUpdated.js [client] (ecmascript)");
 ;
 ;
 ;
-const CAPTURED = [
-    {
-        link: "./aerial-2025-switzerland-truebsee",
-        photo: "./static/img/aerial/2025/switzerland-truebsee/2025_05_25_07_49_DJI_0166 - square.JPG",
-        description: "Switzerland, Truebsee",
-        date: 2025
-    },
-    {
-        link: "./aerial-2025-switzerland-grindelwald",
-        photo: "./static/img/aerial/2025/switzerland-grindelwald/2025_05_24_14_35_IMG_0854 - square.JPG",
-        description: "Switzerland, Grindelwald",
-        date: 2025
-    },
-    {
-        link: "./aerial-2025-switzerland-harder-klum",
-        photo: "./static/img/aerial/2025/switzerland-harder-klum/2025_05_24_07_02_DJI_0945 - square.JPG",
-        description: "Switzerland, Harder Klum",
-        date: 2025
-    },
-    {
-        link: "./aerial-2025-greece-corfu",
-        photo: "./static/img/aerial/2025/greece-corfu/2025_05_10_05_47_DJI_0865.JPG",
-        description: "Greece, Corfu",
-        date: 2025
-    },
-    {
-        link: "./aerial-2025-cyprus",
-        photo: "./static/img/aerial/2025/cyprus/2025_03_23_07_30_IMG_9995 - square.JPG",
-        description: "Cyprus",
-        date: 2025
-    },
-    {
-        link: "./aerial-2025-portugal-madeira",
-        photo: "./static/img/aerial/2025/portugal-madeira/2025_03_08_10_11_DJI_0547 - square.JPG",
-        description: "Portugal, Madeira",
-        date: 2025
-    },
-    {
-        link: "./aerial-2025-spain-tenerife",
-        photo: "./static/img/aerial/2025/spain-tenerife/2025_02_22_10_39_DJI_0419 - square.JPG",
-        description: "Spain, Tenerife",
-        date: 2025
-    },
-    {
-        link: "./aerial-2022-england-seaford",
-        photo: "./static/img/aerial/2022/england-seaford/2022_07_09_09_27_DJI_0189 - square.JPG",
-        description: "England, Seaford",
-        date: 2022
-    },
-    {
-        link: "./aerial-2020-scotland-glencoe",
-        photo: "./static/img/aerial/2020/scotland-glencoe/47d6ccf8443f4002ec673590a23be727.jpg",
-        description: "Scotland, Glencoe",
-        date: 2020
-    },
-    {
-        link: "./aerial-2019-england-norfolk",
-        photo: "./static/img/aerial/2019/england-norfolk/be710e98d38c98fd8783299fa6888611.jpg",
-        description: "England, Norfolk",
-        date: 2019
-    },
-    {
-        link: "./aerial-2018-england-brighton",
-        photo: "./static/img/aerial/2018/england-brighton/ee3f9cf3cb87184a9c047ae41abcceb3.jpg",
-        description: "England, Brighton",
-        date: 2018
-    },
-    {
-        link: "./aerial-2018-ukraine-odessa",
-        photo: "./static/img/aerial/2018/ukraine-odessa/4aa1747ac3d510f71ae45bb0f7105b83.jpg",
-        description: "Ukraine, Odessa",
-        date: 2018
-    },
-    {
-        link: "./aerial-2018-poland-warsaw",
-        photo: "./static/img/aerial/2018/poland-warsaw/55b7ddff051e4bc57ef3733af305ae96.jpg",
-        description: "Poland, Warsaw",
-        date: 2018
-    },
-    {
-        link: "./aerial-2018-latvia-rezekne",
-        photo: "./static/img/aerial/2018/latvia-rezekne/cd25297810bf3143ae3367f8fef0c7c2.jpg",
-        description: "Latvia, Rezekne",
-        date: 2018
-    },
-    {
-        link: "./aerial-2018-portugal-madeira",
-        photo: "./static/img/aerial/2018/portugal-madeira/bf02fac1e91dce1ed075ee43f89bfde5.jpg",
-        description: "Portugal, Madeira",
-        date: 2018
-    },
-    {
-        link: "./aerial-2017-italy-sicily",
-        photo: "./static/img/aerial/2017/italy-sicily/6ae48ff1265eb6d219b6368c0e0a833c.jpg",
-        description: "Italy, Sicily",
-        date: 2017
-    }
-];
-const Aerial = ()=>{
-    const renderItem = ({ link, photo, description, date })=>{
-        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "blog-grid",
+;
+const Certifications = ()=>{
+    const renderContainer = ()=>{
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "blog-img",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                        href: link,
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                            src: photo,
-                            title: description,
-                            alt: description
-                        }, void 0, false, {
-                            fileName: "[project]/pages/aerial-photography.js",
-                            lineNumber: 126,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/pages/aerial-photography.js",
-                        lineNumber: 125,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/pages/aerial-photography.js",
-                    lineNumber: 124,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "blog-info",
+                    className: "title",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "meta",
-                            children: date
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                            children: "Certifications."
                         }, void 0, false, {
-                            fileName: "[project]/pages/aerial-photography.js",
-                            lineNumber: 130,
+                            fileName: "[project]/pages/certifications.js",
+                            lineNumber: 11,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: link,
-                                children: description
-                            }, void 0, false, {
-                                fileName: "[project]/pages/aerial-photography.js",
-                                lineNumber: 132,
-                                columnNumber: 13
-                            }, this)
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$LastUpdated$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                            filePath: "pages/certifications.js",
+                            className: "m-15px-tb"
                         }, void 0, false, {
-                            fileName: "[project]/pages/aerial-photography.js",
-                            lineNumber: 131,
+                            fileName: "[project]/pages/certifications.js",
+                            lineNumber: 12,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
-                    fileName: "[project]/pages/aerial-photography.js",
-                    lineNumber: 129,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/pages/aerial-photography.js",
-            lineNumber: 123,
-            columnNumber: 7
-        }, this);
-    };
-    const renderFlightStatistics = ()=>{
-        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "row",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "col-lg-4 m-15px-tb",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                        className: "education-box",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    children: "2017 - now"
-                                }, void 0, false, {
-                                    fileName: "[project]/pages/aerial-photography.js",
-                                    lineNumber: 145,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
-                                    children: "Flight Statistics"
-                                }, void 0, false, {
-                                    fileName: "[project]/pages/aerial-photography.js",
-                                    lineNumber: 146,
-                                    columnNumber: 15
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/pages/aerial-photography.js",
-                            lineNumber: 144,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/pages/aerial-photography.js",
-                        lineNumber: 143,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/pages/aerial-photography.js",
-                    lineNumber: 142,
+                    fileName: "[project]/pages/certifications.js",
+                    lineNumber: 10,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "col-lg-7 ml-auto m-15px-tb",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "skills-box",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "skill-lt",
+                    className: "resume-box",
+                    children: __TURBOPACK__imported__module__$5b$project$5d2f$pages$2f$api$2f$certifications$2e$json__$28$json$29$__["default"].map((badge)=>{
+                        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "resume-row",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "row",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
-                                        children: "Total Flight Time: 10Hr 57Min"
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 153,
-                                        columnNumber: 15
-                                    }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "skill-bar",
+                                        className: "col-sm-3 col-md-3 col-xl-2",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "skill-bar-in",
-                                            style: {
-                                                width: "70%"
-                                            },
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                "data-toggle": "tooltip",
-                                                title: "70%"
+                                            className: "rb-left",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                href: badge.badgePublicUrl,
+                                                target: "_blank",
+                                                rel: "noopener noreferrer",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                    src: badge.badgeImageUrl,
+                                                    title: badge.title,
+                                                    alt: badge.title
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/certifications.js",
+                                                    lineNumber: 29,
+                                                    columnNumber: 25
+                                                }, this)
                                             }, void 0, false, {
-                                                fileName: "[project]/pages/aerial-photography.js",
-                                                lineNumber: 156,
-                                                columnNumber: 19
+                                                fileName: "[project]/pages/certifications.js",
+                                                lineNumber: 24,
+                                                columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
-                                            fileName: "[project]/pages/aerial-photography.js",
-                                            lineNumber: 155,
-                                            columnNumber: 17
+                                            fileName: "[project]/pages/certifications.js",
+                                            lineNumber: 23,
+                                            columnNumber: 21
                                         }, this)
                                     }, void 0, false, {
-                                        fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 154,
-                                        columnNumber: 15
+                                        fileName: "[project]/pages/certifications.js",
+                                        lineNumber: 22,
+                                        columnNumber: 19
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "col-sm-9 col-md-9 col-xl-10",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "rb-right",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
+                                                    children: badge.title
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/certifications.js",
+                                                    lineNumber: 39,
+                                                    columnNumber: 23
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                    children: [
+                                                        "Issued by: ",
+                                                        badge.issuedBy
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/pages/certifications.js",
+                                                    lineNumber: 40,
+                                                    columnNumber: 23
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "rb-time",
+                                                    children: badge.issuedOn
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/certifications.js",
+                                                    lineNumber: 41,
+                                                    columnNumber: 23
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    children: badge.details
+                                                }, void 0, false, {
+                                                    fileName: "[project]/pages/certifications.js",
+                                                    lineNumber: 42,
+                                                    columnNumber: 23
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/pages/certifications.js",
+                                            lineNumber: 38,
+                                            columnNumber: 21
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/pages/certifications.js",
+                                        lineNumber: 37,
+                                        columnNumber: 19
                                     }, this)
                                 ]
                             }, void 0, true, {
-                                fileName: "[project]/pages/aerial-photography.js",
-                                lineNumber: 152,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "skill-lt",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
-                                        children: "Total Distance: 66,103m"
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 162,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "skill-bar",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "skill-bar-in",
-                                            style: {
-                                                width: "55%"
-                                            },
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                "data-toggle": "tooltip",
-                                                title: "55%"
-                                            }, void 0, false, {
-                                                fileName: "[project]/pages/aerial-photography.js",
-                                                lineNumber: 165,
-                                                columnNumber: 19
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/pages/aerial-photography.js",
-                                            lineNumber: 164,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 163,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/pages/aerial-photography.js",
-                                lineNumber: 161,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "skill-lt",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
-                                        children: "Total Flights: 114"
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 171,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "skill-bar",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "skill-bar-in",
-                                            style: {
-                                                width: "88%"
-                                            },
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                "data-toggle": "tooltip",
-                                                title: "88%"
-                                            }, void 0, false, {
-                                                fileName: "[project]/pages/aerial-photography.js",
-                                                lineNumber: 174,
-                                                columnNumber: 19
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/pages/aerial-photography.js",
-                                            lineNumber: 173,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 172,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/pages/aerial-photography.js",
-                                lineNumber: 170,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "skill-lt",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
-                                        children: "Top Distance: 2,913m"
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 180,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "skill-bar",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "skill-bar-in",
-                                            style: {
-                                                width: "82%"
-                                            },
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                "data-toggle": "tooltip",
-                                                title: "82%"
-                                            }, void 0, false, {
-                                                fileName: "[project]/pages/aerial-photography.js",
-                                                lineNumber: 183,
-                                                columnNumber: 19
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/pages/aerial-photography.js",
-                                            lineNumber: 182,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 181,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/pages/aerial-photography.js",
-                                lineNumber: 179,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "skill-lt",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
-                                        children: "Top Speed: 65.9 km/h"
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 189,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "skill-bar",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "skill-bar-in",
-                                            style: {
-                                                width: "66%"
-                                            },
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                "data-toggle": "tooltip",
-                                                title: "66%"
-                                            }, void 0, false, {
-                                                fileName: "[project]/pages/aerial-photography.js",
-                                                lineNumber: 192,
-                                                columnNumber: 19
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/pages/aerial-photography.js",
-                                            lineNumber: 191,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 190,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/pages/aerial-photography.js",
-                                lineNumber: 188,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "skill-lt",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
-                                        children: "Max Takeoff Altitude: 1864,4m"
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 198,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "skill-bar",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "skill-bar-in",
-                                            style: {
-                                                width: "64%"
-                                            },
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                "data-toggle": "tooltip",
-                                                title: "64%"
-                                            }, void 0, false, {
-                                                fileName: "[project]/pages/aerial-photography.js",
-                                                lineNumber: 201,
-                                                columnNumber: 19
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/pages/aerial-photography.js",
-                                            lineNumber: 200,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 199,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/pages/aerial-photography.js",
-                                lineNumber: 197,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "skill-lt",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h6", {
-                                        children: "Footprints: 🇦🇱 🇨🇭 🇨🇾 🇪🇸 🇬🇧 🇬🇷 🇮🇹 🇱🇻 🇵🇱 🇵🇹 🇺🇦"
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 207,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "skill-bar",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "skill-bar-in",
-                                            style: {
-                                                width: "42%"
-                                            },
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                "data-toggle": "tooltip",
-                                                title: "42%"
-                                            }, void 0, false, {
-                                                fileName: "[project]/pages/aerial-photography.js",
-                                                lineNumber: 210,
-                                                columnNumber: 19
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/pages/aerial-photography.js",
-                                            lineNumber: 209,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/aerial-photography.js",
-                                        lineNumber: 208,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/pages/aerial-photography.js",
-                                lineNumber: 206,
-                                columnNumber: 13
+                                fileName: "[project]/pages/certifications.js",
+                                lineNumber: 21,
+                                columnNumber: 17
                             }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/pages/aerial-photography.js",
-                        lineNumber: 151,
-                        columnNumber: 11
-                    }, this)
+                        }, badge.badgeId, false, {
+                            fileName: "[project]/pages/certifications.js",
+                            lineNumber: 20,
+                            columnNumber: 15
+                        }, this);
+                    })
                 }, void 0, false, {
-                    fileName: "[project]/pages/aerial-photography.js",
-                    lineNumber: 150,
+                    fileName: "[project]/pages/certifications.js",
+                    lineNumber: 17,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "separated"
+                }, void 0, false, {
+                    fileName: "[project]/pages/certifications.js",
+                    lineNumber: 50,
                     columnNumber: 9
                 }, this)
             ]
-        }, void 0, true, {
-            fileName: "[project]/pages/aerial-photography.js",
-            lineNumber: 141,
-            columnNumber: 7
-        }, this);
+        }, void 0, true);
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$Layout$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-        blog: true,
         showBackBtn: true,
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "blog-listing",
-            id: "blog",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+            id: "Certifications",
+            "data-nav-tooltip": "Certifications",
+            className: "pp-section pp-scrollable section counter",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "container",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "title",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                children: "Aerial Photography & Videography."
-                            }, void 0, false, {
-                                fileName: "[project]/pages/aerial-photography.js",
-                                lineNumber: 225,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$LastUpdated$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                filePath: "pages/aerial-photography.js",
-                                className: "m-15px-tb"
-                            }, void 0, false, {
-                                fileName: "[project]/pages/aerial-photography.js",
-                                lineNumber: 226,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/pages/aerial-photography.js",
-                        lineNumber: 224,
-                        columnNumber: 11
-                    }, this),
-                    renderFlightStatistics(),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "separated"
-                    }, void 0, false, {
-                        fileName: "[project]/pages/aerial-photography.js",
-                        lineNumber: 232,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "row",
-                        children: CAPTURED.map((c)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "col-md-6 m-15px-tb blog-list-item",
-                                children: renderItem({
-                                    link: c.link,
-                                    photo: c.photo,
-                                    description: c.description,
-                                    date: c.date
-                                })
-                            }, c.link, false, {
-                                fileName: "[project]/pages/aerial-photography.js",
-                                lineNumber: 235,
-                                columnNumber: 15
-                            }, this))
-                    }, void 0, false, {
-                        fileName: "[project]/pages/aerial-photography.js",
-                        lineNumber: 233,
-                        columnNumber: 11
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/pages/aerial-photography.js",
-                lineNumber: 223,
+                children: renderContainer()
+            }, void 0, false, {
+                fileName: "[project]/pages/certifications.js",
+                lineNumber: 62,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
-            fileName: "[project]/pages/aerial-photography.js",
-            lineNumber: 222,
+            fileName: "[project]/pages/certifications.js",
+            lineNumber: 57,
             columnNumber: 7
         }, this)
     }, void 0, false, {
-        fileName: "[project]/pages/aerial-photography.js",
-        lineNumber: 221,
+        fileName: "[project]/pages/certifications.js",
+        lineNumber: 56,
         columnNumber: 5
     }, this);
 };
-_c = Aerial;
-const __TURBOPACK__default__export__ = Aerial;
+_c = Certifications;
+const __TURBOPACK__default__export__ = Certifications;
 var _c;
-__turbopack_context__.k.register(_c, "Aerial");
+__turbopack_context__.k.register(_c, "Certifications");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
 }
 }}),
-"[next]/entry/page-loader.ts { PAGE => \"[project]/pages/aerial-photography.js [client] (ecmascript)\" } [client] (ecmascript)": (function(__turbopack_context__) {
+"[next]/entry/page-loader.ts { PAGE => \"[project]/pages/certifications.js [client] (ecmascript)\" } [client] (ecmascript)": (function(__turbopack_context__) {
 
 var { m: module, e: exports } = __turbopack_context__;
 {
-const PAGE_PATH = "/aerial-photography";
+const PAGE_PATH = "/certifications";
 (window.__NEXT_P = window.__NEXT_P || []).push([
     PAGE_PATH,
     ()=>{
-        return __turbopack_context__.r("[project]/pages/aerial-photography.js [client] (ecmascript)");
+        return __turbopack_context__.r("[project]/pages/certifications.js [client] (ecmascript)");
     }
 ]);
 // @ts-expect-error module.hot exists
@@ -2125,13 +1706,13 @@ if (module.hot) {
     });
 }
 }}),
-"[project]/pages/aerial-photography (hmr-entry)": ((__turbopack_context__) => {
+"[project]/pages/certifications (hmr-entry)": ((__turbopack_context__) => {
 "use strict";
 
 var { m: module } = __turbopack_context__;
 {
-__turbopack_context__.r("[next]/entry/page-loader.ts { PAGE => \"[project]/pages/aerial-photography.js [client] (ecmascript)\" } [client] (ecmascript)");
+__turbopack_context__.r("[next]/entry/page-loader.ts { PAGE => \"[project]/pages/certifications.js [client] (ecmascript)\" } [client] (ecmascript)");
 }}),
 }]);
 
-//# sourceMappingURL=%5Broot-of-the-server%5D__ccfde1dd._.js.map
+//# sourceMappingURL=%5Broot-of-the-server%5D__6eb1dea0._.js.map
