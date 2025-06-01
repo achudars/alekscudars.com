@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Layout from "../src/layout/Layout";
 import badges from "./api/certifications.json";
+import LastUpdated from "../src/components/LastUpdated";
 
 const Certifications = () => {
   const renderContainer = () => {
@@ -8,6 +9,10 @@ const Certifications = () => {
       <>
         <div className="title">
           <h3>Certifications.</h3>
+          <!--<LastUpdated
+            filePath="pages/certifications.js"
+            className="m-15px-tb"
+          />-->
         </div>
         <div className="resume-box">
           {badges.map((badge) => {

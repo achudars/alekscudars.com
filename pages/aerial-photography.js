@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Layout from "../src/layout/Layout";
+import LastUpdated from "../src/components/LastUpdated";
 
 const CAPTURED = [
   {
@@ -222,6 +223,10 @@ const Aerial = () => {
         <div className="container">
           <div className="title">
             <h3>Aerial Photography & Videography.</h3>
+            <!--<LastUpdated
+              filePath="pages/aerial-photography.js"
+              className="m-15px-tb"
+            />-->
           </div>
           {renderFlightStatistics()}
           <div className="separated" />

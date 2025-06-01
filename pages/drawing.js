@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Layout from "../src/layout/Layout";
+import LastUpdated from "../src/components/LastUpdated";
 
 const Drawing = () => {
   const renderDrawing = () => {
@@ -42,6 +43,10 @@ const Drawing = () => {
       <>
         <div className="title">
           <h3>Drawing.</h3>
+          <!--<LastUpdated
+            filePath="pages/drawing.js"
+            className="m-15px-tb"
+          />-->
         </div>
         {renderDrawing()}
       </>
