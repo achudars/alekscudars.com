@@ -1,6 +1,5 @@
 import emailjs from "emailjs-com";
-import { useState, useRef } from "react";
-
+import { useState } from "react";
 const Contact = () => {
   const [mailData, setMailData] = useState({
     name: "",
@@ -10,13 +9,8 @@ const Contact = () => {
   });
   const { name, email, message, subject } = mailData;
   const [error, setError] = useState(null);
-  const [success, setSuccess] = useState(false);
-  const formRef = useRef(null);
-  const statusRef = useRef(null);
-
   const onChange = (e) =>
     setMailData({ ...mailData, [e.target.name]: e.target.value });
-
   const onSubmit = (e) => {
     e.preventDefault();
     if (
@@ -26,7 +20,6 @@ const Contact = () => {
       subject.length === 0
     ) {
       setError(true);
-      statusRef.current.focus();
       clearError();
     } else {
       emailjs
@@ -39,65 +32,52 @@ const Contact = () => {
         .then(
           (response) => {
             setError(false);
-            setSuccess(true);
             clearError();
             setMailData({ name: "", email: "", message: "", subject: "" });
-            statusRef.current.focus();
           },
           (err) => {
             console.log(err.text);
-            setError(true);
-            statusRef.current.focus();
-            clearError();
           }
         );
     }
   };
-
   const clearError = () => {
     setTimeout(() => {
       setError(null);
-      setSuccess(false);
-    }, 5000);
+    }, 2000);
   };
-
   return (
     <section
       id="contactus"
       data-nav-tooltip="Contact Me"
       className="pp-section pp-scrollable section dark-bg"
-      aria-labelledby="contact-heading"
     >
       <div className="container">
         <div className="title">
-          <h3 id="contact-heading">Get in touch.</h3>
+          <h3>Get in touch.</h3>
         </div>
         <div className="row">
           <div className="col-lg-5 col-xl-4 m-15px-tb">
             <div className="contact-info">
-              <h4>What's your story? Get in touch</h4>
+              <h4>What’s your story? Get in touch</h4>
               <p>
                 Always available for freelancing if the right project comes
                 along, Feel free to contact me.
               </p>
               <ul>
                 <li className="media">
-                  <i className="ti-map" aria-hidden="true" />
-                  <address className="media-body">
+                  <i className="ti-map" />
+                  <span className="media-body">
                     123 Stree New York City , United States Of America 750065.
-                  </address>
-                </li>
-                <li className="media">
-                  <i className="ti-email" aria-hidden="true" />
-                  <span className="media-body">
-                    <a href="mailto:support@domain.com">support@domain.com</a>
                   </span>
                 </li>
                 <li className="media">
-                  <i className="ti-mobile" aria-hidden="true" />
-                  <span className="media-body">
-                    <a href="tel:+044969696963636">+044 9696 9696 3636</a>
-                  </span>
+                  <i className="ti-email" />
+                  <span className="media-body">support@domain.com</span>
+                </li>
+                <li className="media">
+                  <i className="ti-mobile" />
+                  <span className="media-body">+044 9696 9696 3636</span>
                 </li>
               </ul>
             </div>
@@ -105,39 +85,10 @@ const Contact = () => {
           <div className="col-lg-7 col-xl-8 m-15px-tb">
             <div className="contact-form">
               <h4>Say Something</h4>
-
-              <div
-                ref={statusRef}
-                className="alert-container"
-                aria-live="assertive"
-                tabIndex="-1"
-              >
-                {error && (
-                  <div className="alert alert-danger" role="alert">
-                    {error === true
-                      ? "Please fill all required fields!"
-                      : "Something went wrong! Please try again later."}
-                  </div>
-                )}
-                {success && (
-                  <div className="alert alert-success" role="alert">
-                    Message sent successfully!
-                  </div>
-                )}
-              </div>
-
-              <form
-                id="contact-form"
-                onSubmit={(e) => onSubmit(e)}
-                ref={formRef}
-                aria-labelledby="form-heading"
-                noValidate
-              >
-                <h5 id="form-heading" className="sr-only">Contact Form</h5>
+              <form id="contact-form" onSubmit={(e) => onSubmit(e)}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label htmlFor="name" className="sr-only">Name</label>
                       <input
                         name="name"
                         onChange={(e) => onChange(e)}
@@ -148,19 +99,11 @@ const Contact = () => {
                           error ? (!name ? "invalid" : "") : ""
                         }`}
                         type="text"
-                        aria-required="true"
-                        aria-invalid={!name && error ? "true" : "false"}
                       />
-                      {!name && error && (
-                        <span className="error-message" id="name-error">
-                          Name is required
-                        </span>
-                      )}
                     </div>
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label htmlFor="email" className="sr-only">Email</label>
                       <input
                         name="email"
                         onChange={(e) => onChange(e)}
@@ -171,19 +114,11 @@ const Contact = () => {
                           error ? (!email ? "invalid" : "") : ""
                         }`}
                         type="email"
-                        aria-required="true"
-                        aria-invalid={!email && error ? "true" : "false"}
                       />
-                      {!email && error && (
-                        <span className="error-message" id="email-error">
-                          Email is required
-                        </span>
-                      )}
                     </div>
                   </div>
                   <div className="col-12">
                     <div className="form-group">
-                      <label htmlFor="subject" className="sr-only">Subject</label>
                       <input
                         name="subject"
                         onChange={(e) => onChange(e)}
@@ -194,52 +129,72 @@ const Contact = () => {
                           error ? (!subject ? "invalid" : "") : ""
                         }`}
                         type="text"
-                        aria-required="true"
-                        aria-invalid={!subject && error ? "true" : "false"}
                       />
-                      {!subject && error && (
-                        <span className="error-message" id="subject-error">
-                          Subject is required
-                        </span>
-                      )}
                     </div>
                   </div>
                   <div className="col-md-12">
                     <div className="form-group">
-                      <label htmlFor="message" className="sr-only">Message</label>
                       <textarea
                         name="message"
                         onChange={(e) => onChange(e)}
                         value={message}
                         id="message"
-                        placeholder="Message *"
+                        placeholder="Your message *"
                         rows={5}
                         className={`form-control ${
                           error ? (!message ? "invalid" : "") : ""
                         }`}
-                        aria-required="true"
-                        aria-invalid={!message && error ? "true" : "false"}
                       />
-                      {!message && error && (
-                        <span className="error-message" id="message-error">
-                          Message is required
-                        </span>
-                      )}
                     </div>
                   </div>
                   <div className="col-md-12">
                     <div className="send">
-                      <button
+                      {/* <button
+                        onSubmit={(e) => onSubmit(e)}
+                        className="px-btn px-btn-theme"
+                        type="button"
+                        value="Send"
+                      >
+                        {" "}
+                        send message
+                      </button> */}
+                      <input
                         className="px-btn px-btn-theme"
                         type="submit"
-                        aria-label="Send Message"
-                      >
-                        Send Message
-                      </button>
+                        value="send message"
+                      />
                     </div>
+                    <span
+                      id="suce_message"
+                      className="text-success"
+                      style={{
+                        display:
+                          error !== null ? (!error ? "block" : "none") : "none",
+                      }}
+                    >
+                      Message Sent Successfully
+                    </span>
+                    <span
+                      id="err_message"
+                      className="text-danger"
+                      style={{ display: "none" }}
+                    >
+                      Message Sending Failed
+                    </span>
                   </div>
                 </div>
               </form>
+            </div>
+          </div>
+          <div className="col-12">
+            <div className="google-map">
+              <div className="embed-responsive embed-responsive-21by9">
+                <iframe
+                  className="embed-responsive-item"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3151.840107317064!2d144.955925!3d-37.817214!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sin!4v1520156366883"
+                  allowFullScreen=""
+                />
+              </div>
             </div>
           </div>
         </div>

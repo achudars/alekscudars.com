@@ -88,12 +88,7 @@ const ParticlesBackground = () => {
   );
 
   return (
-    <Particles
-      id="particles-box"
-      className="particles"
-      options={options}
-      aria-hidden="true"
-    />
+    <Particles id="particles-box" className="particles" options={options} />
   );
 };
 

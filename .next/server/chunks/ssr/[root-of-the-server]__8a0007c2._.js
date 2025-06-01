@@ -37,42 +37,18 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$useClickOutside$2e$js
 ;
 ;
 ;
-const ImgViews = ({ close, src, alt = "Enlarged image" })=>{
+const ImgViews = ({ close, src })=>{
     let domNode = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$useClickOutside$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"])(()=>{
         close(false);
     });
-    // Handle keyboard events for accessibility (Escape key to close)
-    (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useEffect"])(()=>{
-        const handleKeyDown = (e)=>{
-            if (e.key === 'Escape') {
-                close(false);
-            }
-        };
-        window.addEventListener('keydown', handleKeyDown);
-        // Trap focus inside modal
-        const focusableElements = document.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
-        const firstElement = focusableElements[0];
-        if (firstElement) {
-            firstElement.focus();
-        }
-        // Cleanup
-        return ()=>{
-            window.removeEventListener('keydown', handleKeyDown);
-        };
-    }, [
-        close
-    ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                 className: "mfp-bg mfp-ready",
-                onClick: ()=>close(false),
-                role: "dialog",
-                "aria-modal": "true",
-                "aria-label": "Image viewer"
+                onClick: ()=>close(false)
             }, void 0, false, {
                 fileName: "[project]/src/components/ImageView.js",
-                lineNumber: 34,
+                lineNumber: 10,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -89,69 +65,53 @@ const ImgViews = ({ close, src, alt = "Enlarged image" })=>{
                             ref: domNode,
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                 className: "mfp-iframe-scaler",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
-                                        className: "mfp-img",
-                                        src: src,
-                                        alt: alt
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/ImageView.js",
-                                        lineNumber: 51,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
-                                        className: "mfp-close",
-                                        type: "button",
-                                        onClick: ()=>close(false),
-                                        "aria-label": "Close image viewer",
-                                        children: "×"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/ImageView.js",
-                                        lineNumber: 52,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
+                                    className: "mfp-img",
+                                    src: src
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/ImageView.js",
+                                    lineNumber: 21,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/src/components/ImageView.js",
-                                lineNumber: 50,
+                                lineNumber: 20,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/ImageView.js",
-                            lineNumber: 49,
+                            lineNumber: 19,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                             className: "mfp-preloader",
-                            "aria-live": "polite",
                             children: "Loading..."
                         }, void 0, false, {
                             fileName: "[project]/src/components/ImageView.js",
-                            lineNumber: 62,
+                            lineNumber: 24,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/ImageView.js",
-                    lineNumber: 46,
+                    lineNumber: 16,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/ImageView.js",
-                lineNumber: 41,
+                lineNumber: 11,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/ImageView.js",
-        lineNumber: 33,
+        lineNumber: 9,
         columnNumber: 5
     }, this);
 };
 const ImageView = ()=>{
     const [img, setImg] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])(false);
     const [imgValue, setImgValue] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])(null);
-    const [imgAlt, setImgAlt] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])("Enlarged image");
     (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useEffect"])(()=>{
         setTimeout(()=>{
             const a = document.querySelectorAll("a");
@@ -161,9 +121,6 @@ const ImageView = ()=>{
                         a.addEventListener("click", (e)=>{
                             e.preventDefault();
                             setImgValue(a.href);
-                            // Get the alt text from the image inside the link, if available
-                            const img = a.querySelector('img');
-                            setImgAlt(img && img.alt ? img.alt : "Enlarged image");
                             setImg(true);
                         });
                     }
@@ -174,16 +131,15 @@ const ImageView = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["Fragment"], {
         children: img && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(ImgViews, {
             close: ()=>setImg(false),
-            src: imgValue,
-            alt: imgAlt
+            src: imgValue
         }, void 0, false, {
             fileName: "[project]/src/components/ImageView.js",
-            lineNumber: 96,
+            lineNumber: 53,
             columnNumber: 15
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/ImageView.js",
-        lineNumber: 95,
+        lineNumber: 52,
         columnNumber: 5
     }, this);
 };
@@ -927,7 +883,6 @@ var __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$
     ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
         className: `subtitle ${className}`,
-        "aria-label": `Content was last updated on: ${lastUpdated}`,
         children: [
             "Last updated: ",
             lastUpdated

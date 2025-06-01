@@ -4,7 +4,7 @@ const About = () => {
       <div className="row">
         <div className="col-lg-6 m-15px-tb">
           <div className="title">
-            <h3 id="about-heading">About me.</h3>
+            <h3>About me.</h3>
           </div>
           <div className="about-text">
             <h3>{`I'm a Software Engineer with +10 years of experience.`}</h3>
@@ -20,7 +20,6 @@ const About = () => {
                 rel="noopener noreferrer"
                 className="px-btn px-btn-theme"
                 href="https://www.linkedin.com/in/aleksandrs-cudars"
-                aria-label="Find Me on LinkedIn - Opens in a new tab"
               >
                 <span>Find Me on LinkedIn</span>
               </a>
@@ -35,11 +34,11 @@ const About = () => {
     return (
       <>
         <div className="title">
-          <h3 id="education-heading">Education & Skills</h3>
+          <h3>Education & Skills</h3>
         </div>
         <div className="row">
           <div className="col-lg-4 m-15px-tb">
-            <ul className="education-box" aria-labelledby="education-heading">
+            <ul className="education-box">
               <li>
                 <span>Oct 2010 - Jul 2015</span>
                 <h6>University of York</h6>
@@ -49,8 +48,8 @@ const About = () => {
             </ul>
           </div>
           <div className="col-lg-7 ml-auto m-15px-tb">
-            <div className="skills-box" aria-labelledby="skills-heading">
-              <h4 id="skills-heading" className="sr-only">Technical Skills</h4>
+            <div className="skills-box">
+              <h3>Skills</h3>
               <div className="skill-lt">
                 <h6>Java</h6>
                 <div className="skill-bar">
