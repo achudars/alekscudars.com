@@ -34,7 +34,12 @@ const LastUpdated = ({ filePath, className = "" }) => {
   }, [filePath]);
 
   return (
-    <p className={`subtitle ${className}`}>Last updated: {lastUpdated}</p>
+    <p
+      className={`subtitle ${className}`}
+      aria-label={`Content was last updated on: ${lastUpdated}`}
+    >
+      Last updated: {lastUpdated}
+    </p>
   );
 };
 

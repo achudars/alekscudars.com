@@ -1,13 +1,43 @@
 import { Fragment, useEffect, useState } from "react";
 import useClickOutside from "../useClickOutside";
 
-const ImgViews = ({ close, src }) => {
+const ImgViews = ({ close, src, alt = "Enlarged image" }) => {
   let domNode = useClickOutside(() => {
     close(false);
   });
+
+  // Handle keyboard events for accessibility (Escape key to close)
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') {
+        close(false);
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+
+    // Trap focus inside modal
+    const focusableElements = document.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+    const firstElement = focusableElements[0];
+    if (firstElement) {
+      firstElement.focus();
+    }
+
+    // Cleanup
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [close]);
+
   return (
     <Fragment>
-      <div className="mfp-bg mfp-ready" onClick={() => close(false)}></div>
+      <div
+        className="mfp-bg mfp-ready"
+        onClick={() => close(false)}
+        role="dialog"
+        aria-modal="true"
+        aria-label="Image viewer"
+      ></div>
       <div
         className="mfp-wrap mfp-close-btn-in mfp-auto-cursor mfp-ready"
         tabIndex={-1}
@@ -18,10 +48,18 @@ const ImgViews = ({ close, src }) => {
         >
           <div className="mfp-content" ref={domNode}>
             <div className="mfp-iframe-scaler">
-              <img className="mfp-img" src={src} />
+              <img className="mfp-img" src={src} alt={alt} />
+              <button
+                className="mfp-close"
+                type="button"
+                onClick={() => close(false)}
+                aria-label="Close image viewer"
+              >
+                ×
+              </button>
             </div>
           </div>
-          <div className="mfp-preloader">Loading...</div>
+          <div className="mfp-preloader" aria-live="polite">Loading...</div>
         </div>
       </div>
     </Fragment>
@@ -31,6 +69,7 @@ const ImgViews = ({ close, src }) => {
 const ImageView = () => {
   const [img, setImg] = useState(false);
   const [imgValue, setImgValue] = useState(null);
+  const [imgAlt, setImgAlt] = useState("Enlarged image");
 
   useEffect(() => {
     setTimeout(() => {
@@ -41,6 +80,9 @@ const ImageView = () => {
             a.addEventListener("click", (e) => {
               e.preventDefault();
               setImgValue(a.href);
+              // Get the alt text from the image inside the link, if available
+              const img = a.querySelector('img');
+              setImgAlt(img && img.alt ? img.alt : "Enlarged image");
               setImg(true);
             });
           }
@@ -48,9 +90,10 @@ const ImageView = () => {
       });
     }, 1500);
   }, []);
+
   return (
     <Fragment>
-      {img && <ImgViews close={() => setImg(false)} src={imgValue} />}
+      {img && <ImgViews close={() => setImg(false)} src={imgValue} alt={imgAlt} />}
     </Fragment>
   );
 };
