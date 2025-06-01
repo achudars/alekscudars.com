@@ -1,7 +1,6 @@
 import Layout from "../src/layout/Layout";
 import books from "./api/books.json";
 import { Fragment } from "react";
-import LastUpdated from "../src/components/LastUpdated";
 
 const Reading = () => {
   const renderReadingStats = () => {
@@ -148,10 +147,6 @@ const Reading = () => {
       <>
         <div className="title">
           <h3>Reading.</h3>
-          <LastUpdated
-            filePath="pages/reading.js"
-            className="m-15px-tb"
-          />
         </div>
         {renderReadingStats()}
         {renderBookGroupBasedOnStatus({

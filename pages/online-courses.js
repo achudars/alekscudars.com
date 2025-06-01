@@ -1,5 +1,4 @@
 import Layout from "../src/layout/Layout";
-import LastUpdated from "../src/components/LastUpdated";
 
 const OnlineCourses = () => {
   const renderRow = ({
@@ -50,10 +49,6 @@ const OnlineCourses = () => {
       <>
         <div className="title">
           <h3>Online Courses.</h3>
-          <LastUpdated
-            filePath="pages/online-courses.js"
-            className="m-15px-tb"
-          />
         </div>
         {renderRow({
           title: "Pluralsight",
