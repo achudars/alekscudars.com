@@ -19,13 +19,53 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/pages__app_5771e187._.js",
       "static/chunks/pages__app_4b00608a._.js"
     ],
+    "/aerial-photography": [
+      "static/chunks/[root-of-the-server]__ccfde1dd._.js",
+      "static/chunks/node_modules_next_8336a0c5._.js",
+      "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_2a5cf4bb._.js",
+      "static/chunks/pages_aerial-photography_5771e187._.js",
+      "static/chunks/pages_aerial-photography_b35b17ee._.js"
+    ],
+    "/drawing": [
+      "static/chunks/node_modules_next_8336a0c5._.js",
+      "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_2a5cf4bb._.js",
+      "static/chunks/[root-of-the-server]__c0d0f45c._.js",
+      "static/chunks/pages_drawing_5771e187._.js",
+      "static/chunks/pages_drawing_0e4c4557._.js"
+    ],
+    "/hiking-and-walking": [
+      "static/chunks/[root-of-the-server]__af18d798._.js",
+      "static/chunks/node_modules_next_8336a0c5._.js",
+      "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_2a5cf4bb._.js",
+      "static/chunks/pages_hiking-and-walking_5771e187._.js",
+      "static/chunks/pages_hiking-and-walking_c2725690._.js"
+    ],
+    "/online-courses": [
+      "static/chunks/node_modules_next_8336a0c5._.js",
+      "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_2a5cf4bb._.js",
+      "static/chunks/[root-of-the-server]__0b78de87._.js",
+      "static/chunks/pages_online-courses_5771e187._.js",
+      "static/chunks/pages_online-courses_8f7956a4._.js"
+    ],
+    "/reading": [
+      "static/chunks/[root-of-the-server]__19c76292._.js",
+      "static/chunks/node_modules_next_8336a0c5._.js",
+      "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_2a5cf4bb._.js",
+      "static/chunks/pages_reading_5771e187._.js",
+      "static/chunks/pages_reading_6e03ea6f._.js"
+    ],
     "/running-and-training": [
       "static/chunks/node_modules_next_8336a0c5._.js",
       "static/chunks/node_modules_react-dom_82bb97c6._.js",
       "static/chunks/node_modules_2a5cf4bb._.js",
-      "static/chunks/[root-of-the-server]__ecf33fb3._.js",
+      "static/chunks/[root-of-the-server]__64c8aaea._.js",
       "static/chunks/pages_running-and-training_5771e187._.js",
-      "static/chunks/pages_running-and-training_3f302756._.js"
+      "static/chunks/pages_running-and-training_46bab202._.js"
     ]
   },
   "devFiles": [],

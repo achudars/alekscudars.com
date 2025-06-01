@@ -1,32 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import Layout from "../src/layout/Layout";
-import { useState, useEffect } from "react";
+import LastUpdated from "../src/components/LastUpdated";
 
 const RunningAndTraining = () => {
-  const [lastUpdated, setLastUpdated] = useState("Loading...");
-
-  useEffect(() => {
-    // Fetch last commit date for this file
-    fetch('/api/last-commit?file=pages/running-and-training.js')
-      .then(response => response.json())
-      .then(data => {
-        if (data.date) {
-          const date = new Date(data.date);
-          setLastUpdated(date.toLocaleDateString('en-US', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric'
-          }));
-        } else {
-          setLastUpdated("Unknown");
-        }
-      })
-      .catch(error => {
-        console.error("Failed to fetch last commit date:", error);
-        setLastUpdated("Unknown");
-      });
-  }, []);
-
   const renderOverviewStats = () => {
     return (
       <div className="col-sm-12 col-md-12 col-xl-12">
@@ -73,7 +49,10 @@ const RunningAndTraining = () => {
       <>
         <div className="title">
           <h3>Running.</h3>
-          <p className="subtitle m-15px-tb">Last updated: {lastUpdated}</p>
+          <LastUpdated
+            filePath="pages/running-and-training.js"
+            className="m-15px-tb"
+          />
         </div>
         {renderExtraDetailSection()}
       </>
