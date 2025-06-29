@@ -32,7 +32,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "sass": "^1.89.2",
-    "swiper": "^11.2.9",
+    "swiper": "^11.2.10",
     "tsparticles": "^3.8.1"
   },
   "devDependencies": {
