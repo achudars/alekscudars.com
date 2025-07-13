@@ -1401,6 +1401,10 @@ const DRAWINGS = [
     `/static/img/drawing/IMG_1311.jpg`,
     `/static/img/drawing/IMG_1312.jpg`,
     `/static/img/drawing/IMG_1313.jpg`,
+    `/static/img/drawing/IMG_2015.jpg`,
+    `/static/img/drawing/IMG_2016.jpg`,
+    `/static/img/drawing/IMG_2017.jpg`,
+    `/static/img/drawing/IMG_2018.jpg`,
     `/static/img/drawing/IMG_1314.jpg`,
     `/static/img/drawing/IMG_1315.jpg`,
     `/static/img/drawing/IMG_1316.jpg`,
@@ -1428,39 +1432,39 @@ const Drawing = ()=>{
                                         alt: "drawing"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/drawing.js",
-                                        lineNumber: 44,
+                                        lineNumber: 48,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/drawing.js",
-                                    lineNumber: 43,
+                                    lineNumber: 47,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/drawing.js",
-                                lineNumber: 42,
+                                lineNumber: 46,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/pages/drawing.js",
-                            lineNumber: 41,
+                            lineNumber: 45,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/drawing.js",
-                        lineNumber: 40,
+                        lineNumber: 44,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/pages/drawing.js",
-                    lineNumber: 39,
+                    lineNumber: 43,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "separated"
                 }, void 0, false, {
                     fileName: "[project]/pages/drawing.js",
-                    lineNumber: 50,
+                    lineNumber: 54,
                     columnNumber: 9
                 }, this)
             ]
@@ -1473,7 +1477,7 @@ const Drawing = ()=>{
                     className: "about-text"
                 }, void 0, false, {
                     fileName: "[project]/pages/drawing.js",
-                    lineNumber: 58,
+                    lineNumber: 62,
                     columnNumber: 9
                 }, this),
                 DRAWINGS.map((d)=>renderEachDrawing(d))
@@ -1489,12 +1493,12 @@ const Drawing = ()=>{
                         children: "Drawing."
                     }, void 0, false, {
                         fileName: "[project]/pages/drawing.js",
-                        lineNumber: 68,
+                        lineNumber: 72,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/pages/drawing.js",
-                    lineNumber: 67,
+                    lineNumber: 71,
                     columnNumber: 9
                 }, this),
                 renderDrawing()
@@ -1522,7 +1526,7 @@ const Drawing = ()=>{
       `
             }, void 0, false, {
                 fileName: "[project]/pages/drawing.js",
-                lineNumber: 76,
+                lineNumber: 80,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$Layout$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1536,17 +1540,17 @@ const Drawing = ()=>{
                         children: renderContainer()
                     }, void 0, false, {
                         fileName: "[project]/pages/drawing.js",
-                        lineNumber: 98,
+                        lineNumber: 102,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/pages/drawing.js",
-                    lineNumber: 93,
+                    lineNumber: 97,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/drawing.js",
-                lineNumber: 92,
+                lineNumber: 96,
                 columnNumber: 7
             }, this)
         ]
