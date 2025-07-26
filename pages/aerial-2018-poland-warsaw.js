@@ -22,4 +22,5 @@ const SpecificItem = () => {
     />
   );
 };
+
 export default SpecificItem;
