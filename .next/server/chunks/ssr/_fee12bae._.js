@@ -4,7 +4,7 @@ module.exports = {
 "use strict";
 
 __turbopack_context__.s({
-    "default": (()=>__TURBOPACK__default__export__)
+    "default": ()=>__TURBOPACK__default__export__
 });
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react/jsx-dev-runtime [external] (react/jsx-dev-runtime, cjs)");
 ;
@@ -19,17 +19,17 @@ const PreLoader = ()=>{
                 fileName: "[project]/src/layout/PreLoader.js",
                 lineNumber: 5,
                 columnNumber: 9
-            }, this)
+            }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/src/layout/PreLoader.js",
             lineNumber: 4,
             columnNumber: 7
-        }, this)
+        }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/src/layout/PreLoader.js",
         lineNumber: 3,
         columnNumber: 5
-    }, this);
+    }, ("TURBOPACK compile-time value", void 0));
 };
 const __TURBOPACK__default__export__ = PreLoader;
 }),
@@ -37,7 +37,7 @@ const __TURBOPACK__default__export__ = PreLoader;
 "use strict";
 
 __turbopack_context__.s({
-    "default": (()=>__TURBOPACK__default__export__)
+    "default": ()=>__TURBOPACK__default__export__
 });
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react/jsx-dev-runtime [external] (react/jsx-dev-runtime, cjs)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/head.js [ssr] (ecmascript)");
@@ -65,7 +65,7 @@ const MyApp = ({ Component, pageProps })=>{
                         fileName: "[project]/pages/_app.js",
                         lineNumber: 17,
                         columnNumber: 9
-                    }, this),
+                    }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("link", {
                         rel: "shortcut icon",
                         type: "image/x-icon",
@@ -74,39 +74,39 @@ const MyApp = ({ Component, pageProps })=>{
                         fileName: "[project]/pages/_app.js",
                         lineNumber: 18,
                         columnNumber: 9
-                    }, this)
+                    }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/_app.js",
                 lineNumber: 16,
                 columnNumber: 7
-            }, this),
+            }, ("TURBOPACK compile-time value", void 0)),
             load && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$layout$2f$PreLoader$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/pages/_app.js",
                 lineNumber: 20,
                 columnNumber: 16
-            }, this),
+            }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(Component, {
                 ...pageProps
             }, void 0, false, {
                 fileName: "[project]/pages/_app.js",
                 lineNumber: 21,
                 columnNumber: 7
-            }, this)
+            }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/pages/_app.js",
         lineNumber: 15,
         columnNumber: 5
-    }, this);
+    }, ("TURBOPACK compile-time value", void 0));
 };
 const __TURBOPACK__default__export__ = MyApp;
 }),
-"[project]/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs [ssr] (ecmascript)": (function(__turbopack_context__) {
+"[project]/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs [ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
 
 var { m: module, e: exports } = __turbopack_context__;
 {
-"use strict";
 function _getRequireWildcardCache(nodeInterop) {
     if (typeof WeakMap !== "function") return null;
     var cacheBabelInterop = new WeakMap();
@@ -139,11 +139,11 @@ function _interop_require_wildcard(obj, nodeInterop) {
 }
 exports._ = _interop_require_wildcard;
 }}),
-"[project]/node_modules/next/dist/shared/lib/side-effect.js [ssr] (ecmascript)": (function(__turbopack_context__) {
+"[project]/node_modules/next/dist/shared/lib/side-effect.js [ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
 
 var { m: module, e: exports } = __turbopack_context__;
 {
-"use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
@@ -154,9 +154,9 @@ Object.defineProperty(exports, "default", {
     }
 });
 const _react = __turbopack_context__.r("[externals]/react [external] (react, cjs)");
-const isServer = typeof window === 'undefined';
-const useClientOnlyLayoutEffect = isServer ? ()=>{} : _react.useLayoutEffect;
-const useClientOnlyEffect = isServer ? ()=>{} : _react.useEffect;
+const isServer = "undefined" === 'undefined';
+const useClientOnlyLayoutEffect = ("TURBOPACK compile-time truthy", 1) ? ()=>{} : "TURBOPACK unreachable";
+const useClientOnlyEffect = ("TURBOPACK compile-time truthy", 1) ? ()=>{} : "TURBOPACK unreachable";
 function SideEffect(props) {
     const { headManager, reduceComponentsToState } = props;
     function emitChange() {
@@ -165,7 +165,7 @@ function SideEffect(props) {
             headManager.updateHead(reduceComponentsToState(headElements, props));
         }
     }
-    if (isServer) {
+    if ("TURBOPACK compile-time truthy", 1) {
         var _headManager_mountedInstances;
         headManager == null ? void 0 : (_headManager_mountedInstances = headManager.mountedInstances) == null ? void 0 : _headManager_mountedInstances.add(props.children);
         emitChange();
@@ -208,25 +208,25 @@ function SideEffect(props) {
     return null;
 } //# sourceMappingURL=side-effect.js.map
 }}),
-"[project]/node_modules/next/dist/server/route-modules/pages/vendored/contexts/amp-context.js [ssr] (ecmascript)": (function(__turbopack_context__) {
+"[project]/node_modules/next/dist/server/route-modules/pages/vendored/contexts/amp-context.js [ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
 
 var { m: module, e: exports } = __turbopack_context__;
 {
-"use strict";
 module.exports = __turbopack_context__.r("[project]/node_modules/next/dist/server/route-modules/pages/module.compiled.js [ssr] (ecmascript)").vendored['contexts'].AmpContext; //# sourceMappingURL=amp-context.js.map
 }}),
-"[project]/node_modules/next/dist/server/route-modules/pages/vendored/contexts/head-manager-context.js [ssr] (ecmascript)": (function(__turbopack_context__) {
+"[project]/node_modules/next/dist/server/route-modules/pages/vendored/contexts/head-manager-context.js [ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
 
 var { m: module, e: exports } = __turbopack_context__;
 {
-"use strict";
 module.exports = __turbopack_context__.r("[project]/node_modules/next/dist/server/route-modules/pages/module.compiled.js [ssr] (ecmascript)").vendored['contexts'].HeadManagerContext; //# sourceMappingURL=head-manager-context.js.map
 }}),
-"[project]/node_modules/next/dist/shared/lib/amp-mode.js [ssr] (ecmascript)": (function(__turbopack_context__) {
+"[project]/node_modules/next/dist/shared/lib/amp-mode.js [ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
 
 var { m: module, e: exports } = __turbopack_context__;
 {
-"use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
@@ -241,11 +241,11 @@ function isInAmpMode(param) {
     return ampFirst || hybrid && hasQuery;
 } //# sourceMappingURL=amp-mode.js.map
 }}),
-"[project]/node_modules/next/dist/shared/lib/utils/warn-once.js [ssr] (ecmascript)": (function(__turbopack_context__) {
+"[project]/node_modules/next/dist/shared/lib/utils/warn-once.js [ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
 
 var { m: module, e: exports } = __turbopack_context__;
 {
-"use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
@@ -266,12 +266,11 @@ if ("TURBOPACK compile-time truthy", 1) {
     };
 } //# sourceMappingURL=warn-once.js.map
 }}),
-"[project]/node_modules/next/dist/shared/lib/head.js [ssr] (ecmascript)": (function(__turbopack_context__) {
+"[project]/node_modules/next/dist/shared/lib/head.js [ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
 
 var { m: module, e: exports } = __turbopack_context__;
 {
-'use client';
-"use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
@@ -403,8 +402,6 @@ const METATYPES = [
     const { inAmpMode } = props;
     return headChildrenElements.reduce(onlyReactElement, []).reverse().concat(defaultHead(inAmpMode).reverse()).filter(unique()).reverse().map((c, i)=>{
         const key = c.key || i;
-        if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
-        ;
         if ("TURBOPACK compile-time truthy", 1) {
             // omit JSON-LD structured data snippets from the warning
             if (c.type === 'script' && c.props['type'] !== 'application/ld+json') {
@@ -442,7 +439,7 @@ if ((typeof exports.default === 'function' || typeof exports.default === 'object
     module.exports = exports.default;
 } //# sourceMappingURL=head.js.map
 }}),
-"[project]/node_modules/next/head.js [ssr] (ecmascript)": (function(__turbopack_context__) {
+"[project]/node_modules/next/head.js [ssr] (ecmascript)": ((__turbopack_context__) => {
 
 var { m: module, e: exports } = __turbopack_context__;
 {

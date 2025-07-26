@@ -2,6 +2,27 @@
 import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
+{
+    link: "./aerial-2025-croatia-dinara",
+    photo:
+      "./static/img/aerial/2025/croatia-dinara/2025_07_20_08_54_IMG_2372 - square.JPG",
+    description: "Croatia, Dinara",
+    date: 2025,
+  },
+  {
+      link: "./aerial-2025-croatia-metajna-and-pag",
+      photo:
+        "./static/img/aerial/2025/croatia-metajna-and-pag/2025_07_19_07_36_IMG_2391 - square.JPG",
+      description: "Croatia, Metajna and Pag",
+      date: 2025,
+    },
+    {
+        link: "./aerial-2025-croatia-skradin-and-krka",
+        photo:
+          "./static/img/aerial/2025/croatia-skradin-and-krka/2025_07_21_04_33_IMG_2363 - square.JPG",
+        description: "Croatia, Skradin and Krka",
+        date: 2025,
+      },
   {
     link: "./aerial-2025-switzerland-truebsee",
     photo:

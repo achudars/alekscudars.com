@@ -1,6 +1,6 @@
 module.exports = {
 
-"[externals]/react/jsx-dev-runtime [external] (react/jsx-dev-runtime, cjs)": (function(__turbopack_context__) {
+"[externals]/react/jsx-dev-runtime [external] (react/jsx-dev-runtime, cjs)": ((__turbopack_context__) => {
 
 var { m: module, e: exports } = __turbopack_context__;
 {
@@ -8,7 +8,7 @@ const mod = __turbopack_context__.x("react/jsx-dev-runtime", () => require("reac
 
 module.exports = mod;
 }}),
-"[externals]/react/jsx-runtime [external] (react/jsx-runtime, cjs)": (function(__turbopack_context__) {
+"[externals]/react/jsx-runtime [external] (react/jsx-runtime, cjs)": ((__turbopack_context__) => {
 
 var { m: module, e: exports } = __turbopack_context__;
 {
@@ -16,7 +16,7 @@ const mod = __turbopack_context__.x("react/jsx-runtime", () => require("react/js
 
 module.exports = mod;
 }}),
-"[externals]/react [external] (react, cjs)": (function(__turbopack_context__) {
+"[externals]/react [external] (react, cjs)": ((__turbopack_context__) => {
 
 var { m: module, e: exports } = __turbopack_context__;
 {
@@ -24,7 +24,7 @@ const mod = __turbopack_context__.x("react", () => require("react"));
 
 module.exports = mod;
 }}),
-"[externals]/path [external] (path, cjs)": (function(__turbopack_context__) {
+"[externals]/path [external] (path, cjs)": ((__turbopack_context__) => {
 
 var { m: module, e: exports } = __turbopack_context__;
 {
@@ -32,7 +32,7 @@ const mod = __turbopack_context__.x("path", () => require("path"));
 
 module.exports = mod;
 }}),
-"[externals]/next/dist/compiled/next-server/pages-turbo.runtime.dev.js [external] (next/dist/compiled/next-server/pages-turbo.runtime.dev.js, cjs)": (function(__turbopack_context__) {
+"[externals]/next/dist/compiled/next-server/pages-turbo.runtime.dev.js [external] (next/dist/compiled/next-server/pages-turbo.runtime.dev.js, cjs)": ((__turbopack_context__) => {
 
 var { m: module, e: exports } = __turbopack_context__;
 {
@@ -40,7 +40,7 @@ const mod = __turbopack_context__.x("next/dist/compiled/next-server/pages-turbo.
 
 module.exports = mod;
 }}),
-"[externals]/next/dist/compiled/@opentelemetry/api [external] (next/dist/compiled/@opentelemetry/api, cjs)": (function(__turbopack_context__) {
+"[externals]/next/dist/compiled/@opentelemetry/api [external] (next/dist/compiled/@opentelemetry/api, cjs)": ((__turbopack_context__) => {
 
 var { m: module, e: exports } = __turbopack_context__;
 {
@@ -52,7 +52,7 @@ module.exports = mod;
 "use strict";
 
 __turbopack_context__.s({
-    "default": (()=>Document)
+    "default": ()=>Document
 });
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react/jsx-dev-runtime [external] (react/jsx-dev-runtime, cjs)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$document$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/document.js [ssr] (ecmascript)");
