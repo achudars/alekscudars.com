@@ -3,36 +3,55 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
+    link: "./hiking-2025-croatia-dinara",
+     photo: "./static/img/hiking/2025/croatia-dinara/2025_07_20_07_41_IMG_2238 - Copy.JPG",
+    description: "Dinara",
+    location: "Dinara, Croatia",
+    date: 2025
+  },
+  {
+    link: "./hiking-2025-croatia-walk-on-mars",
+    photo: "./static/img/hiking/2025/croatia-walk-on-mars/2025_07_19_07_05_IMG_2071 - Copy.JPG",
+    description: "Walk on Mars",
+    location: "Novalja, Croatia",
+    date: 2025,
+  },
+  {
     link: "./hiking-2025-switzerland-mount-rigi-descent",
-    photo: "./static/img/hiking/2025/switzerland-mount-rigi-descent/2025_05_26_10_10_IMG_1033 - Copy.JPG",
+    photo:
+      "./static/img/hiking/2025/switzerland-mount-rigi-descent/2025_05_26_10_10_IMG_1033 - Copy.JPG",
     description: "Mount Rigi Descent",
     location: "Switzerland",
     date: 2025,
   },
   {
     link: "./hiking-2025-switzerland-mount-rigi-ascent",
-    photo: "./static/img/hiking/2025/switzerland-mount-rigi-ascent/2025_05_26_08_42_IMG_1012 - Copy.JPG",
+    photo:
+      "./static/img/hiking/2025/switzerland-mount-rigi-ascent/2025_05_26_08_42_IMG_1012 - Copy.JPG",
     description: "Mount Rigi Ascent",
     location: "Switzerland",
     date: 2025,
   },
   {
     link: "./hiking-2025-switzerland-engelberg-truebsee",
-    photo: "./static/img/hiking/2025/switzerland-engelberg-truebsee/2025_05_25_08_22_IMG_0914 - Copy.JPG",
+    photo:
+      "./static/img/hiking/2025/switzerland-engelberg-truebsee/2025_05_25_08_22_IMG_0914 - Copy.JPG",
     description: "Engelberg, Truebsee",
     location: "Switzerland",
     date: 2025,
   },
   {
     link: "./hiking-2025-switzerland-grindelwald",
-    photo: "./static/img/hiking/2025/switzerland-grindelwald/2025_05_24_11_38_IMG_0778 - Copy.JPG",
+    photo:
+      "./static/img/hiking/2025/switzerland-grindelwald/2025_05_24_11_38_IMG_0778 - Copy.JPG",
     description: "Grindelwald",
     location: "Switzerland",
     date: 2025,
   },
   {
     link: "./hiking-2025-switzerland-harder-klum",
-    photo: "./static/img/hiking/2025/switzerland-harder-klum/2025_05_24_07_36_IMG_0704 - Copy.JPG",
+    photo:
+      "./static/img/hiking/2025/switzerland-harder-klum/2025_05_24_07_36_IMG_0704 - Copy.JPG",
     description: "Harder Klum",
     location: "Switzerland",
     date: 2025,
