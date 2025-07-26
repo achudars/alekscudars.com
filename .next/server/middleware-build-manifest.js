@@ -43,58 +43,6 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/pages__error_5771e187._.js",
       "static/chunks/pages__error_50fcf3db._.js"
     ],
-    "/aerial-2025-croatia-dinara": [
-      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_82a36480.js",
-      "static/chunks/node_modules_next_dist_compiled_ca41998d._.js",
-      "static/chunks/node_modules_next_dist_shared_lib_fc27b909._.js",
-      "static/chunks/node_modules_next_dist_client_c0365516._.js",
-      "static/chunks/node_modules_next_dist_a3e9a08f._.js",
-      "static/chunks/node_modules_next_7c1ae270._.js",
-      "static/chunks/node_modules_react-dom_82bb97c6._.js",
-      "static/chunks/node_modules_a80c7711._.js",
-      "static/chunks/[root-of-the-server]__2254a5be._.js",
-      "static/chunks/pages_aerial-2025-croatia-dinara_5771e187._.js",
-      "static/chunks/pages_aerial-2025-croatia-dinara_30a2f533._.js"
-    ],
-    "/aerial-2025-croatia-metajna-and-pag": [
-      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_82a36480.js",
-      "static/chunks/node_modules_next_dist_compiled_ca41998d._.js",
-      "static/chunks/node_modules_next_dist_shared_lib_fc27b909._.js",
-      "static/chunks/node_modules_next_dist_client_c0365516._.js",
-      "static/chunks/node_modules_next_dist_a3e9a08f._.js",
-      "static/chunks/node_modules_next_7c1ae270._.js",
-      "static/chunks/node_modules_react-dom_82bb97c6._.js",
-      "static/chunks/node_modules_a80c7711._.js",
-      "static/chunks/[root-of-the-server]__697fec91._.js",
-      "static/chunks/pages_aerial-2025-croatia-metajna-and-pag_5771e187._.js",
-      "static/chunks/pages_aerial-2025-croatia-metajna-and-pag_bbc74b0f._.js"
-    ],
-    "/aerial-2025-croatia-skradin-and-krka": [
-      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_82a36480.js",
-      "static/chunks/node_modules_next_dist_compiled_ca41998d._.js",
-      "static/chunks/node_modules_next_dist_shared_lib_fc27b909._.js",
-      "static/chunks/node_modules_next_dist_client_c0365516._.js",
-      "static/chunks/node_modules_next_dist_a3e9a08f._.js",
-      "static/chunks/node_modules_next_7c1ae270._.js",
-      "static/chunks/node_modules_react-dom_82bb97c6._.js",
-      "static/chunks/node_modules_a80c7711._.js",
-      "static/chunks/[root-of-the-server]__bf943a67._.js",
-      "static/chunks/pages_aerial-2025-croatia-skradin-and-krka_5771e187._.js",
-      "static/chunks/pages_aerial-2025-croatia-skradin-and-krka_73bcd9b5._.js"
-    ],
-    "/aerial-2025-greece-corfu": [
-      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_82a36480.js",
-      "static/chunks/node_modules_next_dist_compiled_ca41998d._.js",
-      "static/chunks/node_modules_next_dist_shared_lib_fc27b909._.js",
-      "static/chunks/node_modules_next_dist_client_c0365516._.js",
-      "static/chunks/node_modules_next_dist_a3e9a08f._.js",
-      "static/chunks/node_modules_next_7c1ae270._.js",
-      "static/chunks/node_modules_react-dom_82bb97c6._.js",
-      "static/chunks/node_modules_a80c7711._.js",
-      "static/chunks/[root-of-the-server]__f585590c._.js",
-      "static/chunks/pages_aerial-2025-greece-corfu_5771e187._.js",
-      "static/chunks/pages_aerial-2025-greece-corfu_b30e0ff0._.js"
-    ],
     "/aerial-photography": [
       "static/chunks/node_modules_next_dist_compiled_next-devtools_index_82a36480.js",
       "static/chunks/node_modules_next_dist_compiled_ca41998d._.js",
@@ -107,6 +55,19 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/[root-of-the-server]__639a47f1._.js",
       "static/chunks/pages_aerial-photography_5771e187._.js",
       "static/chunks/pages_aerial-photography_b373ed8f._.js"
+    ],
+    "/reading": [
+      "static/chunks/[root-of-the-server]__0476e7e2._.js",
+      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_82a36480.js",
+      "static/chunks/node_modules_next_dist_compiled_ca41998d._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_fc27b909._.js",
+      "static/chunks/node_modules_next_dist_client_c0365516._.js",
+      "static/chunks/node_modules_next_dist_a3e9a08f._.js",
+      "static/chunks/node_modules_next_7c1ae270._.js",
+      "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_a80c7711._.js",
+      "static/chunks/pages_reading_5771e187._.js",
+      "static/chunks/pages_reading_5d3c27ac._.js"
     ]
   },
   "devFiles": [],

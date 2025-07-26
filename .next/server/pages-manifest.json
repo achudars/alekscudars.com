@@ -3,9 +3,6 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/aerial-2025-croatia-dinara": "pages/aerial-2025-croatia-dinara.js",
-  "/aerial-2025-croatia-metajna-and-pag": "pages/aerial-2025-croatia-metajna-and-pag.js",
-  "/aerial-2025-croatia-skradin-and-krka": "pages/aerial-2025-croatia-skradin-and-krka.js",
-  "/aerial-2025-greece-corfu": "pages/aerial-2025-greece-corfu.js",
-  "/aerial-photography": "pages/aerial-photography.js"
+  "/aerial-photography": "pages/aerial-photography.js",
+  "/reading": "pages/reading.js"
 }
