@@ -151,7 +151,7 @@ const Aerial = () => {
         <div className="col-lg-7 ml-auto m-15px-tb">
           <div className="skills-box">
             <div className="skill-lt">
-              <h6>Total Flight Time: 11Hr 38Min</h6>
+              <h6>Total Flight Time: 12Hr 26Min</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "70%" }}>
                   <span data-toggle="tooltip" title="70%" />
@@ -160,7 +160,7 @@ const Aerial = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Total Distance: 75,080m</h6>
+              <h6>Total Distance: 85,490m</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "55%" }}>
                   <span data-toggle="tooltip" title="55%" />
@@ -169,7 +169,7 @@ const Aerial = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Total Flights: 120</h6>
+              <h6>Total Flights: 123</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "88%" }}>
                   <span data-toggle="tooltip" title="88%" />
@@ -178,7 +178,7 @@ const Aerial = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Top Distance: 3,682m</h6>
+              <h6>Top Distance: 4,275m</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "82%" }}>
                   <span data-toggle="tooltip" title="82%" />
