@@ -3,10 +3,8 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/hiking-2025-croatia-dinara": "pages/hiking-2025-croatia-dinara.js",
-  "/hiking-2025-croatia-walk-on-mars": "pages/hiking-2025-croatia-walk-on-mars.js",
-  "/hiking-2025-switzerland-mount-rigi-descent": "pages/hiking-2025-switzerland-mount-rigi-descent.js",
-  "/hiking-and-walking": "pages/hiking-and-walking.js",
-  "/reading": "pages/reading.js",
-  "/running-and-training": "pages/running-and-training.js"
+  "/aerial-2025-italy-sardinia-baunei": "pages/aerial-2025-italy-sardinia-baunei.js",
+  "/aerial-2025-italy-sardinia-gairo": "pages/aerial-2025-italy-sardinia-gairo.js",
+  "/aerial-2025-italy-sardinia-iglesias": "pages/aerial-2025-italy-sardinia-iglesias.js",
+  "/aerial-photography": "pages/aerial-photography.js"
 }

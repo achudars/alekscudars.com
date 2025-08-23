@@ -1,0 +1,5 @@
+{
+  "/aerial-photography": [
+    "./static/chunks/pages/aerial-photography.js"
+  ]
+}

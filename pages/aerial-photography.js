@@ -3,10 +3,24 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
-    link: "./aerial-2025-croatia-dinara",
+    link: "./aerial-2025-italy-sardinia-gairo",
     photo:
-      "./static/img/aerial/2025/croatia-dinara/2025_07_20_08_54_IMG_2372 - square.JPG",
-    description: "Croatia, Dinara",
+      "./static/img/aerial/2025/italy-sardinia-gairo/2025_08_18_12_26_DJI_0529 - square.JPG",
+    description: "Italy, Sardinia, Gairo",
+    date: 2025,
+  },
+  {
+    link: "./aerial-2025-italy-sardinia-iglesias",
+    photo:
+      "./static/img/aerial/2025/italy-sardinia-iglesias/2025_08_17_13_47_IMG_2668 - square.JPG",
+    description: "Italy, Sardinia, Iglesias",
+    date: 2025,
+  },
+  {
+    link: "./aerial-2025-italy-sardinia-baunei",
+    photo:
+      "./static/img/aerial/2025/italy-sardinia-baunei/2025_08_16_05_13_DJI_0403 - square.JPG",
+    description: "Italy, Sardinia, Baunei",
     date: 2025,
   },
   {
