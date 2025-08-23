@@ -2,20 +2,17 @@ self.__BUILD_MANIFEST = {
   "/": [
     "./static/chunks/pages/index.js"
   ],
-  "/_error": [
-    "./static/chunks/pages/_error.js"
-  ],
-  "/aerial-2025-italy-sardinia-baunei": [
-    "./static/chunks/pages/aerial-2025-italy-sardinia-baunei.js"
-  ],
-  "/aerial-2025-italy-sardinia-gairo": [
-    "./static/chunks/pages/aerial-2025-italy-sardinia-gairo.js"
-  ],
-  "/aerial-2025-italy-sardinia-iglesias": [
-    "./static/chunks/pages/aerial-2025-italy-sardinia-iglesias.js"
-  ],
   "/aerial-photography": [
     "./static/chunks/pages/aerial-photography.js"
+  ],
+  "/drawing": [
+    "./static/chunks/pages/drawing.js"
+  ],
+  "/reading": [
+    "./static/chunks/pages/reading.js"
+  ],
+  "/running-and-training": [
+    "./static/chunks/pages/running-and-training.js"
   ],
   "__rewrites": {
     "afterFiles": [],

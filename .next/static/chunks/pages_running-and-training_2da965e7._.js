@@ -1,4 +1,6 @@
-__turbopack_load_page_chunks__("/drawing", [
+(globalThis.TURBOPACK_CHUNK_LISTS || (globalThis.TURBOPACK_CHUNK_LISTS = [])).push({
+    script: typeof document === "object" ? document.currentScript : undefined,
+    chunks: [
   "static/chunks/node_modules_next_dist_compiled_next-devtools_index_5277ebc8.js",
   "static/chunks/node_modules_next_dist_compiled_166120c5._.js",
   "static/chunks/node_modules_next_dist_shared_lib_f041b118._.js",
@@ -7,7 +9,7 @@ __turbopack_load_page_chunks__("/drawing", [
   "static/chunks/node_modules_next_5cb05f67._.js",
   "static/chunks/node_modules_react-dom_4411d9bd._.js",
   "static/chunks/node_modules_db346ff0._.js",
-  "static/chunks/[root-of-the-server]__29e7c039._.js",
-  "static/chunks/pages_drawing_2da965e7._.js",
-  "static/chunks/turbopack-pages_drawing_7a1e7bcf._.js"
-])
+  "static/chunks/[root-of-the-server]__0662f0ff._.js"
+],
+    source: "entry"
+});

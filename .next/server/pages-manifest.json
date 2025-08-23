@@ -2,9 +2,8 @@
   "/": "pages/index.js",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/_error": "pages/_error.js",
-  "/aerial-2025-italy-sardinia-baunei": "pages/aerial-2025-italy-sardinia-baunei.js",
-  "/aerial-2025-italy-sardinia-gairo": "pages/aerial-2025-italy-sardinia-gairo.js",
-  "/aerial-2025-italy-sardinia-iglesias": "pages/aerial-2025-italy-sardinia-iglesias.js",
-  "/aerial-photography": "pages/aerial-photography.js"
+  "/aerial-photography": "pages/aerial-photography.js",
+  "/drawing": "pages/drawing.js",
+  "/reading": "pages/reading.js",
+  "/running-and-training": "pages/running-and-training.js"
 }

@@ -1,9 +1,8 @@
-const CHUNK_PUBLIC_PATH = "server/pages/drawing.js";
-const runtime = require("../chunks/ssr/[turbopack]_runtime.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_bf671b14._.js");
-runtime.loadChunk("server/chunks/ssr/[root-of-the-server]__a1d316d0._.js");
-runtime.loadChunk("server/chunks/ssr/_fee12bae._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_next_ceeed205._.js");
-runtime.loadChunk("server/chunks/ssr/[root-of-the-server]__c68a86c9._.js");
-runtime.getOrInstantiateRuntimeModule("[project]/node_modules/next/dist/esm/build/templates/pages.js { INNER_PAGE => \"[project]/pages/drawing.js [ssr] (ecmascript)\", INNER_DOCUMENT => \"[project]/pages/_document.js [ssr] (ecmascript)\", INNER_APP => \"[project]/pages/_app.js [ssr] (ecmascript)\" } [ssr] (ecmascript)", CHUNK_PUBLIC_PATH);
-module.exports = runtime.getOrInstantiateRuntimeModule("[project]/node_modules/next/dist/esm/build/templates/pages.js { INNER_PAGE => \"[project]/pages/drawing.js [ssr] (ecmascript)\", INNER_DOCUMENT => \"[project]/pages/_document.js [ssr] (ecmascript)\", INNER_APP => \"[project]/pages/_app.js [ssr] (ecmascript)\" } [ssr] (ecmascript)", CHUNK_PUBLIC_PATH).exports;
+var R=require("../chunks/ssr/[turbopack]_runtime.js")("server/pages/drawing.js")
+R.c("server/chunks/ssr/node_modules_0b53a5be._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__3c8416e4._.js")
+R.c("server/chunks/ssr/_b462df8a._.js")
+R.c("server/chunks/ssr/node_modules_next_394f791f._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__e79038af._.js")
+R.m("[project]/node_modules/next/dist/esm/build/templates/pages.js { INNER_PAGE => \"[project]/pages/drawing.js [ssr] (ecmascript)\", INNER_DOCUMENT => \"[project]/pages/_document.js [ssr] (ecmascript)\", INNER_APP => \"[project]/pages/_app.js [ssr] (ecmascript)\" } [ssr] (ecmascript)")
+module.exports=R.m("[project]/node_modules/next/dist/esm/build/templates/pages.js { INNER_PAGE => \"[project]/pages/drawing.js [ssr] (ecmascript)\", INNER_DOCUMENT => \"[project]/pages/_document.js [ssr] (ecmascript)\", INNER_APP => \"[project]/pages/_app.js [ssr] (ecmascript)\" } [ssr] (ecmascript)").exports

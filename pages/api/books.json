@@ -388,7 +388,8 @@
   {
     "bookTitle": "Be Water, My Friend",
     "bookAuthor": "Shannon Lee",
-    "inProgress": true,
+    "inProgress": false,
+    "yearWhenLastFinishedReading": "2025",
     "summary": ""
   },
   {

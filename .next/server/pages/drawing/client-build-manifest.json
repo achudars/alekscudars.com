@@ -1,0 +1,5 @@
+{
+  "/drawing": [
+    "./static/chunks/pages/drawing.js"
+  ]
+}
