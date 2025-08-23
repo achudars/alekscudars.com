@@ -2,8 +2,14 @@
   "/": "pages/index.js",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
   "/aerial-photography": "pages/aerial-photography.js",
   "/drawing": "pages/drawing.js",
+  "/hiking-2025-italy-sardinia-baunei-pedra-longa-santa-maria-navarrese-piggius": "pages/hiking-2025-italy-sardinia-baunei-pedra-longa-santa-maria-navarrese-piggius.js",
+  "/hiking-2025-italy-sardinia-gairo-path-of-the-eagles-taquisara-nuragic": "pages/hiking-2025-italy-sardinia-gairo-path-of-the-eagles-taquisara-nuragic.js",
+  "/hiking-2025-italy-sardinia-iglesias-nebida-masua": "pages/hiking-2025-italy-sardinia-iglesias-nebida-masua.js",
+  "/hiking-2025-italy-sardinia-pula-pinus-village-island-su-cardolinu": "pages/hiking-2025-italy-sardinia-pula-pinus-village-island-su-cardolinu.js",
+  "/hiking-and-walking": "pages/hiking-and-walking.js",
   "/reading": "pages/reading.js",
   "/running-and-training": "pages/running-and-training.js"
 }

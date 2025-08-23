@@ -29,6 +29,20 @@
       "static/chunks/pages__app_2da965e7._.js",
       "static/chunks/turbopack-pages__app_46c8c9d7._.js"
     ],
+    "/_error": [
+      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_5277ebc8.js",
+      "static/chunks/node_modules_next_dist_compiled_166120c5._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_b4122b32._.js",
+      "static/chunks/node_modules_next_dist_client_d0aa886c._.js",
+      "static/chunks/node_modules_next_dist_0cccb603._.js",
+      "static/chunks/node_modules_next_error_1cfbb379.js",
+      "static/chunks/[next]_entry_page-loader_ts_43b523b5._.js",
+      "static/chunks/node_modules_react-dom_4411d9bd._.js",
+      "static/chunks/node_modules_db4bb196._.js",
+      "static/chunks/[root-of-the-server]__092393de._.js",
+      "static/chunks/pages__error_2da965e7._.js",
+      "static/chunks/turbopack-pages__error_18aa0e75._.js"
+    ],
     "/aerial-photography": [
       "static/chunks/node_modules_next_dist_compiled_next-devtools_index_5277ebc8.js",
       "static/chunks/node_modules_next_dist_compiled_166120c5._.js",
@@ -54,6 +68,71 @@
       "static/chunks/[root-of-the-server]__29e7c039._.js",
       "static/chunks/pages_drawing_2da965e7._.js",
       "static/chunks/turbopack-pages_drawing_7a1e7bcf._.js"
+    ],
+    "/hiking-2025-italy-sardinia-baunei-pedra-longa-santa-maria-navarrese-piggius": [
+      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_5277ebc8.js",
+      "static/chunks/node_modules_next_dist_compiled_166120c5._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_f041b118._.js",
+      "static/chunks/node_modules_next_dist_client_3ede7da4._.js",
+      "static/chunks/node_modules_next_dist_2e2215b7._.js",
+      "static/chunks/node_modules_next_5cb05f67._.js",
+      "static/chunks/node_modules_react-dom_4411d9bd._.js",
+      "static/chunks/node_modules_db346ff0._.js",
+      "static/chunks/[root-of-the-server]__075b38db._.js",
+      "static/chunks/1efa2_ng-2025-italy-sardinia-baunei-pedra-longa-santa-maria-navarrese-piggius_2da965e7._.js",
+      "static/chunks/9bf2d_ng-2025-italy-sardinia-baunei-pedra-longa-santa-maria-navarrese-piggius_039fb6d5._.js"
+    ],
+    "/hiking-2025-italy-sardinia-gairo-path-of-the-eagles-taquisara-nuragic": [
+      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_5277ebc8.js",
+      "static/chunks/node_modules_next_dist_compiled_166120c5._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_f041b118._.js",
+      "static/chunks/node_modules_next_dist_client_3ede7da4._.js",
+      "static/chunks/node_modules_next_dist_2e2215b7._.js",
+      "static/chunks/node_modules_next_5cb05f67._.js",
+      "static/chunks/node_modules_react-dom_4411d9bd._.js",
+      "static/chunks/node_modules_db346ff0._.js",
+      "static/chunks/[root-of-the-server]__8f2f4f97._.js",
+      "static/chunks/e41a7_hiking-2025-italy-sardinia-gairo-path-of-the-eagles-taquisara-nuragic_2da965e7._.js",
+      "static/chunks/5ef37_hiking-2025-italy-sardinia-gairo-path-of-the-eagles-taquisara-nuragic_5e29f949._.js"
+    ],
+    "/hiking-2025-italy-sardinia-iglesias-nebida-masua": [
+      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_5277ebc8.js",
+      "static/chunks/node_modules_next_dist_compiled_166120c5._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_f041b118._.js",
+      "static/chunks/node_modules_next_dist_client_3ede7da4._.js",
+      "static/chunks/node_modules_next_dist_2e2215b7._.js",
+      "static/chunks/node_modules_next_5cb05f67._.js",
+      "static/chunks/node_modules_react-dom_4411d9bd._.js",
+      "static/chunks/node_modules_db346ff0._.js",
+      "static/chunks/[root-of-the-server]__4448ca26._.js",
+      "static/chunks/pages_hiking-2025-italy-sardinia-iglesias-nebida-masua_2da965e7._.js",
+      "static/chunks/turbopack-pages_hiking-2025-italy-sardinia-iglesias-nebida-masua_41bf5f38._.js"
+    ],
+    "/hiking-2025-italy-sardinia-pula-pinus-village-island-su-cardolinu": [
+      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_5277ebc8.js",
+      "static/chunks/node_modules_next_dist_compiled_166120c5._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_f041b118._.js",
+      "static/chunks/node_modules_next_dist_client_3ede7da4._.js",
+      "static/chunks/node_modules_next_dist_2e2215b7._.js",
+      "static/chunks/node_modules_next_5cb05f67._.js",
+      "static/chunks/node_modules_react-dom_4411d9bd._.js",
+      "static/chunks/node_modules_db346ff0._.js",
+      "static/chunks/[root-of-the-server]__d1f13ffa._.js",
+      "static/chunks/pages_hiking-2025-italy-sardinia-pula-pinus-village-island-su-cardolinu_2da965e7._.js",
+      "static/chunks/5ef37_hiking-2025-italy-sardinia-pula-pinus-village-island-su-cardolinu_f892bb91._.js"
+    ],
+    "/hiking-and-walking": [
+      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_5277ebc8.js",
+      "static/chunks/node_modules_next_dist_compiled_166120c5._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_f041b118._.js",
+      "static/chunks/node_modules_next_dist_client_3ede7da4._.js",
+      "static/chunks/node_modules_next_dist_2e2215b7._.js",
+      "static/chunks/node_modules_next_5cb05f67._.js",
+      "static/chunks/node_modules_react-dom_4411d9bd._.js",
+      "static/chunks/node_modules_db346ff0._.js",
+      "static/chunks/[root-of-the-server]__2fc15d84._.js",
+      "static/chunks/pages_hiking-and-walking_2da965e7._.js",
+      "static/chunks/turbopack-pages_hiking-and-walking_3a65e00b._.js"
     ],
     "/reading": [
       "static/chunks/[root-of-the-server]__2634f7bb._.js",

@@ -3,15 +3,49 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
+    link: "./hiking-2025-italy-sardinia-gairo-path-of-the-eagles-taquisara-nuragic",
+    photo:
+      "./static/img/hiking/2025/italy-sardinia-gairo-path-of-the-eagles-taquisara-nuragic/2025_08_18_12_45_IMG_2664.JPG",
+    description: "Path of the Eagles: Taquisara",
+    location: "Italy, Sardinia, Gairo",
+    date: 2025,
+  },
+  {
+    link: "./hiking-2025-italy-sardinia-iglesias-nebida-masua",
+    photo:
+      "./static/img/hiking/2025/italy-sardinia-iglesias-nebida-masua/2025_08_17_14_11_IMG_2630.JPG",
+    description: "Nebida - Masua - Anello 5 Faraglioni",
+    location: "Italy, Sardinia, Iglesias",
+    date: 2025,
+  },
+  {
+    link: "./hiking-2025-italy-sardinia-pula-pinus-village-island-su-cardolinu",
+    photo:
+      "./static/img/hiking/2025/italy-sardinia-pula-pinus-village-island-su-cardolinu/2025_08_17_08_31_IMG_2611.JPG",
+    description: "Pinus Village - Island su Cardolinu via Ancient Roman Road",
+    location: "Italy, Sardinia, Pula",
+    date: 2025,
+  },
+  {
+    link: "./hiking-2025-italy-sardinia-baunei-pedra-longa-santa-maria-navarrese-piggius",
+    photo:
+      "./static/img/hiking/2025/italy-sardinia-pedra-longa-santa-maria-navarrese-piggius/2025_08_16_05_48_IMG_2524.JPG",
+    description: "Pedra Longa - Santa Maria Navarrese - US Piggius",
+    location: "Italy, Sardinia, Baunei",
+    date: 2025,
+  },
+  {
     link: "./hiking-2025-croatia-dinara",
-     photo: "./static/img/hiking/2025/croatia-dinara/2025_07_20_07_41_IMG_2238 - Copy.JPG",
+    photo:
+      "./static/img/hiking/2025/croatia-dinara/2025_07_20_07_41_IMG_2238 - Copy.JPG",
     description: "Dinara",
     location: "Dinara, Croatia",
-    date: 2025
+    date: 2025,
   },
   {
     link: "./hiking-2025-croatia-walk-on-mars",
-    photo: "./static/img/hiking/2025/croatia-walk-on-mars/2025_07_19_07_05_IMG_2071 - Copy.JPG",
+    photo:
+      "./static/img/hiking/2025/croatia-walk-on-mars/2025_07_19_07_05_IMG_2071 - Copy.JPG",
     description: "Walk on Mars",
     location: "Novalja, Croatia",
     date: 2025,
@@ -275,7 +309,7 @@ const HikingAndWalking = () => {
         <div className="col-lg-7 ml-auto m-15px-tb">
           <div className="skills-box">
             <div className="skill-lt">
-              <h6>Distance: 343.9km</h6>
+              <h6>Distance: 517.5km</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "29%" }}>
                   <span data-toggle="tooltip" title="29%" />
@@ -284,7 +318,7 @@ const HikingAndWalking = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Elevation Gain: 12,863m</h6>
+              <h6>Elevation Gain: 21,069m</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "52%" }}>
                   <span data-toggle="tooltip" title="52%" />
@@ -293,7 +327,7 @@ const HikingAndWalking = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Completed: 24</h6>
+              <h6>Completed: 37</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "11%" }}>
                   <span data-toggle="tooltip" title="11%" />
@@ -302,7 +336,7 @@ const HikingAndWalking = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Moving Time: 70h 10m</h6>
+              <h6>Moving Time: 111h 0m</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "36%" }}>
                   <span data-toggle="tooltip" title="36%" />

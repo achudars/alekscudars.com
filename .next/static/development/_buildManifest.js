@@ -2,11 +2,29 @@ self.__BUILD_MANIFEST = {
   "/": [
     "./static/chunks/pages/index.js"
   ],
+  "/_error": [
+    "./static/chunks/pages/_error.js"
+  ],
   "/aerial-photography": [
     "./static/chunks/pages/aerial-photography.js"
   ],
   "/drawing": [
     "./static/chunks/pages/drawing.js"
+  ],
+  "/hiking-2025-italy-sardinia-baunei-pedra-longa-santa-maria-navarrese-piggius": [
+    "./static/chunks/pages/hiking-2025-italy-sardinia-baunei-pedra-longa-santa-maria-navarrese-piggius.js"
+  ],
+  "/hiking-2025-italy-sardinia-gairo-path-of-the-eagles-taquisara-nuragic": [
+    "./static/chunks/pages/hiking-2025-italy-sardinia-gairo-path-of-the-eagles-taquisara-nuragic.js"
+  ],
+  "/hiking-2025-italy-sardinia-iglesias-nebida-masua": [
+    "./static/chunks/pages/hiking-2025-italy-sardinia-iglesias-nebida-masua.js"
+  ],
+  "/hiking-2025-italy-sardinia-pula-pinus-village-island-su-cardolinu": [
+    "./static/chunks/pages/hiking-2025-italy-sardinia-pula-pinus-village-island-su-cardolinu.js"
+  ],
+  "/hiking-and-walking": [
+    "./static/chunks/pages/hiking-and-walking.js"
   ],
   "/reading": [
     "./static/chunks/pages/reading.js"
@@ -70,6 +88,10 @@ self.__BUILD_MANIFEST = {
     "/hiking-2025-corfu-greece-lakones-krini-angelokastro",
     "/hiking-2025-croatia-dinara",
     "/hiking-2025-croatia-walk-on-mars",
+    "/hiking-2025-italy-sardinia-baunei-pedra-longa-santa-maria-navarrese-piggius",
+    "/hiking-2025-italy-sardinia-gairo-path-of-the-eagles-taquisara-nuragic",
+    "/hiking-2025-italy-sardinia-iglesias-nebida-masua",
+    "/hiking-2025-italy-sardinia-pula-pinus-village-island-su-cardolinu",
     "/hiking-2025-kalidonia",
     "/hiking-2025-morning-camacha-via-levada-da-serra-do-faial",
     "/hiking-2025-pr-6-6-1-levada-das-25-fontes-rabacal-levada-of-risco",
