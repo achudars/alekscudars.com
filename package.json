@@ -28,7 +28,7 @@
     "@tsparticles/react": "^3.0.0",
     "emailjs-com": "^3.2.0",
     "isotope-layout": "^3.0.6",
-    "next": "^15.5.4",
+    "next": "^15.5.5",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "sass": "^1.93.2",
@@ -38,7 +38,7 @@
   "devDependencies": {
     "@vitest/coverage-v8": "^3.2.4",
     "eslint": "^9.37.0",
-    "eslint-config-next": "15.5.4",
+    "eslint-config-next": "15.5.5",
     "vitest": "^3.2.4"
   }
 }
