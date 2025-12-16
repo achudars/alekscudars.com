@@ -6,7 +6,7 @@ export default async function handler(req, res) {
   const { file } = req.query;
 
   // Basic validation to prevent directory traversal attacks
-  if (!file || file.includes('..') || !file.match(/^[a-zA-Z0-9\/\._-]+$/)) {
+  if (typeof file !== 'string' || !file || file.includes('..') || !file.match(/^[a-zA-Z0-9\/\._-]+$/)) {
     return res.status(400).json({ error: 'Invalid file parameter' });
   }
 
