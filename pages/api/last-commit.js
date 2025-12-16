@@ -1,13 +1,19 @@
 // Get the last Git commit date for a specified file
-import { exec } from 'child_process';
-import path from 'path';
+import { exec } from "child_process";
+import path from "path";
 
 export default async function handler(req, res) {
   const { file } = req.query;
 
   // Basic validation to prevent directory traversal attacks
-  if (typeof file !== 'string' || !file || file.includes('..') || !file.match(/^[a-zA-Z0-9\/\._-]+$/)) {
-
+  if (
+    typeof file !== "string" ||
+    !file ||
+    file.includes("..") ||
+    !file.match(/^[a-zA-Z0-9\/\._-]+$/)
+  ) {
+    return res.status(400).json({ error: "Invalid file parameter" });
+  }
   // Get the file's absolute path - relative to project root
   const filePath = path.join(process.cwd(), file);
 
@@ -18,7 +24,7 @@ export default async function handler(req, res) {
       (error, stdout, stderr) => {
         if (error) {
           console.error(`Error executing git command: ${error}`);
-          return res.status(500).json({ error: 'Failed to get commit date' });
+          return res.status(500).json({ error: "Failed to get commit date" });
         }
 
         if (stderr) {
@@ -28,14 +34,14 @@ export default async function handler(req, res) {
         const date = stdout.trim();
 
         if (!date) {
-          return res.status(404).json({ error: 'No commit history found' });
+          return res.status(404).json({ error: "No commit history found" });
         }
 
         return res.status(200).json({ date });
       }
     );
   } catch (error) {
-    console.error('Error:', error);
-    return res.status(500).json({ error: 'Internal server error' });
+    console.error("Error:", error);
+    return res.status(500).json({ error: "Internal server error" });
   }
 }
