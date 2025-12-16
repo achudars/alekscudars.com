@@ -24,6 +24,15 @@ var addSorting = (function() {
         return getTableHeader().querySelectorAll('th')[n];
     }
 
+    function escapeHtml(str) {
+        return String(str)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;');
+    }
+
     function onFilterInput() {
         const searchValue = document.getElementById('fileSearch').value;
         const rows = document.getElementsByTagName('tbody')[0].children;
@@ -88,6 +97,8 @@ var addSorting = (function() {
             val = colNode.getAttribute('data-value');
             if (col.type === 'number') {
                 val = Number(val);
+            } else if (val !== null && val !== undefined) {
+                val = escapeHtml(val);
             }
             data[col.key] = val;
         }
