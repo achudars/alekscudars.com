@@ -2,14 +2,84 @@
 import Layout from "../src/layout/Layout";
 
 const RunningAndTraining = () => {
-  const renderOverviewStats = () => {
+  const renderOverviewStats2025 = () => {
     return (
       <div className="col-sm-12 col-md-12 col-xl-12">
         <div>
           <img
-            src={`/static/img/running/nike-overview.jpg`}
-            title={"overview by Nike"}
-            alt={"overview by Nike"}
+            src={`/static/img/running/2025.jpg`}
+            title={"overview by Nike 2025"}
+            alt={"overview by Nike 2025"}
+          />
+        </div>
+      </div>
+    );
+  };
+
+  const renderOverviewStats2024 = () => {
+    return (
+      <div className="col-sm-12 col-md-12 col-xl-12">
+        <div>
+          <img
+            src={`/static/img/running/2024.jpg`}
+            title={"overview by Nike 2024"}
+            alt={"overview by Nike 2024"}
+          />
+        </div>
+      </div>
+    );
+  };
+
+  const renderOverviewStats2023 = () => {
+    return (
+      <div className="col-sm-12 col-md-12 col-xl-12">
+        <div>
+          <img
+            src={`/static/img/running/2023.jpg`}
+            title={"overview by Nike 2023"}
+            alt={"overview by Nike 2023"}
+          />
+        </div>
+      </div>
+    );
+  };
+
+  const renderOverviewStats2022 = () => {
+    return (
+      <div className="col-sm-12 col-md-12 col-xl-12">
+        <div>
+          <img
+            src={`/static/img/running/2022.jpg`}
+            title={"overview by Nike 2022"}
+            alt={"overview by Nike 2022"}
+          />
+        </div>
+      </div>
+    );
+  };
+
+  const renderOverviewStats2021 = () => {
+    return (
+      <div className="col-sm-12 col-md-12 col-xl-12">
+        <div>
+          <img
+            src={`/static/img/running/2021.jpg`}
+            title={"overview by Nike 2021"}
+            alt={"overview by Nike 2021"}
+          />
+        </div>
+      </div>
+    );
+  };
+
+  const renderOverviewStats2020 = () => {
+    return (
+      <div className="col-sm-12 col-md-12 col-xl-12">
+        <div>
+          <img
+            src={`/static/img/running/2020.jpg`}
+            title={"overview by Nike 2020"}
+            alt={"overview by Nike 2020"}
           />
         </div>
       </div>
@@ -35,7 +105,12 @@ const RunningAndTraining = () => {
       <div className="resume-box">
         <div className="resume-row">
           <div className="row">
-            {renderOverviewStats()}
+            {renderOverviewStats2025()}
+            {renderOverviewStats2024()}
+            {renderOverviewStats2023()}
+            {renderOverviewStats2022()}
+            {renderOverviewStats2021()}
+            {renderOverviewStats2020()}
             {renderAllTimeStats()}
           </div>
         </div>
