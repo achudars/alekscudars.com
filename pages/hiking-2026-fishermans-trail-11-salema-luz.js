@@ -14,9 +14,7 @@ const PHOTOS = [
   "./static/img/hiking/2026/fishermans-trail-11/2026_01_02_15_08_IMG_5115.JPG",
 ];
 
-const VIDEOS = [
-  "./static/img/hiking/2026/fishermans-trail-11/2026_01_02_14_02_IMG_5101.MOV",
-];
+const VIDEOS = [];
 
 const SpecificItem = () => {
   return (
