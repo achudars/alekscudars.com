@@ -3,6 +3,102 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
+    link: "./hiking-2026-fishermans-trail-12-luz-lagos",
+    photo:
+      "./static/img/hiking/2026/fishermans-trail-12/2026_01_03_10_53_IMG_5173.JPG",
+    description: "Fisherman's Trail 12 (Luz - Lagos)",
+    location: "Portugal",
+    date: 2026,
+  },
+  {
+    link: "./hiking-2026-fishermans-trail-11-salema-luz",
+    photo:
+      "./static/img/hiking/2026/fishermans-trail-11/2026_01_02_12_23_IMG_5092.JPG",
+    description: "Fisherman's Trail 11 (Salema - Luz)",
+    location: "Portugal",
+    date: 2026,
+  },
+  {
+    link: "./hiking-2026-fishermans-trail-10-sagres-salema",
+    photo:
+      "./static/img/hiking/2026/fishermans-trail-10/2026_01_01_11_59_IMG_4940.JPG",
+    description: "Fisherman's Trail 10 (Sagres - Salema)",
+    location: "Portugal",
+    date: 2026,
+  },
+  {
+    link: "./hiking-2025-fishermans-trail-9-vila-do-bispo-sagres",
+    photo:
+      "./static/img/hiking/2025/fishermans-trail-9/2025_12_31_13_46_IMG_4856.JPG",
+    description: "Fisherman's Trail 9 (Vila do Bispo - Sagres)",
+    location: "Portugal",
+    date: 2025,
+  },
+  {
+    link: "./hiking-2025-fishermans-trail-8-carrapateira-vila-do-bispo",
+    photo:
+      "./static/img/hiking/2025/fishermans-trail-8/2025_12_30_10_13_IMG_4735.JPG",
+    description: "Fisherman's Trail 8 (Carrapateira - Vila do Bispo)",
+    location: "Portugal",
+    date: 2025,
+  },
+  {
+    link: "./hiking-2025-fishermans-trail-7-arrifana-carrapateira",
+    photo:
+      "./static/img/hiking/2025/fishermans-trail-7/2025_12_29_10_18_IMG_4587.JPG",
+    description: "Fisherman's Trail 7 (Arrifana - Carrapateira)",
+    location: "Portugal",
+    date: 2025,
+  },
+  {
+    link: "./hiking-2025-fishermans-trail-6-aljezur-arrifana",
+    photo:
+      "./static/img/hiking/2025/fishermans-trail-6/2025_12_28_11_40_IMG_4515.JPG",
+    description: "Fisherman's Trail 6 (Aljezur - Arrifana)",
+    location: "Portugal",
+    date: 2025,
+  },
+  {
+    link: "./hiking-2025-fishermans-trail-5-odeceixe-aljezur",
+    photo:
+      "./static/img/hiking/2025/fishermans-trail-5/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE3Nzk5MzA5LzI2ZmE1NTZhODFmMzg3NTM5ZTcxZjY3MjhmOWYxMzYzLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0Ijoid2VicCIsInJlc2l6ZSI6eyJ3aWR0aCI6MjA0OCwiaGVpZ2h0IjoyMDQ4LCJmaXQiOiJpbnNpZGUif.webp",
+    description: "Fisherman's Trail 5 (Odeceixe - Aljezur)",
+    location: "Portugal",
+    date: 2025,
+  },
+  {
+    link: "./hiking-2025-fishermans-trail-4-zamujeira-do-mar-odeceixe",
+    photo:
+      "./static/img/hiking/2025/fishermans-trail-4/2025_12_26_09_58_IMG_4363.JPG",
+    description: "Fisherman's Trail 4 (Zamujeira do Mar - Odeceixe)",
+    location: "Portugal",
+    date: 2025,
+  },
+  {
+    link: "./hiking-2025-fishermans-trail-3-almograve-zamujeira-do-mar",
+    photo:
+      "./static/img/hiking/2025/fishermans-trail-3/2025_12_25_10_31_IMG_4143.JPG",
+    description: "Fisherman's Trail 3 (Almograve - Zamujeira do Mar)",
+    location: "Portugal",
+    date: 2025,
+  },
+  {
+    link: "./hiking-2025-fishermans-trail-2-vila-nova-de-milfontes-almograve",
+    photo:
+      "./static/img/hiking/2025/fishermans-trail-2/2025_12_24_11_17_IMG_3992.JPG",
+    description: "Fisherman's Trail 2 (Vila Nova de Milfontes - Almograve)",
+    location: "Portugal",
+    date: 2025,
+  },
+  {
+    link: "./hiking-2025-fishermans-trail-1-porto-covo-vila-nova-de-milfontes",
+    photo:
+      "./static/img/hiking/2025/fishermans-trail-1/2025_12_23_15_50_IMG_3949.JPG",
+    description: "Fisherman's Trail 1 (Porto Covo - Vila Nova de Milfontes)",
+    location: "Portugal",
+    date: 2025,
+  },
+  {
     link: "./hiking-2025-italy-sardinia-gairo-path-of-the-eagles-taquisara-nuragic",
     photo:
       "./static/img/hiking/2025/italy-sardinia-gairo-path-of-the-eagles-taquisara-nuragic/2025_08_18_12_45_IMG_2664.JPG",
@@ -309,7 +405,7 @@ const HikingAndWalking = () => {
         <div className="col-lg-7 ml-auto m-15px-tb">
           <div className="skills-box">
             <div className="skill-lt">
-              <h6>Distance: 517.5km</h6>
+              <h6>Distance: 759.9km</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "29%" }}>
                   <span data-toggle="tooltip" title="29%" />
@@ -318,7 +414,7 @@ const HikingAndWalking = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Elevation Gain: 21,069m</h6>
+              <h6>Elevation Gain: 26,346m</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "52%" }}>
                   <span data-toggle="tooltip" title="52%" />
@@ -327,16 +423,16 @@ const HikingAndWalking = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Completed: 37</h6>
+              <h6>Completed: 49</h6>
               <div className="skill-bar">
-                <div className="skill-bar-in" style={{ width: "11%" }}>
-                  <span data-toggle="tooltip" title="11%" />
+                <div className="skill-bar-in" style={{ width: "49%" }}>
+                  <span data-toggle="tooltip" title="49%" />
                 </div>
               </div>
             </div>
 
             <div className="skill-lt">
-              <h6>Moving Time: 111h 0m</h6>
+              <h6>Moving Time: 166h</h6>
               <div className="skill-bar">
                 <div className="skill-bar-in" style={{ width: "36%" }}>
                   <span data-toggle="tooltip" title="36%" />
