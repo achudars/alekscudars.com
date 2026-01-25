@@ -60,8 +60,7 @@ const CAPTURED = [
   },
   {
     link: "./hiking-2025-fishermans-trail-5-odeceixe-aljezur",
-    photo:
-      "./static/img/hiking/2025/fishermans-trail-5/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE3Nzk5MzA5LzI2ZmE1NTZhODFmMzg3NTM5ZTcxZjY3MjhmOWYxMzYzLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0Ijoid2VicCIsInJlc2l6ZSI6eyJ3aWR0aCI6MjA0OCwiaGVpZ2h0IjoyMDQ4LCJmaXQiOiJpbnNpZGUif.webp",
+    photo: "./static/img/hiking/2025/fishermans-trail-5/trail-overview.webp",
     description: "Fisherman's Trail 5 (Odeceixe - Aljezur)",
     location: "Portugal",
     date: 2025,
