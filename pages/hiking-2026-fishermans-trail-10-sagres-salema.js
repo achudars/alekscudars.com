@@ -18,16 +18,13 @@ const PHOTOS = [
   "./static/img/hiking/2026/fishermans-trail-10/2026_01_01_14_41_IMG_5043.JPG",
   "./static/img/hiking/2026/fishermans-trail-10/2026_01_01_14_48_IMG_5044.JPG",
   "./static/img/hiking/2026/fishermans-trail-10/2026_01_01_15_09_IMG_5051.JPG",
-  "./static/img/hiking/2026/fishermans-trail-10/2026_01_01_15_23_IMG_5047.JPG",
   "./static/img/hiking/2026/fishermans-trail-10/2026_01_01_15_32_IMG_5048.JPG",
-  "./static/img/hiking/2026/fishermans-trail-10/2026_01_01_15_33_IMG_4991.JPG",
   "./static/img/hiking/2026/fishermans-trail-10/2026_01_01_15_33_IMG_4992.JPG",
   "./static/img/hiking/2026/fishermans-trail-10/2026_01_01_15_33_IMG_4993.JPG",
   "./static/img/hiking/2026/fishermans-trail-10/2026_01_01_16_12_IMG_4994.JPG",
   "./static/img/hiking/2026/fishermans-trail-10/2026_01_01_16_27_IMG_4995.JPG",
   "./static/img/hiking/2026/fishermans-trail-10/2026_01_01_16_44_IMG_5010.JPG",
   "./static/img/hiking/2026/fishermans-trail-10/2026_01_01_16_45_IMG_5012.JPG",
-  "./static/img/hiking/2026/fishermans-trail-10/2026_01_01_16_46_IMG_5032.JPG",
 ];
 
 const VIDEOS = [];

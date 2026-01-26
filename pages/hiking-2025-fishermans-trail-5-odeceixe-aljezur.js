@@ -3,7 +3,6 @@ import PhotoAndVideoSection from "../src/layout/PhotoAndVideoSection";
 const PHOTOS = [
   "./static/img/hiking/2025/fishermans-trail-5/IMG_5482.jpg",
   "./static/img/hiking/2025/fishermans-trail-5/trail-overview.webp",
-  "./static/img/hiking/2025/fishermans-trail-5/2025_12_27_12_19_IMG_4472.JPG",
   "./static/img/hiking/2025/fishermans-trail-5/2025_12_27_16_00_IMG_4484.JPG",
 ];
 

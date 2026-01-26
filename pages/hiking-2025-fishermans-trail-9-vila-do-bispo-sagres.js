@@ -9,7 +9,6 @@ const PHOTOS = [
   "./static/img/hiking/2025/fishermans-trail-9/2025_12_31_13_27_IMG_4846.JPG",
   "./static/img/hiking/2025/fishermans-trail-9/2025_12_31_13_29_IMG_4847.JPG",
   "./static/img/hiking/2025/fishermans-trail-9/2025_12_31_13_46_IMG_4856.JPG",
-  "./static/img/hiking/2025/fishermans-trail-9/2025_12_31_14_02_IMG_4869.JPG",
   "./static/img/hiking/2025/fishermans-trail-9/2025_12_31_14_05_IMG_4872.JPG",
   "./static/img/hiking/2025/fishermans-trail-9/2025_12_31_14_59_IMG_4874.JPG",
   "./static/img/hiking/2025/fishermans-trail-9/2025_12_31_15_00_IMG_4876.JPG",

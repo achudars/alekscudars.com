@@ -2,7 +2,6 @@ import PhotoAndVideoSection from "../src/layout/PhotoAndVideoSection";
 
 const PHOTOS = [
   "./static/img/hiking/2025/fishermans-trail-1/IMG_5478.jpg",
-  "./static/img/hiking/2025/fishermans-trail-1/2025_12_23_10_48_IMG_3873.JPG",
   "./static/img/hiking/2025/fishermans-trail-1/2025_12_23_11_10_IMG_3964.JPG",
   "./static/img/hiking/2025/fishermans-trail-1/2025_12_23_11_11_IMG_3881.JPG",
   "./static/img/hiking/2025/fishermans-trail-1/2025_12_23_11_12_IMG_3883.JPG",
@@ -11,7 +10,6 @@ const PHOTOS = [
   "./static/img/hiking/2025/fishermans-trail-1/2025_12_23_11_19_IMG_3965.JPG",
   "./static/img/hiking/2025/fishermans-trail-1/2025_12_23_11_46_IMG_3975.JPG",
   "./static/img/hiking/2025/fishermans-trail-1/2025_12_23_11_47_IMG_3890.JPG",
-  "./static/img/hiking/2025/fishermans-trail-1/2025_12_23_11_47_IMG_3895.JPG",
   "./static/img/hiking/2025/fishermans-trail-1/2025_12_23_11_52_IMG_3973.JPG",
   "./static/img/hiking/2025/fishermans-trail-1/2025_12_23_11_57_IMG_3972.JPG",
   "./static/img/hiking/2025/fishermans-trail-1/2025_12_23_13_56_IMG_3924.JPG",
