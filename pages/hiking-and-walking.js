@@ -3,6 +3,13 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
+    link: "./hiking-2026-ouse-valley-viaduct",
+    photo: "./static/img/hiking/2026/ouse-valley-viaduct/",
+    description: "Ouse Valley Viaduct",
+    location: "UK",
+    date: 2026,
+  },
+  {
     link: "./hiking-2026-fishermans-trail-12-luz-lagos",
     photo:
       "./static/img/hiking/2026/fishermans-trail-12/2026_01_03_10_53_IMG_5173.JPG",
