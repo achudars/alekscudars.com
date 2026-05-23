@@ -4,7 +4,8 @@ import Layout from "../src/layout/Layout";
 const CAPTURED = [
   {
     link: "./hiking-2026-ouse-valley-viaduct",
-    photo: "./static/img/hiking/2026/ouse-valley-viaduct/",
+    photo:
+      "./static/img/hiking/2026/ouse-valley-viaduct/2026_05_04_08_56_IMG_8502.JPG",
     description: "Ouse Valley Viaduct",
     location: "UK",
     date: 2026,
