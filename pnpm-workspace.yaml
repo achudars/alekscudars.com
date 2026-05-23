@@ -1,0 +1,5 @@
+allowBuilds:
+  '@parcel/watcher': true
+  '@tsparticles/engine': true
+  sharp: true
+  unrs-resolver: true
