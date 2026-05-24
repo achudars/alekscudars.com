@@ -20,7 +20,8 @@ const PhotoAndVideoSection = ({
           return <PhotoItem key={photo} src={photo} alt={altForPhotos} />;
         })}
         {videos.map((video, index) => {
-          const isLoneInRow = videos.length % 2 === 1 && index === videos.length - 1;
+          const isLoneInRow =
+            videos.length % 2 === 1 && index === videos.length - 1;
           return <VideoItem key={video} src={video} fullWidth={isLoneInRow} />;
         })}
       </div>
