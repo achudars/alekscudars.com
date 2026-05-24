@@ -24,7 +24,7 @@ const PHOTOS = [
   "./static/img/hiking/2026/ouse-valley-viaduct/DJI_20260504085630_0047_D.jpg",
 ];
 
-const VIDEOS = [];
+const VIDEOS = ["./static/video/aerial/2026/ouse-valley-viaduct/Ouse_06.mov"];
 
 const SpecificItem = () => {
   return (
