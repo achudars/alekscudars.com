@@ -3,6 +3,20 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
+    link: "./aerial-2026-greece-santorini-akrotiri",
+    photo:
+      "./static/img/aerial/2026/greece-santorini-akrotiri/akrotiri morning 08 png 4k00109407.png",
+    description: "Greece, Santorini, Akrotiri",
+    date: 2026,
+  },
+  {
+    link: "./aerial-2026-greece-santorini-oia",
+    photo:
+      "./static/img/aerial/2026/greece-santorini-oia/Timeline 1_00108797.png",
+    description: "Greece, Santorini, Oia",
+    date: 2026,
+  },
+  {
     link: "./aerial-2025-italy-sardinia-gairo",
     photo:
       "./static/img/aerial/2025/italy-sardinia-gairo/2025_08_18_12_26_DJI_0529 - square.JPG",
