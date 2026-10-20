@@ -141,7 +141,7 @@ const About = () => {
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
                   <h6>Software Engineer / Vice President</h6>
-                  <label>Goldman Sachs | Feb 2020 - Present</label>
+                  <label>Goldman Sachs | Feb 2020 - Oct 2026</label>
                   <div className="rb-time">Full Time</div>
                   <p>
                     Software Engineer in <s>Investment Banking</s> Platform

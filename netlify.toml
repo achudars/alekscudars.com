@@ -3,4 +3,4 @@
   publish = ".next"
 
 [build.environment]
-  PNPM_VERSION = "11"
+  PNPM_VERSION = "12.14.0"
