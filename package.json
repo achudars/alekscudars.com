@@ -4,7 +4,7 @@
   "version": "6.6.6",
   "description": "Aleksandrs Cudars",
   "type": "module",
-  "packageManager": "pnpm@12.14.0",
+  "packageManager": "pnpm@12.16.1",
   "keywords": [
     "css",
     "sass",
@@ -27,18 +27,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@tsparticles/react": "^4.4.0",
+    "@tsparticles/react": "^4.5.0",
     "emailjs-com": "^3.2.0",
     "isotope-layout": "^3.0.6",
-    "next": "^16.4.2",
+    "next": "^16.4.3",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
-    "sass": "^1.105.2",
-    "swiper": "^14.3.0",
-    "tsparticles": "^4.4.0"
+    "sass": "^1.107.1",
+    "swiper": "^14.4.0",
+    "tsparticles": "^4.5.0"
   },
   "devDependencies": {
-    "eslint": "^10.13.0",
-    "eslint-config-next": "16.4.2"
+    "eslint": "^10.14.0",
+    "eslint-config-next": "16.4.3"
   }
 }

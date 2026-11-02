@@ -132,6 +132,27 @@ const About = () => {
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
                   <img
+                    src="/static/img/jpmc-logo.jpg"
+                    title="JPMorganChase Logo"
+                    alt="JPMorganChase Logo"
+                  />
+                </div>
+              </div>
+              <div className="col-sm-9 col-md-9 col-xl-10">
+                <div className="rb-right">
+                  <h6>Sr Lead Software Engineer / Vice President</h6>
+                  <span>JPMorganChase | Nov 2026 - present</span>
+                  <div className="rb-time">Full Time</div>
+                  <p>Sr Lead Software Engineer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="resume-row">
+            <div className="row">
+              <div className="col-sm-3 col-md-3 col-xl-2">
+                <div className="rb-left">
+                  <img
                     src="/static/img/gs-logo.png"
                     title="Goldman Sachs Logo"
                     alt="Goldman Sachs Logo"
@@ -141,7 +162,7 @@ const About = () => {
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
                   <h6>Software Engineer / Vice President</h6>
-                  <label>Goldman Sachs | Feb 2020 - Oct 2026</label>
+                  <span>Goldman Sachs | Feb 2020 - Oct 2026</span>
                   <div className="rb-time">Full Time</div>
                   <p>
                     Software Engineer in <s>Investment Banking</s> Platform
@@ -166,7 +187,7 @@ const About = () => {
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
                   <h6>Software Engineer / Vice President</h6>
-                  <label>Goldman Sachs | Dec 2019 - Feb 2020</label>
+                  <span>Goldman Sachs | Dec 2019 - Feb 2020</span>
                   <div className="rb-time">Full Time</div>
                   <p>
                     Software Engineer in Securities Division, Trade Reporting.
@@ -190,7 +211,7 @@ const About = () => {
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
                   <h6>Software Engineer / Associate</h6>
-                  <label>Goldman Sachs | Dec 2017 - Dec 2019 </label>
+                  <span>Goldman Sachs | Dec 2017 - Dec 2019 </span>
                   <div className="rb-time">Full Time</div>
                   <p>
                     Software Engineer in Securities Division, Regulatory
@@ -215,7 +236,7 @@ const About = () => {
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
                   <h6>Software Engineer / Analyst</h6>
-                  <label>Goldman Sachs | Jul 2015 - Dec 2017</label>
+                  <span>Goldman Sachs | Jul 2015 - Dec 2017</span>
                   <div className="rb-time">Full Time</div>
                   <p>
                     Full-Stack Developer in Swap Derivative Reporting and
@@ -239,7 +260,7 @@ const About = () => {
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
                   <h6>Software Engineer / Summer Intern</h6>
-                  <label>Goldman Sachs | Jun 2014 - Aug 2014</label>
+                  <span>Goldman Sachs | Jun 2014 - Aug 2014</span>
                   <div className="rb-time">Full Time</div>
                   <p>
                     Software Developer in the Sales Services Technology
@@ -263,10 +284,10 @@ const About = () => {
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
                   <h6>Front End Developer</h6>
-                  <label>
+                  <span>
                     Arterys (formerly: Morpheus Medical, Inc.) | Remote | Aug
                     2013 - Jul 2014
-                  </label>
+                  </span>
                   <div className="rb-time">Part Time</div>
                   <p>Front-End Developer of the cardio medical imaging app</p>
                 </div>
@@ -287,7 +308,7 @@ const About = () => {
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
                   <h6>Software Development Engineer</h6>
-                  <label>Amadeus Services Ltd. | Jul 2012 - Aug 2013</label>
+                  <span>Amadeus Services Ltd. | Jul 2012 - Aug 2013</span>
                   <div className="rb-time">Full Time</div>
                   <p>
                     Front-End Developer of the standalone Offline Loadsheet
