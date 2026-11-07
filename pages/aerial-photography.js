@@ -178,7 +178,13 @@ const Aerial = () => {
       <div className="blog-grid">
         <div className="blog-img">
           <a href={link}>
-            <img src={photo} title={description} alt={description} />
+            <img
+              src={photo}
+              title={description}
+              alt={description}
+              loading="lazy"
+              style={{ aspectRatio: "auto 4 / 3" }}
+            />
           </a>
         </div>
         <div className="blog-info">

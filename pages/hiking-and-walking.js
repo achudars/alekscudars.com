@@ -421,10 +421,21 @@ const CAPTURED = [
 const HikingAndWalking = () => {
   const renderItem = ({ link, photo, description, date, location }) => {
     return (
-      <div className="blog-grid">
+      <div
+        className="blog-grid"
+        style={{ contentVisibility: "auto", containIntrinsicSize: "auto 500px" }}
+      >
         <div className="blog-img">
           <a href={link}>
-            {photo && <img src={photo} title={description} alt={description} />}
+            {photo && (
+              <img
+                src={photo}
+                title={description}
+                alt={description}
+                loading="lazy"
+                style={{ aspectRatio: "auto 4 / 3" }}
+              />
+            )}
           </a>
         </div>
         <div className="blog-info">
