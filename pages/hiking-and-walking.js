@@ -3,6 +3,46 @@ import Layout from "../src/layout/Layout";
 
 const CAPTURED = [
   {
+    link: "./hiking-2026-pico-del-cielo",
+    photo:
+      "./static/img/hiking/2026/pico-del-cielo/2026_09_15_11_43_IMG_3397.JPG",
+    description: "Pico del Cielo",
+    location: "Spain",
+    date: "September 2026",
+  },
+  {
+    link: "./hiking-2026-pico-del-veleta",
+    photo:
+      "./static/img/hiking/2026/pico-del-veleta/2026_09_14_13_04_IMG_3324.JPG",
+    description: "Pico del Veleta",
+    location: "Spain",
+    date: "September 2026",
+  },
+  {
+    link: "./hiking-2026-cerro-del-simancon",
+    photo:
+      "./static/img/hiking/2026/cerro-del-simancon/2026_09_13_12_29_IMG_3260.JPG",
+    description: "Cerro del Simancon",
+    location: "Spain",
+    date: "September 2026",
+  },
+  {
+    link: "./hiking-2026-tapada-da-mafra",
+    photo:
+      "./static/img/hiking/2026/tapada-da-mafra/2026_09_12_10_57_IMG_3128.JPG",
+    description: "Tapada da Mafra",
+    location: "Portugal",
+    date: "September 2026",
+  },
+  {
+    link: "./hiking-2026-seven-hanging-valleys",
+    photo:
+      "./static/img/hiking/2026/seven-hanging-valleys/2026_09_11_07_20_IMG_3047.JPG",
+    description: "Seven Hanging Valleys",
+    location: "Portugal",
+    date: "September 2026",
+  },
+  {
     link: "./hiking-2026-ouse-valley-viaduct",
     photo:
       "./static/img/hiking/2026/ouse-valley-viaduct/2026_05_04_08_56_IMG_8502.JPG",
@@ -384,7 +424,7 @@ const HikingAndWalking = () => {
       <div className="blog-grid">
         <div className="blog-img">
           <a href={link}>
-            <img src={photo} title={description} alt={description} />
+            {photo && <img src={photo} title={description} alt={description} />}
           </a>
         </div>
         <div className="blog-info">
@@ -430,10 +470,10 @@ const HikingAndWalking = () => {
             </div>
 
             <div className="skill-lt">
-              <h6>Completed: 49</h6>
+              <h6>Completed: 54</h6>
               <div className="skill-bar">
-                <div className="skill-bar-in" style={{ width: "49%" }}>
-                  <span data-toggle="tooltip" title="49%" />
+                <div className="skill-bar-in" style={{ width: "54%" }}>
+                  <span data-toggle="tooltip" title="54%" />
                 </div>
               </div>
             </div>
